@@ -1,0 +1,1428 @@
+[PREINITIALIZATION][SERVER][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
+Mouse
+Shotguun29
+Peregrinus11
+NerdyWhiteGuy
+NickT
+Jonathan McManus
+Pongo Sapiens
+Belathus
+Luckyclaw
+Xavier
+DreamThorn
+Psyberition
+IDroid
+Quaternary
+Ivy_
+Robijnvogel
+AdaraChristine
+BigAl607
+Jams
+Ncc1702
+If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
+
+[PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
+[PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [preinit]
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: deleted_crafts.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Loot_mobs.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Loot_tweak.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_craft_foodfunk.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_craft_WOTApocalypse.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_crafts_arm.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_crafts_firstaid.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_crafts_vanilla.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: TF2.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: vanillatweaks.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 5ms
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
+[INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
+[INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
+[INITIALIZATION][SERVER][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: deleted_crafts.zs}
+[INITIALIZATION][SERVER][INFO] Minecraft:
+[INITIALIZATION][SERVER][INFO] Minecraft Coder Pack:
+[INITIALIZATION][SERVER][INFO] Forge Mod Loader:
+[INITIALIZATION][SERVER][INFO] Minecraft Forge:
+[INITIALIZATION][SERVER][INFO] CreativeCoreDummy:
+[INITIALIZATION][SERVER][INFO] SomniaCore:
+[INITIALIZATION][SERVER][INFO] FoamFixCore:
+[INITIALIZATION][SERVER][INFO] Obfuscate:
+[INITIALIZATION][SERVER][INFO] AI Improvements:
+[INITIALIZATION][SERVER][INFO] animalium:
+[INITIALIZATION][SERVER][INFO] Waila:
+[INITIALIZATION][SERVER][INFO] Wumple Util Library:
+[INITIALIZATION][SERVER][INFO] Food Funk:
+[INITIALIZATION][SERVER][INFO] AppleCore:
+[INITIALIZATION][SERVER][INFO] Just Enough Items:
+[INITIALIZATION][SERVER][INFO] AppleSkin:
+[INITIALIZATION][SERVER][INFO] Quark:
+[INITIALIZATION][SERVER][INFO] AutoRegLib:
+[INITIALIZATION][SERVER][INFO] Bad Mobs:
+[INITIALIZATION][SERVER][INFO] YUNG's Better Caves:
+[INITIALIZATION][SERVER][INFO] YUNG's Better Mineshafts:
+[INITIALIZATION][SERVER][INFO] Biomes O' Plenty:
+[INITIALIZATION][SERVER][INFO] Fragile Blocks:
+[INITIALIZATION][SERVER][INFO] Chisel:
+[INITIALIZATION][SERVER][INFO] Chunk Pregenerator:
+[INITIALIZATION][SERVER][INFO] Classic Combat:
+[INITIALIZATION][SERVER][INFO] CodeChicken Lib:
+[INITIALIZATION][SERVER][INFO] Collective:
+[INITIALIZATION][SERVER][INFO] Tough As Nails:
+[INITIALIZATION][SERVER][INFO] Comforts:
+[INITIALIZATION][SERVER][INFO] Extended Renderer:
+[INITIALIZATION][SERVER][INFO] CoroUtil Library:
+[INITIALIZATION][SERVER][INFO] Extended Mod Config:
+[INITIALIZATION][SERVER][INFO] CraftTweaker2:
+[INITIALIZATION][SERVER][INFO] CraftTweaker JEI Support:
+[INITIALIZATION][SERVER][INFO] CreativeCore:
+[INITIALIZATION][SERVER][INFO] Custom Starting Gear:
+[INITIALIZATION][SERVER][INFO] DeathCounter:
+[INITIALIZATION][SERVER][INFO] Dynamic Trees:
+[INITIALIZATION][SERVER][INFO] Dynamic Trees BOP:
+[INITIALIZATION][SERVER][INFO] Epic Siege Mod:
+[INITIALIZATION][SERVER][INFO] First Aid:
+[INITIALIZATION][SERVER][INFO] FoamFix:
+[INITIALIZATION][SERVER][INFO] Forge Endertech:
+[INITIALIZATION][SERVER][INFO] Shadowfacts' Forgelin:
+[INITIALIZATION][SERVER][INFO] MrCrayfish's Gun Mod:
+[INITIALIZATION][SERVER][INFO] Hardcore Revival:
+[INITIALIZATION][SERVER][INFO] HideNames:
+[INITIALIZATION][SERVER][INFO] iChunUtil:
+[INITIALIZATION][SERVER][INFO] IguanaTweaks Reborn:
+[INITIALIZATION][SERVER][INFO] InControl:
+[INITIALIZATION][SERVER][INFO] Just Another Rotten Flesh to Leather Mod:
+[INITIALIZATION][SERVER][INFO] LootTweaker:
+[INITIALIZATION][SERVER][INFO] The Lost Cities:
+[INITIALIZATION][SERVER][INFO] Mo' Bends:
+[INITIALIZATION][SERVER][INFO] mobsunscreen:
+[INITIALIZATION][SERVER][INFO] Move Plus:
+[INITIALIZATION][SERVER][INFO] No Nether Portals:
+[INITIALIZATION][SERVER][INFO] Not Enough Items:
+[INITIALIZATION][SERVER][INFO] No World Gen 5 You:
+[INITIALIZATION][SERVER][INFO] Placebo:
+[INITIALIZATION][SERVER][INFO] TF2 Stuff Mod:
+[INITIALIZATION][SERVER][INFO] Realistic Item Drops:
+[INITIALIZATION][SERVER][INFO] Realistic Torches:
+[INITIALIZATION][SERVER][INFO] Rough Mobs 2:
+[INITIALIZATION][SERVER][INFO] Set World Spawn Point:
+[INITIALIZATION][SERVER][INFO] Somnia:
+[INITIALIZATION][SERVER][INFO] Sound Physics:
+[INITIALIZATION][SERVER][INFO] SpawnerControl:
+[INITIALIZATION][SERVER][INFO] arm:
+[INITIALIZATION][SERVER][INFO] TenshiLib:
+[INITIALIZATION][SERVER][INFO] Thicc Entities:
+[INITIALIZATION][SERVER][INFO] Tumbleweed:
+[INITIALIZATION][SERVER][INFO] VanillaFix:
+[INITIALIZATION][SERVER][INFO] Water Control Extreme:
+[INITIALIZATION][SERVER][INFO] Weapons of the Apocalypse:
+[INITIALIZATION][SERVER][INFO] Zombie Awareness:
+[INITIALIZATION][SERVER][INFO] Better Animals Plus:
+[INITIALIZATION][SERVER][INFO] OreLib Support Mod:
+[INITIALIZATION][SERVER][INFO] Phosphor Lighting Engine:
+[INITIALIZATION][SERVER][INFO] Hunger Overhaul:
+[INITIALIZATION][SERVER][INFO] Minecraft:
+[INITIALIZATION][SERVER][INFO] Minecraft Coder Pack:
+[INITIALIZATION][SERVER][INFO] Forge Mod Loader:
+[INITIALIZATION][SERVER][INFO] Minecraft Forge:
+[INITIALIZATION][SERVER][INFO] CreativeCoreDummy:
+[INITIALIZATION][SERVER][INFO] SomniaCore:
+[INITIALIZATION][SERVER][INFO] FoamFixCore:
+[INITIALIZATION][SERVER][INFO] Obfuscate:
+[INITIALIZATION][SERVER][INFO] AI Improvements:
+[INITIALIZATION][SERVER][INFO] animalium:
+[INITIALIZATION][SERVER][INFO] Waila:
+[INITIALIZATION][SERVER][INFO] Wumple Util Library:
+[INITIALIZATION][SERVER][INFO] Food Funk:
+[INITIALIZATION][SERVER][INFO] AppleCore:
+[INITIALIZATION][SERVER][INFO] Just Enough Items:
+[INITIALIZATION][SERVER][INFO] AppleSkin:
+[INITIALIZATION][SERVER][INFO] Quark:
+[INITIALIZATION][SERVER][INFO] AutoRegLib:
+[INITIALIZATION][SERVER][INFO] Bad Mobs:
+[INITIALIZATION][SERVER][INFO] YUNG's Better Caves:
+[INITIALIZATION][SERVER][INFO] YUNG's Better Mineshafts:
+[INITIALIZATION][SERVER][INFO] Biomes O' Plenty:
+[INITIALIZATION][SERVER][INFO] Fragile Blocks:
+[INITIALIZATION][SERVER][INFO] Chisel:
+[INITIALIZATION][SERVER][INFO] Chunk Pregenerator:
+[INITIALIZATION][SERVER][INFO] Classic Combat:
+[INITIALIZATION][SERVER][INFO] CodeChicken Lib:
+[INITIALIZATION][SERVER][INFO] Collective:
+[INITIALIZATION][SERVER][INFO] Tough As Nails:
+[INITIALIZATION][SERVER][INFO] Comforts:
+[INITIALIZATION][SERVER][INFO] Extended Renderer:
+[INITIALIZATION][SERVER][INFO] CoroUtil Library:
+[INITIALIZATION][SERVER][INFO] Extended Mod Config:
+[INITIALIZATION][SERVER][INFO] CraftTweaker2:
+[INITIALIZATION][SERVER][INFO] CraftTweaker JEI Support:
+[INITIALIZATION][SERVER][INFO] CreativeCore:
+[INITIALIZATION][SERVER][INFO] Custom Starting Gear:
+[INITIALIZATION][SERVER][INFO] DeathCounter:
+[INITIALIZATION][SERVER][INFO] Dynamic Trees:
+[INITIALIZATION][SERVER][INFO] Dynamic Trees BOP:
+[INITIALIZATION][SERVER][INFO] Epic Siege Mod:
+[INITIALIZATION][SERVER][INFO] First Aid:
+[INITIALIZATION][SERVER][INFO] FoamFix:
+[INITIALIZATION][SERVER][INFO] Forge Endertech:
+[INITIALIZATION][SERVER][INFO] Shadowfacts' Forgelin:
+[INITIALIZATION][SERVER][INFO] MrCrayfish's Gun Mod:
+[INITIALIZATION][SERVER][INFO] Hardcore Revival:
+[INITIALIZATION][SERVER][INFO] HideNames:
+[INITIALIZATION][SERVER][INFO] iChunUtil:
+[INITIALIZATION][SERVER][INFO] IguanaTweaks Reborn:
+[INITIALIZATION][SERVER][INFO] InControl:
+[INITIALIZATION][SERVER][INFO] Just Another Rotten Flesh to Leather Mod:
+[INITIALIZATION][SERVER][INFO] LootTweaker:
+[INITIALIZATION][SERVER][INFO] The Lost Cities:
+[INITIALIZATION][SERVER][INFO] Mo' Bends:
+[INITIALIZATION][SERVER][INFO] mobsunscreen:
+[INITIALIZATION][SERVER][INFO] Move Plus:
+[INITIALIZATION][SERVER][INFO] No Nether Portals:
+[INITIALIZATION][SERVER][INFO] Not Enough Items:
+[INITIALIZATION][SERVER][INFO] No World Gen 5 You:
+[INITIALIZATION][SERVER][INFO] Placebo:
+[INITIALIZATION][SERVER][INFO] TF2 Stuff Mod:
+[INITIALIZATION][SERVER][INFO] Realistic Item Drops:
+[INITIALIZATION][SERVER][INFO] Realistic Torches:
+[INITIALIZATION][SERVER][INFO] Rough Mobs 2:
+[INITIALIZATION][SERVER][INFO] Set World Spawn Point:
+[INITIALIZATION][SERVER][INFO] Somnia:
+[INITIALIZATION][SERVER][INFO] Sound Physics:
+[INITIALIZATION][SERVER][INFO] SpawnerControl:
+[INITIALIZATION][SERVER][INFO] arm:
+[INITIALIZATION][SERVER][INFO] TenshiLib:
+[INITIALIZATION][SERVER][INFO] Thicc Entities:
+[INITIALIZATION][SERVER][INFO] Tumbleweed:
+[INITIALIZATION][SERVER][INFO] VanillaFix:
+[INITIALIZATION][SERVER][INFO] Water Control Extreme:
+[INITIALIZATION][SERVER][INFO] Weapons of the Apocalypse:
+[INITIALIZATION][SERVER][INFO] Zombie Awareness:
+[INITIALIZATION][SERVER][INFO] Better Animals Plus:
+[INITIALIZATION][SERVER][INFO] OreLib Support Mod:
+[INITIALIZATION][SERVER][INFO] Phosphor Lighting Engine:
+[INITIALIZATION][SERVER][INFO] Hunger Overhaul:
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Loot_mobs.zs}
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:entities/zombie for removal
+[INITIALIZATION][SERVER][INFO] Queued pool ZombiePool for addition to table minecraft:entities/zombie
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'ZombiePool' of table 'minecraft:entities/zombie'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'ZombiePool' of table 'minecraft:entities/zombie'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'ZombiePool' of table 'minecraft:entities/zombie'
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:entities/spider for removal
+[INITIALIZATION][SERVER][INFO] Queued pool SpiderPool for addition to table minecraft:entities/spider
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'SpiderPool' of table 'minecraft:entities/spider'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Loot_tweak.zs}
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:chests/abandoned_mineshaft for removal
+[INITIALIZATION][SERVER][INFO] Queued pool MineshaftPool for addition to table minecraft:chests/abandoned_mineshaft
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#31' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#32' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#33' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#34' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#35' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#36' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#37' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#38' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#39' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#40' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#41' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#42' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#43' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#44' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#45' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#46' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#47' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#48' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#49' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#50' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#51' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#52' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#53' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#54' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#55' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#56' for addition to pool 'MineshaftPool' of table 'minecraft:chests/abandoned_mineshaft'
+[INITIALIZATION][SERVER][INFO] Queued all pools of table lostcities:chests/lostcitychest for removal
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:chests/desert_pyramid for removal
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:chests/igloo_chest for removal
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:chests/jungle_temple_dispenser for removal
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:chests/jungle_temple for removal
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:chests/nether_bridge for removal
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:chests/simple_dungeon for removal
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:chests/stronghold_corridor for removal
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:chests/village_blacksmith for removal
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:chests/woodland_mansion for removal
+[INITIALIZATION][SERVER][INFO] Queued pool lostcitychest for addition to table lostcities:chests/lostcitychest
+[INITIALIZATION][SERVER][INFO] Queued pool desert_pyramid for addition to table minecraft:chests/desert_pyramid
+[INITIALIZATION][SERVER][INFO] Queued pool igloo_chest for addition to table minecraft:chests/igloo_chest
+[INITIALIZATION][SERVER][INFO] Queued pool jungle_temple_dispenser for addition to table minecraft:chests/jungle_temple_dispenser
+[INITIALIZATION][SERVER][INFO] Queued pool jungle_temple for addition to table minecraft:chests/jungle_temple
+[INITIALIZATION][SERVER][INFO] Queued pool nether_bridge for addition to table minecraft:chests/nether_bridge
+[INITIALIZATION][SERVER][INFO] Queued pool simple_dungeon for addition to table minecraft:chests/simple_dungeon
+[INITIALIZATION][SERVER][INFO] Queued pool stronghold_corridor for addition to table minecraft:chests/stronghold_corridor
+[INITIALIZATION][SERVER][INFO] Queued pool village_blacksmith for addition to table minecraft:chests/village_blacksmith
+[INITIALIZATION][SERVER][INFO] Queued pool woodland_mansion for addition to table minecraft:chests/woodland_mansion
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#31' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#31' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#31' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#31' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#31' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#31' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#31' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#31' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#31' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#31' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#32' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#32' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#32' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#32' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#32' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#32' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#32' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#32' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#32' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#32' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#33' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#33' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#33' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#33' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#33' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#33' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#33' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#33' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#33' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#33' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#34' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#34' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#34' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#34' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#34' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#34' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#34' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#34' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#34' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#34' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#35' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#35' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#35' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#35' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#35' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#35' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#35' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#35' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#35' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#35' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#36' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#36' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#36' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#36' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#36' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#36' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#36' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#36' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#36' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#36' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#37' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#37' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#37' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#37' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#37' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#37' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#37' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#37' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#37' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#37' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#38' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#38' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#38' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#38' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#38' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#38' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#38' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#38' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#38' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#38' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#39' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#39' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#39' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#39' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#39' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#39' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#39' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#39' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#39' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#39' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#40' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#40' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#40' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#40' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#40' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#40' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#40' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#40' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#40' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#40' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#41' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#41' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#41' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#41' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#41' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#41' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#41' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#41' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#41' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#41' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#42' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#42' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#42' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#42' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#42' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#42' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#42' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#42' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#42' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#42' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#43' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#43' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#43' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#43' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#43' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#43' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#43' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#43' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#43' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#43' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#44' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#44' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#44' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#44' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#44' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#44' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#44' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#44' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#44' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#44' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#45' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#45' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#45' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#45' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#45' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#45' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#45' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#45' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#45' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#45' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#46' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#46' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#46' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#46' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#46' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#46' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#46' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#46' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#46' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#46' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#47' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#47' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#47' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#47' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#47' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#47' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#47' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#47' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#47' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#47' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#48' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#48' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#48' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#48' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#48' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#48' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#48' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#48' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#48' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#48' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#49' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#49' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#49' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#49' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#49' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#49' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#49' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#49' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#49' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#49' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#50' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#50' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#50' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#50' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#50' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#50' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#50' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#50' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#50' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#50' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#51' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#51' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#51' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#51' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#51' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#51' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#51' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#51' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#51' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#51' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#52' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#52' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#52' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#52' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#52' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#52' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#52' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#52' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#52' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#52' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#53' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#53' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#53' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#53' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#53' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#53' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#53' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#53' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#53' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#53' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#54' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#54' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#54' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#54' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#54' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#54' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#54' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#54' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#54' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#54' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#55' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#55' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#55' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#55' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#55' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#55' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#55' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#55' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#55' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#55' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#56' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#56' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#56' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#56' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#56' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#56' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#56' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#56' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#56' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#56' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#57' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#57' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#57' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#57' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#57' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#57' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#57' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#57' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#57' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#57' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#58' for addition to pool 'lostcitychest' of table 'lostcities:chests/lostcitychest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#58' for addition to pool 'desert_pyramid' of table 'minecraft:chests/desert_pyramid'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#58' for addition to pool 'igloo_chest' of table 'minecraft:chests/igloo_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#58' for addition to pool 'jungle_temple_dispenser' of table 'minecraft:chests/jungle_temple_dispenser'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#58' for addition to pool 'jungle_temple' of table 'minecraft:chests/jungle_temple'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#58' for addition to pool 'simple_dungeon' of table 'minecraft:chests/simple_dungeon'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#58' for addition to pool 'stronghold_corridor' of table 'minecraft:chests/stronghold_corridor'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#58' for addition to pool 'village_blacksmith' of table 'minecraft:chests/village_blacksmith'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#58' for addition to pool 'woodland_mansion' of table 'minecraft:chests/woodland_mansion'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#58' for addition to pool 'nether_bridge' of table 'minecraft:chests/nether_bridge'
+[INITIALIZATION][SERVER][INFO] Queued all pools of table minecraft:chests/spawn_bonus_chest for removal
+[INITIALIZATION][SERVER][INFO] Queued pool spawn_bonus_chest for addition to table minecraft:chests/spawn_bonus_chest
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#4' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#5' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#6' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#7' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#15' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#16' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#17' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#18' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#19' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#20' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#21' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#22' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#23' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#24' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#25' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#26' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#27' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#28' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#29' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#30' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#31' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#32' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#33' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#34' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#35' for addition to pool 'spawn_bonus_chest' of table 'minecraft:chests/spawn_bonus_chest'
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_craft_foodfunk.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_craft_WOTApocalypse.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_crafts_arm.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_crafts_firstaid.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_crafts_vanilla.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: TF2.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: vanillatweaks.zs}
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 1363ms
+[POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "weapons_of_the_apocalypse:leatherr2"
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Esky with name esky
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Freezer with name freezer
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Baseball Bat with name baseballbat
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Super Sledgehammer with name supersledgehammer
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Stop Sign Axe with name stopsignaxe
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Spiked Baseball Bat with name spikedbaseballbat
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Crowbar with name crowbar
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Crowbar with name sythe
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Metal Bat with name metalbat
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Zombie Blood with name zombieblood
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Stimpack with name stimpack
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Empty Stimpack with name emptystimpack
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cloth Roll with name cloth
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Glue with name glue1
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Glue with name glue2
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Nails with name nails
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Duct Tape with name ducttape
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iron Ingot with name can_to_iron
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Australium Block with name australium_block
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Light trekking boots with name light_trekking_bootsboots
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Light knee pads with name light_knee_padslegs
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Light plate carrier with name light_plate_carrierbody
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Light helmet with name light_helmethelmet
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Combat helmet with name combat_helmethelmet
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Combat vest with name combat_vestbody
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Combat knee protection with name combat_knee_protectionlegs
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Combat boots with name combat_bootsboots
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for HG helmet with name neetarmorhelmet
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for HG vest with name neetarmorbody
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for HG knee pads with name neetarmorlegs
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for HG boots with name neetarmorboots
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Heavy helmet with name heavy_helmethelmet
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Heavy vest with name heavy_vestbody
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Heavy protection for legs with name heavy_protection_for_legslegs
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Heavy armored boots with name heavy_armored_bootsboots
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Plaster with name plaster1
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Plaster with name plaster2
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Plaster with name plaster3
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bandage with name bandage1
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chain Helmet with name chainmail_helmet
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chain Chestplate with name chainmail_chestplate
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chain Leggings with name chainmail_leggings
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chain Boots with name chainmail_boots
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Slimeball with name Slime
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Paper with name Paper
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Paper with name Paperfrombook
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Gunpowder with name Gunpowder
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Scrap Metal with name scrap
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iron Nugget with name iron_nugget
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Reclaimed Metal with name scrap_to_reclaimed
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Refined Metal with name reclaimed_to_refined
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Reclaimed Metal with name refined_to_reclaimed
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Scrap Metal with name reclaimed_to_scrap
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Wrench with name wrench
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Revolver with name revolver
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pistol with name pistol
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Stickybomb Launcher with name stickybomblauncher
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flare Gun with name flaregun
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Sniper Rifle with name sniperrifle
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Shotgun with name shotgun
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flame Thrower with name flamethrower
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Revolver Round with name ammo_revolver
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pistol Magazine with name ammo_pistol
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Stickybomb with name ammo_sticky
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Flare with name ammo_flare
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Rifle Round with name ammo_rifle
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Shotgun Shell with name ammo_shotgun
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Gas tank with name ammo_flamethrower
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Sniper Token with name token_sniper
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Heavy Token with name token_heavy
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Machina with name machina
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Automatic rifle with name autorifle
+[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Force-A-Nature with name forcenature
+[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Light Gray Concrete Powder with name concrete_powder
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "fistofsteel", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "fistofsteel", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "fryingpan", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "fryingpan", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "atomizer", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "atomizer", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "bottle", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "bottle", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "eyelander", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "eyelander", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "marketgarden", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "marketgarden", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "sandman", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "sandman", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "kgb", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "kgb", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "ubersaw", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "ubersaw", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "disciplinary", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "disciplinary", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "bushwacka", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "bushwacka", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "axtinguisher", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "axtinguisher", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "gru", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "gru", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:melee>.withTag({Type: "headtaker", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:melee>.withTag({Type: "headtaker", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "bonkboy", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "bonkboy", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "billhat", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "billhat", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "merasmushat", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "merasmushat", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "pyrogoggles", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "pyrogoggles", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "texashat", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "texashat", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "head_prize", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "head_prize", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "teamcaptain", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "teamcaptain", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "monoculus", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "monoculus", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "allfather", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "allfather", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "planeswalkergoggles", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "planeswalkergoggles", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "bombinomicon", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "bombinomicon", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "phobosfilter", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "phobosfilter", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "cadetvisor", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "cadetvisor", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "billycock", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "billycock", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "ghostlygibus", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cosmetic>.withTag({Type: "ghostlygibus", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:shield>.withTag({Type: "chargintarge", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:shield>.withTag({Type: "chargintarge", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:mantreads>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:mantreads>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:sandvich>.withTag({Rot: {start: 0 as long, time: 0 as long}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:sandvich>.withTag({Rot: {start: 0 as long, time: 0 as long}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:boss_spawner>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:boss_spawner>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:boss_spawner:1>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:boss_spawner:1>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:boss_spawner:2>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:boss_spawner:2>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:projectile>.withTag({Type: "detonator", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:projectile>.withTag({Type: "detonator", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:projectile>.withTag({Type: "crossbow", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:projectile>.withTag({Type: "crossbow", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:projectile>.withTag({Type: "grenadelauncher", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:projectile>.withTag({Type: "grenadelauncher", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:projectile>.withTag({Type: "flaregun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:projectile>.withTag({Type: "flaregun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:projectile>.withTag({Type: "loosecannon", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:projectile>.withTag({Type: "loosecannon", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:projectile>.withTag({Type: "rocketlauncher", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:projectile>.withTag({Type: "rocketlauncher", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:projectile>.withTag({Type: "directhit", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:projectile>.withTag({Type: "directhit", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:projectile>.withTag({Type: "rescueranger", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:projectile>.withTag({Type: "rescueranger", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:projectile>.withTag({Type: "syringegun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:projectile>.withTag({Type: "syringegun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:projectile>.withTag({Type: "righterousbison", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:projectile>.withTag({Type: "righterousbison", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:projectile>.withTag({Type: "airstrike", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:projectile>.withTag({Type: "airstrike", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:projectile>.withTag({Type: "rocketjumper", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:projectile>.withTag({Type: "rocketjumper", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate1", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate1", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate2", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate2", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate7", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate7", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate8", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate8", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate9", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate9", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate3", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate3", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate4", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate4", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate5", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate5", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate6", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:crate>.withTag({Type: "crate6", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cloak>.withTag({Type: "deadringer", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cloak>.withTag({Type: "deadringer", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cloak>.withTag({Type: "cloak", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cloak>.withTag({Type: "cloak", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:tf2workbench>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:tf2workbench>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:sniperrifle>.withTag({Type: "machina", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:sniperrifle>.withTag({Type: "machina", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:sniperrifle>.withTag({Type: "sniperrifle", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:sniperrifle>.withTag({Type: "sniperrifle", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:sniperrifle>.withTag({Type: "sydneysleeper", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:sniperrifle>.withTag({Type: "sydneysleeper", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:medigun>.withTag({Type: "medigun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:medigun>.withTag({Type: "medigun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:medigun>.withTag({Type: "kritzkrieg", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:medigun>.withTag({Type: "kritzkrieg", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:parachute>.withTag({Type: "basejumper", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:parachute>.withTag({Type: "basejumper", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:chocolate>.withTag({Rot: {start: 0 as long, time: 0 as long}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:chocolate>.withTag({Rot: {start: 0 as long, time: 0 as long}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:lead_ore>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:lead_ore>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:stickybomb>.withTag({Type: "stickybomblauncher", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:stickybomb>.withTag({Type: "stickybomblauncher", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:stickybomb>.withTag({Type: "scottishresistance", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:stickybomb>.withTag({Type: "scottishresistance", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:stickybomb>.withTag({Type: "stickyjumper", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:stickybomb>.withTag({Type: "stickyjumper", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:huntsman>.withTag({Type: "huntsman", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:huntsman>.withTag({Type: "huntsman", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:building_box:18>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:building_box:18>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:building_box:19>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:building_box:19>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:building_box:20>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:building_box:20>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:building_box:21>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:building_box:21>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:building_box:22>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:building_box:22>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:building_box:23>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:building_box:23>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:scout_shoes>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:scout_shoes>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:eventmaker>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:eventmaker>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:eventmaker:1>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:eventmaker:1>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:eventmaker:2>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:eventmaker:2>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:eventmaker:3>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:eventmaker:3>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:eventmaker:4>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:eventmaker:4>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:cleaver>.withTag({Type: "cleaver", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:cleaver>.withTag({Type: "cleaver", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bonk>.withTag({Type: "critcola", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bonk>.withTag({Type: "critcola", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bonk>.withTag({Type: "bonk", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bonk>.withTag({Type: "bonk", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:flamethrower>.withTag({Type: "phlog", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:flamethrower>.withTag({Type: "phlog", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:flamethrower>.withTag({Type: "flamethrower", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:flamethrower>.withTag({Type: "flamethrower", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:512>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:512>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:1024>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:1024>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:2>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:2>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:514>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:514>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:1026>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:1026>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:6>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:6>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:518>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:518>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:1030>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:1030>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:12>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:12>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:524>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:524>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:1036>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:1036>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:16>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:16>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:528>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:528>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:1040>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:1040>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:24>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:24>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:536>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:536>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:1048>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:1048>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:34>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:34>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:546>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:546>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakkit:1058>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakkit:1058>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:itemtf2>
+[POSTINITIALIZATION][SERVER][INFO] 4 recipes removed for: <rafradek_tf2_weapons:itemtf2>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:itemtf2:1>
+[POSTINITIALIZATION][SERVER][INFO] 4 recipes removed for: <rafradek_tf2_weapons:itemtf2:1>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:itemtf2:2>
+[POSTINITIALIZATION][SERVER][INFO] 1 recipes removed for: <rafradek_tf2_weapons:itemtf2:2>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:itemtf2:3>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:itemtf2:3>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:itemtf2:4>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:itemtf2:4>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:itemtf2:5>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:itemtf2:5>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:itemtf2:6>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:itemtf2:6>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:itemtf2:7>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:itemtf2:7>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:itemtf2:11>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:itemtf2:11>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:token>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:token>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:token:1>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:token:1>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:token:2>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:token:2>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:token:3>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:token:3>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:token:4>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:token:4>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:token:5>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:token:5>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:token:6>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:token:6>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:token:7>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:token:7>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:token:8>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:token:8>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:backpack>.withTag({Type: "battalionbackup", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:backpack>.withTag({Type: "battalionbackup", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:backpack>.withTag({Type: "buffbanner", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:backpack>.withTag({Type: "buffbanner", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:backpack>.withTag({Type: "concheror", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:backpack>.withTag({Type: "concheror", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:upgrade_station>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:upgrade_station>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:robotpart>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:robotpart>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:robotpart:1>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:robotpart:1>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:robotpart:2>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:robotpart:2>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:robotpart:3>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:robotpart:3>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:robotpart:4>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:robotpart:4>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:robotpart:5>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:robotpart:5>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:robotpart:6>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:robotpart:6>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:minigun>.withTag({Type: "heater", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:minigun>.withTag({Type: "heater", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:minigun>.withTag({Type: "rocketminigun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:minigun>.withTag({Type: "rocketminigun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:minigun>.withTag({Type: "minigun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:minigun>.withTag({Type: "minigun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:minigun>.withTag({Type: "tomislav", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:minigun>.withTag({Type: "tomislav", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:sapper>.withTag({Type: "sapper", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:sapper>.withTag({Type: "sapper", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:disguise_kit>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:disguise_kit>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:jar>.withTag({Type: "madmilk", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:jar>.withTag({Type: "madmilk", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:jar>.withTag({Type: "jarate", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:jar>.withTag({Type: "jarate", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:gunboats>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:gunboats>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bullet>.withTag({Type: "scattergun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bullet>.withTag({Type: "scattergun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bullet>.withTag({Type: "revolver", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bullet>.withTag({Type: "revolver", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bullet>.withTag({Type: "shotgun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bullet>.withTag({Type: "shotgun", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bullet>.withTag({Type: "smg", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bullet>.withTag({Type: "smg", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bullet>.withTag({Type: "shortstop", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bullet>.withTag({Type: "shortstop", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bullet>.withTag({Type: "pistol", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bullet>.withTag({Type: "pistol", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bullet>.withTag({Type: "widowmaker", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bullet>.withTag({Type: "widowmaker", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bullet>.withTag({Type: "panicattack", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bullet>.withTag({Type: "panicattack", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bullet>.withTag({Type: "cleanerscarbine", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bullet>.withTag({Type: "cleanerscarbine", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bullet>.withTag({Type: "forcenature", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bullet>.withTag({Type: "forcenature", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:bullet>.withTag({Type: "ambassador", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:bullet>.withTag({Type: "ambassador", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:backpackgeneric>.withTag({Type: "razorback", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:backpackgeneric>.withTag({Type: "razorback", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:backpackgeneric>.withTag({Type: "dangershield", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:backpackgeneric>.withTag({Type: "dangershield", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:strangifier>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:strangifier>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:knife>.withTag({Type: "eternalreward", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:knife>.withTag({Type: "eternalreward", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:knife>.withTag({Type: "butterflyknife", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:knife>.withTag({Type: "butterflyknife", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:pda>.withTag({Type: "pda", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:pda>.withTag({Type: "pda", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:wrangler>.withTag({Type: "wrangler", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:wrangler>.withTag({Type: "wrangler", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:wrench>.withTag({Type: "startwrench", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:wrench>.withTag({Type: "startwrench", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:wrench>.withTag({Type: "gunsligner", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:wrench>.withTag({Type: "gunsligner", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:wrench>.withTag({Type: "eurekaeffect", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:wrench>.withTag({Type: "eurekaeffect", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:wrench>.withTag({Type: "wrench", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:wrench>.withTag({Type: "wrench", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:australium_block>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:australium_block>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:australium_ore>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:australium_ore>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:placer>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:placer>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:512>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:512>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:1024>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:1024>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:2>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:2>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:514>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:514>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:1026>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:1026>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:6>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:6>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:518>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:518>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:1030>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:1030>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:12>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:12>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:524>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:524>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:1036>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:1036>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:16>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:16>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:528>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:528>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:1040>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:1040>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:24>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:24>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:536>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:536>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:1048>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:1048>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:34>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:34>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:546>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:546>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:killstreakfabricator:1058>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:killstreakfabricator:1058>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:target>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:target>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:copper_ore>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:copper_ore>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:ammo_box:1>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:ammo_box:1>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:airblast>.withTag({Type: "dragonsfury", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:airblast>.withTag({Type: "dragonsfury", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:door_controller>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:door_controller>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:door_controller:1>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:door_controller:1>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:door_controller:2>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:door_controller:2>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:door_controller:3>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:door_controller:3>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:overhead_door>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:overhead_door>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:jetpack>.withTag({Type: "thermalthruster", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:jetpack>.withTag({Type: "thermalthruster", Attributes: {}})
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:robot_deploy>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:robot_deploy>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:money>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:money>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:money:1>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:money:1>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:money:2>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:money:2>
+[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <rafradek_tf2_weapons:ammo_belt>
+[POSTINITIALIZATION][SERVER][INFO] 0 recipes removed for: <rafradek_tf2_weapons:ammo_belt>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <rafradek_tf2_weapons:copper_ore>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <rafradek_tf2_weapons:australium_ore>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <rafradek_tf2_weapons:lead_ore>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:spider_eye>.withTag({Rot: {start: 0 as long, time: 0 as long}})
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:coal>
+[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:spider_eye>.withTag({Rot: {start: 0 as long, time: 0 as long}})
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool simple_dungeon to table minecraft:chests/simple_dungeon
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool nether_bridge to table minecraft:chests/nether_bridge
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool MineshaftPool to table minecraft:chests/abandoned_mineshaft
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool ZombiePool to table minecraft:entities/zombie
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool jungle_temple to table minecraft:chests/jungle_temple
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool desert_pyramid to table minecraft:chests/desert_pyramid
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool spawn_bonus_chest to table minecraft:chests/spawn_bonus_chest
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool stronghold_corridor to table minecraft:chests/stronghold_corridor
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool igloo_chest to table minecraft:chests/igloo_chest
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool SpiderPool to table minecraft:entities/spider
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool lostcitychest to table lostcities:chests/lostcitychest
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool village_blacksmith to table minecraft:chests/village_blacksmith
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool jungle_temple_dispenser to table minecraft:chests/jungle_temple_dispenser
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool woodland_mansion to table minecraft:chests/woodland_mansion

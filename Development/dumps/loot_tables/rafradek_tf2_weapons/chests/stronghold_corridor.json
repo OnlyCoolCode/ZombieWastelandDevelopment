@@ -1,0 +1,43 @@
+{
+  "pools": [
+    {
+      "name": "pol1",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:ammo_box",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 32.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:ammo_box"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "pol2",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:bullet",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "upgrade_range": 0.0,
+              "valve_chance": 0.1,
+              "function": "minecraft:set_weapon_upgraded"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:bullet"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

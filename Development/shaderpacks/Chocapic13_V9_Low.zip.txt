@@ -1,0 +1,2 @@
+#Tue Jul 13 13:13:08 ART 2021
+shadowDistanceRenderMul=-1.0

@@ -1,0 +1,114 @@
+{
+  "pools": [
+    {
+      "name": "robot_1",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:robotPart",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:robotpart"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:entities/robotpartmed",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "rafradek_tf2_weapons:entities/robotpartmed"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.5,
+          "looting_multiplier": 0.17,
+          "condition": "minecraft:random_chance_with_looting"
+        },
+        {
+          "test": "{Robot:1b}",
+          "negate": false,
+          "condition": "rafradek_tf2_weapons:nbt_test"
+        }
+      ]
+    },
+    {
+      "name": "robot_2",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:entities/robotpartmed",
+          "weight": 3,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "rafradek_tf2_weapons:entities/robotpartmed"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:robotPart",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": {
+                "min": 5.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:robotpart"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "test": "{Robot:2b}",
+          "negate": false,
+          "condition": "rafradek_tf2_weapons:nbt_test"
+        }
+      ]
+    },
+    {
+      "name": "robot_3",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:ammo_box",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:ammo_box"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.5,
+          "looting_multiplier": 0.05,
+          "condition": "minecraft:random_chance_with_looting"
+        }
+      ]
+    }
+  ]
+}

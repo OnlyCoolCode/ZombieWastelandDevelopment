@@ -1,0 +1,8 @@
+{
+  "id" : "ff34760f835b43488e83af2b52629b6f",
+  "name" : "Dron",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTYyNjQwNDU4ODkyOSwKICAicHJvZmlsZUlkIiA6ICJmZjM0NzYwZjgzNWI0MzQ4OGU4M2FmMmI1MjYyOWI2ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcm9uIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhOThmY2VhZWZkOTkwM2RlMzUzMmM3NTNhZjllNDZmMjU0ZDEyYzk1OTA5ZTJhNGY4ODQzMjhhZTJhODUwN2IiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ=="
+  } ]
+}

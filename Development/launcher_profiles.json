@@ -8,7 +8,7 @@
         "username": "Mati"
       },
       "name": "ZombieWastelandDevelopment",
-      "gameDir": "C:\\Juegos\\ZombieWasteland\\ZombieWastelandDevelopment",
+      "gameDir": "C:\\Juegos\\ZombieWasteland",
       "lastVersionId": "1.12.2-forge-14.23.5.2855",
       "javaArgs": "-Xmx5G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent\u003d20 -XX:G1ReservePercent\u003d20 -XX:MaxGCPauseMillis\u003d50 -XX:G1HeapRegionSize\u003d32M",
       "typo": "NoPremium",

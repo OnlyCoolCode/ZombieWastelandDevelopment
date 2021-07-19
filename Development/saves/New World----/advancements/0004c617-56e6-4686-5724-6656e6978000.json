@@ -1,0 +1,14 @@
+{
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-07-17 18:48:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "roofed_forest": "2021-07-17 18:48:38 -0300"
+    },
+    "done": false
+  }
+}

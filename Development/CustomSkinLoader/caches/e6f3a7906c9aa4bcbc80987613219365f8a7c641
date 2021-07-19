@@ -1,0 +1,8 @@
+{
+  "id" : "fe88ad55d01445eaa3e691985e8d0bfb",
+  "name" : "Dronster",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTYyNjQxMzU1MzAyMSwKICAicHJvZmlsZUlkIiA6ICJmZTg4YWQ1NWQwMTQ0NWVhYTNlNjkxOTg1ZThkMGJmYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcm9uc3RlciIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lYWZjZmFkOGJiMzM3YzU3MTc5MzNkMjIzZWM2NjIxZjcyZmMyY2MxYmJlZTI2YTNiMDc2MzBlNzZlNjI2NDljIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0="
+  } ]
+}

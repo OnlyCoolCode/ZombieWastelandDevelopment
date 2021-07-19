@@ -1,0 +1,20 @@
+{
+  "minecraft:recipes/building_blocks/oak_planks": {
+    "criteria": {
+      "has_log": "2021-07-17 14:36:29 -0300"
+    },
+    "done": true
+  },
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-07-17 14:32:57 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "tundra": "2021-07-17 14:32:57 -0300"
+    },
+    "done": false
+  }
+}

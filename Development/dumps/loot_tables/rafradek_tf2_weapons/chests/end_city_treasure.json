@@ -1,0 +1,83 @@
+{
+  "pools": [
+    {
+      "name": "pol",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 11,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:minigun",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "upgrade_range": {
+                "min": 320.0,
+                "max": 520.0
+              },
+              "valve_chance": 0.6,
+              "function": "minecraft:set_weapon_upgraded"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:minigun"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:itemTF2",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:itemtf2"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:eventmaker",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:eventmaker"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:strangifier",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "name": "rafradek_tf2_weapons:strangifier"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:projectile",
+          "weight": 4,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "upgrade_range": {
+                "min": 1080.0,
+                "max": 1800.0
+              },
+              "valve_chance": 0.3,
+              "function": "minecraft:set_weapon_upgraded"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:projectile"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "inventory": {
+    "0:8": "realistictorches:torch_unlit",
+    "0:1": "rafradek_tf2_weapons:knife,1,0,{Type:\"butterflyknife\",Attributes:{}}",
+    "0:4": "weapons_of_the_apocalypse:ration",
+    "0:5": "firstaid:bandage",
+    "0:6": "realistictorches:matchbox",
+    "0:3": "weapons_of_the_apocalypse:ration",
+    "0:2": "toughasnails:canteen,1,2",
+    "0:7": "comforts:sleeping_bag,1,14"
+  }
+}
