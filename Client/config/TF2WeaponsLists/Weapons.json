@@ -16,7 +16,7 @@
 		"Firing speed": 625,
 		"Pellets": 10,
 		"Spread": 0.07125,
-		"Damage": 0.6,
+		"Damage": 2.5,
 		"Max damage": 1.5,
 		"Min damage": 0.5,
 		"Random crits": true,
@@ -90,7 +90,7 @@
 		"Firing speed": 580,
 		"Pellets": 1,
 		"Spread": 0.025,
-		"Damage": 4,
+		"Damage": 8,
 		"Max damage": 1.5,
 		"Min damage": 0.5,
 		"Random crits": true,
@@ -168,7 +168,7 @@
 		"Pellets": 1,
 		"Spread": 0.03,
 		"Damage": 1.5,
-		"Max damage": 1.5,
+		"Max damage": 9.0,
 		"Min damage": 0.5,
 		"Random crits": true,
 		"Rapidfire crits": true,
@@ -241,7 +241,7 @@
 		"Firing speed": 1500,
 		"Pellets": 1,
 		"Spread": 0,
-		"Damage": 5,
+		"Damage": 15,
 		"Max damage": 1,
 		"Min damage": 1,
 		"Armor penetration scale": 0.4,
@@ -506,7 +506,7 @@
 		"Firing speed": 800,
 		"Pellets": 1,
 		"Spread": 0,
-		"Damage": 4,
+		"Damage": 7,
 		"Max damage": 1,
 		"Min damage": 1,
 		"Random crits": false,
@@ -649,7 +649,7 @@
 		"Firing speed": 800,
 		"Pellets": 1,
 		"Spread": 0,
-		"Damage": 6.5,
+		"Damage": 2.5,
 		"Max damage": 1,
 		"Min damage": 1,
 		"Random crits": true,
@@ -915,7 +915,7 @@
 		},
 		"Attributes":
 		{
-			"StunOnHit": 100
+			"StunOnHit": 50
 		},
 		"Cost": 18
 	},
@@ -967,7 +967,7 @@
 
 	"ubersaw": 
 	{
-		"Name": "Übersaw",
+		"Name": "ï¿½bersaw",
 		"Class": "melee",
 		"Based on": "meleebase",
 		"Slot": 
@@ -1329,9 +1329,8 @@
 		{
 			"FireRateBonus": 0.5,
 			"KnockbackFAN": 1,
-			"PelletBonus": 1.2,
-			"DamagePenalty": 0.9,
-			"ClipSizePenalty": 0.35
+			"PelletBonus": 5.0,
+			"ClipSizePenalty": 2.00
 		}
 	},
 	
@@ -1576,7 +1575,7 @@
 		"Cost": 40,
 		"Attributes": 
 		{
-			"DamageBonusCharged": 1.15,
+			"DamageBonusCharged": 3.00,
 			"Penetration": 1,
 			"NeedScope": 1,
 			"TraceRound": 1
@@ -1709,8 +1708,8 @@
 		"Reloads clip": false,
 		"Attributes": 
 		{
-			"MetalAsAmmo": 30,
-			"MetalOnHit": 9
+			"MetalAsAmmo": 25,
+			"MetalOnHit": 0
 		}
 	},
 	"deadringer": 
@@ -1807,7 +1806,7 @@
 		"Stock": false,
 		"Attributes": 
 		{
-			"DamagePenalty": 0.65,
+			"DamagePenalty": 0.00,
 			"AmmoEfficiencyBonus": 0.55,
 			"FireRateBonus": 0.44,
 			"ProjectileSpeedBonus": 1.3,
@@ -1834,7 +1833,7 @@
 		
 		"Attributes": 
 		{
-			"DamagePenalty": 0.5,
+			"DamagePenalty": 0.4,
 			"FireRateBonus": 0.23,
 			"WeaponMode": 2,
 			"AmmoEfficiencyBonus": 0.5

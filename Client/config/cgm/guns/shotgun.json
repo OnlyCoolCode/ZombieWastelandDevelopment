@@ -7,7 +7,7 @@
     "Spread": 8.0
   },
   "Projectile": {
-    "Damage": 15.0,
+    "Damage": 25.0,
     "Damage Falloff": true,
     "Gravity": false,
     "Ticks Before Removed": 3,

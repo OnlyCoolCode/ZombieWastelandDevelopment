@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "mob": ["minecraft:spider","minecraft:cave_spider","animalium:piranha"],
+    "seesky": true,
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:spider","minecraft:cave_spider","animalium:piranha"],
+    "mincount": {
+      "amount": 70,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:spider",
+    "minheight": 35,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:cave_spider",
+    "minheight": 55,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:piranha",
+    "minheight": 70,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:piranha",
+    "maxheight": 70,
+	"block": "minecraft:water",
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:cave_spider",
+    "groupcountmin": 4,
+	"groupcountmax": 7
+  },
+  {
+    "mob": "animalium:piranha",
+    "groupcountmin": 1,
+	"groupcountmax": 5
+  }
+]

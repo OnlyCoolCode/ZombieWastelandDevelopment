@@ -11,12 +11,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_axe": {
-    "criteria": {
-      "has_stick": "2021-06-27 01:07:03 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/lime_wool": {
     "criteria": {
       "has_white_wool": "2021-06-30 07:13:15 -0300"
@@ -50,12 +44,6 @@
   "minecraft:recipes/misc/writable_book": {
     "criteria": {
       "has_book": "2021-07-13 13:46:36 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/spruce_door": {
-    "criteria": {
-      "has_planks": "2021-06-27 18:40:28 -0300"
     },
     "done": true
   },
@@ -95,21 +83,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/spruce_fence_gate": {
-    "criteria": {
-      "has_planks": "2021-06-27 18:40:28 -0300"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/decorations/ethereal_fence": {
     "criteria": {
       "has_planks": "2021-06-27 19:24:37 -0300"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/sign_from_bop_wood": {
-    "criteria": {
-      "has_the_recipe": "2021-06-27 18:40:28 -0300"
     },
     "done": true
   },
@@ -152,12 +128,6 @@
   "minecraft:recipes/misc/light_gray_dye_from_gray_bonemeal": {
     "criteria": {
       "has_gray_dye": "2021-06-27 17:37:01 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/trapdoor": {
-    "criteria": {
-      "has_planks": "2021-06-27 18:40:28 -0300"
     },
     "done": true
   },
@@ -275,12 +245,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/sign": {
-    "criteria": {
-      "has_planks": "2021-06-27 18:40:28 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/clay": {
     "criteria": {
       "has_clay_ball": "2021-07-01 05:22:58 -0300"
@@ -290,12 +254,6 @@
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2021-06-27 01:06:56 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/spruce_boat": {
-    "criteria": {
-      "entered_water": "2021-06-27 22:03:30 -0300"
     },
     "done": true
   },
@@ -326,12 +284,6 @@
   "minecraft:recipes/tools/flint_and_steel": {
     "criteria": {
       "has_flint": "2021-07-01 05:22:58 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/wooden_sword": {
-    "criteria": {
-      "has_stick": "2021-06-27 01:07:03 -0300"
     },
     "done": true
   },
@@ -389,12 +341,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/detector_rail": {
-    "criteria": {
-      "has_rail": "2021-06-30 05:00:13 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/golden_rail": {
     "criteria": {
       "has_rail": "2021-06-30 05:00:13 -0300"
@@ -419,21 +365,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/fence": {
-    "criteria": {
-      "has_planks": "2021-06-27 18:40:30 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/sandstone_stairs": {
     "criteria": {
       "has_sandstone": "2021-07-10 16:12:56 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wooden_hoe": {
-    "criteria": {
-      "has_stick": "2021-06-27 01:07:03 -0300"
     },
     "done": true
   },
@@ -446,12 +380,6 @@
   "minecraft:recipes/brewing/golden_carrot": {
     "criteria": {
       "has_gold_nugget": "2021-06-30 05:00:13 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/shield": {
-    "criteria": {
-      "has_iron_ingot": "2021-06-27 16:28:44 -0300"
     },
     "done": true
   },
@@ -521,12 +449,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/fence_gate": {
-    "criteria": {
-      "has_planks": "2021-06-27 18:40:30 -0300"
-    },
-    "done": true
-  },
   "minecraft:story/root": {
     "criteria": {
       "crafting_table": "2021-06-27 01:06:40 -0300"
@@ -584,12 +506,6 @@
   "minecraft:recipes/combat/leather_leggings": {
     "criteria": {
       "has_leather": "2021-06-28 07:46:51 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/noteblock": {
-    "criteria": {
-      "has_redstone": "2021-06-30 06:56:57 -0300"
     },
     "done": true
   },
@@ -680,12 +596,6 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/trapdoor_from_bop_wood": {
-    "criteria": {
-      "has_the_recipe": "2021-06-27 18:40:28 -0300"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/misc/coal_from_ash": {
     "criteria": {
       "has_gem_block": "2021-06-27 17:27:33 -0300"
@@ -764,12 +674,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/birch_boat": {
-    "criteria": {
-      "entered_water": "2021-06-27 22:03:30 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/golden_apple": {
     "criteria": {
       "has_gold_ingot": "2021-06-30 03:42:05 -0300"
@@ -797,12 +701,6 @@
   "minecraft:recipes/tools/iron_shovel": {
     "criteria": {
       "has_iron_ingot": "2021-06-27 16:28:44 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/acacia_boat": {
-    "criteria": {
-      "entered_water": "2021-06-27 22:03:30 -0300"
     },
     "done": true
   },
@@ -848,12 +746,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/boat": {
-    "criteria": {
-      "entered_water": "2021-06-27 22:03:30 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/purple_dye": {
     "criteria": {
       "has_red_dye": "2021-06-28 07:07:28 -0300"
@@ -866,21 +758,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/jungle_boat": {
-    "criteria": {
-      "entered_water": "2021-06-27 22:03:30 -0300"
-    },
-    "done": true
-  },
   "betteranimalsplus:animal_head_first": {
     "criteria": {
       "head4": "2021-06-27 17:08:01 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2021-06-28 07:46:51 -0300"
     },
     "done": true
   },
@@ -899,18 +779,6 @@
   "minecraft:recipes/tools/clock": {
     "criteria": {
       "has_redstone": "2021-06-30 06:56:57 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/spruce_fence": {
-    "criteria": {
-      "has_planks": "2021-06-27 18:40:28 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_boat": {
-    "criteria": {
-      "entered_water": "2021-06-27 22:03:30 -0300"
     },
     "done": true
   },
@@ -1067,12 +935,6 @@
   "minecraft:story/smelt_iron": {
     "criteria": {
       "iron": "2021-06-27 16:28:44 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/wooden_door": {
-    "criteria": {
-      "has_planks": "2021-06-27 18:40:30 -0300"
     },
     "done": true
   },

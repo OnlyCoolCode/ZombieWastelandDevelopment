@@ -1,0 +1,33 @@
+{
+  "pools": [
+    {
+      "name": "SpiderPool",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Rot:{start:0L,time:0L}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "minecraft:spider_eye"
+        }
+      ],
+      "rolls": {
+        "min": 2.0,
+        "max": 4.0
+      }
+    }
+  ]
+}
