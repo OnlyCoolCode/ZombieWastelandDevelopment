@@ -1,3 +1,4 @@
 #List of Hidden Players
-cozzani:false
-mati:false
+cozzani:true
+mati:true
+elduro:true

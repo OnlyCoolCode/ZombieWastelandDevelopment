@@ -39,7 +39,9 @@ val item_list = [
     <minecraft:iron_chestplate>,
     <minecraft:iron_leggings>,
     <minecraft:iron_boots>,
-    <minecraft:iron_axe>
+    <minecraft:iron_axe>,
+    <minecraft:shield>,
+    <minecraft:golden_apple>
 ] as IItemStack[];
 val book_enchants = [
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 8 as short}]}),
@@ -341,6 +343,137 @@ val firstaid = [
     <firstaid:bandage>,
     <firstaid:plaster>
 ] as IItemStack[];
+val comforts = [
+    <comforts:hammock>,
+    <comforts:hammock:1>,
+    <comforts:hammock:2>,
+    <comforts:hammock:3>,
+    <comforts:hammock:4>,
+    <comforts:hammock:5>,
+    <comforts:hammock:6>,
+    <comforts:hammock:7>,
+    <comforts:hammock:8>,
+    <comforts:hammock:9>,
+    <comforts:hammock:10>,
+    <comforts:hammock:11>,
+    <comforts:hammock:12>,
+    <comforts:hammock:13>,
+    <comforts:hammock:14>,
+    <comforts:hammock:15>
+] as IItemStack[];
+val shields = [
+    <spartanshields:shield_tower_constantan>,
+    <spartanshields:shield_abyssalcraft_darkstone>,
+    <spartanshields:shield_abyssalcraft_abyssalnite>,
+    <spartanshields:shield_abyssalcraft_coralium>,
+    <spartanshields:shield_abyssalcraft_dreadium>,
+    <spartanshields:shield_abyssalcraft_ethaxium>,
+    <spartanshields:shield_basic_soulforged_steel>,
+    <spartanshields:shield_tc_thaumium>,
+    <spartanshields:shield_tc_void>,
+    <spartanshields:shield_basic_bronze>,
+    <spartanshields:shield_tower_bronze>,
+    <spartanshields:shield_basic_steel>,
+    <spartanshields:shield_tower_steel>,
+    <spartanshields:shield_basic_copper>,
+    <spartanshields:shield_tower_copper>,
+    <spartanshields:shield_basic_tin>,
+    <spartanshields:shield_tower_tin>,
+    <spartanshields:shield_basic_silver>,
+    <spartanshields:shield_tower_silver>,
+    <spartanshields:shield_basic_enderium>,
+    <spartanshields:shield_basic_invar>,
+    <spartanshields:shield_tower_invar>,
+    <spartanshields:shield_basic_platinum>,
+    <spartanshields:shield_tower_platinum>,
+    <spartanshields:shield_basic_electrum>,
+    <spartanshields:shield_tower_electrum>,
+    <spartanshields:shield_basic_nickel>,
+    <spartanshields:shield_tower_nickel>,
+    <spartanshields:shield_basic_lead>,
+    <spartanshields:shield_tower_lead>,
+    <spartanshields:shield_basic_signalum>,
+    <spartanshields:shield_basic_lumium>,
+    <spartanshields:shield_botania_manasteel>,
+    <spartanshields:shield_botania_terrasteel>,
+    <spartanshields:shield_botania_elementium>,
+    <spartanshields:shield_basic_constantan>,
+    <spartanshields:shield_riot_enderio>.withTag({}),
+    <spartanshields:shield_riot_enderio>.withTag({Energy: 1000000}),
+    <spartanshields:shield_riot_rftools>.withTag({}),
+    <spartanshields:shield_riot_rftools>.withTag({Energy: 1000000}),
+    <spartanshields:shield_flux_ra>.withTag({}),
+    <spartanshields:shield_flux_ra>.withTag({Energy: 1000000}),
+    <spartanshields:shield_basic_gold>,
+    <spartanshields:shield_basic_diamond>,
+    <spartanshields:shield_tower_gold>,
+    <spartanshields:shield_tower_diamond>,
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 13 as short}]}),
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 2 as short, id: 13 as short}]}),
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 3 as short, id: 13 as short}]})
+] as IItemStack[];
+val dynamictrees = [
+    <dynamictrees:dendropotion:6>,
+    <dynamictrees:dendropotion:5>,
+    <dynamictrees:dendropotion:4>,
+    <dynamictrees:dendropotion:3>,
+    <dynamictrees:dendropotion:2>,
+    <dynamictrees:dendropotion:1>,
+    <dynamictrees:dendropotion>
+] as IItemStack[];
+val quark = [
+    <minecraft:lingering_potion>.withTag({Potion: "quark:strong_resilience"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:long_resilience"}),
+    <minecraft:lingering_potion>.withTag({Potion: "quark:resilience"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:strong_resilience"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:long_resilience"}),
+    <minecraft:splash_potion>.withTag({Potion: "quark:resilience"}),
+    <minecraft:potion>.withTag({Potion: "quark:strong_resilience"}),
+    <minecraft:potion>.withTag({Potion: "quark:long_resilience"}),
+    <minecraft:potion>.withTag({Potion: "quark:resilience"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:resilience"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:long_resilience"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_resilience"})
+] as IItemStack[];
+val toughasnails = [
+    <toughasnails:tan_icon>,
+    <toughasnails:ice_cube>,
+    <toughasnails:magma_shard>,
+    <toughasnails:thermometer>,
+    <toughasnails:temperature_coil:1>,
+    <toughasnails:temperature_coil>,
+    <toughasnails:jelled_slime>,
+    <toughasnails:jelled_slime_boots>,
+    <toughasnails:jelled_slime_leggings>,
+    <toughasnails:jelled_slime_chestplate>,
+    <toughasnails:jelled_slime_helmet>,
+    <toughasnails:wool_boots>,
+    <toughasnails:wool_leggings>,
+    <toughasnails:wool_chestplate>,
+    <toughasnails:wool_helmet>,
+    <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:heat_resistance_type"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:cold_resistance_type"}),
+    <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
+    <minecraft:lingering_potion>.withTag({Potion: "toughasnails:heat_resistance_type"}),
+    <minecraft:potion>.withTag({Potion: "toughasnails:cold_resistance_type"}),
+    <minecraft:potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
+    <minecraft:potion>.withTag({Potion: "toughasnails:heat_resistance_type"}),
+    <minecraft:potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
+    <minecraft:splash_potion>.withTag({Potion: "toughasnails:cold_resistance_type"}),
+    <minecraft:splash_potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
+    <minecraft:splash_potion>.withTag({Potion: "toughasnails:heat_resistance_type"}),
+    <minecraft:splash_potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
+    <minecraft:lingering_potion>.withTag({Potion: "toughasnails:cold_resistance_type"}),
+    <minecraft:lingering_potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
+    <minecraft:lingering_potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 11 as short}]}),
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 12 as short}]})
+] as IItemStack[];
+val animalium = [
+    <animalium:dog_boots>,
+    <animalium:bear_claw_paxel:4>
+] as IItemStack[];
 
 for item in item_list {
     recipes.remove(item);
@@ -350,7 +483,7 @@ for item in book_enchants {
     mods.jei.JEI.removeAndHide(item);
 }
 for item in potions {
-    //brewing.removeRecipe(item);
+    brewing.removeRecipe(item);
     mods.jei.JEI.removeAndHide(item);
 }
 for item in arrows {
@@ -369,6 +502,27 @@ for item in foodfunk {
 for item in firstaid {
     recipes.remove(item);
 }
+for item in comforts {
+    mods.jei.JEI.removeAndHide(item);
+}
+for item in shields {
+    mods.jei.JEI.removeAndHide(item);
+}
+for item in dynamictrees {
+    mods.jei.JEI.removeAndHide(item);
+}
+for item in somnia {
+    mods.jei.JEI.removeAndHide(item);
+}
+for item in quark {
+    mods.jei.JEI.removeAndHide(item);
+}
+for item in toughasnails {
+    mods.jei.JEI.removeAndHide(item);
+}
+for item in animalium {
+    mods.jei.JEI.removeAndHide(item);
+}
 
 for mod in loadedMods {
 	print(mod.name ~ ":");
@@ -377,10 +531,15 @@ for mod in loadedMods {
             mods.jei.JEI.hide(item);
             //print("\t\t" ~ item.displayName);
         }
+        if mod.name == "Better With Mods"
+        for item in mod.items {
+            mods.jei.JEI.removeAndHide(item);
+            //print("\t\t" ~ item.displayName);
+        }
 }
 
 for mod in loadedMods {
-	print(mod.name ~ ":");
+	// print(mod.name ~ ":");
     if mod.name == "TF2 Stuff Mod"
         for item in mod.items {
             recipes.remove(item);
@@ -392,13 +551,12 @@ for mod in loadedMods {
         }
 }
 
-
-/* // print all
+// print all
 for mod in loadedMods {
 	print(mod.name ~ ":");
     for item in mod.items {
         print("\t\t" ~ item.displayName);
     }
 }
- */
+ 
 recipes.removeByRecipeName("weapons_of_the_apocalypse:leatherr2");

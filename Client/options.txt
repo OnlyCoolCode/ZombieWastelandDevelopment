@@ -17,7 +17,7 @@ ao:2
 renderClouds:false
 resourcePacks:["Tissou\u0027s+Zombie+Pack+1.12.2.zip","Unity-1.12.X-Dark-0.6.2.zip"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:25.25.153.255
 lang:en_us
 chatVisibility:0
 chatColors:true

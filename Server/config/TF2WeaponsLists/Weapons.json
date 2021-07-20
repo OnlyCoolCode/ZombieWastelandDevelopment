@@ -1708,7 +1708,7 @@
 		"Reloads clip": false,
 		"Attributes": 
 		{
-			"MetalAsAmmo": 50,
+			"MetalAsAmmo": 25,
 			"MetalOnHit": 0
 		}
 	},

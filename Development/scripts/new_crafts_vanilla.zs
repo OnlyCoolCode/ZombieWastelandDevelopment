@@ -59,7 +59,7 @@ recipes.addShapeless("Gunpowder", gunpowder,
 );
 // glass_bottle
 var blockGlass = <ore:blockGlass>.firstItem;
-var glass_bottle = <minecraft:glass_bottle>
+var glass_bottle = <minecraft:glass_bottle>;
 recipes.addShaped("glass_bottle", glass_bottle, [
     [blockGlass,null,blockGlass],
     [null,blockGlass,null]

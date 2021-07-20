@@ -43,7 +43,7 @@ recipes.addShaped("baseballbat", baseballbat, [
 ]);
 recipes.addShaped("supersledgehammer", supersledgehammer, [
     [null,nails,blockIron],
-    [null,plank,nails],
+    [null,sledgehammer,nails],
     [ducttape,leather,null]
 ]);
 recipes.addShaped("stopsignaxe", stopsignaxe, [

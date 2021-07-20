@@ -65,6 +65,7 @@ var glowstone_dust = <ore:dustGlowstone>;
 var gold_nugget = <minecraft:gold_nugget>;
 var lava_bucket = <minecraft:lava_bucket>;
 var slime = <minecraft:slime_ball>;
+var glue = <weapons_of_the_apocalypse:glue>;
 recipes.addShapeless("scrap", scrap,[iron_nugget]);
 recipes.addShapeless("iron_nugget", iron_nugget,[scrap]);
 recipes.addShaped("scrap_to_reclaimed", reclaimed, [
@@ -124,6 +125,9 @@ recipes.addShapeless("ammo_pistol", ammo_pistol*24,
 recipes.addShapeless("ammo_sticky", ammo_sticky*8,
 [reclaimed*2,gunpowder,slime]
 );
+recipes.addShapeless("ammo_sticky2", ammo_sticky*8,
+[reclaimed*2,gunpowder,glue]
+);
 recipes.addShapeless("ammo_flare", ammo_flare*12,
 [scrap*4,glowstone_dust]
 );
@@ -165,6 +169,15 @@ recipes.addShapeless("autorifle", autorifle,
 recipes.addShapeless("forcenature", forcenature,
 [shotgun,token_heavy,wrench.reuse()]
 );
+//Huntsman bow
+var huntsman = <rafradek_tf2_weapons:huntsman>.withTag({Clip: 1, Type: "huntsman", Attributes: {}});
+var string_item = <minecraft:string>;
+var bow = <minecraft:bow>;
+recipes.addShaped("huntsman", huntsman, [
+    [null,iron_ingot,string_item],
+    [iron_ingot,bow,string_item],
+    [null,iron_ingot,string_item]
+]);
 
 //Tooltips removing
 /* widowmaker.clearTooltip();

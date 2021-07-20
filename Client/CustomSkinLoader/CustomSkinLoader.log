@@ -1,17 +1,25 @@
-[2021-07-20 16:40:12] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
-[2021-07-20 16:40:12] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader
-[2021-07-20 16:40:12] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
-[2021-07-20 16:40:12] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader\CustomSkinLoader.json
-[2021-07-20 16:40:12] [pool-5-thread-1 INFO] Try to load config.
-[2021-07-20 16:40:12] [pool-5-thread-1 INFO] Successfully load config.
-[2021-07-20 16:40:12] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
-[2021-07-20 16:40:12] [Mati INFO] Loading Mati's profile.
-[2021-07-20 16:40:12] [Mati INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-07-20 16:40:12] [Mati INFO] Mati's profile loaded.
-[2021-07-20 16:40:12] [Mati INFO] (SkinUrl: (LOCAL_LEGACY)0dfec84f72d4ccdc82d52d5df3c04d54aa4c31d6,LocalSkin/skins/Mati.png , Model: default , CapeUrl: null  , Expiry: 1626810042)
-[2021-07-20 16:49:48] [Mati INFO] Loading Mati's profile.
-[2021-07-20 16:49:48] [Mati INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-07-20 16:49:48] [Mati INFO] Mati's profile loaded.
-[2021-07-20 16:49:48] [Mati INFO] (SkinUrl: (LOCAL_LEGACY)0dfec84f72d4ccdc82d52d5df3c04d54aa4c31d6,LocalSkin/skins/Mati.png , Model: default , CapeUrl: null  , Expiry: 1626810622)
-[2021-07-20 16:50:07] [Mati INFO] Cached profile will be used.
-[2021-07-20 16:50:07] [Mati INFO] (SkinUrl: (LOCAL_LEGACY)0dfec84f72d4ccdc82d52d5df3c04d54aa4c31d6,LocalSkin/skins/Mati.png , Model: default , CapeUrl: null  , Expiry: 1626810622)
+[2021-07-20 17:49:56] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
+[2021-07-20 17:49:56] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader
+[2021-07-20 17:49:56] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
+[2021-07-20 17:49:56] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader\CustomSkinLoader.json
+[2021-07-20 17:49:56] [pool-5-thread-1 INFO] Try to load config.
+[2021-07-20 17:49:56] [pool-5-thread-1 INFO] Successfully load config.
+[2021-07-20 17:49:57] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
+[2021-07-20 17:49:57] [ElDuro INFO] Loading ElDuro's profile.
+[2021-07-20 17:49:57] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-07-20 17:49:57] [ElDuro INFO] ElDuro's profile loaded.
+[2021-07-20 17:49:57] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)52d3a207f3e0fbab08e5890020a8a5aae1ab3b1e,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1626814230)
+[2021-07-20 17:50:41] [ElDuro INFO] Loading ElDuro's profile.
+[2021-07-20 17:50:41] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-07-20 17:50:41] [ElDuro INFO] ElDuro's profile loaded.
+[2021-07-20 17:50:41] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)52d3a207f3e0fbab08e5890020a8a5aae1ab3b1e,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1626814273)
+[2021-07-20 17:52:48] [ElDuro INFO] Loading ElDuro's profile.
+[2021-07-20 17:52:48] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-07-20 17:52:48] [ElDuro INFO] ElDuro's profile loaded.
+[2021-07-20 17:52:48] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)52d3a207f3e0fbab08e5890020a8a5aae1ab3b1e,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1626814402)
+[2021-07-20 17:54:50] [ElDuro INFO] Loading ElDuro's profile.
+[2021-07-20 17:54:50] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-07-20 17:54:50] [ElDuro INFO] ElDuro's profile loaded.
+[2021-07-20 17:54:50] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)52d3a207f3e0fbab08e5890020a8a5aae1ab3b1e,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1626814523)
+[2021-07-20 17:55:12] [ElDuro INFO] Cached profile will be used.
+[2021-07-20 17:55:12] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)52d3a207f3e0fbab08e5890020a8a5aae1ab3b1e,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1626814523)

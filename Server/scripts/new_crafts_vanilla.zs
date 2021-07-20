@@ -57,12 +57,26 @@ var gunpowder = <ore:gunpowder>.firstItem;
 recipes.addShapeless("Gunpowder", gunpowder,
 [bowl.reuse(), water_bottle.transformReplace(<minecraft:glass_bottle>), bone_meal, coal]
 );
+// glass_bottle
+var blockGlass = <ore:blockGlass>.firstItem;
+var glass_bottle = <minecraft:glass_bottle>;
+recipes.addShaped("glass_bottle", glass_bottle, [
+    [blockGlass,null,blockGlass],
+    [null,blockGlass,null]
+]);
 
 //furnance recipes
 var ash = <biomesoplenty:ash>;
 furnace.addRecipe(ash, coal);
+// gunpowder
+var lava_bucket = <minecraft:lava_bucket>;
+var obsidian = <minecraft:obsidian>;
+recipes.addShapeless("obsidian", obsidian,
+[lava_bucket.transformReplace(<minecraft:bucket>), water_bucket.transformReplace(<minecraft:bucket>)]
+);
 
 var spider_eye = <minecraft:spider_eye>;
 var fermented_spider_eye = <minecraft:fermented_spider_eye>;
 furnace.addRecipe(fermented_spider_eye, spider_eye);
+
 
