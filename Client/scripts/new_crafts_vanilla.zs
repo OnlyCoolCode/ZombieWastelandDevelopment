@@ -57,10 +57,16 @@ var gunpowder = <ore:gunpowder>.firstItem;
 recipes.addShapeless("Gunpowder", gunpowder,
 [bowl.reuse(), water_bottle.transformReplace(<minecraft:glass_bottle>), bone_meal, coal]
 );
+
 // glass_bottle
-var blockGlass = <ore:blockGlass>.firstItem;
+var stained_glass = <minecraft:stained_glass:*>;
 var glass_bottle = <minecraft:glass_bottle>;
-recipes.addShaped("glass_bottle", glass_bottle, [
+var blockGlass = <ore:blockGlass>.firstItem;
+recipes.addShaped("glass_bottle1", glass_bottle, [
+    [stained_glass,null,stained_glass],
+    [null,stained_glass,null]
+]);
+recipes.addShaped("glass_bottle2", glass_bottle, [
     [blockGlass,null,blockGlass],
     [null,blockGlass,null]
 ]);
@@ -74,9 +80,16 @@ var obsidian = <minecraft:obsidian>;
 recipes.addShapeless("obsidian", obsidian,
 [lava_bucket.transformReplace(<minecraft:bucket>), water_bucket.transformReplace(<minecraft:bucket>)]
 );
-
+// fermented_spider_eye
 var spider_eye = <minecraft:spider_eye>;
 var fermented_spider_eye = <minecraft:fermented_spider_eye>;
 furnace.addRecipe(fermented_spider_eye, spider_eye);
 
-
+// name_tag
+var name_tag = <minecraft:name_tag>;
+var string_item = <minecraft:string>;
+recipes.addShaped("name_tag", name_tag, [
+    [null,null,string_item],
+    [null,plank,null],
+    [plank,null,null]
+]);

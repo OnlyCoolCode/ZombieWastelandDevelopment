@@ -3,7 +3,7 @@ import mods.jei.JEI;
 import crafttweaker.mods.IMod;
 
 
-val item_list = [
+val minecraft_list = [
     <minecraft:diamond_sword>,
     <minecraft:diamond_pickaxe>,
     <minecraft:diamond_shovel>,
@@ -41,7 +41,10 @@ val item_list = [
     <minecraft:iron_boots>,
     <minecraft:iron_axe>,
     <minecraft:shield>,
-    <minecraft:golden_apple>
+    <minecraft:golden_apple>,
+    <minecraft:golden_carrot>,
+    <minecraft:golden_apple>,
+    <minecraft:speckled_melon>
 ] as IItemStack[];
 val book_enchants = [
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 8 as short}]}),
@@ -468,14 +471,17 @@ val toughasnails = [
     <minecraft:lingering_potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
     <minecraft:lingering_potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 11 as short}]}),
-    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 12 as short}]})
+    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 12 as short}]}),
+    <toughasnails:fruit_juice:6>,
+    <toughasnails:fruit_juice:5>,
+    <toughasnails:fruit_juice:7>
 ] as IItemStack[];
 val animalium = [
     <animalium:dog_boots>,
     <animalium:bear_claw_paxel:4>
 ] as IItemStack[];
 
-for item in item_list {
+for item in minecraft_list {
     recipes.remove(item);
 }
 for item in book_enchants {
@@ -558,5 +564,7 @@ for mod in loadedMods {
         print("\t\t" ~ item.displayName);
     }
 }
- 
+
+// deleted individual craftings
 recipes.removeByRecipeName("weapons_of_the_apocalypse:leatherr2");
+recipes.removeByRecipeName("minecraft:glass_bottle");

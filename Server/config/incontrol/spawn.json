@@ -31,17 +31,17 @@
   {
     "mob": "animalium:piranha",
     "maxheight": 70,
-	"block": "minecraft:water",
+	  "block": "minecraft:water",
     "result": "allow"
   },
   {
     "mob": "minecraft:cave_spider",
     "groupcountmin": 4,
-	"groupcountmax": 7
+	  "groupcountmax": 7
   },
   {
     "mob": "animalium:piranha",
     "groupcountmin": 1,
-	"groupcountmax": 5
+	  "groupcountmax": 5
   }
 ]

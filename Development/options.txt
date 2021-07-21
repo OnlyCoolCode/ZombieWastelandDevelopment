@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Tissou\u0027s+Zombie+Pack+1.12.2.zip","Unity-1.12.X-Dark-0.6.2.zip"]
+resourcePacks:["Unity-1.12.X-Dark-0.6.2.zip","AudioCraftV1.6.zip","Tissou\u0027s+Zombie+Pack+1.12.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -141,7 +141,7 @@ soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
 soundCategory_ds_footsteps:0.35915494
-soundCategory_ds_biome:1.0
+soundCategory_ds_biome:0.5070422
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

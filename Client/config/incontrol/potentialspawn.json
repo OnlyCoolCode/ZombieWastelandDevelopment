@@ -4,17 +4,16 @@
     "mobs": [
       {
         "mob": "minecraft:spider",
-		"weight": 75
+		    "weight": 75
       },
 	  {
         "mob": "minecraft:cave_spider",
-		"weight": 100
+		    "weight": 100
       },
 	  {
         "mob": "animalium:piranha",
-		"weight": 100
+		    "weight": 100
       }
-	  
     ]
   }
 ]
