@@ -31,26 +31,22 @@ recipes.addShaped("chainmail_boots", c_boots, [
 // web
 var string_item = <minecraft:string>;
 var web = <minecraft:web>;
-recipes.addShaped("web", web, [
-    [string_item,null,string_item],
-    [null,string_item,null],
-    [string_item,null,string_item]
-]);
+recipes.addShapeless("web", web,
+[string_item,string_item]
+);
 // slime
 var cacti_dye = <minecraft:dye:2>;
 var water_bottle = <minecraft:potion>.withTag({Potion: "minecraft:water"});
 var slime = <minecraft:slime_ball>;
 var dirtbucket = <dynamictrees:dirtbucket>;
-var red_mushroom = <minecraft:red_mushroom>;
-var brown_mushroom = <minecraft:brown_mushroom>;
+/* var red_mushroom = <minecraft:red_mushroom>;
+var brown_mushroom = <minecraft:brown_mushroom>; */
+var rotten_food = <foodfunk:rotten_food>;
 recipes.addShapeless("Slime1", slime,
 [cacti_dye, cacti_dye, cacti_dye, water_bottle.transformReplace(<minecraft:glass_bottle>)]
 );
 recipes.addShapeless("Slime2", slime,
-[web, red_mushroom, water_bottle.transformReplace(<minecraft:glass_bottle>)]
-);
-recipes.addShapeless("Slime3", slime,
-[web, brown_mushroom, water_bottle.transformReplace(<minecraft:glass_bottle>)]
+[web, rotten_food, water_bottle.transformReplace(<minecraft:glass_bottle>)]
 );
 
 // paper

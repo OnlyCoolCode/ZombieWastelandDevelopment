@@ -3,3 +3,4 @@
 /pregen gen startradius cicle ~ ~ 60 0 PostProcessingOnly
 /gamerule doDaylightCycle true
 https://www.curseforge.com/minecraft/mc-mods/chunkpregenerator/pages/112-documentation/command-suggestions
+

@@ -23,7 +23,8 @@ recipes.addShaped("plaster2", plaster*2, [
 ]);
 recipes.addShaped("plaster3", plaster, [
     [null,paper,null],
-    [null,gunpowder,null]
+    [paper,gunpowder,paper],
+    [null,null,null]
 ]);
 recipes.addShaped("bandage1", bandage, [
     [null,ducttape,null],

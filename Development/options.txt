@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:false
@@ -113,7 +113,7 @@ key_Options Gui:23
 key_FpsReducer.key.guiOpen:207
 key_FpsReducer.key.forceIdle:197
 key_invtweaks.key.sort:21
-key_Mo' Bends Menu:34
+key_Mo' Bends Menu:36
 key_Refresh Animations:68
 key_nei.options.keys.gui.enchant:45
 key_nei.options.keys.gui.potion:25
@@ -130,7 +130,7 @@ key_nei.options.keys.world.heal:0
 key_nei.options.keys.world.creative:0
 key_key.reload:19
 key_key.activatebackpack:11
-soundCategory_master:0.9039735
+soundCategory_master:0.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

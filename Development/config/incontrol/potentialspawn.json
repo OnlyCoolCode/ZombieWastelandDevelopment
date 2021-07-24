@@ -13,7 +13,35 @@
 	  {
         "mob": "animalium:piranha",
 		    "weight": 100
+      },
+    {
+        "mob": "minecraft:skeleton",
+		    "weight": 0
+      },
+    {
+        "mob": "minecraft:creeper",
+		    "weight": 0
+      },
+    {
+        "mob": "minecraft:enderman",
+		    "weight": 0
+      },
+    {
+        "mob": "minecraft:witch",
+		    "weight": 0
+      },
+    {
+        "mob": "minecraft:slime",
+		    "weight": 0
+      },
+      {
+        "mob": "minecraft:zombie",
+		    "weight": 100
       }
     ]
   }
 ]
+
+
+
+

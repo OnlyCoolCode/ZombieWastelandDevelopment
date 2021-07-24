@@ -138,16 +138,16 @@ recipes.addShapeless("flamethrower", flamethrower,
 
 //ammo
 
-recipes.addShapeless("ammo_revolver", ammo_revolver*12,
+recipes.addShapeless("ammo_revolver", ammo_revolver*2,
 [scrap,scrap,gunpowder]
 );
-recipes.addShapeless("ammo_pistol", ammo_pistol*24,
+recipes.addShapeless("ammo_pistol", ammo_pistol*2,
 [iron_nugget,iron_nugget,iron_nugget,iron_nugget,gunpowder]
 );
-recipes.addShapeless("ammo_sticky", ammo_sticky*8,
+recipes.addShapeless("ammo_sticky", ammo_sticky,
 [reclaimed,reclaimed,gunpowder,slime]
 );
-recipes.addShapeless("ammo_sticky2", ammo_sticky*8,
+recipes.addShapeless("ammo_sticky2", ammo_sticky,
 [reclaimed,reclaimed,gunpowder,glue]
 );
 recipes.addShapeless("ammo_flare", ammo_flare*12,

@@ -176,11 +176,11 @@ var lc_trash = [
     <foodfunk:rotted_item>,
     <foodfunk:biodegradable_item>,
     <biomesoplenty:ash>,
-    <weapons_of_the_apocalypse:emptycan>,
     <weapons_of_the_apocalypse:emptystimpack>,
     <minecraft:book>
 ] as IItemStack[];
 var lc_iron_gunpownder = [
+    <weapons_of_the_apocalypse:emptycan>,
     <minecraft:iron_nugget>,
     <rafradek_tf2_weapons:itemtf2:3>,
     <rafradek_tf2_weapons:itemtf2:4>,
@@ -189,19 +189,32 @@ var lc_iron_gunpownder = [
 var lc_handguns = [
     <rafradek_tf2_weapons:bullet>.withTag({Clip: 6, Type: "revolver", Attributes: {}}),
     <rafradek_tf2_weapons:projectile>.withTag({Type: "flaregun", Attributes: {}}),
-    <rafradek_tf2_weapons:bullet>.withTag({Clip: 12, Type: "pistol", Attributes: {}})
+    <rafradek_tf2_weapons:bullet>.withTag({Clip: 12, Type: "pistol", Attributes: {}}),
+    <cgm:scope>.withTag({color: 1908001}),
+    <cgm:silencer>.withTag({color: 1908001}),
+    <cgm:handgun>.withTag({color: 1908001}),
+    <cgm:grenade>
 ] as IItemStack[];
 var lc_longguns = [
-    <rafradek_tf2_weapons:bullet>.withTag({UsedAmmo: 0.0 as float, Type: "widowmaker", Attributes: {}}),
     <rafradek_tf2_weapons:bullet>.withTag({Clip: 6, Type: "shotgun", Attributes: {}}),
-    <rafradek_tf2_weapons:sniperrifle>.withTag({Type: "sniperrifle", Attributes: {}})
+    <rafradek_tf2_weapons:sniperrifle>.withTag({Type: "sniperrifle", Attributes: {}}),
+    <rafradek_tf2_weapons:stickybomb>.withTag({Clip: 8, Type: "stickybomblauncher", Attributes: {}}),
+    <cgm:shotgun>.withTag({color: 1908001}),
+    <cgm:assault_rifle>.withTag({color: 1908001}),
+    <cgm:rifle>.withTag({color: 1908001}),
+    <cgm:grenade_launcher>.withTag({color: 1908001})
 ] as IItemStack[];
-var lc_ammo = [
-    <rafradek_tf2_weapons:ammo:13>,
+var lc_ammo_low = [
     <rafradek_tf2_weapons:ammo_pistol>,
-    <rafradek_tf2_weapons:ammo:6>,
-    <rafradek_tf2_weapons:ammo:1>,
     <rafradek_tf2_weapons:ammo:4>,
+    <rafradek_tf2_weapons:ammo:11>
+] as IItemStack[];
+var lc_ammo_high = [
+    <cgm:advanced_ammo>,
+    <cgm:basic_ammo>,
+    <cgm:shell>,
+    <rafradek_tf2_weapons:ammo:1>,
+    <rafradek_tf2_weapons:ammo:6>,
     <rafradek_tf2_weapons:ammo:13>
 ] as IItemStack[];
 /* var lc_armor = [
@@ -413,20 +426,35 @@ for item in lc_longguns {
     //stronhold_crossing_Pool.addItemEntry(item, 3,0, [Functions.setCount(1, 1)], []);
     //stronhold_library_Pool.addItemEntry(item, 3,0, [Functions.setCount(1, 1)], []);
 }
-for item in lc_ammo {
-    lostcities_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
-    desert_pyramid_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
-    igloo_chest_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
-    jungle_temple_dispenser_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
-    jungle_temple_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
-    simple_dungeon_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
-    stronghold_corridor_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
-    village_blacksmith_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
-    woodland_mansion_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
-    nether_bridge_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
-    //end_city_tresure_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
-    //stronhold_crossing_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
-    //stronhold_library_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
+for item in lc_ammo_low {
+    lostcities_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+    desert_pyramid_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+    igloo_chest_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+    jungle_temple_dispenser_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+    jungle_temple_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+    simple_dungeon_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+    stronghold_corridor_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+    village_blacksmith_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+    woodland_mansion_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+    nether_bridge_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+    //end_city_tresure_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+    //stronhold_crossing_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+    //stronhold_library_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
+}
+for item in lc_ammo_high {
+    lostcities_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+    desert_pyramid_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+    igloo_chest_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+    jungle_temple_dispenser_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+    jungle_temple_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+    simple_dungeon_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+    stronghold_corridor_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+    village_blacksmith_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+    woodland_mansion_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+    nether_bridge_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+    //end_city_tresure_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+    //stronhold_crossing_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+    //stronhold_library_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
 }
 /* for item in lc_armor {
     lostcities_Pool.addItemEntry(item, 6,0, [Functions.setCount(1, 1)], []);
@@ -478,7 +506,7 @@ var bl_rare = [
     <minecraft:flint_and_steel>
 ] as IItemStack[];
 var bl_veryrare = [
-    <cgm:handgun>,
+    <cgm:handgun>.withTag({color: 1908001}),
     <minecraft:bow>,
     <weapons_of_the_apocalypse:machete>,
     <weapons_of_the_apocalypse:crowbar>,
