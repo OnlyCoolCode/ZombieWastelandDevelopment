@@ -204,13 +204,13 @@ var lc_ammo = [
     <rafradek_tf2_weapons:ammo:4>,
     <rafradek_tf2_weapons:ammo:13>
 ] as IItemStack[];
-var lc_armor = [
+/* var lc_armor = [
     <arm:old_army_bootsboots>,
     <arm:old_aramid_knee_padslegs>,
     <arm:old_flak_vestbody>,
     <arm:old_army_helmethelmet>,
     <arm:woodlandflakbody>
-] as IItemStack[];
+] as IItemStack[]; */
 
 // para que todos sean como ese
  /* var table_list = [
@@ -324,19 +324,19 @@ for item in lc_healing {
     //stronhold_library_Pool.addItemEntry(item, 16,0, [Functions.setCount(1, 2)], []);
 }
 for item in lc_weapons_stuff {
-    lostcities_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
-    desert_pyramid_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
-    igloo_chest_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
-    jungle_temple_dispenser_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
-    jungle_temple_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
-    simple_dungeon_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
-    stronghold_corridor_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
-    village_blacksmith_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
-    woodland_mansion_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
-    nether_bridge_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
-    //end_city_tresure_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
-    //stronhold_crossing_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
-    //stronhold_library_Pool.addItemEntry(item, 13,0, [Functions.setCount(1, 3)], []);
+    lostcities_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
+    desert_pyramid_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
+    igloo_chest_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
+    jungle_temple_dispenser_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
+    jungle_temple_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
+    simple_dungeon_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
+    stronghold_corridor_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
+    village_blacksmith_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
+    woodland_mansion_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
+    nether_bridge_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
+    //end_city_tresure_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
+    //stronhold_crossing_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
+    //stronhold_library_Pool.addItemEntry(item, 17,0, [Functions.setCount(1, 3)], []);
 }
 for item in lc_hand_weapons {
     lostcities_Pool.addItemEntry(item, 6,0, [Functions.setCount(1, 1)], []);
@@ -354,19 +354,19 @@ for item in lc_hand_weapons {
     //stronhold_library_Pool.addItemEntry(item, 6,0, [Functions.setCount(1, 1)], []);
 }
 for item in lc_trash {
-    lostcities_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
-    desert_pyramid_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
-    igloo_chest_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
-    jungle_temple_dispenser_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
-    jungle_temple_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
-    simple_dungeon_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
-    stronghold_corridor_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
-    village_blacksmith_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
-    woodland_mansion_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
-    nether_bridge_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
-    //end_city_tresure_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
-    //stronhold_crossing_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
-    //stronhold_library_Pool.addItemEntry(item, 12,0, [Functions.setCount(5, 10)], []);
+    lostcities_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
+    desert_pyramid_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
+    igloo_chest_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
+    jungle_temple_dispenser_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
+    jungle_temple_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
+    simple_dungeon_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
+    stronghold_corridor_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
+    village_blacksmith_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
+    woodland_mansion_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
+    nether_bridge_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
+    //end_city_tresure_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
+    //stronhold_crossing_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
+    //stronhold_library_Pool.addItemEntry(item, 14,0, [Functions.setCount(5, 10)], []);
 }
 for item in lc_iron_gunpownder {
     lostcities_Pool.addItemEntry(item, 14,0, [Functions.setCount(2, 6)], []);
@@ -428,7 +428,7 @@ for item in lc_ammo {
     //stronhold_crossing_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
     //stronhold_library_Pool.addItemEntry(item, 15,0, [Functions.setCount(5, 15)], []);
 }
-for item in lc_armor {
+/* for item in lc_armor {
     lostcities_Pool.addItemEntry(item, 6,0, [Functions.setCount(1, 1)], []);
     desert_pyramid_Pool.addItemEntry(item, 6,0, [Functions.setCount(1, 1)], []);
     igloo_chest_Pool.addItemEntry(item, 6,0, [Functions.setCount(1, 1)], []);
@@ -442,7 +442,7 @@ for item in lc_armor {
     //end_city_tresure_Pool.addItemEntry(item, 6,0, [Functions.setCount(1, 1)], []);
     //stronhold_crossing_Pool.addItemEntry(item, 6,0, [Functions.setCount(1, 1)], []);
     //stronhold_library_Pool.addItemEntry(item, 6,0, [Functions.setCount(1, 1)], []);
-}
+} */
 
 //Chest
 //spawn_bonus_chest
@@ -483,11 +483,11 @@ var bl_veryrare = [
     <weapons_of_the_apocalypse:machete>,
     <weapons_of_the_apocalypse:crowbar>,
     <weapons_of_the_apocalypse:baton>,
-    <arm:old_army_helmethelmet>,
+/*     <arm:old_army_helmethelmet>,
     <arm:old_flak_vestbody>,
     <arm:old_aramid_knee_padslegs>,
     <arm:old_army_bootsboots>,
-    <arm:woodlandflakbody>
+    <arm:woodlandflakbody> */
 ] as IItemStack[];
 
 var spawn_bonus_chestTable = LootTweaker.getTable("minecraft:chests/spawn_bonus_chest");

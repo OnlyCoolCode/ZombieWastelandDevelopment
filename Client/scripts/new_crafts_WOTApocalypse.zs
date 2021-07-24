@@ -86,9 +86,9 @@ recipes.addShaped("cloth", cloth*4, [
     [null,stick,null],
     [spider_string,wool,spider_string]
 ]);
-recipes.addShapeless("glue1", glue*2,
+/* recipes.addShapeless("glue1", glue*2,
 [water_bucket, wheat, beef]
-);
+); */
 recipes.addShapeless("glue2", glue*2,
 [water_bucket, slime, slime]
 );

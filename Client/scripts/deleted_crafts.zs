@@ -537,7 +537,7 @@ for mod in loadedMods {
             mods.jei.JEI.hide(item);
             //print("\t\t" ~ item.displayName);
         }
-        if mod.name == "Better With Mods"
+    if mod.name == "Better With Mods"
         for item in mod.items {
             mods.jei.JEI.removeAndHide(item);
             //print("\t\t" ~ item.displayName);

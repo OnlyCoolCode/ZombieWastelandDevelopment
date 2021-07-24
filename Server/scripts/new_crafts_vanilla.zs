@@ -28,13 +28,29 @@ recipes.addShaped("chainmail_boots", c_boots, [
     [chain,null,chain],
     [chain,null,chain]
 ]);
-
+// web
+var string_item = <minecraft:string>;
+var web = <minecraft:web>;
+recipes.addShaped("web", web, [
+    [string_item,null,string_item],
+    [null,string_item,null],
+    [string_item,null,string_item]
+]);
 // slime
 var cacti_dye = <minecraft:dye:2>;
 var water_bottle = <minecraft:potion>.withTag({Potion: "minecraft:water"});
 var slime = <minecraft:slime_ball>;
-recipes.addShapeless("Slime", slime,
+var dirtbucket = <dynamictrees:dirtbucket>;
+var red_mushroom = <minecraft:red_mushroom>;
+var brown_mushroom = <minecraft:brown_mushroom>;
+recipes.addShapeless("Slime1", slime,
 [cacti_dye, cacti_dye, cacti_dye, water_bottle.transformReplace(<minecraft:glass_bottle>)]
+);
+recipes.addShapeless("Slime2", slime,
+[web, red_mushroom, water_bottle.transformReplace(<minecraft:glass_bottle>)]
+);
+recipes.addShapeless("Slime3", slime,
+[web, brown_mushroom, water_bottle.transformReplace(<minecraft:glass_bottle>)]
 );
 
 // paper
@@ -87,7 +103,6 @@ furnace.addRecipe(fermented_spider_eye, spider_eye);
 
 // name_tag
 var name_tag = <minecraft:name_tag>;
-var string_item = <minecraft:string>;
 recipes.addShaped("name_tag", name_tag, [
     [null,null,string_item],
     [null,plank,null],

@@ -92,7 +92,7 @@ recipes.addShaped("wrench", wrench, [
 ]);
 
 //weapons
-recipes.addShapeless("revolver", revolver,
+/* recipes.addShapeless("revolver", revolver,
 [refined,reclaimed*5,ammo_revolver,wrench.reuse()]
 );
 recipes.addShapeless("pistol", pistol,
@@ -113,29 +113,51 @@ recipes.addShapeless("shotgun", shotgun,
 recipes.addShapeless("flamethrower", flamethrower,
 [refined*4,reclaimed*8,ammo_flamethrower,wrench.reuse()]
 );
+ */
+recipes.addShapeless("revolver", revolver,
+[refined,refined,ammo_revolver,wrench.reuse()]
+);
+recipes.addShapeless("pistol", pistol,
+[refined,refined,ammo_pistol,wrench.reuse()]
+);
+recipes.addShapeless("stickybomblauncher", stickybomblauncher,
+[refined,refined,refined,reclaimed,ammo_sticky,wrench.reuse()]
+);
+recipes.addShapeless("flaregun", flaregun,
+[refined,refined,ammo_flare,wrench.reuse()]
+);
+recipes.addShapeless("sniperrifle", sniperrifle,
+[refined,refined,refined,reclaimed,ammo_rifle,wrench.reuse()]
+);
+recipes.addShapeless("shotgun", shotgun,
+[refined,refined,refined,ammo_shotgun,wrench.reuse()]
+);
+recipes.addShapeless("flamethrower", flamethrower,
+[refined,refined,refined,refined,refined,ammo_flamethrower,wrench.reuse()]
+);
 
 //ammo
 
 recipes.addShapeless("ammo_revolver", ammo_revolver*12,
-[scrap*2,gunpowder]
+[scrap,scrap,gunpowder]
 );
 recipes.addShapeless("ammo_pistol", ammo_pistol*24,
-[iron_nugget*4,gunpowder]
+[iron_nugget,iron_nugget,iron_nugget,iron_nugget,gunpowder]
 );
 recipes.addShapeless("ammo_sticky", ammo_sticky*8,
-[reclaimed*2,gunpowder,slime]
+[reclaimed,reclaimed,gunpowder,slime]
 );
 recipes.addShapeless("ammo_sticky2", ammo_sticky*8,
-[reclaimed*2,gunpowder,glue]
+[reclaimed,reclaimed,gunpowder,glue]
 );
 recipes.addShapeless("ammo_flare", ammo_flare*12,
-[scrap*4,glowstone_dust]
+[scrap,scrap,scrap,scrap,glowstone_dust]
 );
 recipes.addShapeless("ammo_rifle", ammo_rifle*16,
-[reclaimed,gunpowder*2]
+[reclaimed,gunpowder,gunpowder]
 );
 recipes.addShapeless("ammo_shotgun", ammo_shotgun*24,
-[scrap*4,gold_nugget*2,gunpowder]
+[scrap,scrap,scrap,scrap,gold_nugget,gold_nugget,gunpowder]
 );
 recipes.addShaped("ammo_flamethrower", ammo_flamethrower, [
     [iron_ingot,glowstone_dust,iron_ingot],
