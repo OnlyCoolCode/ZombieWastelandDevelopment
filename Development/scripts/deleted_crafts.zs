@@ -537,11 +537,11 @@ for mod in loadedMods {
             mods.jei.JEI.hide(item);
             //print("\t\t" ~ item.displayName);
         }
-    if mod.name == "Better With Mods"
+/*     if mod.name == "Better With Mods"
         for item in mod.items {
             mods.jei.JEI.removeAndHide(item);
             //print("\t\t" ~ item.displayName);
-        }
+        } */
 }
 
 for mod in loadedMods {
@@ -552,6 +552,10 @@ for mod in loadedMods {
             furnace.remove(item);
         }
     if mod.name == "arm"
+        for item in mod.items {
+            recipes.remove(item);
+        }
+    if mod.name == "iYAMATO's Mob Mod"
         for item in mod.items {
             recipes.remove(item);
         }

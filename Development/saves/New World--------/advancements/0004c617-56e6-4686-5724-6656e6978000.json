@@ -1,0 +1,14 @@
+{
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-07-24 23:01:30 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "dead_forest": "2021-07-24 23:01:30 -0300"
+    },
+    "done": false
+  }
+}
