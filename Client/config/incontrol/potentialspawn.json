@@ -33,10 +33,6 @@
     {
         "mob": "minecraft:slime",
 		    "weight": 0
-      },
-      {
-        "mob": "minecraft:zombie",
-		    "weight": 150
       }
     ]
   }

@@ -480,6 +480,41 @@ val animalium = [
     <animalium:dog_boots>,
     <animalium:bear_claw_paxel:4>
 ] as IItemStack[];
+val betterwithmods = [
+    <betterwithmods:arcane_scroll>.withTag({enchant: 8}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 7}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 6}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 5}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 4}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 3}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 2}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 1}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 0}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 71}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 70}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 62}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 61}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 51}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 50}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 49}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 48}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 35}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 34}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 33}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 32}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 22}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 21}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 20}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 19}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 18}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 17}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 16}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 13}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 12}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 11}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 10}),
+    <betterwithmods:arcane_scroll>.withTag({enchant: 9})
+] as IItemStack[];
 
 for item in minecraft_list {
     recipes.remove(item);
@@ -529,6 +564,9 @@ for item in toughasnails {
 for item in animalium {
     mods.jei.JEI.removeAndHide(item);
 }
+for item in betterwithmods {
+    mods.jei.JEI.removeAndHide(item);
+}
 
 for mod in loadedMods {
 	print(mod.name ~ ":");
@@ -572,3 +610,4 @@ for mod in loadedMods {
 // deleted individual craftings
 recipes.removeByRecipeName("weapons_of_the_apocalypse:leatherr2");
 recipes.removeByRecipeName("minecraft:glass_bottle");
+recipes.removeByRecipeName("weapons_of_the_apocalypse:scyther");

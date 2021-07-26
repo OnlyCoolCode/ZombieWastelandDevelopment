@@ -92,6 +92,9 @@ key_key.aim:56
 key_key.reload:19
 key_key.unload:22
 key_key.toastcontrol.clear:36
+key_Strip World:211
+key_Dress World:210
+key_Inspect Block:199
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
@@ -130,7 +133,7 @@ key_nei.options.keys.world.heal:0
 key_nei.options.keys.world.creative:0
 key_key.reload:19
 key_key.activatebackpack:11
-soundCategory_master:0.90066224
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

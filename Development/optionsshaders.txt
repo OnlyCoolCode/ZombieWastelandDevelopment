@@ -1,4 +1,4 @@
-#Tue Jul 13 13:35:34 ART 2021
+#Sun Jul 25 03:29:26 ART 2021
 shaderPack=Chocapic13_V8_High_Beta_7.zip
 antialiasingLevel=0
 normalMapEnabled=false

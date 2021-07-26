@@ -61,7 +61,7 @@ recipes.addShaped("crowbar", crowbar, [
     [null,iron,null],
     [iron_nugget,iron,null]
 ]);
-recipes.addShaped("sythe", crowbar, [
+recipes.addShaped("sythe", sythe, [
     [iron,iron,iron],
     [null,tireiron,ducttape],
     [tireiron,ducttape,null]
@@ -103,6 +103,6 @@ recipes.addShaped("ducttape", ducttape*2, [
     [null,cloth,null]
 ]);
 recipes.addShapeless("can_to_iron", iron,
-[emptycan,emptycan]
+[emptycan,emptycan,emptycan]
 );
 

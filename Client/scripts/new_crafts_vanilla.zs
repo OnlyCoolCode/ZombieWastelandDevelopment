@@ -3,7 +3,7 @@ import mods.jei.JEI;
 import crafttweaker.mods.IMod;
 
 // new craft
-// chain armor
+/* // chain armor
 var c_helmet = <minecraft:chainmail_helmet>;
 var c_chestplate = <minecraft:chainmail_chestplate>;
 var c_leggings = <minecraft:chainmail_leggings>;
@@ -27,7 +27,7 @@ recipes.addShaped("chainmail_leggings", c_leggings, [
 recipes.addShaped("chainmail_boots", c_boots, [
     [chain,null,chain],
     [chain,null,chain]
-]);
+]); */
 // web
 var string_item = <minecraft:string>;
 var web = <minecraft:web>;

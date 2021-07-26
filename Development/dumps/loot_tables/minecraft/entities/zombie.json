@@ -20,19 +20,6 @@
           "name": "minecraft:rotten_flesh"
         },
         {
-          "entryName": "loottweaker#3",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:fleshmorph"
-        },
-        {
           "entryName": "loottweaker#2",
           "weight": 15,
           "quality": 0,

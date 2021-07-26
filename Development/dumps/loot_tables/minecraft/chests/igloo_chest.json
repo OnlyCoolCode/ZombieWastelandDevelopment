@@ -4,141 +4,79 @@
       "name": "igloo_chest",
       "entries": [
         {
-          "entryName": "loottweaker#28",
-          "weight": 6,
+          "entryName": "loottweaker#60",
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
+              "count": {
+                "min": 3.0,
+                "max": 13.0
+              },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:tacticalshovel"
+          "name": "cgm:basic_ammo"
         },
         {
-          "entryName": "loottweaker#29",
-          "weight": 6,
+          "entryName": "loottweaker#61",
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
+              "count": {
+                "min": 3.0,
+                "max": 13.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cgm:shell"
+        },
+        {
+          "entryName": "loottweaker#62",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 13.0
+              },
               "function": "minecraft:set_count"
             },
             {
-              "tag": "{Type:\"fryingpan\",Attributes:{}}",
-              "function": "minecraft:set_nbt"
+              "data": 1.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "rafradek_tf2_weapons:melee"
+          "name": "rafradek_tf2_weapons:ammo"
         },
         {
-          "entryName": "loottweaker#24",
-          "weight": 6,
+          "entryName": "loottweaker#63",
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
+              "count": {
+                "min": 3.0,
+                "max": 13.0
+              },
               "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bow"
-        },
-        {
-          "entryName": "loottweaker#25",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "functions": [
+            },
             {
-              "count": 1.0,
-              "function": "minecraft:set_count"
+              "data": 6.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "weapons_of_the_apocalypse:baton"
+          "name": "rafradek_tf2_weapons:ammo"
         },
         {
-          "entryName": "loottweaker#26",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:juicer"
-        },
-        {
-          "entryName": "loottweaker#27",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:cleaver"
-        },
-        {
-          "entryName": "loottweaker#20",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:baseballbat"
-        },
-        {
-          "entryName": "loottweaker#21",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:golfclub"
-        },
-        {
-          "entryName": "loottweaker#22",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:machete"
-        },
-        {
-          "entryName": "loottweaker#23",
-          "weight": 6,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:steelpipe"
-        },
-        {
-          "entryName": "loottweaker#30",
+          "entryName": "loottweaker#28",
           "weight": 6,
           "quality": 0,
           "type": "item",
@@ -155,87 +93,7 @@
           "name": "rafradek_tf2_weapons:knife"
         },
         {
-          "entryName": "loottweaker#39",
-          "weight": 13,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:book"
-        },
-        {
-          "entryName": "loottweaker#35",
-          "weight": 13,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "foodfunk:biodegradable_item"
-        },
-        {
-          "entryName": "loottweaker#36",
-          "weight": 13,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "biomesoplenty:ash"
-        },
-        {
-          "entryName": "loottweaker#37",
-          "weight": 13,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:emptycan"
-        },
-        {
-          "entryName": "loottweaker#38",
-          "weight": 13,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:emptystimpack"
-        },
-        {
-          "entryName": "loottweaker#31",
+          "entryName": "loottweaker#29",
           "weight": 6,
           "quality": 0,
           "type": "item",
@@ -252,7 +110,131 @@
           "name": "rafradek_tf2_weapons:wrench"
         },
         {
-          "entryName": "loottweaker#32",
+          "entryName": "loottweaker#24",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:baton"
+        },
+        {
+          "entryName": "loottweaker#25",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:juicer"
+        },
+        {
+          "entryName": "loottweaker#26",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:cleaver"
+        },
+        {
+          "entryName": "loottweaker#27",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:tacticalshovel"
+        },
+        {
+          "entryName": "loottweaker#20",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:golfclub"
+        },
+        {
+          "entryName": "loottweaker#64",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 13.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 13.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:ammo"
+        },
+        {
+          "entryName": "loottweaker#21",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:machete"
+        },
+        {
+          "entryName": "loottweaker#22",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:steelpipe"
+        },
+        {
+          "entryName": "loottweaker#23",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+        {
+          "entryName": "loottweaker#30",
           "weight": 6,
           "quality": 0,
           "type": "item",
@@ -265,63 +247,15 @@
           "name": "rafradek_tf2_weapons:ammo_fire"
         },
         {
-          "entryName": "loottweaker#33",
-          "weight": 13,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "foodfunk:rotten_food"
-        },
-        {
-          "entryName": "loottweaker#34",
-          "weight": 13,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "foodfunk:rotted_item"
-        },
-        {
-          "entryName": "loottweaker#40",
+          "entryName": "loottweaker#39",
           "weight": 14,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_nugget"
-        },
-        {
-          "entryName": "loottweaker#41",
-          "weight": 14,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
+                "min": 2.0,
+                "max": 6.0
               },
               "function": "minecraft:set_count"
             },
@@ -331,6 +265,170 @@
             }
           ],
           "name": "rafradek_tf2_weapons:itemtf2"
+        },
+        {
+          "entryName": "loottweaker#35",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:emptystimpack"
+        },
+        {
+          "entryName": "loottweaker#36",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:book"
+        },
+        {
+          "entryName": "loottweaker#37",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:emptycan"
+        },
+        {
+          "entryName": "loottweaker#38",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_nugget"
+        },
+        {
+          "entryName": "loottweaker#31",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "foodfunk:rotten_food"
+        },
+        {
+          "entryName": "loottweaker#32",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "foodfunk:rotted_item"
+        },
+        {
+          "entryName": "loottweaker#33",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "foodfunk:biodegradable_item"
+        },
+        {
+          "entryName": "loottweaker#34",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "biomesoplenty:ash"
+        },
+        {
+          "entryName": "loottweaker#40",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:itemtf2"
+        },
+        {
+          "entryName": "loottweaker#41",
+          "weight": 14,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 2.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder"
         },
         {
           "entryName": "loottweaker#1",
@@ -359,15 +457,15 @@
               "function": "minecraft:set_count"
             },
             {
-              "tag": "{Clip:12,Type:\"pistol\",Attributes:{}}",
+              "tag": "{color:1908001}",
               "function": "minecraft:set_nbt"
             }
           ],
-          "name": "rafradek_tf2_weapons:bullet"
+          "name": "cgm:silencer"
         },
         {
           "entryName": "loottweaker#47",
-          "weight": 3,
+          "weight": 5,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -376,14 +474,27 @@
               "function": "minecraft:set_count"
             },
             {
-              "tag": "{UsedAmmo:0.0f,Type:\"widowmaker\",Attributes:{}}",
+              "tag": "{color:1908001}",
               "function": "minecraft:set_nbt"
             }
           ],
-          "name": "rafradek_tf2_weapons:bullet"
+          "name": "cgm:handgun"
         },
         {
           "entryName": "loottweaker#48",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cgm:grenade"
+        },
+        {
+          "entryName": "loottweaker#49",
           "weight": 3,
           "quality": 0,
           "type": "item",
@@ -400,60 +511,7 @@
           "name": "rafradek_tf2_weapons:bullet"
         },
         {
-          "entryName": "loottweaker#49",
-          "weight": 3,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "tag": "{Type:\"sniperrifle\",Attributes:{}}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "rafradek_tf2_weapons:sniperrifle"
-        },
-        {
           "entryName": "loottweaker#42",
-          "weight": 14,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 4.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "rafradek_tf2_weapons:itemtf2"
-        },
-        {
-          "entryName": "loottweaker#43",
-          "weight": 14,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gunpowder"
-        },
-        {
-          "entryName": "loottweaker#44",
           "weight": 5,
           "quality": 0,
           "type": "item",
@@ -470,7 +528,7 @@
           "name": "rafradek_tf2_weapons:bullet"
         },
         {
-          "entryName": "loottweaker#45",
+          "entryName": "loottweaker#43",
           "weight": 5,
           "quality": 0,
           "type": "item",
@@ -487,60 +545,89 @@
           "name": "rafradek_tf2_weapons:projectile"
         },
         {
-          "entryName": "loottweaker#50",
-          "weight": 20,
+          "entryName": "loottweaker#44",
+          "weight": 5,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 5.0,
-                "max": 15.0
-              },
+              "count": 1.0,
               "function": "minecraft:set_count"
             },
             {
-              "data": 13.0,
-              "function": "minecraft:set_data"
+              "tag": "{Clip:12,Type:\"pistol\",Attributes:{}}",
+              "function": "minecraft:set_nbt"
             }
           ],
-          "name": "rafradek_tf2_weapons:ammo"
+          "name": "rafradek_tf2_weapons:bullet"
+        },
+        {
+          "entryName": "loottweaker#45",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{color:1908001}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "cgm:scope"
+        },
+        {
+          "entryName": "loottweaker#50",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{Type:\"sniperrifle\",Attributes:{}}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:sniperrifle"
         },
         {
           "entryName": "loottweaker#51",
-          "weight": 20,
+          "weight": 3,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 5.0,
-                "max": 15.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "rafradek_tf2_weapons:ammo_pistol"
-        },
-        {
-          "entryName": "loottweaker#52",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 5.0,
-                "max": 15.0
-              },
+              "count": 1.0,
               "function": "minecraft:set_count"
             },
             {
-              "data": 6.0,
-              "function": "minecraft:set_data"
+              "tag": "{Clip:8,Type:\"stickybomblauncher\",Attributes:{}}",
+              "function": "minecraft:set_nbt"
             }
           ],
-          "name": "rafradek_tf2_weapons:ammo"
+          "name": "rafradek_tf2_weapons:stickybomb"
+        },
+        {
+          "entryName": "loottweaker#52",
+          "weight": 3,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{color:1908001}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "cgm:shotgun"
         },
         {
           "entryName": "loottweaker#17",
@@ -553,7 +640,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:steelhatchet"
+          "name": "weapons_of_the_apocalypse:tireiron"
         },
         {
           "entryName": "loottweaker#18",
@@ -566,7 +653,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:tireiron"
+          "name": "weapons_of_the_apocalypse:fireaxe"
         },
         {
           "entryName": "loottweaker#19",
@@ -579,7 +666,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:fireaxe"
+          "name": "weapons_of_the_apocalypse:baseballbat"
         },
         {
           "entryName": "loottweaker#5",
@@ -595,11 +682,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:saltblock"
+          "name": "weapons_of_the_apocalypse:mre"
         },
         {
           "entryName": "loottweaker#13",
-          "weight": 13,
+          "weight": 17,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -611,20 +698,27 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:arrow"
+          "name": "weapons_of_the_apocalypse:cloth"
         },
         {
           "entryName": "loottweaker#57",
-          "weight": 4,
+          "weight": 5,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
               "function": "minecraft:set_count"
+            },
+            {
+              "data": 4.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "arm:old_aramid_knee_padslegs"
+          "name": "rafradek_tf2_weapons:ammo"
         },
         {
           "entryName": "loottweaker#4",
@@ -644,7 +738,7 @@
         },
         {
           "entryName": "loottweaker#14",
-          "weight": 13,
+          "weight": 17,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -656,20 +750,27 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:cloth"
+          "name": "weapons_of_the_apocalypse:ducttape"
         },
         {
           "entryName": "loottweaker#58",
-          "weight": 4,
+          "weight": 5,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
               "function": "minecraft:set_count"
+            },
+            {
+              "data": 11.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "arm:old_flak_vestbody"
+          "name": "rafradek_tf2_weapons:ammo"
         },
         {
           "entryName": "loottweaker#3",
@@ -689,7 +790,7 @@
         },
         {
           "entryName": "loottweaker#15",
-          "weight": 13,
+          "weight": 17,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -701,20 +802,23 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:ducttape"
+          "name": "realistictorches:matchbox"
         },
         {
           "entryName": "loottweaker#59",
-          "weight": 4,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
+              "count": {
+                "min": 3.0,
+                "max": 13.0
+              },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "arm:old_army_helmethelmet"
+          "name": "cgm:advanced_ammo"
         },
         {
           "entryName": "loottweaker#2",
@@ -734,75 +838,20 @@
         },
         {
           "entryName": "loottweaker#16",
-          "weight": 13,
+          "weight": 6,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
+              "count": 1.0,
               "function": "minecraft:set_count"
             }
           ],
-          "name": "realistictorches:matchbox"
+          "name": "weapons_of_the_apocalypse:steelhatchet"
         },
         {
           "entryName": "loottweaker#9",
-          "weight": 12,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "firstaid:plaster"
-        },
-        {
-          "entryName": "loottweaker#53",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 5.0,
-                "max": 15.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "rafradek_tf2_weapons:ammo"
-        },
-        {
-          "entryName": "loottweaker#8",
-          "weight": 12,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "firstaid:morphine"
-        },
-        {
-          "entryName": "loottweaker#10",
-          "weight": 12,
+          "weight": 16,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -817,28 +866,25 @@
           "name": "weapons_of_the_apocalypse:stimpack"
         },
         {
-          "entryName": "loottweaker#54",
-          "weight": 20,
+          "entryName": "loottweaker#53",
+          "weight": 3,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 5.0,
-                "max": 15.0
-              },
+              "count": 1.0,
               "function": "minecraft:set_count"
             },
             {
-              "data": 4.0,
-              "function": "minecraft:set_data"
+              "tag": "{color:1908001}",
+              "function": "minecraft:set_nbt"
             }
           ],
-          "name": "rafradek_tf2_weapons:ammo"
+          "name": "cgm:assault_rifle"
         },
         {
-          "entryName": "loottweaker#7",
-          "weight": 12,
+          "entryName": "loottweaker#8",
+          "weight": 16,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -850,11 +896,11 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "firstaid:bandage"
+          "name": "firstaid:plaster"
         },
         {
-          "entryName": "loottweaker#11",
-          "weight": 13,
+          "entryName": "loottweaker#10",
+          "weight": 17,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -869,44 +915,41 @@
           "name": "weapons_of_the_apocalypse:nails"
         },
         {
-          "entryName": "loottweaker#55",
-          "weight": 20,
+          "entryName": "loottweaker#54",
+          "weight": 3,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 5.0,
-                "max": 15.0
-              },
+              "count": 1.0,
               "function": "minecraft:set_count"
             },
             {
-              "data": 13.0,
-              "function": "minecraft:set_data"
+              "tag": "{color:1908001}",
+              "function": "minecraft:set_nbt"
             }
           ],
-          "name": "rafradek_tf2_weapons:ammo"
+          "name": "cgm:rifle"
         },
         {
-          "entryName": "loottweaker#6",
-          "weight": 10,
+          "entryName": "loottweaker#7",
+          "weight": 16,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
                 "min": 1.0,
-                "max": 4.0
+                "max": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:mre"
+          "name": "firstaid:morphine"
         },
         {
-          "entryName": "loottweaker#12",
-          "weight": 13,
+          "entryName": "loottweaker#11",
+          "weight": 17,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -921,17 +964,69 @@
           "name": "weapons_of_the_apocalypse:glue"
         },
         {
-          "entryName": "loottweaker#56",
-          "weight": 4,
+          "entryName": "loottweaker#55",
+          "weight": 3,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": 1.0,
               "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{color:1908001}",
+              "function": "minecraft:set_nbt"
             }
           ],
-          "name": "arm:old_army_bootsboots"
+          "name": "cgm:grenade_launcher"
+        },
+        {
+          "entryName": "loottweaker#6",
+          "weight": 16,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "firstaid:bandage"
+        },
+        {
+          "entryName": "loottweaker#12",
+          "weight": 17,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrow"
+        },
+        {
+          "entryName": "loottweaker#56",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:ammo_pistol"
         }
       ],
       "rolls": {

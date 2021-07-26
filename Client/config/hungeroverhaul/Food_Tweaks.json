@@ -8,7 +8,7 @@
 					// [optional] the metadata value of the item (default: 0)
 					"meta": 0,
 					// the hunger value of the item (1 hunger = 1/2 hunger bar)
-					"hunger": -10,
+					"hunger": -20,
 					// the saturation modifier (saturation = hunger * 2 * saturationModifier)
 					"saturationModifier": 0.0
 				},
@@ -18,7 +18,7 @@
 					// [optional] the metadata value of the item (default: 0)
 					"meta": 0,
 					// the hunger value of the item (1 hunger = 1/2 hunger bar)
-					"hunger": 3,
+					"hunger": 1.5,
 					// the saturation modifier (saturation = hunger * 2 * saturationModifier)
 					"saturationModifier": 0.6
 				},
@@ -28,7 +28,7 @@
 					// [optional] the metadata value of the item (default: 0)
 					"meta": 0,
 					// the hunger value of the item (1 hunger = 1/2 hunger bar)
-					"hunger": 5,
+					"hunger": 2.5,
 					// the saturation modifier (saturation = hunger * 2 * saturationModifier)
 					"saturationModifier": 0.8
 				},
@@ -38,7 +38,7 @@
 					// [optional] the metadata value of the item (default: 0)
 					"meta": 0,
 					// the hunger value of the item (1 hunger = 1/2 hunger bar)
-					"hunger": 6,
+					"hunger": 3,
 					// the saturation modifier (saturation = hunger * 2 * saturationModifier)
 					"saturationModifier": 1.0
 				},
@@ -48,7 +48,7 @@
 					// [optional] the metadata value of the item (default: 0)
 					"meta": 0,
 					// the hunger value of the item (1 hunger = 1/2 hunger bar)
-					"hunger": 6,
+					"hunger": 3,
 					// the saturation modifier (saturation = hunger * 2 * saturationModifier)
 					"saturationModifier": 1.2
 				},
@@ -58,7 +58,7 @@
 					// [optional] the metadata value of the item (default: 0)
 					"meta": 0,
 					// the hunger value of the item (1 hunger = 1/2 hunger bar)
-					"hunger": 8,
+					"hunger": 4,
 					// the saturation modifier (saturation = hunger * 2 * saturationModifier)
 					"saturationModifier": 1.6
 				}

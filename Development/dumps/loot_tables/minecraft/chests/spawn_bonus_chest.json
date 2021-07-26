@@ -30,7 +30,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:baton"
+          "name": "weapons_of_the_apocalypse:machete"
         },
         {
           "entryName": "loottweaker#29",
@@ -43,62 +43,10 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "arm:old_army_helmethelmet"
-        },
-        {
-          "entryName": "loottweaker#24",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "cgm:handgun"
-        },
-        {
-          "entryName": "loottweaker#25",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bow"
-        },
-        {
-          "entryName": "loottweaker#26",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:machete"
-        },
-        {
-          "entryName": "loottweaker#27",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "weapons_of_the_apocalypse:crowbar"
         },
         {
-          "entryName": "loottweaker#20",
+          "entryName": "loottweaker#24",
           "weight": 20,
           "quality": 0,
           "type": "item",
@@ -111,42 +59,10 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:cloth"
+          "name": "firstaid:morphine"
         },
         {
-          "entryName": "loottweaker#21",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "firstaid:bandage"
-        },
-        {
-          "entryName": "loottweaker#22",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "firstaid:plaster"
-        },
-        {
-          "entryName": "loottweaker#23",
+          "entryName": "loottweaker#25",
           "weight": 20,
           "quality": 0,
           "type": "item",
@@ -162,7 +78,24 @@
           "name": "minecraft:flint_and_steel"
         },
         {
-          "entryName": "loottweaker#30",
+          "entryName": "loottweaker#26",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{color:1908001}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "cgm:handgun"
+        },
+        {
+          "entryName": "loottweaker#27",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -172,10 +105,10 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "arm:old_flak_vestbody"
+          "name": "minecraft:bow"
         },
         {
-          "entryName": "loottweaker#17",
+          "entryName": "loottweaker#20",
           "weight": 20,
           "quality": 0,
           "type": "item",
@@ -188,7 +121,81 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "realistictorches:matchbox"
+          "name": "weapons_of_the_apocalypse:glue"
+        },
+        {
+          "entryName": "loottweaker#21",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:cloth"
+        },
+        {
+          "entryName": "loottweaker#22",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "firstaid:bandage"
+        },
+        {
+          "entryName": "loottweaker#23",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "firstaid:plaster"
+        },
+        {
+          "entryName": "loottweaker#30",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:baton"
+        },
+        {
+          "entryName": "loottweaker#17",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "cgm:grenade"
         },
         {
           "entryName": "loottweaker#18",
@@ -204,7 +211,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:ducttape"
+          "name": "realistictorches:matchbox"
         },
         {
           "entryName": "loottweaker#19",
@@ -220,7 +227,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:glue"
+          "name": "weapons_of_the_apocalypse:ducttape"
         },
         {
           "entryName": "loottweaker#5",
@@ -336,7 +343,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "cgm:grenade"
+          "name": "firstaid:plaster"
         },
         {
           "entryName": "loottweaker#9",
@@ -353,19 +360,6 @@
             }
           ],
           "name": "minecraft:paper"
-        },
-        {
-          "entryName": "loottweaker#31",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "arm:old_aramid_knee_padslegs"
         },
         {
           "entryName": "loottweaker#8",
@@ -398,19 +392,6 @@
             }
           ],
           "name": "toughasnails:charcoal_filter"
-        },
-        {
-          "entryName": "loottweaker#32",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "arm:old_army_bootsboots"
         },
         {
           "entryName": "loottweaker#7",
