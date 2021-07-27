@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Unity-1.12.X-Dark-0.6.2.zip","AudioCraftV1.6.zip","Tissou\u0027s+Zombie+Pack+1.12.2.zip"]
+resourcePacks:["Unity-1.12.X-Dark-0.6.2.zip","AudioCraftV1.6.zip","Riot Mutant","Tissou\u0027s+Zombie+Pack+1.12.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:25.25.153.255
 lang:en_us
