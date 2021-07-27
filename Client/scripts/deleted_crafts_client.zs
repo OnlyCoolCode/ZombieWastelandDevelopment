@@ -541,7 +541,7 @@ for mod in loadedMods {
         for item in mod.items {
             mods.jei.JEI.removeAndHide(item);
             //print("\t\t" ~ item.displayName);
-        },
+        }
      if mod.name == "iYAMATO's Mob Mod"
         for item in mod.items {
             mods.jei.JEI.removeAndHide(item);
@@ -559,7 +559,7 @@ for mod in loadedMods {
     if mod.name == "arm"
         for item in mod.items {
             recipes.remove(item);
-        },
+        }
 }
 
 // deleted individual craftings

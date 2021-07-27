@@ -1,23 +1,23 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Shotguun29
-Ncc1702
-AdaraChristine
-Barrier
-Psyberition
-DreamThorn
-ThirtyTwelve
-Xavier
-NerdyWhiteGuy
+Genryu
 Quaternary
-IDroid
-Pongo Sapiens
-Jonathan McManus
-Luckyclaw
 Robijnvogel
-BrÃ¸nsted
+Mouse
+DreamThorn
+Xavier
+ThirtyTwelve
+Ncc1702
 Gildrag 09
-Belathus
+IDroid
+Jams
+Luckyclaw
+BrÃ¸nsted
 Otakup0pe
+NerdyWhiteGuy
+Peregrinus11
+NickT
+Pongo Sapiens
+Shotguun29
 Ivy_
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
@@ -83,6 +83,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Extended Renderer:
 [INITIALIZATION][CLIENT][INFO] CoroUtil Library:
 [INITIALIZATION][CLIENT][INFO] Extended Mod Config:
+[INITIALIZATION][CLIENT][INFO] Corpse Complex:
 [INITIALIZATION][CLIENT][INFO] CraftTweaker2:
 [INITIALIZATION][CLIENT][INFO] CT-GUI:
 [INITIALIZATION][CLIENT][INFO] CraftTweaker JEI Support:
@@ -4351,6 +4352,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] 		Repairing Gel
 [INITIALIZATION][CLIENT][INFO] 		Repairing Block
 [INITIALIZATION][CLIENT][INFO] Extended Mod Config:
+[INITIALIZATION][CLIENT][INFO] Corpse Complex:
 [INITIALIZATION][CLIENT][INFO] CraftTweaker2:
 [INITIALIZATION][CLIENT][INFO] CT-GUI:
 [INITIALIZATION][CLIENT][INFO] CraftTweaker JEI Support:
@@ -5018,6 +5020,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Extended Renderer:
 [INITIALIZATION][CLIENT][INFO] CoroUtil Library:
 [INITIALIZATION][CLIENT][INFO] Extended Mod Config:
+[INITIALIZATION][CLIENT][INFO] Corpse Complex:
 [INITIALIZATION][CLIENT][INFO] CraftTweaker2:
 [INITIALIZATION][CLIENT][INFO] CT-GUI:
 [INITIALIZATION][CLIENT][INFO] CraftTweaker JEI Support:
@@ -5855,7 +5858,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_TF2.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_WOTApocalypse.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 847ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 728ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "weapons_of_the_apocalypse:leatherr2"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "minecraft:glass_bottle"
@@ -12874,3 +12877,18 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_poison"})
 [AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_poison"})
 [AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool mutant_zombiePool to table mutantbeasts:entities/mutant_zombie
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool simple_dungeon to table minecraft:chests/simple_dungeon
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool nether_bridge to table minecraft:chests/nether_bridge
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool MineshaftPool to table minecraft:chests/abandoned_mineshaft
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool ZombiePool to table minecraft:entities/zombie
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool jungle_temple to table minecraft:chests/jungle_temple
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool desert_pyramid to table minecraft:chests/desert_pyramid
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool spawn_bonus_chest to table minecraft:chests/spawn_bonus_chest
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool stronghold_corridor to table minecraft:chests/stronghold_corridor
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool igloo_chest to table minecraft:chests/igloo_chest
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool SpiderPool to table minecraft:entities/spider
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool lostcitychest to table lostcities:chests/lostcitychest
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool village_blacksmith to table minecraft:chests/village_blacksmith
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool jungle_temple_dispenser to table minecraft:chests/jungle_temple_dispenser
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool woodland_mansion to table minecraft:chests/woodland_mansion
