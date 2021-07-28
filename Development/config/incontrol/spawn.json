@@ -44,17 +44,6 @@
     "groupcountmin": 1,
 	  "groupcountmax": 5
   },
-     {
-    "mob": "minecraft:zombie",
-    "biome": "Dead Forest",
-    "mincount": {
-      "amount": 20,
-      "hostile": true,
-      "perchunk": true
-    },
-    "seesky": true,
-    "result": "deny"
-  },
   {
     "mob": ["iymts_mob_mod:iysuperleaper","iymts_mob_mod:iysuperslasher","iymts_mob_mod:iysuperexploder","mutantbeasts:mutant_zombie"],
     "biome": "Dead Forest",

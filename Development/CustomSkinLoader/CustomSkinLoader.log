@@ -1,11 +1,19 @@
-[2021-07-26 23:25:50] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
-[2021-07-26 23:25:50] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader
-[2021-07-26 23:25:50] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
-[2021-07-26 23:25:50] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader\CustomSkinLoader.json
-[2021-07-26 23:25:50] [pool-5-thread-1 INFO] Try to load config.
-[2021-07-26 23:25:50] [pool-5-thread-1 INFO] Successfully load config.
-[2021-07-26 23:25:50] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
-[2021-07-26 23:25:50] [Mati INFO] Loading Mati's profile.
-[2021-07-26 23:25:50] [Mati INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-07-26 23:25:50] [Mati INFO] Mati's profile loaded.
-[2021-07-26 23:25:50] [Mati INFO] (SkinUrl: (LOCAL_LEGACY)7ea39d12f1055be57e15a07c621027671d41edac,LocalSkin/skins/Mati.png , Model: default , CapeUrl: null  , Expiry: 1627352781)
+[2021-07-27 18:15:54] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
+[2021-07-27 18:15:54] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader
+[2021-07-27 18:15:54] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
+[2021-07-27 18:15:54] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader\CustomSkinLoader.json
+[2021-07-27 18:15:54] [pool-5-thread-1 INFO] Try to load config.
+[2021-07-27 18:15:54] [pool-5-thread-1 INFO] Successfully load config.
+[2021-07-27 18:15:54] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
+[2021-07-27 18:15:54] [Mati INFO] Loading Mati's profile.
+[2021-07-27 18:15:54] [Mati INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-07-27 18:15:54] [Mati INFO] Mati's profile loaded.
+[2021-07-27 18:15:54] [Mati INFO] (SkinUrl: (LOCAL_LEGACY)7ea39d12f1055be57e15a07c621027671d41edac,LocalSkin/skins/Mati.png , Model: default , CapeUrl: null  , Expiry: 1627420589)
+[2021-07-27 18:16:21] [guidardo INFO] Loading guidardo's profile.
+[2021-07-27 18:16:21] [guidardo INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-07-27 18:16:21] [guidardo INFO] guidardo's profile loaded.
+[2021-07-27 18:16:21] [guidardo INFO] (SkinUrl: (LOCAL_LEGACY)eae773ce18581ff9da761a0f29e9ff2a3d0c01d7,LocalSkin/skins/guidardo.png , Model: default , CapeUrl: null  , Expiry: 1627420612)
+[2021-07-27 18:33:45] [El Cozzani INFO] Loading El Cozzani's profile.
+[2021-07-27 18:33:45] [El Cozzani INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-07-27 18:33:45] [El Cozzani INFO] El Cozzani's profile loaded.
+[2021-07-27 18:33:45] [El Cozzani INFO] (SkinUrl: (LOCAL_LEGACY)eb6ebe85a08bc8d84759205cec01338d447c07fd,LocalSkin/skins/El Cozzani.png , Model: default , CapeUrl: null  , Expiry: 1627421655)

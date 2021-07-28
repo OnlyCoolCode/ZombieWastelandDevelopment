@@ -1,4 +1,10 @@
 {
+  "betteranimalsplus:bear_punch": {
+    "criteria": {
+      "punch_bear": "2021-07-27 22:29:48 -0300"
+    },
+    "done": true
+  },
   "betteranimalsplus:root": {
     "criteria": {
       "tick": "2021-07-26 23:40:42 -0300"
@@ -10,5 +16,23 @@
       "dead_forest": "2021-07-26 23:40:42 -0300"
     },
     "done": false
+  },
+  "betteranimalsplus:bear_killed_player": {
+    "criteria": {
+      "bear_kill2": "2021-07-27 22:29:55 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-07-27 22:29:55 -0300"
+    },
+    "done": true
+  },
+  "mutantbeasts:root": {
+    "criteria": {
+      "killed_by_something": "2021-07-27 22:29:55 -0300"
+    },
+    "done": true
   }
 }
