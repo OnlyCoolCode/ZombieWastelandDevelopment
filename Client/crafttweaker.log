@@ -1,24 +1,24 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Jams
+Belathus
+Ivy_
 NerdyWhiteGuy
 Barrier
-ThirtyTwelve
-Robijnvogel
-Belathus
-Psyberition
-Ivy_
-NickT
-DreamThorn
-Shotguun29
-Jonathan McManus
-BrÃ¸nsted
-Ncc1702
-IDroid
-Pongo Sapiens
-Gildrag 09
-Quaternary
 AdaraChristine
+Jonathan McManus
+Xavier
+DreamThorn
+Genryu
+IDroid
+Ncc1702
+Gildrag 09
+Mouse
 Luckyclaw
+Quaternary
+ThirtyTwelve
+Otakup0pe
+Pongo Sapiens
+Robijnvogel
+Shotguun29
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
@@ -5858,7 +5858,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_TF2.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_WOTApocalypse.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 844ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 805ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "weapons_of_the_apocalypse:leatherr2"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "minecraft:glass_bottle"
