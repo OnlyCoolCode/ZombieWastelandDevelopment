@@ -96,6 +96,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/brewing/cauldron": {
+    "criteria": {
+      "has_water_bucket": "2021-08-01 06:10:44 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2021-07-31 21:02:52 -0300"
@@ -240,6 +246,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/misc/sand_from_dried_sand": {
+    "criteria": {
+      "has_gem_block": "2021-08-01 06:10:44 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/andesite": {
     "criteria": {
       "has_stone": "2021-07-31 21:02:07 -0300"
@@ -255,6 +267,12 @@
   "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_cobblestone": "2021-07-31 20:40:29 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/mud_from_dirt": {
+    "criteria": {
+      "has_gem_block": "2021-08-01 06:10:44 -0300"
     },
     "done": true
   },
