@@ -1,7 +1,7 @@
 version:1343
 invertYMouse:false
 mouseSensitivity:0.2535211
-fov:-2.6226044E-4
+fov:0.375
 gamma:1.0
 saturation:0.0
 renderDistance:10
