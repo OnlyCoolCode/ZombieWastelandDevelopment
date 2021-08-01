@@ -4,7 +4,7 @@ mouseSensitivity:0.2535211
 fov:-2.6226044E-4
 gamma:1.0
 saturation:0.0
-renderDistance:8
+renderDistance:10
 guiScale:0
 particles:0
 bobView:true
@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["MiPack.zip","Unity-1.12.X-Dark-0.6.2.zip","AudioCraftV1.6.zip","Tissou\u0027s+Zombie+Pack+1.12.2.zip"]
+resourcePacks:["Unity-1.12.X-Dark-0.6.2.zip","AudioCraftV1.6.zip","Riot Mutant","Tissou\u0027s+Zombie+Pack+1.12.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

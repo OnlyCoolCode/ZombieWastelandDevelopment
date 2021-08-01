@@ -1,11 +1,11 @@
-[2021-07-27 22:44:19] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
-[2021-07-27 22:44:19] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader
-[2021-07-27 22:44:19] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
-[2021-07-27 22:44:19] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader\CustomSkinLoader.json
-[2021-07-27 22:44:19] [pool-5-thread-1 INFO] Try to load config.
-[2021-07-27 22:44:19] [pool-5-thread-1 INFO] Successfully load config.
-[2021-07-27 22:44:19] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
-[2021-07-27 22:44:19] [ElDuro INFO] Loading ElDuro's profile.
-[2021-07-27 22:44:19] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-07-27 22:44:19] [ElDuro INFO] ElDuro's profile loaded.
-[2021-07-27 22:44:19] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)d14587b9701efdc5e2f7def8d3a0fa6539e4a568,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1627436689)
+[2021-07-31 21:06:33] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
+[2021-07-31 21:06:33] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader
+[2021-07-31 21:06:33] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
+[2021-07-31 21:06:33] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader\CustomSkinLoader.json
+[2021-07-31 21:06:33] [pool-5-thread-1 INFO] Try to load config.
+[2021-07-31 21:06:33] [pool-5-thread-1 INFO] Successfully load config.
+[2021-07-31 21:06:33] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
+[2021-07-31 21:06:33] [ElDuro INFO] Loading ElDuro's profile.
+[2021-07-31 21:06:33] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-07-31 21:06:33] [ElDuro INFO] ElDuro's profile loaded.
+[2021-07-31 21:06:33] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)d14587b9701efdc5e2f7def8d3a0fa6539e4a568,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1627776427)
