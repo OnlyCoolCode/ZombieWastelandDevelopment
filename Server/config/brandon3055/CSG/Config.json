@@ -1,12 +1,12 @@
 {
   "inventory": {
-    "0:7": "weapons_of_the_apocalypse:ration",
-    "0:8": "toughasnails:canteen,1,2",
-    "0:1": "rafradek_tf2_weapons:knife,1,0,{Type:\"butterflyknife\",Attributes:{}}",
     "0:6": "firstaid:bandage",
-    "0:5": "firstaid:plaster",
+    "0:3": "realistictorches:matchbox",
     "0:2": "realistictorches:torch_unlit",
+    "0:5": "firstaid:plaster",
+    "0:7": "weapons_of_the_apocalypse:ration",
     "0:4": "minecraft:bed,1,15",
-    "0:3": "realistictorches:matchbox"
+    "0:1": "weapons_of_the_apocalypse:steelpipe",
+    "0:8": "toughasnails:canteen,1,2"
   }
 }
