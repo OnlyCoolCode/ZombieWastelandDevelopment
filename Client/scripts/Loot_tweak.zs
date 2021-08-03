@@ -188,33 +188,29 @@ var lc_handguns = [
     <rafradek_tf2_weapons:bullet>.withTag({Type: "revolver", Attributes: {}}),
     <rafradek_tf2_weapons:projectile>.withTag({Type: "flaregun", Attributes: {}}),
     <rafradek_tf2_weapons:bullet>.withTag({Type: "pistol", Attributes: {}}),
-    <cgm:grenade>,
-    <modularwarfare:prototype.p88>
+    <cgm:scope>.withTag({color: 1908001}),
+    <cgm:silencer>.withTag({color: 1908001}),
+    <cgm:handgun>.withTag({color: 1908001}),
+    <cgm:grenade>
 ] as IItemStack[];
 var lc_longguns = [
     <rafradek_tf2_weapons:bullet>.withTag({Type: "shotgun", Attributes: {}}),
     <rafradek_tf2_weapons:sniperrifle>.withTag({Type: "sniperrifle", Attributes: {}}),
     <rafradek_tf2_weapons:stickybomb>.withTag({Type: "stickybomblauncher", Attributes: {}}),
-    <modularwarfare:prototype.m4a1>,
-    <modularwarfare:prototype.ak74u>,
-    <modularwarfare:prototype.mp5>,
-    <modularwarfare:prototype.sks>,
-    <modularwarfare:prototype.mg42>,
-    <modularwarfare:prototype.vss>
+    <cgm:shotgun>.withTag({color: 1908001}),
+    <cgm:assault_rifle>.withTag({color: 1908001}),
+    <cgm:rifle>.withTag({color: 1908001}),
+    <cgm:grenade_launcher>.withTag({color: 1908001})
 ] as IItemStack[];
 var lc_ammo_low = [
     <rafradek_tf2_weapons:ammo_pistol>,
     <rafradek_tf2_weapons:ammo:4>,
-    <rafradek_tf2_weapons:ammo:11>,
-    <modularwarfare:prototype.m4a1ammo>.withTag({ammocount: 30, skinId: 0, bullet: {id: "modularwarfare:prototype.5_56x45", Count: 1 as byte, Damage: 0 as short}}),
-    <modularwarfare:prototype.ak74uammo>.withTag({ammocount: 30, skinId: 0, bullet: {id: "modularwarfare:prototype.7_62x39", Count: 1 as byte, Damage: 0 as short}}),
-    <modularwarfare:prototype.mp5ammo>.withTag({ammocount: 30, skinId: 0, bullet: {id: "modularwarfare:prototype.9x19", Count: 1 as byte, Damage: 0 as short}}),
-    <modularwarfare:prototype.sksammo>.withTag({ammocount: 10, skinId: 0, bullet: {id: "modularwarfare:prototype.7_62x39", Count: 1 as byte, Damage: 0 as short}}),
-    <modularwarfare:prototype.mg42ammo>.withTag({ammocount: 75, skinId: 0, bullet: {id: "modularwarfare:prototype.7_62x57", Count: 1 as byte, Damage: 0 as short}}),
-    <modularwarfare:prototype.vssammo>.withTag({ammocount: 10, skinId: 0, bullet: {id: "modularwarfare:prototype.9x19", Count: 1 as byte, Damage: 0 as short}}),
-    <modularwarfare:prototype.p88ammo>.withTag({ammocount: 15, skinId: 0, bullet: {id: "modularwarfare:prototype.9x19", Count: 1 as byte, Damage: 0 as short}})
+    <rafradek_tf2_weapons:ammo:11>
 ] as IItemStack[];
 var lc_ammo_high = [
+    <cgm:advanced_ammo>,
+    <cgm:basic_ammo>,
+    <cgm:shell>,
     <rafradek_tf2_weapons:ammo:1>,
     <rafradek_tf2_weapons:ammo:6>,
     <rafradek_tf2_weapons:ammo:13>

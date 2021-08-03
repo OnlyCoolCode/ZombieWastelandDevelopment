@@ -219,3 +219,13 @@ recipes.addShaped("concrete_powder", concrete_powder*4, [
     [dried_sand,dried_sand,gravel],
     [gravel,gravel,gravel]
 ]);
+
+
+var cauldron = <minecraft:cauldron>;
+var anvil = <minecraft:anvil>;
+recipes.addShapeless("cauldron_to_iron", reclaimed,
+[cauldron]
+);
+recipes.addShapeless("anvil_to_iron", reclaimed*2,
+[anvil]
+);
