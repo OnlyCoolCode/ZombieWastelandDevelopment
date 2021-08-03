@@ -118,6 +118,18 @@ key_FpsReducer.key.forceIdle:197
 key_invtweaks.key.sort:21
 key_Mo' Bends Menu:34
 key_Refresh Animations:68
+key_Reload Gun:19
+key_Reload Client:67
+key_Fire Mode:47
+key_Unload Key:22
+key_Attachment Mode:50
+key_Flashlight:35
+key_Backpack Inventory:48
+key_Left (Attach mode):203
+key_Right (Attach mode):205
+key_Up (Attach mode):200
+key_Down (Attach mode):208
+key_Debug Mode:68
 key_nei.options.keys.gui.enchant:45
 key_nei.options.keys.gui.potion:25
 key_nei.options.keys.gui.prev:201

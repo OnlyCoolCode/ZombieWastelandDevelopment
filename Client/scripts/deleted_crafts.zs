@@ -515,7 +515,57 @@ val betterwithmods = [
     <betterwithmods:arcane_scroll>.withTag({enchant: 10}),
     <betterwithmods:arcane_scroll>.withTag({enchant: 9})
 ] as IItemStack[];
-
+var terrarium = [
+    <biomesoplenty:terrarium>,
+    <biomesoplenty:terrarium:6>,
+    <biomesoplenty:terrarium:2>,
+    <biomesoplenty:terrarium:5>,
+    <biomesoplenty:terrarium:15>,
+    <biomesoplenty:terrarium:13>,
+    <biomesoplenty:terrarium:12>
+] as IItemStack[];
+var leather_skin = [
+    <minecraft:leather>,
+    <minecraft:wool>,
+    <betteranimalsplus:wolf_pelt_red>,
+    <betteranimalsplus:wolf_pelt_brown>,
+    <betteranimalsplus:wolf_pelt_arctic>,
+    <betteranimalsplus:wolf_pelt_black>,
+    <betteranimalsplus:wolf_pelt_timber>,
+    <betteranimalsplus:wolf_pelt_snowy>,
+    <betteranimalsplus:bear_skin_black>,
+    <betteranimalsplus:bear_skin_brown>,
+    <betteranimalsplus:bear_skin_kermode>
+] as IItemStack[];
+/* var BetterWithMods_Whitelist = [
+    <betterwithmods:candle_holder>,
+    <betterwithmods:material:47>,
+    <betterwithmods:steel_battleaxe>,
+    <betterwithmods:steel_pickaxe>,
+    <betterwithmods:steel_axe>,
+    <betterwithmods:material:48>,
+    <betterwithmods:material:30>,
+    <betterwithmods:iron_wall>,
+    <betterwithmods:steel_pressure_plate>,
+    <betterwithmods:material:43>,
+    <betterwithmods:steel_shovel>,
+    <betterwithmods:steel_hoe>,
+    <betterwithmods:material:49>,
+    <betterwithmods:material:14>,
+    <betterwithmods:steel_anvil>,
+    <betterwithmods:steel_axle>,
+    <betterwithmods:broadhead_arrow>,
+    <betterwithmods:steel_sword>,
+    <betterwithmods:material:42>,
+    <betterwithmods:material:51>,
+    <betterwithmods:steel_saw>,
+    <betterwithmods:steel_block>,
+    <betterwithmods:material:8>,
+    <betterwithmods:material:41>,
+    <betterwithmods:material:6>,
+    <betterwithmods:material:9>,
+    <betterwithmods:material:32>
+] as IItemStack[]; */
 for item in minecraft_list {
     recipes.remove(item);
 }
@@ -567,6 +617,12 @@ for item in animalium {
 for item in betterwithmods {
     mods.jei.JEI.removeAndHide(item);
 }
+for item in terrarium {
+    recipes.remove(item);
+}
+for item in leather_skin {
+    recipes.remove(item);
+}
 
 for mod in loadedMods {
 	print(mod.name ~ ":");
@@ -575,11 +631,11 @@ for mod in loadedMods {
             mods.jei.JEI.hide(item);
             //print("\t\t" ~ item.displayName);
         }
-/*     if mod.name == "Better With Mods"
+/*      if mod.name == "Better With Mods"
         for item in mod.items {
             mods.jei.JEI.removeAndHide(item);
             //print("\t\t" ~ item.displayName);
-        } */
+        }  */
 }
 
 for mod in loadedMods {

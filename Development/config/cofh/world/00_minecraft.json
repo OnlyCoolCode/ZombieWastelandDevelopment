@@ -148,10 +148,10 @@
 			"generator": {
 				"block": "iron_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 11
+				"cluster-size": 9
 			},
 			"cluster-count": 20,
-			"min-height": 0,
+			"min-height": 32,
 			"max-height": 64,
 			"retrogen": false,
 			"biome": "all",
@@ -366,36 +366,39 @@
 				]
 			}
 		},
+
+		"quartz": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quartz_ore",
+				"material": "minecraft:netherrack",
+				"cluster-size": 14
+			},
+			"cluster-count": 16,
+			"min-height": 10,
+			"max-height": 118,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "NETHER"
+					}
+				]
+			},
+			"dimension": "all"
+		},
 		"soul_sand": {
 			"distribution": "uniform",
 			"generator": {
 				"block": "minecraft:soul_sand",
 				"material": "minecraft:stone",
-				"cluster-size": 12
+				"cluster-size": 6
 			},
 			"cluster-count": 1,
 			"min-height": 0,
 			"max-height": 30,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		"quartz_ore": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "minecraft:quartz_ore",
-				"material": "minecraft:stone",
-				"cluster-size": 8
-			},
-			"cluster-count": 1,
-			"min-height": 0,
-			"max-height": 16,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -436,6 +439,46 @@
 			"cluster-count": 3,
 			"min-height": 30,
 			"max-height": 60,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"irondown": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "iron_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 12
+			},
+			"cluster-count": 20,
+			"min-height": 0,
+			"max-height": 32,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"quartz_overworld": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "quartz_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 1,
+			"min-height": 0,
+			"max-height": 16,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {

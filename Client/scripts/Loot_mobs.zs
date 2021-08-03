@@ -15,10 +15,10 @@ import loottweaker.vanilla.loot.Functions;
 var ZombieTable = LootTweaker.getTable("minecraft:entities/zombie");
 ZombieTable.clear();
 var ZombiePool = ZombieTable.addPool("ZombiePool", 1, 2, 0, 0);
-ZombiePool.addItemEntry(<minecraft:rotten_flesh>, 80,0, [
+ZombiePool.addItemEntry(<minecraft:rotten_flesh>, 92,0, [
     Functions.setCount(1, 2)
 ], []);
-ZombiePool.addItemEntry(<ore:bone>.firstItem, 15,0, [
+ZombiePool.addItemEntry(<ore:bone>.firstItem, 8,0, [
     Functions.setCount(1, 1)
 ], []);
 var SpiderTable = LootTweaker.getTable("minecraft:entities/spider");
@@ -38,8 +38,8 @@ var iy_super_slasherPool = iy_super_slasherTable.addPool("iy_super_slasherPool",
 iy_super_slasherPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
     Functions.setCount(1, 1)
 ], []);
-var iy_super_exploderPool = iy_super_exploderTable.addPool("iy_super_exploderPool", 3, 6, 0, 0);
-iy_super_exploderPool.addItemEntry(<minecraft:gunpowder>, 1,0, [
+var iy_super_exploderPool = iy_super_exploderTable.addPool("iy_super_exploderPool", 1, 4, 0, 0);
+iy_super_exploderPool.addItemEntry(<iymts_mob_mod:rniypod>, 1,0, [
     Functions.setCount(1, 1)
 ], []);
 var iy_super_leaperPool = iy_super_leaperTable.addPool("iy_super_leaperPool", 0, 2, 0, 0);

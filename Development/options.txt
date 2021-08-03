@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:0
 fancyGraphics:true
 ao:2
 renderClouds:false
@@ -89,7 +89,7 @@ key_of.key.zoom:46
 key_key.betterfoliage.gui:66
 key_keybinds.show_wounds:35
 key_key.aim:56
-key_key.reload:19
+key_key.reload:20
 key_key.unload:22
 key_key.toastcontrol.clear:36
 key_Strip World:211
@@ -118,6 +118,18 @@ key_FpsReducer.key.forceIdle:197
 key_invtweaks.key.sort:21
 key_Mo' Bends Menu:36
 key_Refresh Animations:68
+key_Reload Gun:19
+key_Reload Client:67
+key_Fire Mode:47
+key_Unload Key:22
+key_Attachment Mode:50
+key_Flashlight:35
+key_Backpack Inventory:48
+key_Left (Attach mode):203
+key_Right (Attach mode):205
+key_Up (Attach mode):200
+key_Down (Attach mode):208
+key_Debug Mode:68
 key_nei.options.keys.gui.enchant:45
 key_nei.options.keys.gui.potion:25
 key_nei.options.keys.gui.prev:201
@@ -133,7 +145,7 @@ key_nei.options.keys.world.heal:0
 key_nei.options.keys.world.creative:0
 key_key.reload:19
 key_key.activatebackpack:11
-soundCategory_master:0.5066225
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

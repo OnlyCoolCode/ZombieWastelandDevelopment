@@ -45,8 +45,6 @@ var am_common_items = [
     <minecraft:iron_pickaxe>,
     <minecraft:bucket>,
     <minecraft:dye>,
-    <rafradek_tf2_weapons:knife>.withTag({Type: "butterflyknife", Attributes: {}}),
-    <minecraft:dye:1>,
     <toughasnails:charcoal_filter>
 ] as IItemStack[];
 var am_cool_item = [
@@ -59,7 +57,8 @@ var am_cool_item = [
     <minecraft:chainmail_helmet>,
     <minecraft:chainmail_leggings>,
     <weapons_of_the_apocalypse:mre>,
-    <minecraft:compass>
+    <minecraft:compass>,
+    <bettercompass:homing_compass>
 ] as IItemStack[];
 var am_trash_item = [
     <foodfunk:biodegradable_item>,
@@ -167,7 +166,6 @@ var lc_hand_weapons = [
     <weapons_of_the_apocalypse:juicer>,
     <weapons_of_the_apocalypse:cleaver>,
     <weapons_of_the_apocalypse:tacticalshovel>,
-    <rafradek_tf2_weapons:knife>.withTag({Type: "butterflyknife", Attributes: {}}),
     <rafradek_tf2_weapons:wrench>.withTag({Type: "wrench", Attributes: {}}),
     <rafradek_tf2_weapons:ammo_fire>
 ] as IItemStack[];
@@ -187,35 +185,48 @@ var lc_iron_gunpownder = [
     <minecraft:gunpowder>
 ] as IItemStack[];
 var lc_handguns = [
-    <rafradek_tf2_weapons:bullet>.withTag({Clip: 6, Type: "revolver", Attributes: {}}),
+    <rafradek_tf2_weapons:bullet>.withTag({Type: "revolver", Attributes: {}}),
     <rafradek_tf2_weapons:projectile>.withTag({Type: "flaregun", Attributes: {}}),
-    <rafradek_tf2_weapons:bullet>.withTag({Clip: 12, Type: "pistol", Attributes: {}}),
-    <cgm:scope>.withTag({color: 1908001}),
-    <cgm:silencer>.withTag({color: 1908001}),
-    <cgm:handgun>.withTag({color: 1908001}),
-    <cgm:grenade>
+    <rafradek_tf2_weapons:bullet>.withTag({Type: "pistol", Attributes: {}}),
+    <cgm:grenade>,
+    <modularwarfare:prototype.p88>
 ] as IItemStack[];
 var lc_longguns = [
-    <rafradek_tf2_weapons:bullet>.withTag({Clip: 6, Type: "shotgun", Attributes: {}}),
+    <rafradek_tf2_weapons:bullet>.withTag({Type: "shotgun", Attributes: {}}),
     <rafradek_tf2_weapons:sniperrifle>.withTag({Type: "sniperrifle", Attributes: {}}),
-    <rafradek_tf2_weapons:stickybomb>.withTag({Clip: 8, Type: "stickybomblauncher", Attributes: {}}),
-    <cgm:shotgun>.withTag({color: 1908001}),
-    <cgm:assault_rifle>.withTag({color: 1908001}),
-    <cgm:rifle>.withTag({color: 1908001}),
-    <cgm:grenade_launcher>.withTag({color: 1908001})
+    <rafradek_tf2_weapons:stickybomb>.withTag({Type: "stickybomblauncher", Attributes: {}}),
+    <modularwarfare:prototype.m4a1>,
+    <modularwarfare:prototype.ak74u>,
+    <modularwarfare:prototype.mp5>,
+    <modularwarfare:prototype.sks>,
+    <modularwarfare:prototype.mg42>,
+    <modularwarfare:prototype.vss>
 ] as IItemStack[];
 var lc_ammo_low = [
     <rafradek_tf2_weapons:ammo_pistol>,
     <rafradek_tf2_weapons:ammo:4>,
-    <rafradek_tf2_weapons:ammo:11>
+    <rafradek_tf2_weapons:ammo:11>,
+    <modularwarfare:prototype.m4a1ammo>.withTag({ammocount: 30, skinId: 0, bullet: {id: "modularwarfare:prototype.5_56x45", Count: 1 as byte, Damage: 0 as short}}),
+    <modularwarfare:prototype.ak74uammo>.withTag({ammocount: 30, skinId: 0, bullet: {id: "modularwarfare:prototype.7_62x39", Count: 1 as byte, Damage: 0 as short}}),
+    <modularwarfare:prototype.mp5ammo>.withTag({ammocount: 30, skinId: 0, bullet: {id: "modularwarfare:prototype.9x19", Count: 1 as byte, Damage: 0 as short}}),
+    <modularwarfare:prototype.sksammo>.withTag({ammocount: 10, skinId: 0, bullet: {id: "modularwarfare:prototype.7_62x39", Count: 1 as byte, Damage: 0 as short}}),
+    <modularwarfare:prototype.mg42ammo>.withTag({ammocount: 75, skinId: 0, bullet: {id: "modularwarfare:prototype.7_62x57", Count: 1 as byte, Damage: 0 as short}}),
+    <modularwarfare:prototype.vssammo>.withTag({ammocount: 10, skinId: 0, bullet: {id: "modularwarfare:prototype.9x19", Count: 1 as byte, Damage: 0 as short}}),
+    <modularwarfare:prototype.p88ammo>.withTag({ammocount: 15, skinId: 0, bullet: {id: "modularwarfare:prototype.9x19", Count: 1 as byte, Damage: 0 as short}})
 ] as IItemStack[];
 var lc_ammo_high = [
-    <cgm:advanced_ammo>,
-    <cgm:basic_ammo>,
-    <cgm:shell>,
     <rafradek_tf2_weapons:ammo:1>,
     <rafradek_tf2_weapons:ammo:6>,
     <rafradek_tf2_weapons:ammo:13>
+] as IItemStack[];
+var lc_terrarium = [
+    <biomesoplenty:terrarium>,
+    <biomesoplenty:terrarium:6>,
+    <biomesoplenty:terrarium:2>,
+    <biomesoplenty:terrarium:5>,
+    <biomesoplenty:terrarium:15>,
+    <biomesoplenty:terrarium:13>,
+    <biomesoplenty:terrarium:12>
 ] as IItemStack[];
 /* var lc_armor = [
     <arm:old_army_bootsboots>,
@@ -397,21 +408,6 @@ for item in lc_iron_gunpownder {
     //stronhold_library_Pool.addItemEntry(item, 14,0, [Functions.setCount(2, 6)], []);
 }
 for item in lc_handguns {
-    lostcities_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-    desert_pyramid_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-    igloo_chest_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-    jungle_temple_dispenser_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-    jungle_temple_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-    simple_dungeon_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-    stronghold_corridor_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-    village_blacksmith_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-    woodland_mansion_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-    nether_bridge_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-    //end_city_tresure_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-    //stronhold_crossing_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-    //stronhold_library_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 1)], []);
-}
-for item in lc_longguns {
     lostcities_Pool.addItemEntry(item, 3,0, [Functions.setCount(1, 1)], []);
     desert_pyramid_Pool.addItemEntry(item, 3,0, [Functions.setCount(1, 1)], []);
     igloo_chest_Pool.addItemEntry(item, 3,0, [Functions.setCount(1, 1)], []);
@@ -425,6 +421,21 @@ for item in lc_longguns {
     //end_city_tresure_Pool.addItemEntry(item, 3,0, [Functions.setCount(1, 1)], []);
     //stronhold_crossing_Pool.addItemEntry(item, 3,0, [Functions.setCount(1, 1)], []);
     //stronhold_library_Pool.addItemEntry(item, 3,0, [Functions.setCount(1, 1)], []);
+}
+for item in lc_longguns {
+    lostcities_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
+    desert_pyramid_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
+    igloo_chest_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
+    jungle_temple_dispenser_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
+    jungle_temple_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
+    simple_dungeon_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
+    stronghold_corridor_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
+    village_blacksmith_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
+    woodland_mansion_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
+    nether_bridge_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
+    //end_city_tresure_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
+    //stronhold_crossing_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
+    //stronhold_library_Pool.addItemEntry(item, 1,0, [Functions.setCount(1, 1)], []);
 }
 for item in lc_ammo_low {
     lostcities_Pool.addItemEntry(item, 5,0, [Functions.setCount(1, 3)], []);
@@ -455,6 +466,21 @@ for item in lc_ammo_high {
     //end_city_tresure_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
     //stronhold_crossing_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
     //stronhold_library_Pool.addItemEntry(item, 10,0, [Functions.setCount(3, 13)], []);
+}
+for item in lc_terrarium {
+    lostcities_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
+    desert_pyramid_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
+    igloo_chest_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
+    jungle_temple_dispenser_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
+    jungle_temple_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
+    simple_dungeon_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
+    stronghold_corridor_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
+    village_blacksmith_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
+    woodland_mansion_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
+    nether_bridge_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
+    //end_city_tresure_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
+    //stronhold_crossing_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
+    //stronhold_library_Pool.addItemEntry(item, 4,0, [Functions.setCount(1, 2)], []);
 }
 /* for item in lc_armor {
     lostcities_Pool.addItemEntry(item, 6,0, [Functions.setCount(1, 1)], []);
