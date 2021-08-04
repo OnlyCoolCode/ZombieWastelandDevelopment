@@ -1,0 +1,25 @@
+#ignore rows that start with a '#',,,
+,,,
+"#Item format: ""modname:item_name:metadata {nbt_data}"" metadata and {nbt_data} are optional. Can also use crafttweaker formatting (eg. ""<modname:item_name:metadata>.withTag{nbt_data}"")",,,
+"#Fluid format: ""fluid:fluid_name"" where fluid is literal. Can also use crafttweaker formatting",,,
+,,,
+"#Other configurations found within adminshop.cfg, such as selling price of Forge Energy",,,
+#See the examples below with the default shop,,,
+,,,
+#Category names for buy and sell. Put the category name in each column after the first,,,
+Buy Category Names:,Handguns,
+Sell Category Names:,Metal,,
+,,,
+,,,
+"#buy or sell (from player's perspective)",Item/Fluid,Price,Category Index (starting from 0)
+buy,"<techguns:goldenrevolver>",30,0
+buy,"<techguns:revolver>",150,0
+buy,"<techguns:sawedoff>",25,0
+buy,"<techguns:handcannon>",25,0
+#,,,
+sell,<minecraft:iron_nugget>,1,0
+sell,<minecraft:iron_ingot>,0.2,0
+sell,<minecraft:iron_block>,10,0
+sell,<minecraft:gold_nugget>,2,0
+sell,<minecraft:gold_ingot>,100,0
+sell,<minecraft:gold_block>,20,0
