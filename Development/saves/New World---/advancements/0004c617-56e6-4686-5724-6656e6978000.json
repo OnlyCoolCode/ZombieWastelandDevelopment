@@ -1,0 +1,21 @@
+{
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-08-04 04:16:23 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "chaparral": "2021-08-04 04:16:23 -0300"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2021-08-04 04:17:13 -0300",
+      "ocean": "2021-08-04 04:17:05 -0300"
+    },
+    "done": false
+  }
+}

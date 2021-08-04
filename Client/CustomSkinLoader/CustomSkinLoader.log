@@ -1,71 +1,39 @@
-[2021-08-03 22:19:02] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
-[2021-08-03 22:19:02] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader
-[2021-08-03 22:19:02] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
-[2021-08-03 22:19:02] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader\CustomSkinLoader.json
-[2021-08-03 22:19:02] [pool-5-thread-1 INFO] Try to load config.
-[2021-08-03 22:19:02] [pool-5-thread-1 INFO] Successfully load config.
-[2021-08-03 22:19:02] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
-[2021-08-03 22:19:02] [ElDuro INFO] Loading ElDuro's profile.
-[2021-08-03 22:19:02] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 22:19:02] [ElDuro INFO] ElDuro's profile loaded.
-[2021-08-03 22:19:02] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)d14587b9701efdc5e2f7def8d3a0fa6539e4a568,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1628039973)
-[2021-08-03 22:19:05] [El Cozzani INFO] Loading El Cozzani's profile.
-[2021-08-03 22:19:05] [El Cozzani INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 22:19:05] [El Cozzani INFO] El Cozzani's profile loaded.
-[2021-08-03 22:19:05] [El Cozzani INFO] (SkinUrl: (LOCAL_LEGACY)eb6ebe85a08bc8d84759205cec01338d447c07fd,LocalSkin/skins/El Cozzani.png , Model: default , CapeUrl: null  , Expiry: 1628039978)
-[2021-08-03 22:19:19] [guidardo INFO] Loading guidardo's profile.
-[2021-08-03 22:19:19] [guidardo INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 22:19:19] [guidardo INFO] guidardo's profile loaded.
-[2021-08-03 22:19:19] [guidardo INFO] (SkinUrl: (LOCAL_LEGACY)eae773ce18581ff9da761a0f29e9ff2a3d0c01d7,LocalSkin/skins/guidardo.png , Model: default , CapeUrl: null  , Expiry: 1628039992)
-[2021-08-03 22:28:40] [Dronster INFO] Loading Dronster's profile.
-[2021-08-03 22:28:40] [Dronster INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 22:28:40] [Dronster INFO] Dronster's profile loaded.
-[2021-08-03 22:28:40] [Dronster INFO] (SkinUrl: (LOCAL_LEGACY)094c43a24cfd42352e0df31861d928ee652f31e6,LocalSkin/skins/Dronster.png , Model: default , CapeUrl: null  , Expiry: 1628040554)
-[2021-08-03 22:44:47] [ElDuro INFO] Loading ElDuro's profile.
-[2021-08-03 22:44:47] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 22:44:47] [ElDuro INFO] ElDuro's profile loaded.
-[2021-08-03 22:44:47] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)d14587b9701efdc5e2f7def8d3a0fa6539e4a568,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1628041519)
-[2021-08-03 22:44:48] [Dronster INFO] Loading Dronster's profile.
-[2021-08-03 22:44:48] [Dronster INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 22:44:48] [Dronster INFO] Dronster's profile loaded.
-[2021-08-03 22:44:48] [Dronster INFO] (SkinUrl: (LOCAL_LEGACY)094c43a24cfd42352e0df31861d928ee652f31e6,LocalSkin/skins/Dronster.png , Model: default , CapeUrl: null  , Expiry: 1628041520)
-[2021-08-03 22:44:48] [guidardo INFO] Loading guidardo's profile.
-[2021-08-03 22:44:48] [guidardo INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 22:44:48] [guidardo INFO] guidardo's profile loaded.
-[2021-08-03 22:44:48] [guidardo INFO] (SkinUrl: (LOCAL_LEGACY)eae773ce18581ff9da761a0f29e9ff2a3d0c01d7,LocalSkin/skins/guidardo.png , Model: default , CapeUrl: null  , Expiry: 1628041518)
-[2021-08-03 22:44:48] [El Cozzani INFO] Loading El Cozzani's profile.
-[2021-08-03 22:44:48] [El Cozzani INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 22:44:48] [El Cozzani INFO] El Cozzani's profile loaded.
-[2021-08-03 22:44:48] [El Cozzani INFO] (SkinUrl: (LOCAL_LEGACY)eb6ebe85a08bc8d84759205cec01338d447c07fd,LocalSkin/skins/El Cozzani.png , Model: default , CapeUrl: null  , Expiry: 1628041519)
-[2021-08-03 23:00:04] [Dronster INFO] Loading Dronster's profile.
-[2021-08-03 23:00:04] [Dronster INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 23:00:04] [Dronster INFO] Dronster's profile loaded.
-[2021-08-03 23:00:04] [Dronster INFO] (SkinUrl: (LOCAL_LEGACY)094c43a24cfd42352e0df31861d928ee652f31e6,LocalSkin/skins/Dronster.png , Model: default , CapeUrl: null  , Expiry: 1628042439)
-[2021-08-03 23:00:04] [guidardo INFO] Loading guidardo's profile.
-[2021-08-03 23:00:04] [guidardo INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 23:00:04] [guidardo INFO] guidardo's profile loaded.
-[2021-08-03 23:00:04] [guidardo INFO] (SkinUrl: (LOCAL_LEGACY)eae773ce18581ff9da761a0f29e9ff2a3d0c01d7,LocalSkin/skins/guidardo.png , Model: default , CapeUrl: null  , Expiry: 1628042438)
-[2021-08-03 23:00:04] [El Cozzani INFO] Loading El Cozzani's profile.
-[2021-08-03 23:00:04] [El Cozzani INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 23:00:04] [El Cozzani INFO] El Cozzani's profile loaded.
-[2021-08-03 23:00:04] [El Cozzani INFO] (SkinUrl: (LOCAL_LEGACY)eb6ebe85a08bc8d84759205cec01338d447c07fd,LocalSkin/skins/El Cozzani.png , Model: default , CapeUrl: null  , Expiry: 1628042439)
-[2021-08-03 23:00:04] [ElDuro INFO] Loading ElDuro's profile.
-[2021-08-03 23:00:04] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 23:00:04] [ElDuro INFO] ElDuro's profile loaded.
-[2021-08-03 23:00:04] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)d14587b9701efdc5e2f7def8d3a0fa6539e4a568,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1628042436)
-[2021-08-03 23:34:39] [ElDuro INFO] Loading ElDuro's profile.
-[2021-08-03 23:34:39] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 23:34:39] [ElDuro INFO] ElDuro's profile loaded.
-[2021-08-03 23:34:39] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)d14587b9701efdc5e2f7def8d3a0fa6539e4a568,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1628044513)
-[2021-08-03 23:34:39] [guidardo INFO] Loading guidardo's profile.
-[2021-08-03 23:34:39] [guidardo INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 23:34:39] [guidardo INFO] guidardo's profile loaded.
-[2021-08-03 23:34:39] [guidardo INFO] (SkinUrl: (LOCAL_LEGACY)eae773ce18581ff9da761a0f29e9ff2a3d0c01d7,LocalSkin/skins/guidardo.png , Model: default , CapeUrl: null  , Expiry: 1628044514)
-[2021-08-03 23:34:39] [Dronster INFO] Loading Dronster's profile.
-[2021-08-03 23:34:39] [Dronster INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 23:34:39] [Dronster INFO] Dronster's profile loaded.
-[2021-08-03 23:34:39] [Dronster INFO] (SkinUrl: (LOCAL_LEGACY)094c43a24cfd42352e0df31861d928ee652f31e6,LocalSkin/skins/Dronster.png , Model: default , CapeUrl: null  , Expiry: 1628044512)
-[2021-08-03 23:34:39] [El Cozzani INFO] Loading El Cozzani's profile.
-[2021-08-03 23:34:39] [El Cozzani INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-08-03 23:34:39] [El Cozzani INFO] El Cozzani's profile loaded.
-[2021-08-03 23:34:39] [El Cozzani INFO] (SkinUrl: (LOCAL_LEGACY)eb6ebe85a08bc8d84759205cec01338d447c07fd,LocalSkin/skins/El Cozzani.png , Model: default , CapeUrl: null  , Expiry: 1628044510)
+[2021-08-04 00:00:59] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
+[2021-08-04 00:00:59] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader
+[2021-08-04 00:00:59] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
+[2021-08-04 00:00:59] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader\CustomSkinLoader.json
+[2021-08-04 00:00:59] [pool-5-thread-1 INFO] Try to load config.
+[2021-08-04 00:00:59] [pool-5-thread-1 INFO] Successfully load config.
+[2021-08-04 00:00:59] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
+[2021-08-04 00:00:59] [ElDuro INFO] Loading ElDuro's profile.
+[2021-08-04 00:00:59] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-08-04 00:00:59] [ElDuro INFO] ElDuro's profile loaded.
+[2021-08-04 00:00:59] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)d14587b9701efdc5e2f7def8d3a0fa6539e4a568,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1628046090)
+[2021-08-04 00:01:01] [Dronster INFO] Loading Dronster's profile.
+[2021-08-04 00:01:01] [Dronster INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-08-04 00:01:01] [Dronster INFO] Dronster's profile loaded.
+[2021-08-04 00:01:01] [Dronster INFO] (SkinUrl: (LOCAL_LEGACY)094c43a24cfd42352e0df31861d928ee652f31e6,LocalSkin/skins/Dronster.png , Model: default , CapeUrl: null  , Expiry: 1628046095)
+[2021-08-04 00:01:06] [guidardo INFO] Loading guidardo's profile.
+[2021-08-04 00:01:06] [guidardo INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-08-04 00:01:06] [guidardo INFO] guidardo's profile loaded.
+[2021-08-04 00:01:06] [guidardo INFO] (SkinUrl: (LOCAL_LEGACY)eae773ce18581ff9da761a0f29e9ff2a3d0c01d7,LocalSkin/skins/guidardo.png , Model: default , CapeUrl: null  , Expiry: 1628046098)
+[2021-08-04 00:01:12] [El Cozzani INFO] Loading El Cozzani's profile.
+[2021-08-04 00:01:12] [El Cozzani INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-08-04 00:01:12] [El Cozzani INFO] El Cozzani's profile loaded.
+[2021-08-04 00:01:12] [El Cozzani INFO] (SkinUrl: (LOCAL_LEGACY)eb6ebe85a08bc8d84759205cec01338d447c07fd,LocalSkin/skins/El Cozzani.png , Model: default , CapeUrl: null  , Expiry: 1628046106)
+[2021-08-04 00:12:25] [guidardo INFO] Loading guidardo's profile.
+[2021-08-04 00:12:25] [guidardo INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-08-04 00:12:25] [guidardo INFO] guidardo's profile loaded.
+[2021-08-04 00:12:25] [guidardo INFO] (SkinUrl: (LOCAL_LEGACY)eae773ce18581ff9da761a0f29e9ff2a3d0c01d7,LocalSkin/skins/guidardo.png , Model: default , CapeUrl: null  , Expiry: 1628046780)
+[2021-08-04 00:12:27] [El Cozzani INFO] Loading El Cozzani's profile.
+[2021-08-04 00:12:27] [El Cozzani INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-08-04 00:12:27] [El Cozzani INFO] El Cozzani's profile loaded.
+[2021-08-04 00:12:27] [El Cozzani INFO] (SkinUrl: (LOCAL_LEGACY)eb6ebe85a08bc8d84759205cec01338d447c07fd,LocalSkin/skins/El Cozzani.png , Model: default , CapeUrl: null  , Expiry: 1628046781)
+[2021-08-04 00:34:57] [Dronster INFO] Loading Dronster's profile.
+[2021-08-04 00:34:57] [Dronster INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-08-04 00:34:57] [Dronster INFO] Dronster's profile loaded.
+[2021-08-04 00:34:57] [Dronster INFO] (SkinUrl: (LOCAL_LEGACY)094c43a24cfd42352e0df31861d928ee652f31e6,LocalSkin/skins/Dronster.png , Model: default , CapeUrl: null  , Expiry: 1628048128)
+[2021-08-04 00:57:57] [Dronster INFO] Loading Dronster's profile.
+[2021-08-04 00:57:57] [Dronster INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-08-04 00:57:57] [Dronster INFO] Dronster's profile loaded.
+[2021-08-04 00:57:57] [Dronster INFO] (SkinUrl: (LOCAL_LEGACY)094c43a24cfd42352e0df31861d928ee652f31e6,LocalSkin/skins/Dronster.png , Model: default , CapeUrl: null  , Expiry: 1628049507)
