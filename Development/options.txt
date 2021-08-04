@@ -89,7 +89,7 @@ key_of.key.zoom:46
 key_key.betterfoliage.gui:66
 key_keybinds.show_wounds:35
 key_key.aim:56
-key_key.reload:19
+key_key.reload:21
 key_key.unload:22
 key_key.toastcontrol.clear:36
 key_Strip World:211
@@ -131,8 +131,13 @@ key_nei.options.keys.world.midnight:0
 key_nei.options.keys.world.rain:0
 key_nei.options.keys.world.heal:0
 key_nei.options.keys.world.creative:0
-key_key.reload:19
+key_key.reload:21
 key_key.activatebackpack:11
+key_techguns.key.toggleNightvision:49
+key_techguns.key.toggleSafemode:48
+key_techguns.key.toggleStepassist:47
+key_techguns.key.forceReload:19
+key_techguns.key.toggleJetpack:36
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0

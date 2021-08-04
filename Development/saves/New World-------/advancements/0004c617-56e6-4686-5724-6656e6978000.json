@@ -1,0 +1,15 @@
+{
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-08-04 18:03:22 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "xeric_shrubland": "2021-08-04 18:08:27 -0300",
+      "dead_forest": "2021-08-04 18:03:22 -0300"
+    },
+    "done": false
+  }
+}
