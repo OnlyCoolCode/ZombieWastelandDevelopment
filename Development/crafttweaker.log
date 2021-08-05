@@ -1,24 +1,24 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Ncc1702
-Shotguun29
-IDroid
-Robijnvogel
-Belathus
-NerdyWhiteGuy
-Peregrinus11
-DreamThorn
-AdaraChristine
-Barrier
-Jonathan McManus
+NickT
+Ivy_
 Otakup0pe
-Xavier
-Quaternary
-Pongo Sapiens
-BrÃ¸nsted
-Luckyclaw
 Psyberition
-ThirtyTwelve
+Barrier
+Peregrinus11
+Xavier
+Pongo Sapiens
+Ncc1702
+Jonathan McManus
+Quaternary
+IDroid
+Mouse
+NerdyWhiteGuy
+Gildrag 09
+Luckyclaw
+Genryu
 Jams
+Belathus
+AdaraChristine
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
@@ -29,6 +29,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Loot_tweak.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new-crafts_betteranimalsplus.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new-crafts_biomesoplenty.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new-crafts_techguns.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_betterwithmods.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_chickenchunk.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_firstaid.zs} as we are currently loading with a different loader
@@ -36,8 +37,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_TF2.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_vanilla.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_WOTApocalypse.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: techguns.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 4ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 5ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
@@ -123,6 +123,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Just Another Rotten Flesh to Leather Mod:
 [INITIALIZATION][CLIENT][INFO] LootTweaker:
 [INITIALIZATION][CLIENT][INFO] The Lost Cities:
+[INITIALIZATION][CLIENT][INFO] Material Changer:
 [INITIALIZATION][CLIENT][INFO] Mining Helmet Mod:
 [INITIALIZATION][CLIENT][INFO] MobDismemberment:
 [INITIALIZATION][CLIENT][INFO] Mo' Bends:
@@ -4520,6 +4521,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] 		Prepared Flesh
 [INITIALIZATION][CLIENT][INFO] LootTweaker:
 [INITIALIZATION][CLIENT][INFO] The Lost Cities:
+[INITIALIZATION][CLIENT][INFO] Material Changer:
 [INITIALIZATION][CLIENT][INFO] Mining Helmet Mod:
 [INITIALIZATION][CLIENT][INFO] 		Mining Helmet
 [INITIALIZATION][CLIENT][INFO] MobDismemberment:
@@ -6244,6 +6246,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Setting fuel for <dynamictreesbop:firseed>
 [INITIALIZATION][CLIENT][INFO] Setting fuel for <dynamictreesbop:redwoodseed>
 [INITIALIZATION][CLIENT][INFO] Setting fuel for <dynamictreesbop:pineseed>
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new-crafts_techguns.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_betterwithmods.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_chickenchunk.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_firstaid.zs}
@@ -6251,8 +6254,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_TF2.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_WOTApocalypse.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: techguns.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 1159ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 978ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "weapons_of_the_apocalypse:leatherr2"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "minecraft:glass_bottle"
@@ -6300,6 +6302,50 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pumpkin Seeds with name terrarium_to_pumpkin_seeds
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Carrot with name terrarium_to_carrot
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Potato with name terrarium_to_potato
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pistol Rounds (Incediary) with name ammo_revolver1
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pistol Rounds (Incediary) with name ammo_revolver2
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pistol Rounds (Incediary) with name ammo_revolver3
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pistol Magazine with name ammo_pistol1
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pistol Magazine with name ammo_pistol2
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Bullets with name ammo_handcannon
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Shotgun Rounds with name ammo_shotgun1
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Shotgun Rounds with name ammo_shotgun2
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Shotgun Rounds with name ammo_shotgun3
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for SMG Magazine with name ammo_smg1
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for SMG Magazine with name ammo_smg2
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Assault Rifle Magazine with name ammo_assault1
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Assault Rifle Magazine with name ammo_assault2
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Rifle Rounds with name ammo_rifle1
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Rifle Rounds with name ammo_rifle2
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Minigun Ammo Drum with name ammo_minigun1
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Minigun Ammo Drum with name ammo_minigun2
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for AS50 Magazine with name ammo_AS501
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for AS50 Magazine with name ammo_AS502
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Fuel Tank with name fueltank
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Rocket with name ammo_rocket1
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Rocket with name ammo_rocket2
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Rocket with name ammo_rocket3
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 40mm Grenade with name ammo_grenade1
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for 40mm Grenade with name ammo_grenade2
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stick Grenade with name stielgranate
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Frag Grenade with name fraggrenade
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Heavy Cloth with name heavycloth
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bandit Mask with name t1_scout_helmet
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bandit Vest with name t1_scout_chestplate
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bandit Pants with name t1_scout_leggings
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bandit Boots with name t1_scout_boots
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Soldier's Helmet with name t1_combat_helmet
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Soldier's Vest with name t1_combat_chestplate
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Soldier's Pants with name t1_combat_leggings
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Soldier's Boots with name t1_combat_boots
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ranger Veteran Helmet with name t2_riot_helmet
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ranger Veteran Jacket with name t2_riot_chestplate
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ranger Veteran Pants with name t2_riot_leggings
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Ranger Veteran Boots with name t2_riot_boots
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Combat Helmet with name t2_combat_helmet
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Combat Vest with name t2_combat_chestplate
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Combat Pants with name t2_combat_leggings
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Combat Boots with name t2_combat_boots
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Tanned Leather with name tannedleather
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Padding with name padding
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Soulforged Steel Ingot with name soulforged_steel
@@ -9721,5 +9767,3 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool village_blacksmith to table minecraft:chests/village_blacksmith
 [SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool jungle_temple_dispenser to table minecraft:chests/jungle_temple_dispenser
 [SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool woodland_mansion to table minecraft:chests/woodland_mansion
-<techguns:itemshared:109>
-<techguns:itemshared:1>

@@ -649,7 +649,7 @@ for mod in loadedMods {
         for item in mod.items {
             recipes.remove(item);
         }
-    if mod.name == "Techguns Core"
+    if mod.name == "Techguns"
         for item in mod.items {
             recipes.remove(item);
         }
