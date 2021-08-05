@@ -7,19 +7,66 @@
 #See the examples below with the default shop,,,
 ,,,
 #Category names for buy and sell. Put the category name in each column after the first,,,
-Buy Category Names:,Handguns,
+Buy Category Names:,HandGuns,LongGuns,Explosives,AmmoHand,AmmoLong,AmmoExpl
 Sell Category Names:,Metal,,
 ,,,
 ,,,
 "#buy or sell (from player's perspective)",Item/Fluid,Price,Category Index (starting from 0)
-buy,"<techguns:goldenrevolver>",30,0
-buy,"<techguns:revolver>",150,0
-buy,"<techguns:sawedoff>",25,0
-buy,"<techguns:handcannon>",25,0
-#,,,
 sell,<minecraft:iron_nugget>,1,0
-sell,<minecraft:iron_ingot>,0.2,0
-sell,<minecraft:iron_block>,10,0
-sell,<minecraft:gold_nugget>,2,0
-sell,<minecraft:gold_ingot>,100,0
+sell,<minecraft:iron_ingot>,10,0
+sell,<minecraft:iron_block>,100,0
+sell,<minecraft:gold_nugget>,0.2,0
+sell,<minecraft:gold_ingot>,2,0
 sell,<minecraft:gold_block>,20,0
+#,,,
+buy,"<techguns:revolver>.withTag({ammo: 0 as short})",100,0
+buy,"<techguns:goldenrevolver>.withTag({ammo: 0 as short})",150,0
+buy,"<techguns:pistol>.withTag({ammo: 0 as short})",150,0
+buy,"<techguns:chainsaw>",100,0
+buy,"<techguns:fraggrenade>",200,0
+buy,"<techguns:stielgranate>",120,0
+#,,,
+buy,"<techguns:handcannon>.withTag({ammo: 0 as short})",100,1
+buy,"<techguns:sawedoff>.withTag({ammo: 0 as short})",150,1
+buy,"<techguns:thompson>.withTag({ammo: 0 as short})",300,1
+buy,"<techguns:ak47>.withTag({ammo: 0 as short})",500,1
+buy,"<techguns:boltaction>.withTag({ammo: 0 as short})",200,1
+buy,"<techguns:m4>.withTag({ammo: 0 as short})",500,1
+buy,"<techguns:m4_infiltrator>.withTag({ammo: 0 as short})",650,1
+buy,"<techguns:combatshotgun>.withTag({ammo: 0 as short})",220,1
+buy,"<techguns:mac10>.withTag({ammo: 0 as short})",350,1
+buy,"<techguns:aug>.withTag({ammo: 0 as short})",750,1
+buy,"<techguns:minigun>.withTag({ammo: 0 as short})",900,1
+buy,"<techguns:as50>.withTag({ammo: 0 as short})",400,1
+buy,"<techguns:vector>.withTag({ammo: 0 as short})",380,1
+buy,"<techguns:scar>.withTag({ammo: 0 as short})",850,1
+#,,,
+buy,"<techguns:rocketlauncher>.withTag({ammo: 0 as short})",500,2
+buy,"<techguns:grimreaper>.withTag({ammo: 0 as short})",650,2
+buy,"<techguns:grenadelauncher>.withTag({ammo: 0 as short})",300,2
+buy,"<techguns:flamethrower>.withTag({ammo: 0 as short})",700,2
+#,,,
+buy,"<techguns:itemshared:109>",10,3
+buy,"<techguns:itemshared:12>",15,3
+buy,"<techguns:itemshared:124",10,3
+buy,"<techguns:itemshared:123>",20,3
+buy,"<techguns:itemshared:28>",50,3
+#,,,
+buy,"<techguns:itemshared:106>",10,4
+buy,"<techguns:itemshared:10>",30,4
+buy,"<techguns:itemshared:14>",50,4
+buy,"<techguns:itemshared:110>",20,4
+buy,"<techguns:itemshared:18>",50,4
+buy,"<techguns:itemshared:20>",40,4
+#,,,
+buy,"<techguns:itemshared:145>",50,5
+buy,"<techguns:itemshared:5>",200,5
+buy,"<techguns:itemshared:28>",50,5
+
+
+
+
+
+
+
+
