@@ -56,28 +56,28 @@
       },
     {
         "mob": "animalium:wild_dog",
-        "weight": 20,
+        "weight": 6,
         "groupcountmin": 1,
         "groupcountmax": 4,
         "minlight": 7
       },
     {
         "mob": "animalium:bear",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1,
         "minlight": 8
       },
     {
         "mob": "animalium:bear_tamed",
-        "weight": 5,
+        "weight": 2,
         "groupcountmin": 1,
         "groupcountmax": 1,
         "minlight": 8
       },
     {
         "mob": "animalium:rat",
-        "weight": 35,
+        "weight": 25,
         "groupcountmin": 1,
         "groupcountmax": 7,
         "maxlight": 7
