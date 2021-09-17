@@ -29,15 +29,15 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_a_mob": {
-    "criteria": {
-      "zombie": "2021-09-17 14:30:25 -0300"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/transportation/boat_umbran": {
     "criteria": {
       "entered_water": "2021-09-17 14:10:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2021-09-17 14:30:25 -0300"
     },
     "done": true
   },
@@ -135,27 +135,21 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/transportation/boat_hellbark": {
-    "criteria": {
-      "entered_water": "2021-09-17 14:10:38 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2021-09-17 13:51:15 -0300"
     },
     "done": true
   },
-  "biomesoplenty:recipes/transportation/boat_willow": {
+  "biomesoplenty:recipes/transportation/boat_hellbark": {
     "criteria": {
       "entered_water": "2021-09-17 14:10:38 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/tools/wooden_shovel": {
+  "biomesoplenty:recipes/transportation/boat_willow": {
     "criteria": {
-      "has_stick": "2021-09-17 14:46:55 -0300"
+      "entered_water": "2021-09-17 14:10:38 -0300"
     },
     "done": true
   },
@@ -168,6 +162,12 @@
   "biomesoplenty:recipes/transportation/boat_sacred_oak": {
     "criteria": {
       "entered_water": "2021-09-17 14:10:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wooden_shovel": {
+    "criteria": {
+      "has_stick": "2021-09-17 14:46:55 -0300"
     },
     "done": true
   },
@@ -207,6 +207,12 @@
     },
     "done": true
   },
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-09-17 13:51:15 -0300"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/boat_redwood": {
     "criteria": {
       "entered_water": "2021-09-17 14:10:38 -0300"
@@ -216,12 +222,6 @@
   "biomesoplenty:recipes/buildingblocks/ash_block": {
     "criteria": {
       "has_item": "2021-09-17 14:21:13 -0300"
-    },
-    "done": true
-  },
-  "betteranimalsplus:root": {
-    "criteria": {
-      "tick": "2021-09-17 13:51:15 -0300"
     },
     "done": true
   },

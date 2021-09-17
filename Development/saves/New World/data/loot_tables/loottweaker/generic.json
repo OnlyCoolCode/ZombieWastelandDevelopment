@@ -4,48 +4,6 @@
       "name": "generic",
       "entries": [
         {
-          "entryName": "loottweaker#40",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:juicer"
-        },
-        {
-          "entryName": "loottweaker#41",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:cleaver"
-        },
-        {
-          "entryName": "loottweaker#1",
-          "weight": 35,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:cannedfood"
-        },
-        {
           "entryName": "loottweaker#28",
           "weight": 5,
           "quality": 1,
@@ -94,19 +52,6 @@
           "name": "minecraft:glass_bottle"
         },
         {
-          "entryName": "loottweaker#46",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "spartanshields:shield_tower_iron"
-        },
-        {
           "entryName": "loottweaker#25",
           "weight": 5,
           "quality": 1,
@@ -121,19 +66,6 @@
             }
           ],
           "name": "minecraft:bucket"
-        },
-        {
-          "entryName": "loottweaker#47",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "betterwithmods:composite_bow"
         },
         {
           "entryName": "loottweaker#26",
@@ -184,19 +116,6 @@
           "name": "biomesoplenty:ash"
         },
         {
-          "entryName": "loottweaker#42",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:tacticalshovel"
-        },
-        {
           "entryName": "loottweaker#21",
           "weight": 5,
           "quality": 1,
@@ -211,19 +130,6 @@
             }
           ],
           "name": "weapons_of_the_apocalypse:emptystimpack"
-        },
-        {
-          "entryName": "loottweaker#43",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "spartanshields:shield_basic_stone"
         },
         {
           "entryName": "loottweaker#22",
@@ -242,19 +148,6 @@
           "name": "realistictorches:torch_unlit"
         },
         {
-          "entryName": "loottweaker#44",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "spartanshields:shield_basic_iron"
-        },
-        {
           "entryName": "loottweaker#23",
           "weight": 5,
           "quality": 1,
@@ -269,19 +162,6 @@
             }
           ],
           "name": "minecraft:book"
-        },
-        {
-          "entryName": "loottweaker#45",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "spartanshields:shield_tower_stone"
         },
         {
           "entryName": "loottweaker#30",
@@ -304,6 +184,280 @@
           "name": "techguns:itemshared"
         },
         {
+          "entryName": "loottweaker#39",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:baton"
+        },
+        {
+          "entryName": "loottweaker#35",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:golfclub"
+        },
+        {
+          "entryName": "loottweaker#36",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:machete"
+        },
+        {
+          "entryName": "loottweaker#37",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:steelpipe"
+        },
+        {
+          "entryName": "loottweaker#38",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+        {
+          "entryName": "loottweaker#31",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:steelhatchet"
+        },
+        {
+          "entryName": "loottweaker#32",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:tireiron"
+        },
+        {
+          "entryName": "loottweaker#33",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:fireaxe"
+        },
+        {
+          "entryName": "loottweaker#34",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:baseballbat"
+        },
+        {
+          "entryName": "loottweaker#40",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:juicer"
+        },
+        {
+          "entryName": "loottweaker#41",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:cleaver"
+        },
+        {
+          "entryName": "loottweaker#1",
+          "weight": 28,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:cannedfood"
+        },
+        {
+          "entryName": "loottweaker#46",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanshields:shield_tower_iron"
+        },
+        {
+          "entryName": "loottweaker#47",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "betterwithmods:composite_bow"
+        },
+        {
+          "entryName": "loottweaker#48",
+          "weight": 4,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 6.0,
+                "max": 18.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "loottweaker#49",
+          "weight": 4,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 12.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "loottweaker#42",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:tacticalshovel"
+        },
+        {
+          "entryName": "loottweaker#43",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanshields:shield_basic_stone"
+        },
+        {
+          "entryName": "loottweaker#44",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanshields:shield_basic_iron"
+        },
+        {
+          "entryName": "loottweaker#45",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanshields:shield_tower_stone"
+        },
+        {
           "entryName": "loottweaker#17",
           "weight": 15,
           "quality": 1,
@@ -318,19 +472,6 @@
             }
           ],
           "name": "foodfunk:rotten_food"
-        },
-        {
-          "entryName": "loottweaker#39",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:baton"
         },
         {
           "entryName": "loottweaker#18",
@@ -366,7 +507,7 @@
         },
         {
           "entryName": "loottweaker#5",
-          "weight": 35,
+          "weight": 28,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -382,7 +523,7 @@
         },
         {
           "entryName": "loottweaker#13",
-          "weight": 20,
+          "weight": 21,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -397,21 +538,8 @@
           "name": "weapons_of_the_apocalypse:nails"
         },
         {
-          "entryName": "loottweaker#35",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:golfclub"
-        },
-        {
           "entryName": "loottweaker#4",
-          "weight": 35,
+          "weight": 28,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -427,7 +555,7 @@
         },
         {
           "entryName": "loottweaker#14",
-          "weight": 20,
+          "weight": 21,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -442,21 +570,8 @@
           "name": "weapons_of_the_apocalypse:glue"
         },
         {
-          "entryName": "loottweaker#36",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:machete"
-        },
-        {
           "entryName": "loottweaker#3",
-          "weight": 35,
+          "weight": 28,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -472,7 +587,7 @@
         },
         {
           "entryName": "loottweaker#15",
-          "weight": 20,
+          "weight": 21,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -487,21 +602,8 @@
           "name": "weapons_of_the_apocalypse:cloth"
         },
         {
-          "entryName": "loottweaker#37",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:steelpipe"
-        },
-        {
           "entryName": "loottweaker#2",
-          "weight": 35,
+          "weight": 28,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -517,7 +619,7 @@
         },
         {
           "entryName": "loottweaker#16",
-          "weight": 20,
+          "weight": 21,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -532,21 +634,8 @@
           "name": "weapons_of_the_apocalypse:ducttape"
         },
         {
-          "entryName": "loottweaker#38",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bow"
-        },
-        {
           "entryName": "loottweaker#9",
-          "weight": 10,
+          "weight": 8,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -561,21 +650,8 @@
           "name": "weapons_of_the_apocalypse:stimpack"
         },
         {
-          "entryName": "loottweaker#31",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:steelhatchet"
-        },
-        {
           "entryName": "loottweaker#8",
-          "weight": 10,
+          "weight": 8,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -606,21 +682,8 @@
           "name": "weapons_of_the_apocalypse:emptycan"
         },
         {
-          "entryName": "loottweaker#32",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:tireiron"
-        },
-        {
           "entryName": "loottweaker#7",
-          "weight": 10,
+          "weight": 8,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -651,21 +714,8 @@
           "name": "minecraft:iron_nugget"
         },
         {
-          "entryName": "loottweaker#33",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:fireaxe"
-        },
-        {
           "entryName": "loottweaker#6",
-          "weight": 10,
+          "weight": 8,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -694,19 +744,6 @@
             }
           ],
           "name": "minecraft:gunpowder"
-        },
-        {
-          "entryName": "loottweaker#34",
-          "weight": 5,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:baseballbat"
         }
       ],
       "rolls": {
