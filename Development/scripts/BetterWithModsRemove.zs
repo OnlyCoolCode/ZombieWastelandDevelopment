@@ -11,6 +11,8 @@ mods.betterwithmods.Turntable.removeAll();
 var block_dispenser = <betterwithmods:block_dispenser>;
 var steel_gearbox = <betterwithmods:steel_gearbox>;
 var steel_hacksaw = <betterwithmods:steel_hacksaw>;
+var candle_holder = <betterwithmods:candle_holder>;
 mods.betterwithmods.Anvil.removeShaped(block_dispenser);
 mods.betterwithmods.Anvil.removeShaped(steel_gearbox);
 mods.betterwithmods.Anvil.removeShaped(steel_hacksaw);
+mods.betterwithmods.Anvil.removeShaped(candle_holder);

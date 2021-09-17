@@ -37,7 +37,7 @@
   {
     "mob": "animalium:wild_dog",
     "mincount": {
-      "amount": 20,
+      "amount": 15,
       "mod": "animalium",
       "perchunk": true
     },
@@ -46,7 +46,7 @@
   {
     "mob": "animalium:bear",
     "mincount": {
-      "amount": 10,
+      "amount": 15,
       "mod": "animalium",
       "perchunk": true
     },
@@ -55,7 +55,7 @@
   {
     "mob": "animalium:rat",
     "mincount": {
-      "amount": 20,
+      "amount": 15,
       "mob": "animalium:rat",
       "perchunk": true
     },
@@ -119,15 +119,15 @@
   {
     "mod": "iymts_mob_mod",
     "incity": true,
-    "random": 0.8,
-    "maxheight": 70,
+    "minheight": 70,
     "result": "default"
   },
   {
     "mod": "iymts_mob_mod",
     "incity": true,
+    "seesky": false,
+    "maxheight": 70,
     "random": 0.8,
-    "maxheight": 69,
     "result": "deny"
   },
   {
@@ -161,10 +161,10 @@
     "seesky": true,
     "result": "allow",
     "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron"],
-    "armorboots":["techguns:t1_scout_boots"],
-    "armorhelmet":["techguns:t1_scout_helmet"],
-    "armorlegs":["techguns:t1_scout_leggings"],
-    "armorchest":["techguns:t1_scout_chestplate"]
+    "armorboots":["techguns:t1_scout_boots", "techguns:t2_riot_boots"],
+    "armorhelmet":["techguns:t1_scout_helmet", "techguns:t2_riot_helmet"],
+    "armorlegs":["techguns:t1_scout_leggings", "techguns:t2_riot_leggings"],
+    "armorchest":["techguns:t1_scout_chestplate", "techguns:t2_riot_chestplate"]
   },
   {
     "mob": "playerskins:playermob",
@@ -196,9 +196,9 @@
   },
   {
     "mod": ["minecraft", "techguns", "playerskins", "iymts_mob_mod", "animalium", "mutantbeasts"],
-    "maxheight": 70,
+    "maxheight": 69,
     "seesky": false,
-    "random": 0.6,
+    "random": 0.3,
     "result": "deny"
   }
 ]

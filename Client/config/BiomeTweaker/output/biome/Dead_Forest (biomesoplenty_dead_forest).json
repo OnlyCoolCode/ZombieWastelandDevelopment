@@ -23,8 +23,8 @@
     "COLD",
     "SPARSE",
     "DRY",
-    "DEAD",
-    "FOREST"
+    "FOREST",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
