@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "name": "highrise",
+      "entries": [
+        {
+          "entryName": "glass",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 10.0,
+                "max": 64.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:glass"
+        }
+      ],
+      "rolls": 1.0,
+      "bonus_rolls": 1.0
+    }
+  ]
+}

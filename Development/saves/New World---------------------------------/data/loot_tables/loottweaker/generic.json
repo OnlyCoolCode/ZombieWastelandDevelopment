@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "name": "generic",
+      "entries": [
+        {
+          "entryName": "iron",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        }
+      ],
+      "rolls": 1.0,
+      "bonus_rolls": 1.0
+    }
+  ]
+}

@@ -5,7 +5,7 @@
       "entries": [
         {
           "entryName": "loottweaker#1",
-          "weight": 80,
+          "weight": 92,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -21,7 +21,7 @@
         },
         {
           "entryName": "loottweaker#2",
-          "weight": 15,
+          "weight": 8,
           "quality": 0,
           "type": "item",
           "functions": [

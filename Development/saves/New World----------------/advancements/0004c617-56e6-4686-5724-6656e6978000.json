@@ -1,0 +1,15 @@
+{
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-09-12 17:35:45 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "steppe": "2021-09-12 17:37:14 -0300",
+      "wasteland": "2021-09-12 17:35:45 -0300"
+    },
+    "done": false
+  }
+}

@@ -14,7 +14,7 @@ furnace.setFuel(redwoodseed, 800);
 furnace.setFuel(pineseed, 800);
 
 
-var terrarium1 = <biomesoplenty:terrarium>;
+var terrarium0 = <biomesoplenty:terrarium>;
 var wheat_seeds = <minecraft:wheat_seeds>;
 var terrarium6 = <biomesoplenty:terrarium:6>;
 var bamboo = <biomesoplenty:bamboo>;
@@ -28,8 +28,12 @@ var terrarium13 = <biomesoplenty:terrarium:13>;
 var carrot = <minecraft:carrot>;
 var terrarium12 = <biomesoplenty:terrarium:12>;
 var potato = <minecraft:potato>;
+var terrarium1 = <biomesoplenty:terrarium:1>;
+var red_mushroom = <minecraft:red_mushroom>;
+var terrarium11 = <biomesoplenty:terrarium:11>;
+var brown_mushroom = <minecraft:brown_mushroom>;
 recipes.addShapeless("terrarium_to_wheat_seeds", wheat_seeds,
-[terrarium1]
+[terrarium0]
 );
 recipes.addShapeless("terrarium_to_bamboo", bamboo,
 [terrarium6]
@@ -48,4 +52,10 @@ recipes.addShapeless("terrarium_to_carrot", carrot,
 );
 recipes.addShapeless("terrarium_to_potato", potato,
 [terrarium12]
+);
+recipes.addShapeless("terrarium_to_red_mushroom", red_mushroom,
+[terrarium1]
+);
+recipes.addShapeless("terrarium_to_brown_mushroom", brown_mushroom,
+[terrarium11]
 );

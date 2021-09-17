@@ -17,10 +17,23 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "cgm:basic_ammo"
+          "name": "minecraft:arrow"
         },
         {
-          "entryName": "loottweaker#28",
+          "entryName": "loottweaker#24",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bow"
+        },
+        {
+          "entryName": "loottweaker#25",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -33,7 +46,7 @@
           "name": "weapons_of_the_apocalypse:machete"
         },
         {
-          "entryName": "loottweaker#29",
+          "entryName": "loottweaker#26",
           "weight": 10,
           "quality": 0,
           "type": "item",
@@ -46,55 +59,6 @@
           "name": "weapons_of_the_apocalypse:crowbar"
         },
         {
-          "entryName": "loottweaker#24",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "firstaid:morphine"
-        },
-        {
-          "entryName": "loottweaker#25",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:flint_and_steel"
-        },
-        {
-          "entryName": "loottweaker#26",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "tag": "{color:1908001}",
-              "function": "minecraft:set_nbt"
-            }
-          ],
-          "name": "cgm:handgun"
-        },
-        {
           "entryName": "loottweaker#27",
           "weight": 10,
           "quality": 0,
@@ -105,7 +69,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:bow"
+          "name": "weapons_of_the_apocalypse:baton"
         },
         {
           "entryName": "loottweaker#20",
@@ -121,7 +85,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:glue"
+          "name": "firstaid:bandage"
         },
         {
           "entryName": "loottweaker#21",
@@ -137,7 +101,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:cloth"
+          "name": "firstaid:plaster"
         },
         {
           "entryName": "loottweaker#22",
@@ -153,7 +117,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "firstaid:bandage"
+          "name": "firstaid:morphine"
         },
         {
           "entryName": "loottweaker#23",
@@ -169,52 +133,10 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "firstaid:plaster"
-        },
-        {
-          "entryName": "loottweaker#30",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:baton"
+          "name": "minecraft:flint_and_steel"
         },
         {
           "entryName": "loottweaker#17",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "cgm:grenade"
-        },
-        {
-          "entryName": "loottweaker#18",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 2.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "realistictorches:matchbox"
-        },
-        {
-          "entryName": "loottweaker#19",
           "weight": 20,
           "quality": 0,
           "type": "item",
@@ -230,200 +152,39 @@
           "name": "weapons_of_the_apocalypse:ducttape"
         },
         {
+          "entryName": "loottweaker#18",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:glue"
+        },
+        {
+          "entryName": "loottweaker#19",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:cloth"
+        },
+        {
           "entryName": "loottweaker#5",
-          "weight": 40,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 4.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "foodfunk:biodegradable_item"
-        },
-        {
-          "entryName": "loottweaker#13",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:coal"
-        },
-        {
-          "entryName": "loottweaker#4",
-          "weight": 40,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 4.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "biomesoplenty:ash"
-        },
-        {
-          "entryName": "loottweaker#14",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "toughasnails:purified_water_bottle"
-        },
-        {
-          "entryName": "loottweaker#3",
-          "weight": 40,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 4.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "realistictorches:torch_unlit"
-        },
-        {
-          "entryName": "loottweaker#15",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "firstaid:bandage"
-        },
-        {
-          "entryName": "loottweaker#2",
-          "weight": 40,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 4.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:arrow"
-        },
-        {
-          "entryName": "loottweaker#16",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "firstaid:plaster"
-        },
-        {
-          "entryName": "loottweaker#9",
-          "weight": 40,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 4.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:paper"
-        },
-        {
-          "entryName": "loottweaker#8",
-          "weight": 40,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 4.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gunpowder"
-        },
-        {
-          "entryName": "loottweaker#10",
-          "weight": 40,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 4.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "toughasnails:charcoal_filter"
-        },
-        {
-          "entryName": "loottweaker#7",
-          "weight": 40,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 4.0,
-                "max": 6.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:nails"
-        },
-        {
-          "entryName": "loottweaker#11",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:sardines"
-        },
-        {
-          "entryName": "loottweaker#6",
           "weight": 40,
           "quality": 0,
           "type": "item",
@@ -439,7 +200,171 @@
           "name": "minecraft:planks"
         },
         {
-          "entryName": "loottweaker#12",
+          "entryName": "loottweaker#13",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "toughasnails:purified_water_bottle"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "foodfunk:biodegradable_item"
+        },
+        {
+          "entryName": "loottweaker#14",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "firstaid:bandage"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "biomesoplenty:ash"
+        },
+        {
+          "entryName": "loottweaker#15",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "firstaid:plaster"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "realistictorches:torch_unlit"
+        },
+        {
+          "entryName": "loottweaker#16",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "realistictorches:matchbox"
+        },
+        {
+          "entryName": "loottweaker#9",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "toughasnails:charcoal_filter"
+        },
+        {
+          "entryName": "loottweaker#8",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:paper"
+        },
+        {
+          "entryName": "loottweaker#10",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:sardines"
+        },
+        {
+          "entryName": "loottweaker#7",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "entryName": "loottweaker#11",
           "weight": 30,
           "quality": 0,
           "type": "item",
@@ -450,6 +375,35 @@
             }
           ],
           "name": "weapons_of_the_apocalypse:cannedfood"
+        },
+        {
+          "entryName": "loottweaker#6",
+          "weight": 40,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 4.0,
+                "max": 6.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:nails"
+        },
+        {
+          "entryName": "loottweaker#12",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
         }
       ],
       "rolls": 15.0

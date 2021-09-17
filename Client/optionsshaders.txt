@@ -1,5 +1,5 @@
-#Mon Aug 02 19:38:07 ART 2021
-shaderPack=Chocapic13_V9_Medium.zip
+#Fri Sep 17 01:31:28 ART 2021
+shaderPack=Chocapic13_V8_Ultra.zip
 antialiasingLevel=0
 normalMapEnabled=false
 specularMapEnabled=false

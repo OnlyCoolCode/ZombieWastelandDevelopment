@@ -1,0 +1,147 @@
+{
+  "pools": [
+    {
+      "name": "metal_spy_raf",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:itemTF2",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:itemtf2"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:crate",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "weaponClass": "crate",
+              "function": "minecraft:set_weapon_class"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:crate"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:strangifier",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{class:\"spy\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:strangifier"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "team": false,
+          "condition": "minecraft:killed_by_player_team"
+        },
+        {
+          "chance": 0.6,
+          "looting_multiplier": 0.2,
+          "condition": "minecraft:random_chance_with_looting"
+        },
+        {
+          "test": "{Robot:0b}",
+          "negate": false,
+          "condition": "rafradek_tf2_weapons:nbt_test"
+        }
+      ]
+    },
+    {
+      "name": "disguise_kit",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:disguise_kit",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "damage": {
+                "min": 0.35,
+                "max": 0.6
+              },
+              "function": "minecraft:set_damage"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:disguise_kit"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "chance": 0.06,
+          "looting_multiplier": 0.03,
+          "condition": "minecraft:random_chance_with_looting"
+        },
+        {
+          "team": true,
+          "condition": "minecraft:killed_by_player_team"
+        },
+        {
+          "test": "{Robot:0b}",
+          "negate": false,
+          "condition": "rafradek_tf2_weapons:nbt_test"
+        }
+      ]
+    },
+    {
+      "name": "ammo_spy_raf",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:ammo/revolver",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "rafradek_tf2_weapons:ammo/revolver"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "test": "{Robot:0b}",
+          "negate": false,
+          "condition": "rafradek_tf2_weapons:nbt_test"
+        }
+      ]
+    },
+    {
+      "name": "robot_pyro_raf",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:entities/robot",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "rafradek_tf2_weapons:entities/robot"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "team": false,
+          "condition": "minecraft:killed_by_player_team"
+        },
+        {
+          "test": "{Robot:0b}",
+          "negate": true,
+          "condition": "rafradek_tf2_weapons:nbt_test"
+        }
+      ]
+    }
+  ]
+}

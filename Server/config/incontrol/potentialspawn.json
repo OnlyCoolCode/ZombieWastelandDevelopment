@@ -2,17 +2,21 @@
   {
     "dimension": 0,
     "mobs": [
-      {
+    {
         "mob": "minecraft:spider",
 		    "weight": 75
       },
 	  {
         "mob": "minecraft:cave_spider",
-		    "weight": 100
+		    "weight": 100,
+        "groupcountmin": 4,
+	      "groupcountmax": 7
       },
 	  {
         "mob": "animalium:piranha",
-		    "weight": 100
+		    "weight": 100,
+        "groupcountmin": 2,
+	      "groupcountmax": 5
       },
     {
         "mob": "minecraft:skeleton",
@@ -33,6 +37,61 @@
     {
         "mob": "minecraft:slime",
 		    "weight": 0
+      },
+    {
+        "mob": "iymts_mob_mod:iysuperleaper",
+        "weight": 150
+      },
+    {
+        "mob": "iymts_mob_mod:iysuperslasher",
+        "weight": 170
+      },
+    {
+        "mob": "iymts_mob_mod:iysuperexploder",
+        "weight": 170
+      },
+    {
+        "mob": "mutantbeasts:mutant_zombie",
+        "weight": 100
+      },
+    {
+        "mob": "animalium:wild_dog",
+        "weight": 12,
+        "groupcountmin": 1,
+        "groupcountmax": 4,
+        "minlight": 7
+      },
+    {
+        "mob": "animalium:bear",
+        "weight": 9,
+        "groupcountmin": 1,
+        "groupcountmax": 1,
+        "minlight": 8
+      },
+    {
+        "mob": "animalium:rat",
+        "weight": 20,
+        "groupcountmin": 1,
+        "groupcountmax": 7,
+        "maxlight": 7
+      },
+    {
+        "mob": "techguns:bandit",
+        "weight": 70,
+        "groupcountmin": 2,
+        "groupcountmax": 5
+      },
+    {
+        "mob": "techguns:armysoldier",
+        "weight": 70,
+        "groupcountmin": 2,
+        "groupcountmax": 5
+      },
+    {
+        "mob": "playerskins:playermob",
+        "weight": 10,
+        "groupcountmin": 3,
+        "groupcountmax": 7
       }
     ]
   }

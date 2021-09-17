@@ -1,0 +1,35 @@
+{
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-09-14 16:44:23 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "xeric_shrubland": "2021-09-14 16:46:46 -0300",
+      "steppe": "2021-09-14 16:47:05 -0300",
+      "wasteland": "2021-09-14 16:44:23 -0300",
+      "dead_forest": "2021-09-14 16:46:29 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2021-09-14 16:45:20 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2021-09-14 16:45:20 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2021-09-14 16:45:20 -0300"
+    },
+    "done": true
+  }
+}

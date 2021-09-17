@@ -1,0 +1,33 @@
+{
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-09-16 02:54:50 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "steppe": "2021-09-16 02:54:50 -0300",
+      "tundra": "2021-09-16 02:55:20 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-09-16 02:58:30 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2021-09-16 02:56:47 -0300"
+    },
+    "done": true
+  },
+  "mutantbeasts:root": {
+    "criteria": {
+      "killed_by_something": "2021-09-16 02:56:47 -0300"
+    },
+    "done": true
+  }
+}

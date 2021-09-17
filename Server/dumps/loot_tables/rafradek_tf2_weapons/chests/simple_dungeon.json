@@ -1,0 +1,122 @@
+{
+  "pools": [
+    {
+      "name": "pol1",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:ammo_box",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 16.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:ammo_box"
+        },
+        {
+          "entryName": "empty",
+          "weight": 1,
+          "quality": 0,
+          "type": "empty"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "pol2",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 25,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:bullet",
+          "weight": 8,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "upgrade_range": 0.0,
+              "valve_chance": 0.08,
+              "function": "minecraft:set_weapon_upgraded"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:bullet"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:minigun",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "upgrade_range": {
+                "min": 320.0,
+                "max": 520.0
+              },
+              "valve_chance": 0.05,
+              "function": "minecraft:set_weapon_upgraded"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:minigun"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:itemTF2",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:itemtf2"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:eventmaker",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 0.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:eventmaker"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:strangifier",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "name": "rafradek_tf2_weapons:strangifier"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:projectile",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "upgrade_range": {
+                "min": 1080.0,
+                "max": 1680.0
+              },
+              "valve_chance": 0.04,
+              "function": "minecraft:set_weapon_upgraded"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:projectile"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

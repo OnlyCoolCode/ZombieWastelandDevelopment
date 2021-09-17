@@ -4,7 +4,7 @@ import crafttweaker.mods.IMod;
 
 // new craft
  // chain armor
-var c_helmet = <minecraft:chainmail_helmet>;
+/* var c_helmet = <minecraft:chainmail_helmet>;
 var c_chestplate = <minecraft:chainmail_chestplate>;
 var c_leggings = <minecraft:chainmail_leggings>;
 var c_boots = <minecraft:chainmail_boots>;
@@ -31,7 +31,7 @@ recipes.addShaped("chainmail_leggings", c_leggings, [
 recipes.addShaped("chainmail_boots", c_boots, [
     [chain,null,chain],
     [chain,null,chain]
-]); 
+]);  */
 // web
 var string_item = <minecraft:string>;
 var web = <minecraft:web>;
@@ -68,8 +68,12 @@ var bone_meal = <minecraft:dye:15>;
 var bowl = <minecraft:bowl>;
 var coal = <minecraft:coal>;
 var gunpowder = <ore:gunpowder>.firstItem;
+var glowstone_dust = <minecraft:glowstone_dust>;
 recipes.addShapeless("Gunpowder", gunpowder,
 [bowl.reuse(), water_bottle.transformReplace(<minecraft:glass_bottle>), bone_meal, coal]
+);
+recipes.addShapeless("Gunpowder2", gunpowder*3,
+[bowl.reuse(), water_bottle.transformReplace(<minecraft:glass_bottle>), bone_meal, coal, glowstone_dust]
 );
 
 // glass_bottle
@@ -85,7 +89,7 @@ recipes.addShaped("glass_bottle2", glass_bottle, [
     [null,blockGlass,null]
 ]);
 
-//furnance recipes
+//furnance ash
 var ash = <biomesoplenty:ash>;
 furnace.addRecipe(ash, coal);
 // obsidian
@@ -134,9 +138,80 @@ recipes.addShapeless("dyeRed2", dyeRed,
 [red_mushroom]
 );
 
+// Repair Armor
+// Leather Armor
+var leather = <minecraft:leather>;
+var leather_helmet = <minecraft:leather_helmet>;
+var leather_chestplate = <minecraft:leather_chestplate>;
+var leather_leggings = <minecraft:leather_leggings>;
+var leather_boots = <minecraft:leather_boots>;
+recipes.addShapeless("repair_leather_helmet",leather_helmet,
+[leather_helmet.anyDamage().marked("mark"),leather],
+function(out, ins, cInfo){
+	return ins.mark.withDamage(max(0,ins.mark.damage - 20));
+}, 
+null);
+recipes.addShapeless("repair_leather_chestplate",leather_chestplate,
+[leather_chestplate.anyDamage().marked("mark"),leather],
+function(out, ins, cInfo){
+	return ins.mark.withDamage(max(0,ins.mark.damage - 20));
+}, 
+null);
+recipes.addShapeless("repair_leather_leggings",leather_leggings,
+[leather_leggings.anyDamage().marked("mark"),leather],
+function(out, ins, cInfo){
+	return ins.mark.withDamage(max(0,ins.mark.damage - 20));
+}, 
+null);
+recipes.addShapeless("repair_leather_boots",leather_boots,
+[leather_boots.anyDamage().marked("mark"),leather],
+function(out, ins, cInfo){
+	return ins.mark.withDamage(max(0,ins.mark.damage - 20));
+}, 
+null);
+// Iron Armor
+var iron_ingot = <minecraft:iron_ingot>;
+var iron_helmet = <minecraft:iron_helmet>;
+var iron_chestplate = <minecraft:iron_chestplate>;
+var iron_leggings = <minecraft:iron_leggings>;
+var iron_boots = <minecraft:iron_boots>;
+recipes.addShapeless("repair_iron_helmet",iron_helmet,
+[iron_helmet.anyDamage().marked("mark"),iron_ingot],
+function(out, ins, cInfo){
+	return ins.mark.withDamage(max(0,ins.mark.damage - 60));
+}, 
+null);
+recipes.addShapeless("repair_iron_chestplate",iron_chestplate,
+[iron_chestplate.anyDamage().marked("mark"),iron_ingot],
+function(out, ins, cInfo){
+	return ins.mark.withDamage(max(0,ins.mark.damage - 60));
+}, 
+null);
+recipes.addShapeless("repair_iron_leggings",iron_leggings,
+[iron_leggings.anyDamage().marked("mark"),iron_ingot],
+function(out, ins, cInfo){
+	return ins.mark.withDamage(max(0,ins.mark.damage - 60));
+}, 
+null);
+recipes.addShapeless("repair_iron_boots",iron_boots,
+[iron_boots.anyDamage().marked("mark"),iron_ingot],
+function(out, ins, cInfo){
+	return ins.mark.withDamage(max(0,ins.mark.damage - 60));
+}, 
+null);
 
-
-
+//furnance blaze_powder
+var blaze_powder = <minecraft:blaze_powder>;
+furnace.addRecipe(blaze_powder*2, glowstone_dust);
+//furnance Iron
+var anvil = <minecraft:anvil>;
+var anvil1 = <minecraft:anvil:1>;
+var anvil2 = <minecraft:anvil:2>;
+var cauldron = <minecraft:cauldron>;
+furnace.addRecipe(iron_ingot*9, anvil);
+furnace.addRecipe(iron_ingot*7, anvil1);
+furnace.addRecipe(iron_ingot*5, anvil2);
+furnace.addRecipe(iron_ingot*5, cauldron);
 
 
 

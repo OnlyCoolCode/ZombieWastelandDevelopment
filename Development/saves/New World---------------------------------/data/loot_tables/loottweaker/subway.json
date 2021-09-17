@@ -1,0 +1,27 @@
+{
+  "pools": [
+    {
+      "name": "subway",
+      "entries": [
+        {
+          "entryName": "dirt",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:dirt"
+        }
+      ],
+      "rolls": 1.0,
+      "bonus_rolls": 1.0
+    }
+  ]
+}

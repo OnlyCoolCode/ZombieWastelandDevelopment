@@ -5,39 +5,29 @@
       "entries": [
         {
           "entryName": "loottweaker#28",
-          "weight": 15,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 3.0,
-                "max": 5.0
-              },
+              "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
             }
           ],
-          "name": "minecraft:dye"
+          "name": "weapons_of_the_apocalypse:switchblade"
         },
         {
           "entryName": "loottweaker#29",
-          "weight": 15,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 3.0,
-                "max": 5.0
-              },
+              "count": 1.0,
               "function": "minecraft:set_count"
             }
           ],
-          "name": "toughasnails:charcoal_filter"
+          "name": "weapons_of_the_apocalypse:crowbar"
         },
         {
           "entryName": "loottweaker#24",
@@ -53,7 +43,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:iron_pickaxe"
+          "name": "minecraft:bucket"
         },
         {
           "entryName": "loottweaker#25",
@@ -69,7 +59,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:bucket"
+          "name": "minecraft:dye"
         },
         {
           "entryName": "loottweaker#26",
@@ -85,27 +75,20 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:dye"
+          "name": "toughasnails:charcoal_filter"
         },
         {
           "entryName": "loottweaker#27",
-          "weight": 15,
+          "weight": 10,
           "quality": 0,
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 3.0,
-                "max": 5.0
-              },
+              "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "tag": "{Type:\"butterflyknife\",Attributes:{}}",
-              "function": "minecraft:set_nbt"
             }
           ],
-          "name": "rafradek_tf2_weapons:knife"
+          "name": "minecraft:clock"
         },
         {
           "entryName": "loottweaker#20",
@@ -121,7 +104,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "realistictorches:matchbox"
+          "name": "weapons_of_the_apocalypse:nails"
         },
         {
           "entryName": "loottweaker#21",
@@ -137,7 +120,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:nails"
+          "name": "minecraft:rail"
         },
         {
           "entryName": "loottweaker#22",
@@ -153,7 +136,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:rail"
+          "name": "minecraft:glass_bottle"
         },
         {
           "entryName": "loottweaker#23",
@@ -169,7 +152,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:glass_bottle"
+          "name": "minecraft:iron_pickaxe"
         },
         {
           "entryName": "loottweaker#30",
@@ -182,259 +165,10 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:clock"
-        },
-        {
-          "entryName": "loottweaker#39",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:compass"
-        },
-        {
-          "entryName": "loottweaker#35",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:chainmail_boots"
-        },
-        {
-          "entryName": "loottweaker#36",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:chainmail_helmet"
-        },
-        {
-          "entryName": "loottweaker#37",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:chainmail_leggings"
-        },
-        {
-          "entryName": "loottweaker#38",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:mre"
-        },
-        {
-          "entryName": "loottweaker#31",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:switchblade"
-        },
-        {
-          "entryName": "loottweaker#32",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:crowbar"
-        },
-        {
-          "entryName": "loottweaker#33",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
           "name": "weapons_of_the_apocalypse:tireiron"
         },
         {
-          "entryName": "loottweaker#34",
-          "weight": 10,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:chainmail_chestplate"
-        },
-        {
-          "entryName": "loottweaker#40",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 5.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "foodfunk:biodegradable_item"
-        },
-        {
-          "entryName": "loottweaker#41",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 5.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:clay_ball"
-        },
-        {
-          "entryName": "loottweaker#1",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 9.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 3.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "rafradek_tf2_weapons:itemtf2"
-        },
-        {
-          "entryName": "loottweaker#46",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 5.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:lever"
-        },
-        {
-          "entryName": "loottweaker#47",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 5.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:ladder"
-        },
-        {
-          "entryName": "loottweaker#48",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 5.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:stick"
-        },
-        {
-          "entryName": "loottweaker#49",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 5.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bowl"
-        },
-        {
-          "entryName": "loottweaker#42",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 5.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:name_tag"
-        },
-        {
-          "entryName": "loottweaker#43",
+          "entryName": "loottweaker#39",
           "weight": 15,
           "quality": 0,
           "type": "item",
@@ -450,7 +184,120 @@
           "name": "biomesoplenty:ash"
         },
         {
-          "entryName": "loottweaker#44",
+          "entryName": "loottweaker#35",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "mininghelmet:mininghelmet"
+        },
+        {
+          "entryName": "loottweaker#36",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "foodfunk:biodegradable_item"
+        },
+        {
+          "entryName": "loottweaker#37",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:clay_ball"
+        },
+        {
+          "entryName": "loottweaker#38",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:name_tag"
+        },
+        {
+          "entryName": "loottweaker#31",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:mre"
+        },
+        {
+          "entryName": "loottweaker#32",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:compass"
+        },
+        {
+          "entryName": "loottweaker#33",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "bettercompass:homing_compass"
+        },
+        {
+          "entryName": "loottweaker#34",
+          "weight": 10,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:flint_and_steel"
+        },
+        {
+          "entryName": "loottweaker#40",
           "weight": 15,
           "quality": 0,
           "type": "item",
@@ -466,7 +313,7 @@
           "name": "minecraft:flint"
         },
         {
-          "entryName": "loottweaker#45",
+          "entryName": "loottweaker#41",
           "weight": 15,
           "quality": 0,
           "type": "item",
@@ -482,199 +329,7 @@
           "name": "minecraft:sign"
         },
         {
-          "entryName": "loottweaker#50",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 5.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "foodfunk:rotted_item"
-        },
-        {
-          "entryName": "loottweaker#51",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 5.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:brick"
-        },
-        {
-          "entryName": "loottweaker#52",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 5.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bone"
-        },
-        {
-          "entryName": "loottweaker#17",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:detector_rail"
-        },
-        {
-          "entryName": "loottweaker#18",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:golden_rail"
-        },
-        {
-          "entryName": "loottweaker#19",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:activator_rail"
-        },
-        {
-          "entryName": "loottweaker#5",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gold_ingot"
-        },
-        {
-          "entryName": "loottweaker#13",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:shears"
-        },
-        {
-          "entryName": "loottweaker#4",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:gold_nugget"
-        },
-        {
-          "entryName": "loottweaker#14",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_shovel"
-        },
-        {
-          "entryName": "loottweaker#3",
-          "weight": 20,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 9.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_ingot"
-        },
-        {
-          "entryName": "loottweaker#15",
-          "weight": 15,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 5.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:string"
-        },
-        {
-          "entryName": "loottweaker#2",
+          "entryName": "loottweaker#1",
           "weight": 20,
           "quality": 0,
           "type": "item",
@@ -690,7 +345,295 @@
           "name": "minecraft:iron_nugget"
         },
         {
-          "entryName": "loottweaker#16",
+          "entryName": "loottweaker#46",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "foodfunk:rotted_item"
+        },
+        {
+          "entryName": "loottweaker#47",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:brick"
+        },
+        {
+          "entryName": "loottweaker#48",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bone"
+        },
+        {
+          "entryName": "loottweaker#49",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:tnt"
+        },
+        {
+          "entryName": "loottweaker#42",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:lever"
+        },
+        {
+          "entryName": "loottweaker#43",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:ladder"
+        },
+        {
+          "entryName": "loottweaker#44",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:stick"
+        },
+        {
+          "entryName": "loottweaker#45",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:bowl"
+        },
+        {
+          "entryName": "loottweaker#50",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:diamond"
+        },
+        {
+          "entryName": "loottweaker#51",
+          "weight": 5,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "entryName": "loottweaker#17",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:golden_rail"
+        },
+        {
+          "entryName": "loottweaker#18",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:activator_rail"
+        },
+        {
+          "entryName": "loottweaker#19",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "realistictorches:matchbox"
+        },
+        {
+          "entryName": "loottweaker#5",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:coal"
+        },
+        {
+          "entryName": "loottweaker#13",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_shovel"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "entryName": "loottweaker#14",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:string"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "entryName": "loottweaker#15",
           "weight": 15,
           "quality": 0,
           "type": "item",
@@ -706,7 +649,55 @@
           "name": "realistictorches:torch_unlit"
         },
         {
+          "entryName": "loottweaker#2",
+          "weight": 20,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "entryName": "loottweaker#16",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:detector_rail"
+        },
+        {
           "entryName": "loottweaker#9",
+          "weight": 30,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:iron_ore"
+        },
+        {
+          "entryName": "loottweaker#8",
           "weight": 30,
           "quality": 0,
           "type": "item",
@@ -722,23 +713,23 @@
           "name": "minecraft:gold_ore"
         },
         {
-          "entryName": "loottweaker#53",
-          "weight": 15,
+          "entryName": "loottweaker#10",
+          "weight": 30,
           "quality": 0,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 5.0,
+                "min": 3.0,
                 "max": 8.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:flint_and_steel"
+          "name": "minecraft:redstone"
         },
         {
-          "entryName": "loottweaker#8",
+          "entryName": "loottweaker#7",
           "weight": 30,
           "quality": 0,
           "type": "item",
@@ -758,103 +749,7 @@
           "name": "minecraft:coal"
         },
         {
-          "entryName": "loottweaker#10",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:iron_ore"
-        },
-        {
-          "entryName": "loottweaker#54",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:tnt"
-        },
-        {
-          "entryName": "loottweaker#7",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:glowstone_dust"
-        },
-        {
           "entryName": "loottweaker#11",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:redstone"
-        },
-        {
-          "entryName": "loottweaker#55",
-          "weight": 5,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:diamond"
-        },
-        {
-          "entryName": "loottweaker#6",
-          "weight": 30,
-          "quality": 0,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 3.0,
-                "max": 8.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:coal"
-        },
-        {
-          "entryName": "loottweaker#12",
           "weight": 30,
           "quality": 0,
           "type": "item",
@@ -874,8 +769,8 @@
           "name": "minecraft:dye"
         },
         {
-          "entryName": "loottweaker#56",
-          "weight": 5,
+          "entryName": "loottweaker#6",
+          "weight": 30,
           "quality": 0,
           "type": "item",
           "functions": [
@@ -887,7 +782,23 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:gunpowder"
+          "name": "minecraft:glowstone_dust"
+        },
+        {
+          "entryName": "loottweaker#12",
+          "weight": 15,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:shears"
         }
       ],
       "rolls": {

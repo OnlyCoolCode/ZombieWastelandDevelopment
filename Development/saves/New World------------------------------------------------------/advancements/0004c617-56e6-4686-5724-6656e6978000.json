@@ -1,0 +1,14 @@
+{
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-09-14 17:20:27 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "eucalyptus_forest": "2021-09-14 17:20:27 -0300"
+    },
+    "done": false
+  }
+}

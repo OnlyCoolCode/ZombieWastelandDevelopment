@@ -1,0 +1,23 @@
+{
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-09-14 13:32:28 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "steppe": "2021-09-14 13:33:42 -0300",
+      "volcanic_island": "2021-09-14 13:32:28 -0300",
+      "dead_forest": "2021-09-14 13:33:54 -0300",
+      "tundra": "2021-09-14 13:33:32 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-09-14 13:35:05 -0300"
+    },
+    "done": true
+  }
+}

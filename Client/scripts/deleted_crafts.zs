@@ -35,16 +35,17 @@ val minecraft_list = [
     <minecraft:golden_leggings>,
     <minecraft:golden_chestplate>,
     <minecraft:golden_helmet>,
-    <minecraft:iron_helmet>,
-    <minecraft:iron_chestplate>,
-    <minecraft:iron_leggings>,
-    <minecraft:iron_boots>,
     <minecraft:iron_axe>,
     <minecraft:shield>,
     <minecraft:golden_apple>,
     <minecraft:golden_carrot>,
     <minecraft:golden_apple>,
-    <minecraft:speckled_melon>
+    <minecraft:speckled_melon>,
+    <minecraft:chainmail_helmet>,
+    <minecraft:chainmail_chestplate>,
+    <minecraft:chainmail_leggings>,
+    <minecraft:chainmail_boots>,
+    <minecraft:cauldron>
 ] as IItemStack[];
 val book_enchants = [
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 8 as short}]}),
@@ -524,19 +525,7 @@ var terrarium = [
     <biomesoplenty:terrarium:13>,
     <biomesoplenty:terrarium:12>
 ] as IItemStack[];
-var leather_skin = [
-    <minecraft:leather>,
-    <minecraft:wool>,
-    <betteranimalsplus:wolf_pelt_red>,
-    <betteranimalsplus:wolf_pelt_brown>,
-    <betteranimalsplus:wolf_pelt_arctic>,
-    <betteranimalsplus:wolf_pelt_black>,
-    <betteranimalsplus:wolf_pelt_timber>,
-    <betteranimalsplus:wolf_pelt_snowy>,
-    <betteranimalsplus:bear_skin_black>,
-    <betteranimalsplus:bear_skin_brown>,
-    <betteranimalsplus:bear_skin_kermode>
-] as IItemStack[];
+
 /* var BetterWithMods_Whitelist = [
     <betterwithmods:candle_holder>,
     <betterwithmods:material:47>,
@@ -566,6 +555,7 @@ var leather_skin = [
     <betterwithmods:material:9>,
     <betterwithmods:material:32>
 ] as IItemStack[]; */
+
 for item in minecraft_list {
     recipes.remove(item);
 }
@@ -620,9 +610,6 @@ for item in betterwithmods {
 for item in terrarium {
     recipes.remove(item);
 }
-for item in leather_skin {
-    recipes.remove(item);
-}
 
 for mod in loadedMods {
 	print(mod.name ~ ":");
@@ -650,6 +637,14 @@ for mod in loadedMods {
             recipes.remove(item);
         }
     if mod.name == "iYAMATO's Mob Mod"
+        for item in mod.items {
+            recipes.remove(item);
+        }
+    if mod.name == "Techguns"
+        for item in mod.items {
+            recipes.remove(item);
+        }
+    if mod.name == "Admin Shop"
         for item in mod.items {
             recipes.remove(item);
         }

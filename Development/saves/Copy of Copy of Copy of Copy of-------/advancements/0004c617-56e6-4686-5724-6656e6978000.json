@@ -1,0 +1,27 @@
+{
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-09-16 03:12:01 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "steppe": "2021-09-16 03:12:01 -0300",
+      "tundra": "2021-09-16 03:13:06 -0300"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-09-16 03:14:03 -0300"
+    },
+    "done": true
+  },
+  "mutantbeasts:root": {
+    "criteria": {
+      "killed_something": "2021-09-16 03:14:03 -0300"
+    },
+    "done": true
+  }
+}

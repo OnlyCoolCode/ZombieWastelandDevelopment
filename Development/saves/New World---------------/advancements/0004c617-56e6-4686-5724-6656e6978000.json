@@ -1,0 +1,54 @@
+{
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2021-09-12 16:44:26 -0300"
+    },
+    "done": true
+  },
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-09-12 13:09:34 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "xeric_shrubland": "2021-09-12 13:14:07 -0300",
+      "wasteland": "2021-09-12 13:09:34 -0300",
+      "dead_forest": "2021-09-12 13:10:39 -0300",
+      "tundra": "2021-09-12 13:10:24 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-09-12 13:17:48 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2021-09-12 13:18:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "zombie": "2021-09-12 13:18:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "zombie_villager": "2021-09-12 13:25:56 -0300",
+      "zombie": "2021-09-12 13:18:52 -0300"
+    },
+    "done": false
+  },
+  "mutantbeasts:root": {
+    "criteria": {
+      "killed_something": "2021-09-12 13:18:52 -0300"
+    },
+    "done": true
+  }
+}

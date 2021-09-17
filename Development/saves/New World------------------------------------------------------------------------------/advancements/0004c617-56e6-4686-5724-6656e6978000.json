@@ -1,0 +1,30 @@
+{
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-09-16 17:31:10 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "xeric_shrubland": "2021-09-16 17:53:30 -0300",
+      "steppe": "2021-09-16 17:57:20 -0300",
+      "wasteland": "2021-09-16 17:31:09 -0300",
+      "dead_forest": "2021-09-16 17:55:34 -0300",
+      "tundra": "2021-09-16 17:55:07 -0300"
+    },
+    "done": false
+  },
+  "betterwithmods:steel_anvil": {
+    "criteria": {
+      "has_item": "2021-09-16 21:01:10 -0300"
+    },
+    "done": true
+  },
+  "betterwithmods:block_dispenser": {
+    "criteria": {
+      "has_items": "2021-09-16 21:01:03 -0300"
+    },
+    "done": true
+  }
+}
