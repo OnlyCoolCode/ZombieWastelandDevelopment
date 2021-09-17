@@ -23,9 +23,9 @@
     "SPOOKY",
     "WET",
     "COLD",
+    "DEAD",
     "SPARSE",
-    "SWAMP",
-    "DEAD"
+    "SWAMP"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

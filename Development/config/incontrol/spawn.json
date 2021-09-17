@@ -44,7 +44,7 @@
     "result": "deny"
   },
   {
-    "mob": "animalium:bear",
+    "mob": ["animalium:bear","animalium:bear_tamed"],
     "mincount": {
       "amount": 15,
       "mod": "animalium",
@@ -98,7 +98,7 @@
     "result": "deny"
   },
   {
-    "mob": ["animalium:bear","animalium:wild_dog","mutantbeasts:mutant_zombie"],
+    "mob": ["animalium:bear","animalium:wild_dog","mutantbeasts:mutant_zombie","animalium:bear_tamed"],
     "seesky": false,
     "result": "deny"
   },

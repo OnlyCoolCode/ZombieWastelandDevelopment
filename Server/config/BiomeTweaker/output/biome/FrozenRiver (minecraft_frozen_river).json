@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "COLD",
     "RIVER",
+    "COLD",
     "SNOWY",
     "WATER"
   ],
@@ -45,12 +45,6 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "animalium.entities.EntityPiranha",
-      "Weight": 100,
-      "Min Group Count": 1,
-      "Max Group Count": 3
     },
     {
       "Entity Class": "com.gendeathrow.playerskins.entity.EntityPlayerMob",

@@ -20,8 +20,8 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SANDY",
     "DRY",
+    "SANDY",
     "MESA"
   ],
   "BiomeManager Entries": {},
@@ -44,24 +44,6 @@
       "Weight": 5,
       "Min Group Count": 1,
       "Max Group Count": 1
-    },
-    {
-      "Entity Class": "animalium.entities.EntityWildDog",
-      "Weight": 60,
-      "Min Group Count": 1,
-      "Max Group Count": 5
-    },
-    {
-      "Entity Class": "animalium.entities.EntityBear",
-      "Weight": 45,
-      "Min Group Count": 2,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "animalium.entities.EntityRat",
-      "Weight": 100,
-      "Min Group Count": 3,
-      "Max Group Count": 9
     },
     {
       "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperSlasher",
