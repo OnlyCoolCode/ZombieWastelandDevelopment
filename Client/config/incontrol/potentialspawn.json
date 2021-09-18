@@ -56,14 +56,14 @@
       },
     {
         "mob": "animalium:wild_dog",
-        "weight": 6,
-        "groupcountmin": 1,
+        "weight": 10,
+        "groupcountmin": 2,
         "groupcountmax": 4,
         "minlight": 7
       },
     {
         "mob": "animalium:bear",
-        "weight": 2,
+        "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 1,
         "minlight": 8
@@ -77,9 +77,9 @@
       },
     {
         "mob": "animalium:rat",
-        "weight": 25,
+        "weight": 7,
         "groupcountmin": 1,
-        "groupcountmax": 7,
+        "groupcountmax": 3,
         "maxlight": 7
       },
     {
@@ -96,7 +96,7 @@
       },
     {
         "mob": "playerskins:playermob",
-        "weight": 7,
+        "weight": 5,
         "groupcountmin": 3,
         "groupcountmax": 7
       }

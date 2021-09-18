@@ -55,7 +55,7 @@
   {
     "mob": "animalium:rat",
     "mincount": {
-      "amount": 15,
+      "amount": 13,
       "mob": "animalium:rat",
       "perchunk": true
     },
@@ -199,6 +199,17 @@
     "maxheight": 69,
     "seesky": false,
     "random": 0.3,
+    "result": "deny"
+  },
+  {
+    "mod": ["minecraft", "techguns", "playerskins", "iymts_mob_mod", "mutantbeasts"],
+    "incity": false,
+    "seesky": true,
+    "mincount": {
+      "amount": 40,
+      "hostile": true,
+      "perchunk": true
+    },
     "result": "deny"
   }
 ]

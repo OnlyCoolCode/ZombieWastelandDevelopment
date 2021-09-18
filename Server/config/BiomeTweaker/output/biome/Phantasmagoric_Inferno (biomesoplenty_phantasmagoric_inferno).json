@@ -23,9 +23,9 @@
     "WASTELAND",
     "DRY",
     "HOT",
-    "SPOOKY",
     "MAGICAL",
-    "NETHER"
+    "NETHER",
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
