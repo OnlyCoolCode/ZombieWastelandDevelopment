@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DENSE",
-    "LUSH",
+    "SWAMP",
     "WET",
     "FOREST",
-    "SWAMP"
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

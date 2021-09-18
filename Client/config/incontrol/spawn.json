@@ -35,16 +35,7 @@
     "result": "allow"
   },
   {
-    "mob": "animalium:wild_dog",
-    "mincount": {
-      "amount": 15,
-      "mod": "animalium",
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "mob": ["animalium:bear","animalium:bear_tamed"],
+    "mob": ["animalium:wild_dog","animalium:bear","animalium:bear_tamed"],
     "mincount": {
       "amount": 15,
       "mod": "animalium",
@@ -62,34 +53,7 @@
     "result": "deny"
   },
   {
-    "mod": "mutantbeasts",
-    "mincount": {
-      "amount": 70,
-      "hostile": true,
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "mod": "iymts_mob_mod",
-    "mincount": {
-      "amount": 70,
-      "hostile": true,
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "mod": "techguns",
-    "mincount": {
-      "amount": 70,
-      "hostile": true,
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "mod": "playerskins",
+    "mod": ["techguns","playerskins","iymts_mob_mod","mutantbeasts"],
     "mincount": {
       "amount": 70,
       "hostile": true,
@@ -110,8 +74,8 @@
   {
     "mob": "minecraft:zombie",
     "incity": true,
-    "minheight": 70,
-    "random": 0.6,
+    "minheight": 60,
+    "random": 0.9,
     "groupcountmin": 3,
     "groupcountmax": 10,
     "result": "default"
@@ -137,22 +101,12 @@
     "result": "deny"
   },
   {
-    "mob": "techguns:bandit",
+    "mob": ["techguns:bandit","techguns:armysoldier"],
     "inbuilding": false,
     "result": "deny"
   },
   {
-    "mob": "techguns:bandit",
-    "inbuilding": true,
-    "result": "allow"
-  },
-  {
-    "mob": "techguns:armysoldier",
-    "inbuilding": false,
-    "result": "deny"
-  },
-  {
-    "mob": "techguns:armysoldier",
+    "mob": ["techguns:bandit","techguns:armysoldier"],
     "inbuilding": true,
     "result": "allow"
   },
@@ -210,6 +164,7 @@
       "hostile": true,
       "perchunk": true
     },
+    "hostile": true,
     "result": "deny"
   }
 ]

@@ -3,6 +3,9 @@ import mods.jei.JEI;
 import crafttweaker.mods.IMod;
 
 var baseballbat = <weapons_of_the_apocalypse:baseballbat>;
+var steelhatchet = <weapons_of_the_apocalypse:steelhatchet>;
+var fireaxe = <weapons_of_the_apocalypse:fireaxe>;
+var katana = <weapons_of_the_apocalypse:katana>;
 var supersledgehammer = <weapons_of_the_apocalypse:supersledgehammer>;
 var stopsignaxe = <weapons_of_the_apocalypse:stopsignaxe>;
 var spikedbaseballbat = <weapons_of_the_apocalypse:spikedbaseballbat>;
@@ -19,6 +22,8 @@ var iron = <ore:ingotIron>.firstItem;
 var iron_nugget = <ore:nuggetIron>.firstItem;
 var tireiron = <weapons_of_the_apocalypse:tireiron>;
 var metalbat = <weapons_of_the_apocalypse:metalbat>;
+var louisvilleslugger = <weapons_of_the_apocalypse:louisvilleslugger>;
+var tacticalshovel = <weapons_of_the_apocalypse:tacticalshovel>;
 var fleshmorph = <weapons_of_the_apocalypse:fleshmorph>;
 var juicer = <weapons_of_the_apocalypse:juicer>;
 var refinedblood = <weapons_of_the_apocalypse:refinedblood>;
@@ -40,6 +45,21 @@ recipes.addShaped("baseballbat", baseballbat, [
     [null,null,plank],
     [leather,plank,null],
     [plank,leather,null]
+]);
+recipes.addShaped("steelhatchet", steelhatchet, [
+    [null,iron,stick],
+    [null,stick,iron_nugget],
+    [stick,null,null]
+]);
+recipes.addShaped("fireaxe", fireaxe, [
+    [iron,iron,iron_nugget],
+    [iron,stick,null],
+    [null,stick,null]
+]);
+recipes.addShaped("katana", katana, [
+    [null,null,iron_nugget],
+    [null,iron_nugget,null],
+    [ducttape,leather,null]
 ]);
 recipes.addShaped("supersledgehammer", supersledgehammer, [
     [null,nails,blockIron],
@@ -67,9 +87,19 @@ recipes.addShaped("sythe", sythe, [
     [tireiron,ducttape,null]
 ]);
 recipes.addShaped("metalbat", metalbat, [
-    [null,null,blockIron],
-    [null,blockIron,null],
+    [null,null,iron],
+    [null,iron,null],
     [tireiron,ducttape,null]
+]);
+recipes.addShaped("louisvilleslugger", louisvilleslugger, [
+    [null,null,plank],
+    [glue,plank,null],
+    [iron,glue,null]
+]);
+recipes.addShaped("tacticalshovel", tacticalshovel, [
+    [null,null,iron],
+    [null,iron_nugget,null],
+    [iron_nugget,null,null]
 ]);
 recipes.addShapeless("zombieblood", zombieblood,
 [juicer, fleshmorph]

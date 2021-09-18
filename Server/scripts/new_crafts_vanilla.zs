@@ -208,12 +208,18 @@ var anvil = <minecraft:anvil>;
 var anvil1 = <minecraft:anvil:1>;
 var anvil2 = <minecraft:anvil:2>;
 var cauldron = <minecraft:cauldron>;
-furnace.addRecipe(iron_ingot*9, anvil);
-furnace.addRecipe(iron_ingot*7, anvil1);
-furnace.addRecipe(iron_ingot*5, anvil2);
-furnace.addRecipe(iron_ingot*5, cauldron);
+furnace.addRecipe(iron_ingot*2, anvil);
+furnace.addRecipe(iron_ingot*2, anvil1);
+furnace.addRecipe(iron_ingot*2, anvil2);
+furnace.addRecipe(iron_ingot*2, cauldron);
 
-
+// Saddle
+var saddle = <minecraft:saddle>;
+recipes.addShaped("saddle", saddle, [
+    [leather,leather,leather],
+    [string_item,null,string_item],
+    [iron_ingot,null,iron_ingot]
+]);
 
 
 

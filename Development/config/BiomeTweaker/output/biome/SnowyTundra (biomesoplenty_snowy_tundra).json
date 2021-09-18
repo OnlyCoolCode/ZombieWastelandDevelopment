@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SNOWY",
     "WASTELAND",
-    "COLD",
+    "SNOWY",
     "WET",
+    "COLD",
     "DEAD",
     "SPARSE"
   ],
