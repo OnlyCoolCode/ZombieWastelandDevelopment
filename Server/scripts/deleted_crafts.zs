@@ -2,7 +2,6 @@ import crafttweaker.item.IItemStack;
 import mods.jei.JEI;
 import crafttweaker.mods.IMod;
 
-
 val minecraft_list = [
     <minecraft:diamond_sword>,
     <minecraft:diamond_pickaxe>,

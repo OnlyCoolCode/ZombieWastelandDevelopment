@@ -7,6 +7,7 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "steppe": "2021-09-19 19:28:29 -0300",
       "dead_forest": "2021-09-17 23:08:51 -0300"
     },
     "done": false

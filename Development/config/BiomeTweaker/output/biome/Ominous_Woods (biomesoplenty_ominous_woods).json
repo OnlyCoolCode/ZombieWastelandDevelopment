@@ -23,10 +23,10 @@
     "DEAD",
     "RARE",
     "SPOOKY",
-    "DENSE",
     "FOREST",
-    "WET",
-    "MAGICAL"
+    "DENSE",
+    "MAGICAL",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

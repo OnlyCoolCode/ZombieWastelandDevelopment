@@ -40,19 +40,19 @@
       },
     {
         "mob": "iymts_mob_mod:iysuperleaper",
-        "weight": 400
+        "weight": 200
       },
     {
         "mob": "iymts_mob_mod:iysuperslasher",
-        "weight": 400
+        "weight": 200
       },
     {
         "mob": "iymts_mob_mod:iysuperexploder",
-        "weight": 400
+        "weight": 200
       },
     {
         "mob": "mutantbeasts:mutant_zombie",
-        "weight": 250
+        "weight": 150
       },
     {
         "mob": "animalium:wild_dog",
@@ -96,7 +96,7 @@
       },
     {
         "mob": "playerskins:playermob",
-        "weight": 12,
+        "weight": 10,
         "groupcountmin": 3,
         "groupcountmax": 7
       }

@@ -155,7 +155,7 @@ val foodTable = LootTweaker.newTable("loottweaker:food");
  
 //==== Add pools to your tables ====
 val subwayPool = subwayTable.addPool("subway", 3, 9, 0, 0);
-val genericPool = genericTable.addPool("generic", 0, 9, 0, 0);
+val genericPool = genericTable.addPool("generic", 1, 10, 0, 0);
 val healingPool = healingTable.addPool("healing", 3, 9, 0, 0);
 val plantPool = plantTable.addPool("plant", 3, 11, 0, 0);
 val handgunPool = handgunTable.addPool("handgun", 1, 5, 0, 0);
@@ -189,25 +189,25 @@ for item in lc_healing {
 genericPool.addItemEntry(item, 8, 1, [Functions.setCount(1, 2)], []);
 }
 for item in lc_iron_gunpownder {
-genericPool.addItemEntry(item, 10, 1, [Functions.setCount(1, 3)], []);
+genericPool.addItemEntry(item, 10, 1, [Functions.setCount(1, 2)], []);
 }
 for item in lc_weapons_stuff {
-genericPool.addItemEntry(item, 21, 1, [Functions.setCount(1, 3)], []);
+genericPool.addItemEntry(item, 25, 1, [Functions.setCount(1, 2)], []);
 }
 for item in lc_trash {
 genericPool.addItemEntry(item, 15, 1, [Functions.setCount(3, 9)], []);
 }
 for item in lc_miscellaneous {
-genericPool.addItemEntry(item, 5, 1, [Functions.setCount(1, 3)], []);
+genericPool.addItemEntry(item, 5, 1, [Functions.setCount(1, 2)], []);
 }
 for item in lc_hand_weapons {
-genericPool.addItemEntry(item, 5, 1, [Functions.setCount(1, 1)], []);
+genericPool.addItemEntry(item, 3, 1, [Functions.setCount(1, 1)], []);
 }
 for item in lc_hand_ammo_low {
-genericPool.addItemEntry(item, 4, 1, [Functions.setCount(6, 18)], []);
+genericPool.addItemEntry(item, 3, 1, [Functions.setCount(6, 18)], []);
 }
 for item in lc_hand_ammo_high {
-genericPool.addItemEntry(item, 4, 1, [Functions.setCount(1, 1)], []);
+genericPool.addItemEntry(item, 3, 1, [Functions.setCount(1, 1)], []);
 }
 //==== Healing Loot ====
 for item in lc_healing {

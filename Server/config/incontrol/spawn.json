@@ -7,7 +7,7 @@
   {
     "mob": ["minecraft:spider","minecraft:cave_spider","animalium:piranha"],
     "mincount": {
-      "amount": 70,
+      "amount": 90,
       "hostile": true,
       "perchunk": true
     },
@@ -46,16 +46,25 @@
   {
     "mob": "animalium:rat",
     "mincount": {
-      "amount": 13,
-      "mob": "animalium:rat",
+      "amount": 20,
+      "mod": "animalium",
       "perchunk": true
     },
     "result": "deny"
   },
   {
-    "mod": ["techguns","playerskins","iymts_mob_mod","mutantbeasts"],
+    "mod": ["minecraft","techguns","playerskins"],
     "mincount": {
-      "amount": 70,
+      "amount": 90,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": ["iymts_mob_mod","mutantbeasts"],
+    "mincount": {
+      "amount": 95,
       "hostile": true,
       "perchunk": true
     },
@@ -67,36 +76,33 @@
     "result": "deny"
   },
   {
-    "mob": ["animalium:rat","mutantbeasts:mutant_zombie"],
+    "mob": ["animalium:rat"],
     "incity": false,
     "result": "deny"
   },
   {
-    "mob": "minecraft:zombie",
-    "incity": true,
+    "mob": ["mutantbeasts:mutant_zombie"],
+    "biome": ["biomesoplenty:wasteland","biomesoplenty:dead_forest","biomesoplenty:volcanic_island","biomesoplenty:tundra","biomesoplenty:brushland"],
+    "result": "deny"
+  },
+  {
+    "mod": ["iymts_mob_mod","mutantbeasts"],
+    "biome": ["biomesoplenty:xeric_shrubland", "biomesoplenty:steppe"],
     "minheight": 60,
-    "random": 0.9,
-    "groupcountmin": 3,
-    "groupcountmax": 10,
-    "result": "default"
+    "maxlight": 7,
+    "result": "allow"
   },
   {
-    "mod": "iymts_mob_mod",
-    "incity": true,
-    "minheight": 70,
-    "result": "default"
-  },
-  {
-    "mod": "iymts_mob_mod",
-    "incity": true,
+    "mod": ["iymts_mob_mod","mutantbeasts"],
+    "biome": ["biomesoplenty:xeric_shrubland", "biomesoplenty:steppe"],
     "seesky": false,
-    "maxheight": 70,
-    "random": 0.8,
+    "maxheight": 60,
+    "random": 0.6,
     "result": "deny"
   },
   {
     "mod": "iymts_mob_mod",
-    "incity": false,
+    "biome": ["biomesoplenty:wasteland","biomesoplenty:dead_forest","biomesoplenty:volcanic_island","biomesoplenty:tundra","biomesoplenty:brushland"],
     "random": 0.8,
     "result": "deny"
   },
@@ -149,18 +155,24 @@
     "result": "deny"
   },
   {
-    "mod": ["minecraft", "techguns", "playerskins", "iymts_mob_mod", "animalium", "mutantbeasts"],
-    "maxheight": 69,
-    "seesky": false,
-    "random": 0.3,
+    "mod": ["minecraft", "techguns", "playerskins", "iymts_mob_mod", "mutantbeasts"],
+    "biome": ["biomesoplenty:wasteland","biomesoplenty:dead_forest","biomesoplenty:volcanic_island","biomesoplenty:tundra","biomesoplenty:brushland"],
+    "seesky": true,
+    "mincount": {
+      "amount": 40,
+      "hostile": true,
+      "perchunk": true
+    },
+    "hostile": true,
     "result": "deny"
   },
   {
     "mod": ["minecraft", "techguns", "playerskins", "iymts_mob_mod", "mutantbeasts"],
-    "incity": false,
-    "seesky": true,
+    "biome": ["biomesoplenty:wasteland","biomesoplenty:dead_forest","biomesoplenty:volcanic_island","biomesoplenty:tundra","biomesoplenty:brushland"],
+    "maxheight": 60,
+    "seesky": false,
     "mincount": {
-      "amount": 40,
+      "amount": 45,
       "hostile": true,
       "perchunk": true
     },
