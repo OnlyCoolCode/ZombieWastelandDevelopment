@@ -86,12 +86,6 @@
     "result": "default"
   },
   {
-    "mod": "iymts_mob_mod",
-    "biome": ["biomesoplenty:xeric_shrubland", "biomesoplenty:steppe"],
-    "minheight": 60,
-    "result": "default"
-  },
-  {
     "mod": ["iymts_mob_mod","mutantbeasts"],
     "biome": ["biomesoplenty:xeric_shrubland", "biomesoplenty:steppe"],
     "seesky": false,
