@@ -25,7 +25,7 @@ chatLinks:true
 chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
-fullscreen:true
+fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
@@ -137,15 +137,15 @@ key_wi-zoom.zoom:46
 soundCategory_master:0.50993377
 soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.5070422
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-soundCategory_ds_footsteps:0.35915494
-soundCategory_ds_biome:0.5070422
+soundCategory_ds_footsteps:0.2535211
+soundCategory_ds_biome:0.2535211
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

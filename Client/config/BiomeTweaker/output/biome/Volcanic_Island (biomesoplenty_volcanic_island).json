@@ -23,8 +23,8 @@
     "HOT",
     "WASTELAND",
     "WATER",
-    "DRY",
     "DEAD",
+    "DRY",
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {},

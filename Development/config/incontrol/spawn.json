@@ -67,13 +67,18 @@
     "result": "deny"
   },
   {
-    "mob": ["animalium:rat","mutantbeasts:mutant_zombie"],
+    "mob": ["animalium:rat"],
     "incity": false,
     "result": "deny"
   },
   {
+    "mob": ["mutantbeasts:mutant_zombie"],
+    "biome": ["biomesoplenty:wasteland","biomesoplenty:dead_forest","biomesoplenty:volcanic_island","biomesoplenty:tundra","biomesoplenty:brushland"],
+    "result": "deny"
+  },
+  {
     "mob": "minecraft:zombie",
-    "incity": true,
+    "biome": ["biomesoplenty:xeric_shrubland", "biomesoplenty:steppe"],
     "minheight": 60,
     "random": 0.9,
     "groupcountmin": 3,
@@ -82,13 +87,13 @@
   },
   {
     "mod": "iymts_mob_mod",
-    "incity": true,
-    "minheight": 70,
+    "biome": ["biomesoplenty:xeric_shrubland", "biomesoplenty:steppe"],
+    "minheight": 60,
     "result": "default"
   },
   {
-    "mod": "iymts_mob_mod",
-    "incity": true,
+    "mod": ["iymts_mob_mod","mutantbeasts"],
+    "biome": ["biomesoplenty:xeric_shrubland", "biomesoplenty:steppe"],
     "seesky": false,
     "maxheight": 70,
     "random": 0.8,
@@ -96,7 +101,7 @@
   },
   {
     "mod": "iymts_mob_mod",
-    "incity": false,
+    "biome": ["biomesoplenty:wasteland","biomesoplenty:dead_forest","biomesoplenty:volcanic_island","biomesoplenty:tundra","biomesoplenty:brushland"],
     "random": 0.8,
     "result": "deny"
   },
@@ -149,15 +154,8 @@
     "result": "deny"
   },
   {
-    "mod": ["minecraft", "techguns", "playerskins", "iymts_mob_mod", "animalium", "mutantbeasts"],
-    "maxheight": 69,
-    "seesky": false,
-    "random": 0.3,
-    "result": "deny"
-  },
-  {
     "mod": ["minecraft", "techguns", "playerskins", "iymts_mob_mod", "mutantbeasts"],
-    "incity": false,
+    "biome": ["biomesoplenty:wasteland","biomesoplenty:dead_forest","biomesoplenty:volcanic_island","biomesoplenty:tundra","biomesoplenty:brushland"],
     "seesky": true,
     "mincount": {
       "amount": 40,

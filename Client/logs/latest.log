@@ -1,245 +1,105 @@
-[00:00:34] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 65 advancements
-[00:02:42] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Monster Hunter]
-[00:04:04] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.load(LayoutManager.java:600) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$containerInitEvent$5(NEIClientEventHandler.java:220) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
-	at codechicken.nei.handler.NEIClientEventHandler.containerInitEvent(NEIClientEventHandler.java:220) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_901_NEIClientEventHandler_containerInitEvent_Pre.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:475) [blk.class:?]
-	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018) [bib.class:?]
-	at net.minecraft.client.entity.EntityPlayerSP.displayGui(EntityPlayerSP.java:741) [bud.class:?]
-	at net.minecraft.client.network.NetHandlerPlayClient.handleOpenWindow(NetHandlerPlayClient.java:1101) [brz.class:?]
-	at net.minecraft.network.play.server.SPacketOpenWindow.processPacket(SourceFile:43) [ir.class:?]
-	at net.minecraft.network.play.server.SPacketOpenWindow.processPacket(SourceFile:9) [ir.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) [hv$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_271]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_271]
-	at net.minecraft.util.Util.runTask(Util.java:529) [h.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1088) [bib.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[00:04:04] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:213) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$foregroundRenderEvent$8(NEIClientEventHandler.java:286) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
-	at codechicken.nei.handler.NEIClientEventHandler.foregroundRenderEvent(NEIClientEventHandler.java:286) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_900_NEIClientEventHandler_foregroundRenderEvent_DrawForeground.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:119) [bmg.class:?]
-	at net.minecraft.client.gui.inventory.GuiCrafting.drawScreen(SourceFile:63) [bmn.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:396) [ForgeHooksClient.class:?]
-	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.optifine.reflect.Reflector.callVoid(Reflector.java:669) [Reflector.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1462) [buq.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1119) [bib.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[00:04:15] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.load(LayoutManager.java:600) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$containerInitEvent$5(NEIClientEventHandler.java:220) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
-	at codechicken.nei.handler.NEIClientEventHandler.containerInitEvent(NEIClientEventHandler.java:220) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_901_NEIClientEventHandler_containerInitEvent_Pre.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:475) [blk.class:?]
-	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018) [bib.class:?]
-	at net.minecraft.client.entity.EntityPlayerSP.displayGUIChest(EntityPlayerSP.java:703) [bud.class:?]
-	at net.minecraft.client.network.NetHandlerPlayClient.handleOpenWindow(NetHandlerPlayClient.java:1107) [brz.class:?]
-	at net.minecraft.network.play.server.SPacketOpenWindow.processPacket(SourceFile:43) [ir.class:?]
-	at net.minecraft.network.play.server.SPacketOpenWindow.processPacket(SourceFile:9) [ir.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) [hv$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_271]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_271]
-	at net.minecraft.util.Util.runTask(Util.java:529) [h.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1088) [bib.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[00:04:15] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:213) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$foregroundRenderEvent$8(NEIClientEventHandler.java:286) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
-	at codechicken.nei.handler.NEIClientEventHandler.foregroundRenderEvent(NEIClientEventHandler.java:286) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_900_NEIClientEventHandler_foregroundRenderEvent_DrawForeground.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:119) [bmg.class:?]
-	at net.minecraft.client.gui.inventory.GuiFurnace.drawScreen(SourceFile:24) [bmu.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:396) [ForgeHooksClient.class:?]
-	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.optifine.reflect.Reflector.callVoid(Reflector.java:669) [Reflector.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1462) [buq.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1119) [bib.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[00:04:35] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Sweet dreams]
-[00:04:35] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 65 advancements
-[00:04:37] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Sweet dreams]
-[00:09:00] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 90 advancements
-[00:10:54] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Monster Hunter]
-[00:10:54] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 91 advancements
-[00:12:00] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
-[00:12:01] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Stone Age]
-[00:12:01] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 102 advancements
-[00:12:16] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
-[00:15:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Getting an Upgrade]
-[00:15:27] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 108 advancements
-[00:16:55] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 109 advancements
-[00:17:46] [Client thread/WARN] [net.minecraft.client.shader.ShaderManager]: Could not find uniform named InSize in the specified shader program.
-[00:20:21] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 118 advancements
-[00:22:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Acquire Hardware]
-[00:22:25] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 134 advancements
-[00:22:33] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.load(LayoutManager.java:600) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$containerInitEvent$5(NEIClientEventHandler.java:220) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
-	at codechicken.nei.handler.NEIClientEventHandler.containerInitEvent(NEIClientEventHandler.java:220) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_901_NEIClientEventHandler_containerInitEvent_Pre.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:475) [blk.class:?]
-	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018) [bib.class:?]
-	at mezz.jei.gui.recipes.RecipesGui.close(RecipesGui.java:391) [RecipesGui.class:?]
-	at mezz.jei.gui.recipes.RecipesGui.handleKeybinds(RecipesGui.java:348) [RecipesGui.class:?]
-	at mezz.jei.gui.recipes.RecipesGui.keyTyped(RecipesGui.java:341) [RecipesGui.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:558) [blk.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:512) [blk.class:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1759) [bib.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1098) [bib.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[00:23:19] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Acquire Hardware]
-[00:24:46] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Isn't It Iron Pick]
-[00:24:46] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 136 advancements
-[00:36:39] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 139 advancements
-[00:36:42] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 143 advancements
-[00:41:16] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 145 advancements
-[00:42:16] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 145 advancements
-[00:43:46] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Isn't It Iron Pick]
-[00:47:29] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 150 advancements
-[00:49:12] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 1 times.
-[00:49:12] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:49:12] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was slain by Zombie
-[00:49:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Stone Age]
-[00:51:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Given [Iron Tower Shield] * 1 to ElDuro
-[00:53:25] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 153 advancements
-[00:53:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by Wild Dog
-[00:54:24] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 156 advancements
-[00:59:36] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 171 advancements
-[01:01:49] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are now AFK (Away From Keyboard).
-[01:01:56] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are no longer AFK.
-[01:07:01] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by Zombie
-[01:07:53] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 173 advancements
-[01:09:45] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by Zombie
-[01:14:20] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo left the game
-[01:14:45] [Client thread/INFO] [toughasnails]: TAN configuration restored to local values
-[01:14:46] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
-[01:14:46] [Client thread/INFO] [FML]: Applying holder lookups
-[01:14:46] [Client thread/INFO] [FML]: Holder lookups applied
-[01:14:51] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[01:14:51] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[01:14:51] [Netty Client IO #2/INFO] [FML]: Attempting connection with missing mods [antiqueatlasoverlay, backtools, betterfoliage, chunkanimator, controlling, ctgui, ctm, custommainmenu, customskinloader, dsurround, enhancedvisuals, fpsreducer, inventorytweaks, jeiintegration, mobdismemberment, mousetweaks, norecipebook, resourceloader, toastcontrol, wi-zoom, betteranimals] at SERVER
-[01:14:51] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[00:03:58] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[00:04:06] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 123 advancements
+[00:04:48] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[00:04:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by Zombie Villager
+[00:06:29] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo didn't know that poison was deadly
+[00:12:02] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 123 advancements
+[00:12:10] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 123 advancements
+[00:12:38] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Prepared For The Future!]
+[00:15:24] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 128 advancements
+[00:22:13] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes has made the advancement [Monster Hunter]
+[00:25:07] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes was slain by Zombie
+[00:27:45] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Acquire Hardware]
+[00:27:45] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 144 advancements
+[00:27:59] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Isn't It Iron Pick]
+[00:27:59] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 146 advancements
+[00:29:07] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by JuanDeLosPalotes (Zombie)
+[00:29:31] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes didn't know that poison was deadly
+[00:31:04] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Isn't It Iron Pick]
+[00:31:04] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Acquire Hardware]
+[00:31:18] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 9 times.
+[00:31:18] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
+[00:31:18] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro fell from a high place
+[00:33:26] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 147 advancements
+[00:36:46] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 149 advancements
+[00:36:54] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 150 advancements
+[00:39:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 10 times.
+[00:39:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
+[00:39:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was slain by Zombie
+[00:41:39] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 151 advancements
+[00:43:50] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Taxidermist]
+[00:44:10] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 152 advancements
+[00:44:29] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 155 advancements
+[00:45:46] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 158 advancements
+[00:47:07] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo fell from a high place
+[00:54:27] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 158 advancements
+[00:58:23] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 163 advancements
+[00:59:12] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[00:59:13] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[00:59:15] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[00:59:16] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[00:59:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 11 times.
+[00:59:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
+[00:59:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was slain by Zombie
+[01:02:49] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[01:02:50] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[01:08:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by Zombie
+[01:08:21] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:08:39] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 181 advancements
+[01:09:42] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 182 advancements
+[01:21:23] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo fell from a high place
+[01:21:43] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes was slain by Zombie
+[01:23:10] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 12 times.
+[01:23:10] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
+[01:23:10] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was slain by guidardo
+[01:30:58] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are now AFK (Away From Keyboard).
+[01:31:15] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are no longer AFK.
+[01:34:09] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes was slain by Zombie
+[01:39:43] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 189 advancements
+[01:40:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo fell from a high place
+[01:41:56] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes has made the advancement [Isn't It Iron Pick]
+[01:43:33] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 190 advancements
+[01:43:40] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 192 advancements
+[01:44:48] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Taxidermist]
+[01:44:48] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 193 advancements
+[01:53:29] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:30] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:31] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:31] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:31] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:32] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:32] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:32] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:32] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:33] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:35] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:35] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:37] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 193 advancements
+[01:53:45] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:45] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:45] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:46] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:53:47] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:54:01] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:54:01] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:54:01] [Client thread/ERROR] [net.minecraft.client.Minecraft]: Null returned as 'hitResult', this shouldn't happen!
+[01:56:11] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo left the game
+[02:01:03] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 194 advancements
+[02:18:23] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 195 advancements
+[02:22:03] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[02:22:05] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[02:26:11] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[02:38:44] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 196 advancements
+[02:45:05] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 198 advancements
+[02:45:45] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[02:49:00] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[02:52:23] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 199 advancements
+[03:00:52] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes was slain by Zombie
+[03:03:30] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes left the game
+[03:03:43] [Client thread/INFO] [toughasnails]: TAN configuration restored to local values
+[03:03:44] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
+[03:03:44] [Client thread/INFO] [FML]: Applying holder lookups
+[03:03:44] [Client thread/INFO] [FML]: Holder lookups applied
+[03:03:45] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[03:03:45] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[03:03:45] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
