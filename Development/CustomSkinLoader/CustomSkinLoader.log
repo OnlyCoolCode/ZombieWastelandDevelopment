@@ -1,11 +1,32 @@
-[2021-09-19 18:09:40] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
-[2021-09-19 18:09:40] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader
-[2021-09-19 18:09:40] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
-[2021-09-19 18:09:40] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader\CustomSkinLoader.json
-[2021-09-19 18:09:40] [pool-5-thread-1 INFO] Try to load config.
-[2021-09-19 18:09:40] [pool-5-thread-1 INFO] Successfully load config.
-[2021-09-19 18:09:40] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
-[2021-09-19 18:09:40] [Mati INFO] Loading Mati's profile.
-[2021-09-19 18:09:40] [Mati INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-09-19 18:09:40] [Mati INFO] Mati's profile loaded.
-[2021-09-19 18:09:40] [Mati INFO] (SkinUrl: (LOCAL_LEGACY)7ea39d12f1055be57e15a07c621027671d41edac,LocalSkin/skins/Mati.png , Model: default , CapeUrl: null  , Expiry: 1632085813)
+[2021-09-19 18:33:01] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
+[2021-09-19 18:33:01] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader
+[2021-09-19 18:33:01] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
+[2021-09-19 18:33:01] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader\CustomSkinLoader.json
+[2021-09-19 18:33:01] [pool-5-thread-1 INFO] Try to load config.
+[2021-09-19 18:33:01] [pool-5-thread-1 INFO] Successfully load config.
+[2021-09-19 18:33:01] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
+[2021-09-19 18:33:01] [Mati INFO] Loading Mati's profile.
+[2021-09-19 18:33:01] [Mati INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-09-19 18:33:01] [Mati INFO] Mati's profile loaded.
+[2021-09-19 18:33:01] [Mati INFO] (SkinUrl: (LOCAL_LEGACY)7ea39d12f1055be57e15a07c621027671d41edac,LocalSkin/skins/Mati.png , Model: default , CapeUrl: null  , Expiry: 1632087214)
+[2021-09-19 18:35:20] [KingLemming's skull INFO] Loading KingLemming's profile.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] Both skin and cape not found.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] 2/6 Try to load profile from 'Mojang'.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] Loading KingLemming's profile.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] Both skin and cape not found.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] 2/6 Try to load profile from 'Mojang'.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] Loading KingLemming's profile.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] Both skin and cape not found.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] 2/6 Try to load profile from 'Mojang'.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] Default profile will be used.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] KingLemming's profile loaded.
+[2021-09-19 18:35:20] [KingLemming's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/6b5e5289cf6158be0e1d5a811fdb90647f31372eb86fcddc228d6d893118e74f , Model: default , CapeUrl: http://textures.minecraft.net/texture/b0cc08840700447322d953a02b965f1d65a13a603bf64b17c803c21446fe1635  , Expiry: 1632087355)
+[2021-09-19 18:35:21] [KingLemming's skull INFO] Default profile will be used.
+[2021-09-19 18:35:21] [KingLemming's skull INFO] KingLemming's profile loaded.
+[2021-09-19 18:35:21] [KingLemming's skull INFO] Default profile will be used.
+[2021-09-19 18:35:21] [KingLemming's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/6b5e5289cf6158be0e1d5a811fdb90647f31372eb86fcddc228d6d893118e74f , Model: default , CapeUrl: http://textures.minecraft.net/texture/b0cc08840700447322d953a02b965f1d65a13a603bf64b17c803c21446fe1635  , Expiry: 1632087353)
+[2021-09-19 18:35:21] [KingLemming's skull INFO] KingLemming's profile loaded.
+[2021-09-19 18:35:21] [KingLemming's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/6b5e5289cf6158be0e1d5a811fdb90647f31372eb86fcddc228d6d893118e74f , Model: default , CapeUrl: http://textures.minecraft.net/texture/b0cc08840700447322d953a02b965f1d65a13a603bf64b17c803c21446fe1635  , Expiry: 1632087351)
