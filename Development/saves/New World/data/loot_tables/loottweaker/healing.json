@@ -1,0 +1,65 @@
+{
+  "pools": [
+    {
+      "name": "healing",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 100,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "firstaid:bandage"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 100,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:stimpack"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 100,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "firstaid:plaster"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 100,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "firstaid:morphine"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 9.0
+      }
+    }
+  ]
+}

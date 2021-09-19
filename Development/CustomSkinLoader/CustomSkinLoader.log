@@ -1,25 +1,53 @@
-[2021-09-19 17:22:08] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
-[2021-09-19 17:22:08] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader
-[2021-09-19 17:22:08] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
-[2021-09-19 17:22:08] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader\CustomSkinLoader.json
-[2021-09-19 17:22:08] [pool-5-thread-1 INFO] Try to load config.
-[2021-09-19 17:22:08] [pool-5-thread-1 INFO] Successfully load config.
-[2021-09-19 17:22:08] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
-[2021-09-19 17:22:08] [Mati INFO] Loading Mati's profile.
-[2021-09-19 17:22:08] [Mati INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-09-19 17:22:08] [Mati INFO] Mati's profile loaded.
-[2021-09-19 17:22:08] [Mati INFO] (SkinUrl: (LOCAL_LEGACY)7ea39d12f1055be57e15a07c621027671d41edac,LocalSkin/skins/Mati.png , Model: default , CapeUrl: null  , Expiry: 1632082960)
-[2021-09-19 17:22:11] [tfox83's skull INFO] Loading tfox83's profile.
-[2021-09-19 17:22:11] [tfox83's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-09-19 17:22:11] [tfox83's skull INFO] Both skin and cape not found.
-[2021-09-19 17:22:11] [tfox83's skull INFO] 2/6 Try to load profile from 'Mojang'.
-[2021-09-19 17:22:11] [tfox83's skull INFO] Default profile will be used.
-[2021-09-19 17:22:11] [tfox83's skull INFO] tfox83's profile loaded.
-[2021-09-19 17:22:11] [tfox83's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/cfb85b8ee384829e994524ce7b290d86e9bb33eca9101cc82c64195af22b8df3 , Model: default , CapeUrl: http://textures.minecraft.net/texture/e7dfea16dc83c97df01a12fabbd1216359c0cd0ea42f9999b6e97c584963e980  , Expiry: 1632082961)
-[2021-09-19 17:25:30] [DatFailGamur's skull INFO] Loading DatFailGamur's profile.
-[2021-09-19 17:25:30] [DatFailGamur's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-09-19 17:25:30] [DatFailGamur's skull INFO] Both skin and cape not found.
-[2021-09-19 17:25:30] [DatFailGamur's skull INFO] 2/6 Try to load profile from 'Mojang'.
-[2021-09-19 17:25:30] [DatFailGamur's skull INFO] Default profile will be used.
-[2021-09-19 17:25:30] [DatFailGamur's skull INFO] DatFailGamur's profile loaded.
-[2021-09-19 17:25:30] [DatFailGamur's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/8b9ca0528eef78c10fe2875d17d556c863c5628b5ea500d9a7dc51f043442283 , Model: default , CapeUrl: null  , Expiry: 1632083161)
+[2021-09-19 17:56:01] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
+[2021-09-19 17:56:01] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader
+[2021-09-19 17:56:01] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
+[2021-09-19 17:56:01] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Development\CustomSkinLoader\CustomSkinLoader.json
+[2021-09-19 17:56:01] [pool-5-thread-1 INFO] Try to load config.
+[2021-09-19 17:56:01] [pool-5-thread-1 INFO] Successfully load config.
+[2021-09-19 17:56:02] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
+[2021-09-19 17:56:02] [Mati INFO] Loading Mati's profile.
+[2021-09-19 17:56:02] [Mati INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-09-19 17:56:02] [Mati INFO] Mati's profile loaded.
+[2021-09-19 17:56:02] [Mati INFO] (SkinUrl: (LOCAL_LEGACY)7ea39d12f1055be57e15a07c621027671d41edac,LocalSkin/skins/Mati.png , Model: default , CapeUrl: null  , Expiry: 1632084995)
+[2021-09-19 18:00:14] [tfox83's skull INFO] Loading tfox83's profile.
+[2021-09-19 18:00:14] [tfox83's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Both skin and cape not found.
+[2021-09-19 18:00:14] [tfox83's skull INFO] 2/6 Try to load profile from 'Mojang'.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Default profile will be used.
+[2021-09-19 18:00:14] [tfox83's skull INFO] tfox83's profile loaded.
+[2021-09-19 18:00:14] [tfox83's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/cfb85b8ee384829e994524ce7b290d86e9bb33eca9101cc82c64195af22b8df3 , Model: default , CapeUrl: http://textures.minecraft.net/texture/e7dfea16dc83c97df01a12fabbd1216359c0cd0ea42f9999b6e97c584963e980  , Expiry: 1632085247)
+[2021-09-19 18:00:14] [tfox83's skull INFO] Loading tfox83's profile.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Loading tfox83's profile.
+[2021-09-19 18:00:14] [tfox83's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-09-19 18:00:14] [tfox83's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Loading tfox83's profile.
+[2021-09-19 18:00:14] [tfox83's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Both skin and cape not found.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Both skin and cape not found.
+[2021-09-19 18:00:14] [tfox83's skull INFO] 2/6 Try to load profile from 'Mojang'.
+[2021-09-19 18:00:14] [tfox83's skull INFO] 2/6 Try to load profile from 'Mojang'.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Loading tfox83's profile.
+[2021-09-19 18:00:14] [tfox83's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Both skin and cape not found.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Both skin and cape not found.
+[2021-09-19 18:00:14] [tfox83's skull INFO] 2/6 Try to load profile from 'Mojang'.
+[2021-09-19 18:00:14] [tfox83's skull INFO] 2/6 Try to load profile from 'Mojang'.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Loading tfox83's profile.
+[2021-09-19 18:00:14] [tfox83's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Both skin and cape not found.
+[2021-09-19 18:00:14] [tfox83's skull INFO] 2/6 Try to load profile from 'Mojang'.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Default profile will be used.
+[2021-09-19 18:00:14] [tfox83's skull INFO] tfox83's profile loaded.
+[2021-09-19 18:00:14] [tfox83's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/cfb85b8ee384829e994524ce7b290d86e9bb33eca9101cc82c64195af22b8df3 , Model: default , CapeUrl: http://textures.minecraft.net/texture/e7dfea16dc83c97df01a12fabbd1216359c0cd0ea42f9999b6e97c584963e980  , Expiry: 1632085247)
+[2021-09-19 18:00:14] [tfox83's skull INFO] Default profile will be used.
+[2021-09-19 18:00:14] [tfox83's skull INFO] tfox83's profile loaded.
+[2021-09-19 18:00:14] [tfox83's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/cfb85b8ee384829e994524ce7b290d86e9bb33eca9101cc82c64195af22b8df3 , Model: default , CapeUrl: http://textures.minecraft.net/texture/e7dfea16dc83c97df01a12fabbd1216359c0cd0ea42f9999b6e97c584963e980  , Expiry: 1632085247)
+[2021-09-19 18:00:14] [tfox83's skull INFO] Default profile will be used.
+[2021-09-19 18:00:14] [tfox83's skull INFO] Default profile will be used.
+[2021-09-19 18:00:14] [tfox83's skull INFO] tfox83's profile loaded.
+[2021-09-19 18:00:14] [tfox83's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/cfb85b8ee384829e994524ce7b290d86e9bb33eca9101cc82c64195af22b8df3 , Model: default , CapeUrl: http://textures.minecraft.net/texture/e7dfea16dc83c97df01a12fabbd1216359c0cd0ea42f9999b6e97c584963e980  , Expiry: 1632085245)
+[2021-09-19 18:00:14] [tfox83's skull INFO] tfox83's profile loaded.
+[2021-09-19 18:00:14] [tfox83's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/cfb85b8ee384829e994524ce7b290d86e9bb33eca9101cc82c64195af22b8df3 , Model: default , CapeUrl: http://textures.minecraft.net/texture/e7dfea16dc83c97df01a12fabbd1216359c0cd0ea42f9999b6e97c584963e980  , Expiry: 1632085248)
+[2021-09-19 18:00:14] [tfox83's skull INFO] Default profile will be used.
+[2021-09-19 18:00:14] [tfox83's skull INFO] tfox83's profile loaded.
+[2021-09-19 18:00:14] [tfox83's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/cfb85b8ee384829e994524ce7b290d86e9bb33eca9101cc82c64195af22b8df3 , Model: default , CapeUrl: http://textures.minecraft.net/texture/e7dfea16dc83c97df01a12fabbd1216359c0cd0ea42f9999b6e97c584963e980  , Expiry: 1632085246)
