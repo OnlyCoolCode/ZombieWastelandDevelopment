@@ -1,0 +1,2 @@
+#Sun Sep 19 23:24:15 ART 2021
+ElDuro=1

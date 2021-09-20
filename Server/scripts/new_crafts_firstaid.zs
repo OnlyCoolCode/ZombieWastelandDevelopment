@@ -31,6 +31,18 @@ recipes.addShaped("bandage1", bandage, [
     [cloth,cloth,cloth]
 ]);
 // morphine
+var morphine = <firstaid:morphine>;
 var spider_eye = <minecraft:spider_eye>;
 var fermented_spider_eye = <minecraft:fermented_spider_eye>;
+var water_bottle = <minecraft:potion>.withTag({Potion: "minecraft:water"});
+var sugar = <minecraft:sugar>;
+var cactus = <minecraft:cactus>;
+var red_mushroom = <minecraft:red_mushroom>;
 furnace.addRecipe(fermented_spider_eye, spider_eye);
+recipes.remove(morphine);
+recipes.addShapeless("morphine1", morphine,
+[water_bottle,fermented_spider_eye]
+);
+recipes.addShapeless("morphine2", morphine,
+[water_bottle,sugar,cactus,red_mushroom]
+);

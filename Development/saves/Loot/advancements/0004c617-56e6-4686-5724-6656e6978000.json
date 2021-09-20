@@ -1,4 +1,70 @@
 {
+  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
+    "criteria": {
+      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/iron_bars": {
+    "criteria": {
+      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_sword": {
+    "criteria": {
+      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_leggings": {
+    "criteria": {
+      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_pickaxe": {
+    "criteria": {
+      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/minecart": {
+    "criteria": {
+      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bucket": {
+    "criteria": {
+      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_block": {
+    "criteria": {
+      "has_iron_block": "2021-09-14 12:25:38 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/iron_boots": {
+    "criteria": {
+      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2021-09-14 12:23:42 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/iron_door": {
+    "criteria": {
+      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2021-09-14 13:22:39 -0300"
@@ -6,12 +72,6 @@
     "done": true
   },
   "minecraft:recipes/tools/iron_hoe": {
-    "criteria": {
-      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/heavy_weighted_pressure_plate": {
     "criteria": {
       "has_iron_ingot": "2021-09-14 13:22:39 -0300"
     },
@@ -29,27 +89,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/iron_bars": {
-    "criteria": {
-      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
-    },
-    "done": true
-  },
   "minecraft:story/mine_diamond": {
     "criteria": {
       "diamond": "2021-09-14 13:23:10 -0300"
     },
     "done": true
   },
-  "minecraft:recipes/combat/iron_sword": {
+  "minecraft:story/root": {
     "criteria": {
-      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_leggings": {
-    "criteria": {
-      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
+      "crafting_table": "2021-09-20 15:40:04 -0300"
     },
     "done": true
   },
@@ -89,51 +137,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/iron_pickaxe": {
+  "minecraft:recipes/misc/bowl": {
     "criteria": {
-      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/minecart": {
-    "criteria": {
-      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bucket": {
-    "criteria": {
-      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
+      "has_red_mushroom": "2021-09-20 15:40:53 -0300"
     },
     "done": true
   },
   "minecraft:recipes/decorations/jukebox": {
     "criteria": {
       "has_diamond": "2021-09-14 13:23:10 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/iron_ingot_from_block": {
-    "criteria": {
-      "has_iron_block": "2021-09-14 12:25:38 -0300"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/iron_boots": {
-    "criteria": {
-      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
-    },
-    "done": true
-  },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "plains": "2021-09-14 12:23:42 -0300"
-    },
-    "done": false
-  },
-  "minecraft:recipes/redstone/iron_door": {
-    "criteria": {
-      "has_iron_ingot": "2021-09-14 13:22:39 -0300"
     },
     "done": true
   },

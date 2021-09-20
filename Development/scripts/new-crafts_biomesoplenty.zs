@@ -7,11 +7,23 @@ var umbranconiferseed = <dynamictreesbop:umbranconiferseed>;
 var firseed = <dynamictreesbop:firseed>;
 var redwoodseed = <dynamictreesbop:redwoodseed>;
 var pineseed = <dynamictreesbop:pineseed>;
+var oakseed = <dynamictrees:oakseed>;
+var darkoakseed = <dynamictrees:darkoakseed>;
+var floweringoakseed = <dynamictreesbop:floweringoakseed>;
+var orangeautumnseed = <dynamictreesbop:orangeautumnseed>;
+var oakdyingseed = <dynamictreesbop:oakdyingseed>;
+var hellbarkseed = <dynamictreesbop:hellbarkseed>;
 furnace.setFuel(spruceseed, 800);
 furnace.setFuel(umbranconiferseed, 800);
 furnace.setFuel(firseed, 800);
 furnace.setFuel(redwoodseed, 800);
 furnace.setFuel(pineseed, 800);
+furnace.setFuel(oakseed, 400);
+furnace.setFuel(darkoakseed, 400);
+furnace.setFuel(floweringoakseed, 400);
+furnace.setFuel(orangeautumnseed, 400);
+furnace.setFuel(oakdyingseed, 400);
+furnace.setFuel(hellbarkseed, 400);
 
 
 var terrarium0 = <biomesoplenty:terrarium>;
