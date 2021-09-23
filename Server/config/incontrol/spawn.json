@@ -103,7 +103,7 @@
   {
     "mod": "iymts_mob_mod",
     "biome": ["biomesoplenty:wasteland","biomesoplenty:dead_forest","biomesoplenty:volcanic_island","biomesoplenty:tundra","biomesoplenty:brushland"],
-    "random": 0.8,
+    "random": 0.93,
     "result": "deny"
   },
   {

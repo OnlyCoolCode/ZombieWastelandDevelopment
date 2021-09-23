@@ -17,21 +17,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/spruce_door": {
-    "criteria": {
-      "has_planks": "2021-09-19 23:35:17 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/oak_wooden_slab": {
     "criteria": {
       "has_planks": "2021-09-19 23:34:50 -0300"
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/trapdoor_from_bop_wood": {
+  "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
-      "has_the_recipe": "2021-09-19 23:34:50 -0300"
+      "has_planks": "2021-09-19 23:35:17 -0300"
     },
     "done": true
   },
@@ -42,6 +36,12 @@
       "tundra": "2021-09-19 23:25:05 -0300"
     },
     "done": false
+  },
+  "biomesoplenty:recipes/redstone/trapdoor_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2021-09-19 23:34:50 -0300"
+    },
+    "done": true
   },
   "minecraft:story/mine_stone": {
     "criteria": {
@@ -109,15 +109,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/oak_stairs": {
-    "criteria": {
-      "has_planks": "2021-09-19 23:34:50 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2021-09-19 23:24:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2021-09-19 23:34:50 -0300"
     },
     "done": true
   },
@@ -151,15 +151,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/stick": {
-    "criteria": {
-      "has_planks": "2021-09-19 23:34:50 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_carpet": {
     "criteria": {
       "has_black_wool": "2021-09-19 23:24:52 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2021-09-19 23:34:50 -0300"
     },
     "done": true
   },
@@ -235,12 +235,6 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/wooden_button_from_bop_wood": {
-    "criteria": {
-      "has_the_recipe": "2021-09-19 23:34:50 -0300"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/black_banner": {
     "criteria": {
       "has_black_wool": "2021-09-19 23:24:52 -0300"
@@ -252,6 +246,12 @@
       "head3": "2021-09-19 23:31:54 -0300"
     },
     "done": false
+  },
+  "biomesoplenty:recipes/redstone/wooden_button_from_bop_wood": {
+    "criteria": {
+      "has_the_recipe": "2021-09-19 23:34:50 -0300"
+    },
+    "done": true
   },
   "minecraft:recipes/building_blocks/spruce_stairs": {
     "criteria": {
