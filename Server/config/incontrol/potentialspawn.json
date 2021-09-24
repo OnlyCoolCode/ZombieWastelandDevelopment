@@ -40,19 +40,19 @@
       },
     {
         "mob": "iymts_mob_mod:iysuperleaper",
-        "weight": 200
+        "weight": 120
       },
     {
         "mob": "iymts_mob_mod:iysuperslasher",
-        "weight": 200
+        "weight": 120
       },
     {
         "mob": "iymts_mob_mod:iysuperexploder",
-        "weight": 200
+        "weight": 120
       },
     {
         "mob": "mutantbeasts:mutant_zombie",
-        "weight": 150
+        "weight": 80
       },
     {
         "mob": "animalium:wild_dog",
