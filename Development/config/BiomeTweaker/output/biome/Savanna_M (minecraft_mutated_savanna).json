@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "HOT",
     "SAVANNA",
-    "SPARSE",
     "RARE",
     "MOUNTAIN",
+    "SPARSE",
     "DRY"
   ],
   "BiomeManager Entries": {},

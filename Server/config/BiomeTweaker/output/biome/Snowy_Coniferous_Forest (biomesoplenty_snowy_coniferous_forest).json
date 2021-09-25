@@ -23,8 +23,8 @@
     "COLD",
     "CONIFEROUS",
     "SNOWY",
-    "FOREST",
-    "DENSE"
+    "DENSE",
+    "FOREST"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

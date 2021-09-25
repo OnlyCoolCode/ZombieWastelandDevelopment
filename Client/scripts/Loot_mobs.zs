@@ -48,7 +48,7 @@ iy_super_leaperPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
 
 var mutant_zombieTable = LootTweaker.getTable("mutantbeasts:entities/mutant_zombie");
 mutant_zombieTable.clear();
-var mutant_zombiePool = mutant_zombieTable.addPool("mutant_zombiePool", 3, 5, 0, 0);
+var mutant_zombiePool = mutant_zombieTable.addPool("mutant_zombiePool", 13, 26, 0, 0);
 mutant_zombiePool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
     Functions.setCount(1, 1)
 ], []);
@@ -67,6 +67,9 @@ var ammo_rifle = <techguns:itemshared:3>;
 var heavycloth = <techguns:itemshared:60>;
 var revolver = <techguns:revolver>.withTag({ammo: 6 as short, ammovariant: "default", camo: 0 as byte});
 var pistol = <techguns:pistol>.withTag({ammo: 18 as short, ammovariant: "default", camo: 0 as byte});
+var plaster = <firstaid:plaster>;
+var bandage = <firstaid:bandage>;
+var morphine = <firstaid:morphine>;
 banditPool.addItemEntry(ammo_pistol_incendiary, 4,0, [
     Functions.setCount(1, 1)
 ], []);
@@ -88,13 +91,22 @@ banditPool.addItemEntry(ammo_shotgun, 8,0, [
 banditPool.addItemEntry(ammo_rifle, 8,0, [
     Functions.setCount(6, 6)
 ], []);
-banditPool.addItemEntry(heavycloth, 42,0, [
+banditPool.addItemEntry(heavycloth, 31,0, [
     Functions.setCount(1, 2)
 ], []);
 banditPool.addItemEntry(revolver, 5,0, [
     Functions.setCount(1, 1)
 ], []);
 banditPool.addItemEntry(pistol, 5,0, [
+    Functions.setCount(1, 1)
+], []);
+banditPool.addItemEntry(plaster, 5,0, [
+    Functions.setCount(1, 1)
+], []);
+banditPool.addItemEntry(bandage, 3,0, [
+    Functions.setCount(1, 1)
+], []);
+banditPool.addItemEntry(morphine, 3,0, [
     Functions.setCount(1, 1)
 ], []);
 
@@ -123,13 +135,22 @@ armysoldierPool.addItemEntry(ammo_shotgun, 8,0, [
 armysoldierPool.addItemEntry(ammo_rifle, 8,0, [
     Functions.setCount(6, 6)
 ], []);
-armysoldierPool.addItemEntry(heavycloth, 42,0, [
+armysoldierPool.addItemEntry(heavycloth, 31,0, [
     Functions.setCount(1, 2)
 ], []);
 armysoldierPool.addItemEntry(revolver, 5,0, [
     Functions.setCount(1, 1)
 ], []);
 armysoldierPool.addItemEntry(pistol, 5,0, [
+    Functions.setCount(1, 1)
+], []);
+armysoldierPool.addItemEntry(plaster, 5,0, [
+    Functions.setCount(1, 1)
+], []);
+armysoldierPool.addItemEntry(bandage, 3,0, [
+    Functions.setCount(1, 1)
+], []);
+armysoldierPool.addItemEntry(morphine, 3,0, [
     Functions.setCount(1, 1)
 ], []);
 
@@ -148,7 +169,7 @@ var t1_scout_helmet = <techguns:t1_scout_helmet>;
 var t1_scout_chestplate = <techguns:t1_scout_chestplate>;
 var t1_scout_leggings = <techguns:t1_scout_leggings>;
 var t1_scout_boots = <techguns:t1_scout_boots>;
-playerskinsPool.addItemEntry(heavycloth, 20,0, [
+playerskinsPool.addItemEntry(heavycloth, 25,0, [
     Functions.setCount(1, 2)
 ], []);
 playerskinsPool.addItemEntry(baseballbat, 5,0, [
@@ -166,23 +187,32 @@ playerskinsPool.addItemEntry(canneddogfood, 10,0, [
 playerskinsPool.addItemEntry(ration, 5,0, [
     Functions.setCount(1, 1)
 ], []);
-playerskinsPool.addItemEntry(canteen, 20,0, [
+playerskinsPool.addItemEntry(canteen, 12,0, [
     Functions.setCount(1, 1)
 ], []);
 playerskinsPool.addItemEntry(sleeping_bag, 5,0, [
     Functions.setCount(1, 1)
 ], []);
-playerskinsPool.addItemEntry(t1_scout_helmet, 5,0, [
+/* playerskinsPool.addItemEntry(t1_scout_helmet, 3,0, [
     Functions.setCount(1, 1), Functions.setDamage(0.10, 0.95)
 ], []);
-playerskinsPool.addItemEntry(t1_scout_chestplate, 5,0, [
+playerskinsPool.addItemEntry(t1_scout_chestplate, 3,0, [
     Functions.setCount(1, 1), Functions.setDamage(0.10, 0.95)
 ], []);
-playerskinsPool.addItemEntry(t1_scout_leggings, 5,0, [
+playerskinsPool.addItemEntry(t1_scout_leggings, 3,0, [
     Functions.setCount(1, 1), Functions.setDamage(0.10, 0.95)
 ], []);
-playerskinsPool.addItemEntry(t1_scout_boots, 5,0, [
+playerskinsPool.addItemEntry(t1_scout_boots, 3,0, [
     Functions.setCount(1, 1), Functions.setDamage(0.10, 0.95)
+], []); */
+playerskinsPool.addItemEntry(plaster, 5,0, [
+    Functions.setCount(1, 1)
+], []);
+playerskinsPool.addItemEntry(bandage, 3,0, [
+    Functions.setCount(1, 1)
+], []);
+playerskinsPool.addItemEntry(morphine, 3,0, [
+    Functions.setCount(1, 1)
 ], []);
 
 

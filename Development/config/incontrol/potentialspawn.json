@@ -40,19 +40,19 @@
       },
     {
         "mob": "iymts_mob_mod:iysuperleaper",
-        "weight": 120
+        "weight": 10
       },
     {
         "mob": "iymts_mob_mod:iysuperslasher",
-        "weight": 120
+        "weight": 10
       },
     {
         "mob": "iymts_mob_mod:iysuperexploder",
-        "weight": 120
+        "weight": 10
       },
     {
         "mob": "mutantbeasts:mutant_zombie",
-        "weight": 80
+        "weight": 5
       },
     {
         "mob": "animalium:wild_dog",
@@ -84,13 +84,13 @@
       },
     {
         "mob": "techguns:bandit",
-        "weight": 100,
+        "weight": 120,
         "groupcountmin": 2,
         "groupcountmax": 5
       },
     {
         "mob": "techguns:armysoldier",
-        "weight": 100,
+        "weight": 120,
         "groupcountmin": 2,
         "groupcountmax": 5
       },
@@ -99,6 +99,10 @@
         "weight": 10,
         "groupcountmin": 3,
         "groupcountmax": 7
+      },
+    {
+        "mob": "minecraft:zombie",
+        "weight": 100
       }
     ]
   }

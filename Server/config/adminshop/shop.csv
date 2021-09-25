@@ -40,7 +40,7 @@ buy,"<techguns:combatshotgun>.withTag({ammo: 0 as short})",220,1
 buy,"<techguns:mac10>.withTag({ammo: 0 as short})",350,1
 buy,"<techguns:aug>.withTag({ammo: 0 as short})",750,1
 buy,"<techguns:minigun>.withTag({ammo: 0 as short})",900,1
-buy,"<techguns:as50>.withTag({ammo: 0 as short})",400,1
+buy,"<techguns:as50>.withTag({ammo: 0 as short})",650,1
 buy,"<techguns:vector>.withTag({ammo: 0 as short})",380,1
 buy,"<techguns:scar>.withTag({ammo: 0 as short})",850,1
 #,,,

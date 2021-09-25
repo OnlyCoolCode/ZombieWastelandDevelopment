@@ -46,32 +46,14 @@
   {
     "mob": "animalium:rat",
     "mincount": {
-      "amount": 20,
+      "amount": 12,
       "mod": "animalium",
       "perchunk": true
     },
     "result": "deny"
   },
   {
-    "mod": ["minecraft","techguns","playerskins"],
-    "mincount": {
-      "amount": 90,
-      "hostile": true,
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "mod": ["iymts_mob_mod","mutantbeasts"],
-    "mincount": {
-      "amount": 95,
-      "hostile": true,
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "mob": ["animalium:bear","animalium:wild_dog","mutantbeasts:mutant_zombie","animalium:bear_tamed"],
+    "mob": ["animalium:bear","animalium:wild_dog","animalium:bear_tamed","mutantbeasts:mutant_zombie"],
     "seesky": false,
     "result": "deny"
   },
@@ -81,65 +63,28 @@
     "result": "deny"
   },
   {
-    "mob": ["mutantbeasts:mutant_zombie"],
-    "biome": ["biomesoplenty:wasteland","biomesoplenty:dead_forest","biomesoplenty:volcanic_island","biomesoplenty:tundra","biomesoplenty:brushland"],
+    "mob": ["animalium:bear","animalium:wild_dog","animalium:bear_tamed"],
+    "incity": true,
     "result": "deny"
   },
   {
-    "mod": ["iymts_mob_mod","mutantbeasts"],
-    "biome": ["biomesoplenty:xeric_shrubland", "biomesoplenty:steppe"],
-    "minheight": 60,
-    "maxlight": 7,
-    "result": "allow"
-  },
-  {
-    "mod": ["iymts_mob_mod","mutantbeasts"],
-    "biome": ["biomesoplenty:xeric_shrubland", "biomesoplenty:steppe"],
-    "seesky": false,
-    "maxheight": 60,
-    "random": 0.4,
+    "mod": "playerskins",
+    "mincount": {
+      "amount": 70,
+      "hostile": true,
+      "perchunk": true
+    },
+    "hostile": true,
     "result": "deny"
   },
   {
-    "mod": "iymts_mob_mod",
-    "biome": ["biomesoplenty:wasteland","biomesoplenty:dead_forest","biomesoplenty:volcanic_island","biomesoplenty:tundra","biomesoplenty:brushland"],
-    "random": 0.10,
-    "result": "deny"
-  },
-  {
-    "mob": ["techguns:bandit","techguns:armysoldier"],
-    "inbuilding": false,
-    "result": "deny"
-  },
-  {
-    "mob": ["techguns:bandit","techguns:armysoldier"],
-    "inbuilding": true,
-    "result": "allow"
-  },
-  {
-    "mob": "playerskins:playermob",
-    "seesky": true,
-    "result": "allow",
-    "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron"],
-    "armorboots":["techguns:t1_scout_boots", "techguns:t2_riot_boots"],
-    "armorhelmet":["techguns:t1_scout_helmet", "techguns:t2_riot_helmet"],
-    "armorlegs":["techguns:t1_scout_leggings", "techguns:t2_riot_leggings"],
-    "armorchest":["techguns:t1_scout_chestplate", "techguns:t2_riot_chestplate"]
-  },
-  {
-    "mob": "playerskins:playermob",
-    "inbuilding": true,
-    "result": "allow",
-    "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron"],
-    "armorboots":["techguns:t1_scout_boots", "techguns:t2_riot_boots"],
-    "armorhelmet":["techguns:t1_scout_helmet", "techguns:t2_riot_helmet"],
-    "armorlegs":["techguns:t1_scout_leggings", "techguns:t2_riot_leggings"],
-    "armorchest":["techguns:t1_scout_chestplate", "techguns:t2_riot_chestplate"]
-  },
-  {
-    "mob": "playerskins:playermob",
-    "maxheight": 70,
-    "seesky": false,
+    "mod": "techguns",
+    "mincount": {
+      "amount": 120,
+      "hostile": true,
+      "perchunk": true
+    },
+    "hostile": true,
     "result": "deny"
   },
   {
@@ -155,28 +100,106 @@
     "result": "deny"
   },
   {
-    "mod": ["minecraft", "techguns", "playerskins", "iymts_mob_mod", "mutantbeasts"],
-    "biome": ["biomesoplenty:wasteland","biomesoplenty:dead_forest","biomesoplenty:volcanic_island","biomesoplenty:tundra","biomesoplenty:brushland"],
+    "mob": ["techguns:bandit","techguns:armysoldier"],
+    "inbuilding": false,
+    "result": "deny"
+  },
+  {
+    "mob": "playerskins:playermob",
+    "maxheight": 70,
+    "seesky": false,
+    "result": "deny"
+  },
+  {
+    "mob": ["techguns:bandit","techguns:armysoldier"],
+    "inbuilding": true,
+    "result": "allow"
+  },
+  {
+    "mob": "playerskins:playermob",
     "seesky": true,
+    "result": "allow",
+    "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron","weapons_of_the_apocalypse:cleaver","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:baton"],
+    "armorboots":["techguns:t1_scout_boots", "techguns:t2_riot_boots"],
+    "armorhelmet":["techguns:t1_scout_helmet", "techguns:t2_riot_helmet"],
+    "armorlegs":["techguns:t1_scout_leggings", "techguns:t2_riot_leggings"],
+    "armorchest":["techguns:t1_scout_chestplate", "techguns:t2_riot_chestplate"]
+  },
+  {
+    "mob": "playerskins:playermob",
+    "inbuilding": true,
+    "result": "allow",
+    "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron","weapons_of_the_apocalypse:cleaver","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:baton"],
+    "armorboots":["techguns:t1_scout_boots", "techguns:t2_riot_boots"],
+    "armorhelmet":["techguns:t1_scout_helmet", "techguns:t2_riot_helmet"],
+    "armorlegs":["techguns:t1_scout_leggings", "techguns:t2_riot_leggings"],
+    "armorchest":["techguns:t1_scout_chestplate", "techguns:t2_riot_chestplate"]
+  },
+  {
+    "mob": ["mutantbeasts:mutant_zombie"],
+    "incity": false,
+    "result": "deny"
+  },
+  {
+    "mob": ["mutantbeasts:mutant_zombie"],
+    "seesky": false,
+    "result": "deny"
+  },
+  {
+    "mod": ["iymts_mob_mod","mutantbeasts"],
+    "incity": true,
+    "mincount": {
+      "amount": 140,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": ["iymts_mob_mod"],
+    "incity": false,
     "mincount": {
       "amount": 40,
       "hostile": true,
       "perchunk": true
     },
-    "hostile": true,
     "result": "deny"
   },
   {
-    "mod": ["minecraft", "techguns", "playerskins", "iymts_mob_mod", "mutantbeasts"],
-    "biome": ["biomesoplenty:wasteland","biomesoplenty:dead_forest","biomesoplenty:volcanic_island","biomesoplenty:tundra","biomesoplenty:brushland"],
-    "maxheight": 60,
-    "seesky": false,
+    "mob": "minecraft:zombie",
+    "incity": false,
+    "minheight": 70,
     "mincount": {
-      "amount": 45,
+      "amount": 50,
       "hostile": true,
       "perchunk": true
     },
-    "hostile": true,
     "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "incity": false,
+    "maxheight": 70,
+    "mincount": {
+      "amount": 70,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "incity": true,
+    "mincount": {
+      "amount": 140,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "result": "default",
+    "helditem":["minecraft:bone"]
   }
 ]

@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "HOT",
+    "PLAINS",
     "SAVANNA",
-    "SPARSE",
     "RARE",
-    "PLAINS"
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
