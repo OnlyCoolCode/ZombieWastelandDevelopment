@@ -20,11 +20,11 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "HILLS",
     "RARE",
-    "SPARSE",
-    "DRY"
+    "HILLS",
+    "HOT",
+    "DRY",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -40,12 +40,6 @@
       "Weight": 95,
       "Min Group Count": 4,
       "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
-      "Weight": 5,
-      "Min Group Count": 1,
-      "Max Group Count": 1
     },
     {
       "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperSlasher",

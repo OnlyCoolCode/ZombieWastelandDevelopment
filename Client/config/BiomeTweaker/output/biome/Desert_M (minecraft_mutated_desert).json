@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "SANDY",
     "RARE",
+    "SANDY",
+    "HOT",
     "DRY"
   ],
   "BiomeManager Entries": {},
@@ -44,18 +44,6 @@
     {
       "Entity Class": "net.minecraft.entity.monster.EntityZombie",
       "Weight": 19,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityZombieVillager",
-      "Weight": 1,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntityHusk",
-      "Weight": 80,
       "Min Group Count": 4,
       "Max Group Count": 4
     },
