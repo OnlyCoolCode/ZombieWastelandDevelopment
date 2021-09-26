@@ -88,6 +88,16 @@
     "result": "deny"
   },
   {
+    "mod": "techguns",
+    "mincount": {
+      "amount": 40,
+      "mod": "techguns",
+      "perchunk": true
+    },
+    "hostile": true,
+    "result": "deny"
+  },
+  {
     "mob": ["playerskins:playermob","techguns:bandit","techguns:armysoldier"],
     "mintime":13000,
     "maxtime":23000,
@@ -159,7 +169,7 @@
     "mod": ["iymts_mob_mod"],
     "incity": false,
     "mincount": {
-      "amount": 40,
+      "amount": 60,
       "hostile": true,
       "perchunk": true
     },
@@ -168,18 +178,6 @@
   {
     "mob": "minecraft:zombie",
     "incity": false,
-    "minheight": 70,
-    "mincount": {
-      "amount": 50,
-      "hostile": true,
-      "perchunk": true
-    },
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:zombie",
-    "incity": false,
-    "maxheight": 70,
     "mincount": {
       "amount": 70,
       "hostile": true,

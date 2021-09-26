@@ -1,71 +1,397 @@
-[00:01:28] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 102 advancements
-[00:09:53] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Monster Hunter]
-[00:09:53] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 103 advancements
-[00:10:25] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancements
-[00:12:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Sweet dreams]
-[00:12:26] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancements
-[00:12:45] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Sweet dreams]
-[00:13:29] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 117 advancements
-[00:13:41] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Isn't It Iron Pick]
-[00:13:41] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 119 advancements
-[00:14:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] El Cozzani has made the advancement [Sweet dreams]
-[00:16:10] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are now AFK (Away From Keyboard).
-[00:16:13] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are no longer AFK.
-[00:20:21] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] El Cozzani has made the advancement [Monster Hunter]
-[00:26:22] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.load(LayoutManager.java:600) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$containerInitEvent$5(NEIClientEventHandler.java:220) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
-	at codechicken.nei.handler.NEIClientEventHandler.containerInitEvent(NEIClientEventHandler.java:220) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_901_NEIClientEventHandler_containerInitEvent_Pre.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:475) [blk.class:?]
-	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018) [bib.class:?]
-	at mezz.jei.gui.recipes.RecipesGui.close(RecipesGui.java:391) [RecipesGui.class:?]
-	at mezz.jei.gui.recipes.RecipesGui.handleKeybinds(RecipesGui.java:348) [RecipesGui.class:?]
-	at mezz.jei.gui.recipes.RecipesGui.keyTyped(RecipesGui.java:341) [RecipesGui.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:558) [blk.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:512) [blk.class:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1759) [bib.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1098) [bib.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[00:27:04] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 120 advancements
-[00:31:51] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Prepared For The Future!]
-[00:31:51] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 121 advancements
-[00:31:56] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
-[00:33:11] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Monster Hunter]
-[00:35:04] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 123 advancements
-[00:37:22] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 145 advancements
-[00:38:08] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 165 advancements
-[00:38:20] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Stone Age]
-[00:38:20] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 172 advancements
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: Exception caught during firing event net.minecraftforge.event.entity.player.ItemTooltipEvent@37da6a08:
+[00:00:10] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 2 times.
+[00:00:10] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
+[00:00:10] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro didn't know that poison was deadly
+[00:03:35] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes has made the advancement [Monster Hunter]
+[00:06:36] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 145 advancements
+[00:08:50] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] El Cozzani drowned
+[00:11:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Sweet dreams]
+[00:11:27] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 145 advancements
+[00:13:49] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <guidardo> f
+[00:13:50] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas didn't know that poison was deadly
+[00:13:53] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <ElDuro> ft
+[00:14:05] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] <guidardo> veneno 1 manu 0
+[00:14:26] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas was slain by Wild Dog
+[00:16:06] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas was slain by Wild Dog
+[00:20:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas was slain by Zombie
+[00:20:41] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas left the game
+[00:20:53] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas joined the game
+[00:20:53] [Kittopijas/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Kittopijas INFO] Loading Kittopijas's profile.
+[00:20:53] [Kittopijas/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Kittopijas INFO] 1/6 Try to load profile from 'LocalSkin'.
+[00:20:53] [Kittopijas/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Kittopijas INFO] Kittopijas's profile loaded.
+[00:20:53] [Kittopijas/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Kittopijas INFO] (SkinUrl: (LOCAL_LEGACY)9cc209fb8a12da87b0153aa9fc485241dbeb7e42,LocalSkin/skins/Kittopijas.png , Model: default , CapeUrl: null  , Expiry: 1632626487)
+[00:22:38] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Monster Hunter]
+[00:22:46] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by Zombie
+[00:23:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by guidardo (Zombie)
+[00:23:28] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by guidardo (guidardo (Zombie))
+[00:23:37] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas was slain by Wild Dog
+[00:23:47] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by guidardo (guidardo (Zombie))
+[00:23:56] [Client thread/INFO] [toughasnails]: TAN configuration restored to local values
+[00:23:57] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
+[00:23:57] [Client thread/INFO] [FML]: Applying holder lookups
+[00:23:57] [Client thread/INFO] [FML]: Holder lookups applied
+[00:24:56] [Client thread/INFO] [foamfix]: Unloaded world <net.minecraft.client.multiplayer.WorldClient@1431c223 0 MultiplayerChunkCache: 441, 441> is still hanging around after 60 seconds.
+[00:24:56] [Client thread/INFO] [foamfix]: This may be due to a world leak, or there is little memory pressure.
+[00:24:56] [Client thread/INFO] [foamfix]: Use the relevant FoamFix options to adjust the wait time.
+[00:25:38] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to 25.12.220.97, 25565
+[00:25:43] [Netty Client IO #2/INFO] [FML]: Server protocol version 2
+[00:25:43] [Netty Client IO #2/INFO] [FML]: Attempting connection with missing mods [antiqueatlasoverlay, backtools, betterfoliage, chunkanimator, controlling, ctgui, ctm, custommainmenu, customskinloader, dsurround, enhancedvisuals, fpsreducer, inventorytweaks, jeiintegration, mobdismemberment, mousetweaks, norecipebook, resourceloader, toastcontrol, wi-zoom, betteranimals] at SERVER
+[00:25:43] [Client thread/INFO] [FML]: Injecting existing registry data into this client instance
+[00:25:43] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
+[00:25:44] [Client thread/INFO] [FML]: Applying holder lookups
+[00:25:44] [Client thread/INFO] [FML]: Holder lookups applied
+[00:25:44] [Netty Client IO #2/INFO] [Obfuscate]: Updating 0 synced key mappings
+[00:25:44] [Netty Client IO #2/INFO] [FML]: [Netty Client IO #2] Client side modded connection established
+[00:25:44] [Client thread/INFO] [dsurround]: Setting weather renderer for dimension [overworld]
+[00:25:44] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] Loading ElDuro's profile.
+[00:25:44] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
+[00:25:44] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] ElDuro's profile loaded.
+[00:25:44] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)d14587b9701efdc5e2f7def8d3a0fa6539e4a568,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1632626778)
+[00:25:44] [Netty Client IO #2/INFO] [firstaid]: Received remote damage model and config
+[00:25:44] [Netty Client IO #2/INFO] [Waila]: Received server authentication msg. Remote sync will be activated
+[00:25:44] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [First Aid] Press H for the tutorial
+[00:25:44] [Client thread/INFO] [adminshop]: Received shop file:
+#ignore rows that start with a '#',,,
+,,,
+"#Item format: ""modname:item_name:metadata {nbt_data}"" metadata and {nbt_data} are optional. Can also use crafttweaker formatting (eg. ""<modname:item_name:metadata>.withTag{nbt_data}"")",,,
+"#Fluid format: ""fluid:fluid_name"" where fluid is literal. Can also use crafttweaker formatting",,,
+,,,
+"#Other configurations found within adminshop.cfg, such as selling price of Forge Energy",,,
+#See the examples below with the default shop,,,
+,,,
+#Category names for buy and sell. Put the category name in each column after the first,,,
+Buy Category Names:,Gun&Gold,LongWeap,Explos,AmmoHand,AmmoLong,AmmoExpl,
+Sell Category Names:,Metal,,
+,,,
+,,,
+"#buy or sell (from player's perspective)",Item/Fluid,Price,Category Index (starting from 0)
+sell,<minecraft:iron_nugget>,1,0
+sell,<minecraft:iron_ingot>,9,0
+sell,<minecraft:iron_block>,81,0
+sell,<minecraft:gold_nugget>,0.2,0
+sell,<minecraft:gold_ingot>,1.8,0
+sell,<minecraft:gold_block>,16.2,0
+#,,,
+buy,"<techguns:revolver>.withTag({ammo: 0 as short})",100,0
+buy,"<techguns:goldenrevolver>.withTag({ammo: 0 as short})",220,0
+buy,"<techguns:pistol>.withTag({ammo: 0 as short})",150,0
+buy,"<techguns:chainsaw>",100,0
+buy,"<techguns:fraggrenade>",200,0
+buy,"<techguns:stielgranate>",120,0
+buy,<minecraft:gold_nugget>,0.2,0
+buy,<minecraft:gold_ingot>,1.8,0
+buy,<minecraft:gold_block>,16.2,0
+#,,,
+buy,"<techguns:handcannon>.withTag({ammo: 0 as short})",100,1
+buy,"<techguns:sawedoff>.withTag({ammo: 0 as short})",150,1
+buy,"<techguns:thompson>.withTag({ammo: 0 as short})",300,1
+buy,"<techguns:ak47>.withTag({ammo: 0 as short})",500,1
+buy,"<techguns:boltaction>.withTag({ammo: 0 as short})",200,1
+buy,"<techguns:m4>.withTag({ammo: 0 as short})",500,1
+buy,"<techguns:m4_infiltrator>.withTag({ammo: 0 as short})",650,1
+buy,"<techguns:combatshotgun>.withTag({ammo: 0 as short})",220,1
+buy,"<techguns:mac10>.withTag({ammo: 0 as short})",350,1
+buy,"<techguns:aug>.withTag({ammo: 0 as short})",750,1
+buy,"<techguns:minigun>.withTag({ammo: 0 as short})",900,1
+buy,"<techguns:as50>.withTag({ammo: 0 as short})",650,1
+buy,"<techguns:vector>.withTag({ammo: 0 as short})",380,1
+buy,"<techguns:scar>.withTag({ammo: 0 as short})",850,1
+#,,,
+buy,"<techguns:rocketlauncher>.withTag({ammo: 0 as short})",500,2
+buy,"<techguns:grimreaper>.withTag({ammo: 0 as short})",650,2
+buy,"<techguns:grenadelauncher>.withTag({ammo: 0 as short})",300,2
+buy,"<techguns:flamethrower>.withTag({ammo: 0 as short})",700,2
+#,,,
+buy,"<techguns:itemshared:1>",999,3
+buy,"<techguns:itemshared:12>",15,3
+buy,"<techguns:itemshared:124",10,3
+buy,"<techguns:itemshared:123>",20,3
+buy,"<techguns:itemshared:28>",50,3
+#,,,
+buy,"<techguns:itemshared:2>",999,4
+buy,"<techguns:itemshared:10>",30,4
+buy,"<techguns:itemshared:14>",50,4
+buy,"<techguns:itemshared:3>",999,4
+buy,"<techguns:itemshared:18>",50,4
+buy,"<techguns:itemshared:20>",40,4
+#,,,
+buy,"<techguns:itemshared:7>",999,5
+buy,"<techguns:itemshared:5>",999,5
+buy,"<techguns:itemshared:28>",50,5
+#,,,
+
+[00:25:44] [Client thread/INFO] [adminshop]: Loading shop!
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:revolver:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:goldenrevolver:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:pistol:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:chainsaw:0
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:fraggrenade:0
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:stielgranate:0
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_nugget:0
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_ingot:0
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_block:0
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:handcannon:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:sawedoff:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:thompson:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:ak47:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:boltaction:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:m4:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:m4_infiltrator:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:combatshotgun:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:mac10:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:aug:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:minigun:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:as50:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:vector:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:scar:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:rocketlauncher:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:grimreaper:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:grenadelauncher:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:flamethrower:0 {ammo:0}
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:1
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:12
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:124
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:123
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:28
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:2
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:10
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:14
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:3
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:18
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:20
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:7
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:5
+[00:25:44] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:28
+[00:25:44] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [MPR] Reloading JSONs from 'json' & 'group' folders
+[00:25:44] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [MPR] Reloading successfully completed
+[00:25:44] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:25:44] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:25:44] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:25:44] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:25:44] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:25:44] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:25:44] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:25:44] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your name is: §aHidden
+[00:25:44] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 27 advancements
+[00:25:45] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [El Cozzani INFO] Loading El Cozzani's profile.
+[00:25:45] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [El Cozzani INFO] 1/6 Try to load profile from 'LocalSkin'.
+[00:25:45] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [El Cozzani INFO] El Cozzani's profile loaded.
+[00:25:45] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [El Cozzani INFO] (SkinUrl: (LOCAL_LEGACY)eb6ebe85a08bc8d84759205cec01338d447c07fd,LocalSkin/skins/El Cozzani.png , Model: default , CapeUrl: null  , Expiry: 1632626776)
+[00:25:45] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are no longer AFK.
+[00:25:49] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes joined the game
+[00:25:49] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] Loading JuanDeLosPalotes's profile.
+[00:25:49] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] 1/6 Try to load profile from 'LocalSkin'.
+[00:25:49] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] JuanDeLosPalotes's profile loaded.
+[00:25:49] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] (SkinUrl: (LOCAL_LEGACY)b921647e8152302c96034b4c081905dac121f39d,LocalSkin/skins/JuanDeLosPalotes.png , Model: default , CapeUrl: null  , Expiry: 1632626784)
+[00:26:11] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas joined the game
+[00:26:47] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Kittopijas INFO] Loading Kittopijas's profile.
+[00:26:47] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Kittopijas INFO] 1/6 Try to load profile from 'LocalSkin'.
+[00:26:47] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Kittopijas INFO] Kittopijas's profile loaded.
+[00:26:47] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Kittopijas INFO] (SkinUrl: (LOCAL_LEGACY)9cc209fb8a12da87b0153aa9fc485241dbeb7e42,LocalSkin/skins/Kittopijas.png , Model: default , CapeUrl: null  , Expiry: 1632626839)
+[00:26:57] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo joined the game
+[00:27:14] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] Loading guidardo's profile.
+[00:27:14] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] 1/6 Try to load profile from 'LocalSkin'.
+[00:27:14] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] guidardo's profile loaded.
+[00:27:14] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] (SkinUrl: (LOCAL_LEGACY)eae773ce18581ff9da761a0f29e9ff2a3d0c01d7,LocalSkin/skins/guidardo.png , Model: default , CapeUrl: null  , Expiry: 1632626864)
+[00:27:59] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo fell from a high place
+[00:28:06] [Client thread/INFO] [toughasnails]: TAN configuration restored to local values
+[00:28:06] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
+[00:28:06] [Client thread/INFO] [FML]: Applying holder lookups
+[00:28:06] [Client thread/INFO] [FML]: Holder lookups applied
+[00:29:06] [Client thread/INFO] [foamfix]: Unloaded world <net.minecraft.client.multiplayer.WorldClient@6274c17a 0 MultiplayerChunkCache: 432, 432> is still hanging around after 60 seconds.
+[00:29:13] [Netty Client IO #3/INFO] [FML]: Attempting connection with missing mods [antiqueatlasoverlay, backtools, betterfoliage, chunkanimator, controlling, ctgui, ctm, custommainmenu, customskinloader, dsurround, enhancedvisuals, fpsreducer, inventorytweaks, jeiintegration, mobdismemberment, mousetweaks, norecipebook, resourceloader, toastcontrol, wi-zoom, betteranimals] at SERVER
+[00:29:15] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to 25.12.220.97, 25565
+[00:29:20] [Netty Client IO #5/INFO] [FML]: Server protocol version 2
+[00:29:20] [Netty Client IO #5/INFO] [FML]: Attempting connection with missing mods [antiqueatlasoverlay, backtools, betterfoliage, chunkanimator, controlling, ctgui, ctm, custommainmenu, customskinloader, dsurround, enhancedvisuals, fpsreducer, inventorytweaks, jeiintegration, mobdismemberment, mousetweaks, norecipebook, resourceloader, toastcontrol, wi-zoom, betteranimals] at SERVER
+[00:29:20] [Client thread/INFO] [FML]: Injecting existing registry data into this client instance
+[00:29:21] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
+[00:29:21] [Client thread/INFO] [FML]: Applying holder lookups
+[00:29:21] [Client thread/INFO] [FML]: Holder lookups applied
+[00:29:21] [Netty Client IO #5/INFO] [Obfuscate]: Updating 0 synced key mappings
+[00:29:21] [Netty Client IO #5/INFO] [FML]: [Netty Client IO #5] Client side modded connection established
+[00:29:21] [Client thread/INFO] [dsurround]: Setting weather renderer for dimension [overworld]
+[00:29:21] [Netty Client IO #5/INFO] [firstaid]: Received remote damage model and config
+[00:29:21] [Netty Client IO #5/INFO] [Waila]: Received server authentication msg. Remote sync will be activated
+[00:29:21] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] Loading ElDuro's profile.
+[00:29:21] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
+[00:29:21] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] ElDuro's profile loaded.
+[00:29:21] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)d14587b9701efdc5e2f7def8d3a0fa6539e4a568,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1632626995)
+[00:29:21] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [First Aid] Press H for the tutorial
+[00:29:21] [Client thread/INFO] [adminshop]: Received shop file:
+#ignore rows that start with a '#',,,
+,,,
+"#Item format: ""modname:item_name:metadata {nbt_data}"" metadata and {nbt_data} are optional. Can also use crafttweaker formatting (eg. ""<modname:item_name:metadata>.withTag{nbt_data}"")",,,
+"#Fluid format: ""fluid:fluid_name"" where fluid is literal. Can also use crafttweaker formatting",,,
+,,,
+"#Other configurations found within adminshop.cfg, such as selling price of Forge Energy",,,
+#See the examples below with the default shop,,,
+,,,
+#Category names for buy and sell. Put the category name in each column after the first,,,
+Buy Category Names:,Gun&Gold,LongWeap,Explos,AmmoHand,AmmoLong,AmmoExpl,
+Sell Category Names:,Metal,,
+,,,
+,,,
+"#buy or sell (from player's perspective)",Item/Fluid,Price,Category Index (starting from 0)
+sell,<minecraft:iron_nugget>,1,0
+sell,<minecraft:iron_ingot>,9,0
+sell,<minecraft:iron_block>,81,0
+sell,<minecraft:gold_nugget>,0.2,0
+sell,<minecraft:gold_ingot>,1.8,0
+sell,<minecraft:gold_block>,16.2,0
+#,,,
+buy,"<techguns:revolver>.withTag({ammo: 0 as short})",100,0
+buy,"<techguns:goldenrevolver>.withTag({ammo: 0 as short})",220,0
+buy,"<techguns:pistol>.withTag({ammo: 0 as short})",150,0
+buy,"<techguns:chainsaw>",100,0
+buy,"<techguns:fraggrenade>",200,0
+buy,"<techguns:stielgranate>",120,0
+buy,<minecraft:gold_nugget>,0.2,0
+buy,<minecraft:gold_ingot>,1.8,0
+buy,<minecraft:gold_block>,16.2,0
+#,,,
+buy,"<techguns:handcannon>.withTag({ammo: 0 as short})",100,1
+buy,"<techguns:sawedoff>.withTag({ammo: 0 as short})",150,1
+buy,"<techguns:thompson>.withTag({ammo: 0 as short})",300,1
+buy,"<techguns:ak47>.withTag({ammo: 0 as short})",500,1
+buy,"<techguns:boltaction>.withTag({ammo: 0 as short})",200,1
+buy,"<techguns:m4>.withTag({ammo: 0 as short})",500,1
+buy,"<techguns:m4_infiltrator>.withTag({ammo: 0 as short})",650,1
+buy,"<techguns:combatshotgun>.withTag({ammo: 0 as short})",220,1
+buy,"<techguns:mac10>.withTag({ammo: 0 as short})",350,1
+buy,"<techguns:aug>.withTag({ammo: 0 as short})",750,1
+buy,"<techguns:minigun>.withTag({ammo: 0 as short})",900,1
+buy,"<techguns:as50>.withTag({ammo: 0 as short})",650,1
+buy,"<techguns:vector>.withTag({ammo: 0 as short})",380,1
+buy,"<techguns:scar>.withTag({ammo: 0 as short})",850,1
+#,,,
+buy,"<techguns:rocketlauncher>.withTag({ammo: 0 as short})",500,2
+buy,"<techguns:grimreaper>.withTag({ammo: 0 as short})",650,2
+buy,"<techguns:grenadelauncher>.withTag({ammo: 0 as short})",300,2
+buy,"<techguns:flamethrower>.withTag({ammo: 0 as short})",700,2
+#,,,
+buy,"<techguns:itemshared:1>",999,3
+buy,"<techguns:itemshared:12>",15,3
+buy,"<techguns:itemshared:124",10,3
+buy,"<techguns:itemshared:123>",20,3
+buy,"<techguns:itemshared:28>",50,3
+#,,,
+buy,"<techguns:itemshared:2>",999,4
+buy,"<techguns:itemshared:10>",30,4
+buy,"<techguns:itemshared:14>",50,4
+buy,"<techguns:itemshared:3>",999,4
+buy,"<techguns:itemshared:18>",50,4
+buy,"<techguns:itemshared:20>",40,4
+#,,,
+buy,"<techguns:itemshared:7>",999,5
+buy,"<techguns:itemshared:5>",999,5
+buy,"<techguns:itemshared:28>",50,5
+#,,,
+
+[00:29:21] [Client thread/INFO] [adminshop]: Loading shop!
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:revolver:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:goldenrevolver:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:pistol:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:chainsaw:0
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:fraggrenade:0
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:stielgranate:0
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_nugget:0
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_ingot:0
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_block:0
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:handcannon:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:sawedoff:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:thompson:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:ak47:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:boltaction:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:m4:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:m4_infiltrator:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:combatshotgun:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:mac10:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:aug:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:minigun:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:as50:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:vector:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:scar:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:rocketlauncher:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:grimreaper:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:grenadelauncher:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:flamethrower:0 {ammo:0}
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:1
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:12
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:124
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:123
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:28
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:2
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:10
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:14
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:3
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:18
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:20
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:7
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:5
+[00:29:21] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:28
+[00:29:21] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [MPR] Reloading JSONs from 'json' & 'group' folders
+[00:29:21] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [MPR] Reloading successfully completed
+[00:29:21] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:29:21] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:29:21] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:29:21] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:29:21] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:29:21] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:29:21] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
+[00:29:21] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your name is: §aHidden
+[00:29:23] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 27 advancements
+[00:29:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] El Cozzani left the game
+[00:29:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes joined the game
+[00:29:28] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] Loading JuanDeLosPalotes's profile.
+[00:29:28] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] 1/6 Try to load profile from 'LocalSkin'.
+[00:29:28] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] JuanDeLosPalotes's profile loaded.
+[00:29:28] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] (SkinUrl: (LOCAL_LEGACY)b921647e8152302c96034b4c081905dac121f39d,LocalSkin/skins/JuanDeLosPalotes.png , Model: default , CapeUrl: null  , Expiry: 1632626998)
+[00:29:30] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo joined the game
+[00:29:30] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] Loading guidardo's profile.
+[00:29:30] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] 1/6 Try to load profile from 'LocalSkin'.
+[00:29:30] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] guidardo's profile loaded.
+[00:29:30] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] (SkinUrl: (LOCAL_LEGACY)eae773ce18581ff9da761a0f29e9ff2a3d0c01d7,LocalSkin/skins/guidardo.png , Model: default , CapeUrl: null  , Expiry: 1632627002)
+[00:29:35] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas joined the game
+[00:29:35] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Kittopijas INFO] Loading Kittopijas's profile.
+[00:29:35] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Kittopijas INFO] 1/6 Try to load profile from 'LocalSkin'.
+[00:29:35] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Kittopijas INFO] Kittopijas's profile loaded.
+[00:29:35] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Kittopijas INFO] (SkinUrl: (LOCAL_LEGACY)9cc209fb8a12da87b0153aa9fc485241dbeb7e42,LocalSkin/skins/Kittopijas.png , Model: default , CapeUrl: null  , Expiry: 1632627009)
+[00:29:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] El Cozzani joined the game
+[00:29:39] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [El Cozzani INFO] Loading El Cozzani's profile.
+[00:29:39] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [El Cozzani INFO] 1/6 Try to load profile from 'LocalSkin'.
+[00:29:39] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [El Cozzani INFO] El Cozzani's profile loaded.
+[00:29:39] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [El Cozzani INFO] (SkinUrl: (LOCAL_LEGACY)eb6ebe85a08bc8d84759205cec01338d447c07fd,LocalSkin/skins/El Cozzani.png , Model: default , CapeUrl: null  , Expiry: 1632627009)
+[00:33:03] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 43 advancements
+[00:36:03] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 44 advancements
+[00:36:13] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 46 advancements
+[00:36:38] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 71 advancements
+[00:37:04] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 74 advancements
+[00:38:34] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 75 advancements
+[00:38:46] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[00:38:47] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Stone Age]
+[00:38:47] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 83 advancements
+[00:39:08] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 88 advancements
+[00:39:14] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 90 advancements
+[00:39:35] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Getting an Upgrade]
+[00:39:35] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 93 advancements
+[00:40:01] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes has made the advancement [Stone Age]
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: Exception caught during firing event net.minecraftforge.event.entity.player.ItemTooltipEvent@75407896:
 java.lang.IllegalStateException: Keyboard must be created before you can query key state
 	at org.lwjgl.input.Keyboard.isKeyDown(Keyboard.java:406) ~[lwjgl-2.9.4-nightly-20150209.jar:?]
 	at com.snowshock35.jeiintegration.TooltipEventHandler.isShiftKeyDown(TooltipEventHandler.java:164) ~[TooltipEventHandler.class:?]
 	at com.snowshock35.jeiintegration.TooltipEventHandler.onItemTooltip(TooltipEventHandler.java:87) ~[TooltipEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1197_TooltipEventHandler_onItemTooltip_ItemTooltipEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1200_TooltipEventHandler_onItemTooltip_ItemTooltipEvent.invoke(.dynamic) ~[?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) ~[EventBus.class:?]
 	at net.minecraftforge.event.ForgeEventFactory.onItemTooltip(ForgeEventFactory.java:358) ~[ForgeEventFactory.class:?]
@@ -80,29 +406,87 @@ java.lang.IllegalStateException: Keyboard must be created before you can query k
 	at codechicken.nei.util.ItemList$AllMultiItemFilter.matches(ItemList.java:105) [ItemList$AllMultiItemFilter.class:?]
 	at codechicken.nei.util.ItemList$2.execute(ItemList.java:269) [ItemList$2.class:?]
 	at codechicken.lib.thread.RestartableTask$1.run(RestartableTask.java:32) [RestartableTask$1.class:?]
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: Index: 13 Listeners:
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 0: NORMAL
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 1: ASM: class mcp.mobius.waila.handlers.VanillaTooltipHandler tooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 2: ASM: class com.wumple.util.config.NameKeyDebug onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 3: ASM: class org.orecruncher.dsurround.client.renderer.ToolTipProvider tooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 4: ASM: class net.insane96mcp.iguanatweaks.events.ItemTooltip EventItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 5: ASM: com.wumple.foodfunk.capability.preserving.PreservingHandler@3c46c656 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 6: ASM: com.wumple.foodfunk.capability.rot.RotHandler@17cd808d onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 7: ASM: class techguns.events.TGEventHandler ItemRadiationTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 8: ASM: betterwithmods.client.ClientEventHandler@4453c20e putTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 9: ASM: net.darkhax.badmobs.handler.ClientEventHandler@6963a3a3 onTooltipRendered(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 10: ASM: com.ferreusveritas.dynamictrees.event.CommonEventHandler@4c203649 onItemTooltipAdded(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 11: ASM: class ichttt.mods.firstaid.client.ClientEventHandler tooltipItems(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 12: ASM: codechicken.nei.handler.NEIClientEventHandler@1dfa88b4 itemTooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 13: ASM: com.snowshock35.jeiintegration.TooltipEventHandler@2874fb51 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 14: LOW
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 15: ASM: crafttweaker.mc1120.events.ClientEventHandler@33ce7b9b onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 16: LOWEST
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 17: ASM: class com.endertech.minecraft.forge.messages.DevInfo onInventoryTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:01] [NEI Item Filtering/ERROR] [FML]: 18: ASM: iguanaman.hungeroverhaul.module.event.HungerOverhaulEventHook@529e77c9 renderTooltips(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
-[00:43:38] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Acquire Hardware]
-[00:45:14] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 176 advancements
-[00:47:14] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: Index: 13 Listeners:
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 0: NORMAL
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 1: ASM: class mcp.mobius.waila.handlers.VanillaTooltipHandler tooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 2: ASM: class com.wumple.util.config.NameKeyDebug onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 3: ASM: class org.orecruncher.dsurround.client.renderer.ToolTipProvider tooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 4: ASM: class net.insane96mcp.iguanatweaks.events.ItemTooltip EventItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 5: ASM: com.wumple.foodfunk.capability.rot.RotHandler@2c0c9cc4 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 6: ASM: com.wumple.foodfunk.capability.preserving.PreservingHandler@520ea72c onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 7: ASM: class techguns.events.TGEventHandler ItemRadiationTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 8: ASM: betterwithmods.client.ClientEventHandler@5cc8d0b putTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 9: ASM: net.darkhax.badmobs.handler.ClientEventHandler@4a947127 onTooltipRendered(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 10: ASM: com.ferreusveritas.dynamictrees.event.CommonEventHandler@7f72a6d3 onItemTooltipAdded(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 11: ASM: class ichttt.mods.firstaid.client.ClientEventHandler tooltipItems(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 12: ASM: codechicken.nei.handler.NEIClientEventHandler@207f2ebe itemTooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 13: ASM: com.snowshock35.jeiintegration.TooltipEventHandler@228ca0f0 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 14: LOW
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 15: ASM: crafttweaker.mc1120.events.ClientEventHandler@17ba3a09 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 16: LOWEST
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 17: ASM: class com.endertech.minecraft.forge.messages.DevInfo onInventoryTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:40:31] [NEI Item Filtering/ERROR] [FML]: 18: ASM: iguanaman.hungeroverhaul.module.event.HungerOverhaulEventHook@563d8a8c renderTooltips(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[00:42:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Sweet dreams]
+[00:42:35] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Sweet dreams]
+[00:42:35] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 93 advancements
+[00:42:38] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes has made the advancement [Sweet dreams]
+[00:42:45] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas has made the advancement [Sweet dreams]
+[00:43:52] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[00:43:54] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Getting an Upgrade]
+[00:45:41] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas has made the advancement [Stone Age]
+[00:46:11] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Stone Age]
+[00:46:28] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[00:46:41] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas has made the advancement [Getting an Upgrade]
+[00:48:07] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes has made the advancement [Getting an Upgrade]
+[00:49:02] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 102 advancements
+[00:53:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Acquire Hardware]
+[00:53:17] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 118 advancements
+[00:53:43] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Isn't It Iron Pick]
+[00:53:43] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 120 advancements
+[00:53:57] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas has made the advancement [Acquire Hardware]
+[00:56:39] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 122 advancements
+[00:58:38] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 122 advancements
+[01:04:55] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
+java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
+	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
+	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
+	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
+	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
+	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
+	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
+	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
+	at codechicken.nei.LayoutManager.load(LayoutManager.java:600) ~[LayoutManager.class:?]
+	at codechicken.nei.handler.NEIClientEventHandler.lambda$containerInitEvent$5(NEIClientEventHandler.java:220) ~[NEIClientEventHandler.class:?]
+	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
+	at codechicken.nei.handler.NEIClientEventHandler.containerInitEvent(NEIClientEventHandler.java:220) [NEIClientEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_905_NEIClientEventHandler_containerInitEvent_Pre.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:475) [blk.class:?]
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018) [bib.class:?]
+	at net.minecraft.client.entity.EntityPlayerSP.displayGUIChest(EntityPlayerSP.java:695) [bud.class:?]
+	at net.minecraft.client.network.NetHandlerPlayClient.handleOpenWindow(NetHandlerPlayClient.java:1107) [brz.class:?]
+	at net.minecraft.network.play.server.SPacketOpenWindow.processPacket(SourceFile:43) [ir.class:?]
+	at net.minecraft.network.play.server.SPacketOpenWindow.processPacket(SourceFile:9) [ir.class:?]
+	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) [hv$1.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_271]
+	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_271]
+	at net.minecraft.util.Util.runTask(Util.java:529) [h.class:?]
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1088) [bib.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
+	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
+	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
+[01:04:55] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
 java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
 	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
 	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
@@ -115,12 +499,11 @@ java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHan
 	at codechicken.nei.handler.NEIClientEventHandler.lambda$foregroundRenderEvent$8(NEIClientEventHandler.java:286) ~[NEIClientEventHandler.class:?]
 	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
 	at codechicken.nei.handler.NEIClientEventHandler.foregroundRenderEvent(NEIClientEventHandler.java:286) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_900_NEIClientEventHandler_foregroundRenderEvent_DrawForeground.invoke(.dynamic) [?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_904_NEIClientEventHandler_foregroundRenderEvent_DrawForeground.invoke(.dynamic) [?:?]
 	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
 	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
 	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:119) [bmg.class:?]
-	at techguns.gui.TGBaseGui.drawScreen(TGBaseGui.java:26) [TGBaseGui.class:?]
-	at techguns.gui.player.TGPlayerInventoryGui.drawScreen(TGPlayerInventoryGui.java:207) [TGPlayerInventoryGui.class:?]
+	at net.minecraft.client.gui.inventory.GuiChest.drawScreen(SourceFile:32) [bmm.class:?]
 	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:396) [ForgeHooksClient.class:?]
 	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source) ~[?:?]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
@@ -141,20 +524,191 @@ java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHan
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
 	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
 	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[00:48:22] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 178 advancements
-[00:50:36] [Client thread/WARN] [net.minecraft.client.shader.ShaderManager]: Could not find uniform named InSize in the specified shader program.
-[00:50:45] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Prepared For The Future!]
-[00:51:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by Zombie
-[00:52:23] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] El Cozzani has made the advancement [Prepared For The Future!]
-[00:57:21] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Diamonds!]
-[00:57:21] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 179 advancements
-[01:03:50] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] El Cozzani left the game
-[01:04:05] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 182 advancements
-[01:05:21] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo left the game
-[01:05:45] [Client thread/INFO] [toughasnails]: TAN configuration restored to local values
-[01:05:45] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
-[01:05:45] [Client thread/INFO] [FML]: Applying holder lookups
-[01:05:45] [Client thread/INFO] [FML]: Holder lookups applied
-[01:05:48] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[01:05:48] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[01:05:48] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[01:05:24] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
+[01:06:13] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes has made the advancement [Isn't It Iron Pick]
+[01:16:35] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 140 advancements
+[01:16:36] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Acquire Hardware]
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: Exception caught during firing event net.minecraftforge.event.entity.player.ItemTooltipEvent@98a7750:
+java.lang.IllegalStateException: Keyboard must be created before you can query key state
+	at org.lwjgl.input.Keyboard.isKeyDown(Keyboard.java:406) ~[lwjgl-2.9.4-nightly-20150209.jar:?]
+	at com.snowshock35.jeiintegration.TooltipEventHandler.isShiftKeyDown(TooltipEventHandler.java:164) ~[TooltipEventHandler.class:?]
+	at com.snowshock35.jeiintegration.TooltipEventHandler.onItemTooltip(TooltipEventHandler.java:87) ~[TooltipEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1200_TooltipEventHandler_onItemTooltip_ItemTooltipEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) ~[EventBus.class:?]
+	at net.minecraftforge.event.ForgeEventFactory.onItemTooltip(ForgeEventFactory.java:358) ~[ForgeEventFactory.class:?]
+	at net.minecraft.item.ItemStack.getTooltip(ItemStack.java:889) ~[aip.class:?]
+	at codechicken.nei.util.helper.GuiHelper.itemDisplayNameMultiline(GuiHelper.java:186) ~[GuiHelper.class:?]
+	at codechicken.nei.util.helper.GuiHelper.concatenatedDisplayName(GuiHelper.java:234) ~[GuiHelper.class:?]
+	at codechicken.nei.util.ItemInfo.lambda$getSearchName$0(ItemInfo.java:49) ~[ItemInfo.class:?]
+	at java.util.HashMap.computeIfAbsent(Unknown Source) [?:1.8.0_271]
+	at codechicken.nei.util.ItemInfo.getSearchName(ItemInfo.java:49) [ItemInfo.class:?]
+	at codechicken.nei.util.ItemList$PatternItemFilter.matches(ItemList.java:85) [ItemList$PatternItemFilter.class:?]
+	at codechicken.nei.util.ItemList$AnyMultiItemFilter.matches(ItemList.java:133) [ItemList$AnyMultiItemFilter.class:?]
+	at codechicken.nei.util.ItemList$AllMultiItemFilter.matches(ItemList.java:105) [ItemList$AllMultiItemFilter.class:?]
+	at codechicken.nei.util.ItemList$2.execute(ItemList.java:269) [ItemList$2.class:?]
+	at codechicken.lib.thread.RestartableTask$1.run(RestartableTask.java:32) [RestartableTask$1.class:?]
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: Index: 13 Listeners:
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 0: NORMAL
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 1: ASM: class mcp.mobius.waila.handlers.VanillaTooltipHandler tooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 2: ASM: class com.wumple.util.config.NameKeyDebug onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 3: ASM: class org.orecruncher.dsurround.client.renderer.ToolTipProvider tooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 4: ASM: class net.insane96mcp.iguanatweaks.events.ItemTooltip EventItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 5: ASM: com.wumple.foodfunk.capability.rot.RotHandler@2c0c9cc4 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 6: ASM: com.wumple.foodfunk.capability.preserving.PreservingHandler@520ea72c onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 7: ASM: class techguns.events.TGEventHandler ItemRadiationTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 8: ASM: betterwithmods.client.ClientEventHandler@5cc8d0b putTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 9: ASM: net.darkhax.badmobs.handler.ClientEventHandler@4a947127 onTooltipRendered(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 10: ASM: com.ferreusveritas.dynamictrees.event.CommonEventHandler@7f72a6d3 onItemTooltipAdded(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 11: ASM: class ichttt.mods.firstaid.client.ClientEventHandler tooltipItems(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 12: ASM: codechicken.nei.handler.NEIClientEventHandler@207f2ebe itemTooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 13: ASM: com.snowshock35.jeiintegration.TooltipEventHandler@228ca0f0 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 14: LOW
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 15: ASM: crafttweaker.mc1120.events.ClientEventHandler@17ba3a09 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 16: LOWEST
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 17: ASM: class com.endertech.minecraft.forge.messages.DevInfo onInventoryTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:20:59] [NEI Item Filtering/ERROR] [FML]: 18: ASM: iguanaman.hungeroverhaul.module.event.HungerOverhaulEventHook@563d8a8c renderTooltips(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:24:43] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [A Seedy Place]
+[01:25:27] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 162 advancements
+[01:31:27] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 163 advancements
+[01:33:41] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 165 advancements
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: Exception caught during firing event net.minecraftforge.event.entity.player.ItemTooltipEvent@4eff02be:
+java.lang.IllegalStateException: Keyboard must be created before you can query key state
+	at org.lwjgl.input.Keyboard.isKeyDown(Keyboard.java:406) ~[lwjgl-2.9.4-nightly-20150209.jar:?]
+	at com.snowshock35.jeiintegration.TooltipEventHandler.isShiftKeyDown(TooltipEventHandler.java:164) ~[TooltipEventHandler.class:?]
+	at com.snowshock35.jeiintegration.TooltipEventHandler.onItemTooltip(TooltipEventHandler.java:87) ~[TooltipEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1200_TooltipEventHandler_onItemTooltip_ItemTooltipEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) ~[EventBus.class:?]
+	at net.minecraftforge.event.ForgeEventFactory.onItemTooltip(ForgeEventFactory.java:358) ~[ForgeEventFactory.class:?]
+	at net.minecraft.item.ItemStack.getTooltip(ItemStack.java:889) ~[aip.class:?]
+	at codechicken.nei.util.helper.GuiHelper.itemDisplayNameMultiline(GuiHelper.java:186) ~[GuiHelper.class:?]
+	at codechicken.nei.util.helper.GuiHelper.concatenatedDisplayName(GuiHelper.java:234) ~[GuiHelper.class:?]
+	at codechicken.nei.util.ItemInfo.lambda$getSearchName$0(ItemInfo.java:49) ~[ItemInfo.class:?]
+	at java.util.HashMap.computeIfAbsent(Unknown Source) [?:1.8.0_271]
+	at codechicken.nei.util.ItemInfo.getSearchName(ItemInfo.java:49) [ItemInfo.class:?]
+	at codechicken.nei.util.ItemList$PatternItemFilter.matches(ItemList.java:85) [ItemList$PatternItemFilter.class:?]
+	at codechicken.nei.util.ItemList$AnyMultiItemFilter.matches(ItemList.java:133) [ItemList$AnyMultiItemFilter.class:?]
+	at codechicken.nei.util.ItemList$AllMultiItemFilter.matches(ItemList.java:105) [ItemList$AllMultiItemFilter.class:?]
+	at codechicken.nei.util.ItemList$2.execute(ItemList.java:269) [ItemList$2.class:?]
+	at codechicken.lib.thread.RestartableTask$1.run(RestartableTask.java:32) [RestartableTask$1.class:?]
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: Index: 13 Listeners:
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 0: NORMAL
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 1: ASM: class mcp.mobius.waila.handlers.VanillaTooltipHandler tooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 2: ASM: class com.wumple.util.config.NameKeyDebug onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 3: ASM: class org.orecruncher.dsurround.client.renderer.ToolTipProvider tooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 4: ASM: class net.insane96mcp.iguanatweaks.events.ItemTooltip EventItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 5: ASM: com.wumple.foodfunk.capability.rot.RotHandler@2c0c9cc4 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 6: ASM: com.wumple.foodfunk.capability.preserving.PreservingHandler@520ea72c onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 7: ASM: class techguns.events.TGEventHandler ItemRadiationTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 8: ASM: betterwithmods.client.ClientEventHandler@5cc8d0b putTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 9: ASM: net.darkhax.badmobs.handler.ClientEventHandler@4a947127 onTooltipRendered(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 10: ASM: com.ferreusveritas.dynamictrees.event.CommonEventHandler@7f72a6d3 onItemTooltipAdded(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 11: ASM: class ichttt.mods.firstaid.client.ClientEventHandler tooltipItems(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 12: ASM: codechicken.nei.handler.NEIClientEventHandler@207f2ebe itemTooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 13: ASM: com.snowshock35.jeiintegration.TooltipEventHandler@228ca0f0 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 14: LOW
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 15: ASM: crafttweaker.mc1120.events.ClientEventHandler@17ba3a09 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 16: LOWEST
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 17: ASM: class com.endertech.minecraft.forge.messages.DevInfo onInventoryTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:34:01] [NEI Item Filtering/ERROR] [FML]: 18: ASM: iguanaman.hungeroverhaul.module.event.HungerOverhaulEventHook@563d8a8c renderTooltips(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: Exception caught during firing event net.minecraftforge.event.entity.player.ItemTooltipEvent@495922d:
+java.lang.IllegalStateException: Keyboard must be created before you can query key state
+	at org.lwjgl.input.Keyboard.isKeyDown(Keyboard.java:406) ~[lwjgl-2.9.4-nightly-20150209.jar:?]
+	at com.snowshock35.jeiintegration.TooltipEventHandler.isShiftKeyDown(TooltipEventHandler.java:164) ~[TooltipEventHandler.class:?]
+	at com.snowshock35.jeiintegration.TooltipEventHandler.onItemTooltip(TooltipEventHandler.java:87) ~[TooltipEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1200_TooltipEventHandler_onItemTooltip_ItemTooltipEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) ~[EventBus.class:?]
+	at net.minecraftforge.event.ForgeEventFactory.onItemTooltip(ForgeEventFactory.java:358) ~[ForgeEventFactory.class:?]
+	at net.minecraft.item.ItemStack.getTooltip(ItemStack.java:889) ~[aip.class:?]
+	at codechicken.nei.util.helper.GuiHelper.itemDisplayNameMultiline(GuiHelper.java:186) ~[GuiHelper.class:?]
+	at codechicken.nei.util.helper.GuiHelper.concatenatedDisplayName(GuiHelper.java:234) ~[GuiHelper.class:?]
+	at codechicken.nei.util.ItemInfo.lambda$getSearchName$0(ItemInfo.java:49) ~[ItemInfo.class:?]
+	at java.util.HashMap.computeIfAbsent(Unknown Source) [?:1.8.0_271]
+	at codechicken.nei.util.ItemInfo.getSearchName(ItemInfo.java:49) [ItemInfo.class:?]
+	at codechicken.nei.util.ItemList$PatternItemFilter.matches(ItemList.java:85) [ItemList$PatternItemFilter.class:?]
+	at codechicken.nei.util.ItemList$AnyMultiItemFilter.matches(ItemList.java:133) [ItemList$AnyMultiItemFilter.class:?]
+	at codechicken.nei.util.ItemList$AllMultiItemFilter.matches(ItemList.java:105) [ItemList$AllMultiItemFilter.class:?]
+	at codechicken.nei.util.ItemList$2.execute(ItemList.java:269) [ItemList$2.class:?]
+	at codechicken.lib.thread.RestartableTask$1.run(RestartableTask.java:32) [RestartableTask$1.class:?]
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: Index: 13 Listeners:
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 0: NORMAL
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 1: ASM: class mcp.mobius.waila.handlers.VanillaTooltipHandler tooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 2: ASM: class com.wumple.util.config.NameKeyDebug onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 3: ASM: class org.orecruncher.dsurround.client.renderer.ToolTipProvider tooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 4: ASM: class net.insane96mcp.iguanatweaks.events.ItemTooltip EventItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 5: ASM: com.wumple.foodfunk.capability.rot.RotHandler@2c0c9cc4 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 6: ASM: com.wumple.foodfunk.capability.preserving.PreservingHandler@520ea72c onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 7: ASM: class techguns.events.TGEventHandler ItemRadiationTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 8: ASM: betterwithmods.client.ClientEventHandler@5cc8d0b putTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 9: ASM: net.darkhax.badmobs.handler.ClientEventHandler@4a947127 onTooltipRendered(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 10: ASM: com.ferreusveritas.dynamictrees.event.CommonEventHandler@7f72a6d3 onItemTooltipAdded(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 11: ASM: class ichttt.mods.firstaid.client.ClientEventHandler tooltipItems(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 12: ASM: codechicken.nei.handler.NEIClientEventHandler@207f2ebe itemTooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 13: ASM: com.snowshock35.jeiintegration.TooltipEventHandler@228ca0f0 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 14: LOW
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 15: ASM: crafttweaker.mc1120.events.ClientEventHandler@17ba3a09 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 16: LOWEST
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 17: ASM: class com.endertech.minecraft.forge.messages.DevInfo onInventoryTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:39] [NEI Item Filtering/ERROR] [FML]: 18: ASM: iguanaman.hungeroverhaul.module.event.HungerOverhaulEventHook@563d8a8c renderTooltips(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:43:45] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 167 advancements
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: Exception caught during firing event net.minecraftforge.event.entity.player.ItemTooltipEvent@36725922:
+java.lang.IllegalStateException: Keyboard must be created before you can query key state
+	at org.lwjgl.input.Keyboard.isKeyDown(Keyboard.java:406) ~[lwjgl-2.9.4-nightly-20150209.jar:?]
+	at com.snowshock35.jeiintegration.TooltipEventHandler.isShiftKeyDown(TooltipEventHandler.java:164) ~[TooltipEventHandler.class:?]
+	at com.snowshock35.jeiintegration.TooltipEventHandler.onItemTooltip(TooltipEventHandler.java:87) ~[TooltipEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1200_TooltipEventHandler_onItemTooltip_ItemTooltipEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) ~[EventBus.class:?]
+	at net.minecraftforge.event.ForgeEventFactory.onItemTooltip(ForgeEventFactory.java:358) ~[ForgeEventFactory.class:?]
+	at net.minecraft.item.ItemStack.getTooltip(ItemStack.java:889) ~[aip.class:?]
+	at codechicken.nei.util.helper.GuiHelper.itemDisplayNameMultiline(GuiHelper.java:186) ~[GuiHelper.class:?]
+	at codechicken.nei.util.helper.GuiHelper.concatenatedDisplayName(GuiHelper.java:234) ~[GuiHelper.class:?]
+	at codechicken.nei.util.ItemInfo.lambda$getSearchName$0(ItemInfo.java:49) ~[ItemInfo.class:?]
+	at java.util.HashMap.computeIfAbsent(Unknown Source) [?:1.8.0_271]
+	at codechicken.nei.util.ItemInfo.getSearchName(ItemInfo.java:49) [ItemInfo.class:?]
+	at codechicken.nei.util.ItemList$PatternItemFilter.matches(ItemList.java:85) [ItemList$PatternItemFilter.class:?]
+	at codechicken.nei.util.ItemList$AnyMultiItemFilter.matches(ItemList.java:133) [ItemList$AnyMultiItemFilter.class:?]
+	at codechicken.nei.util.ItemList$AllMultiItemFilter.matches(ItemList.java:105) [ItemList$AllMultiItemFilter.class:?]
+	at codechicken.nei.util.ItemList$2.execute(ItemList.java:269) [ItemList$2.class:?]
+	at codechicken.lib.thread.RestartableTask$1.run(RestartableTask.java:32) [RestartableTask$1.class:?]
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: Index: 13 Listeners:
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 0: NORMAL
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 1: ASM: class mcp.mobius.waila.handlers.VanillaTooltipHandler tooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 2: ASM: class com.wumple.util.config.NameKeyDebug onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 3: ASM: class org.orecruncher.dsurround.client.renderer.ToolTipProvider tooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 4: ASM: class net.insane96mcp.iguanatweaks.events.ItemTooltip EventItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 5: ASM: com.wumple.foodfunk.capability.rot.RotHandler@2c0c9cc4 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 6: ASM: com.wumple.foodfunk.capability.preserving.PreservingHandler@520ea72c onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 7: ASM: class techguns.events.TGEventHandler ItemRadiationTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 8: ASM: betterwithmods.client.ClientEventHandler@5cc8d0b putTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 9: ASM: net.darkhax.badmobs.handler.ClientEventHandler@4a947127 onTooltipRendered(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 10: ASM: com.ferreusveritas.dynamictrees.event.CommonEventHandler@7f72a6d3 onItemTooltipAdded(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 11: ASM: class ichttt.mods.firstaid.client.ClientEventHandler tooltipItems(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 12: ASM: codechicken.nei.handler.NEIClientEventHandler@207f2ebe itemTooltipEvent(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 13: ASM: com.snowshock35.jeiintegration.TooltipEventHandler@228ca0f0 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 14: LOW
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 15: ASM: crafttweaker.mc1120.events.ClientEventHandler@17ba3a09 onItemTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 16: LOWEST
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 17: ASM: class com.endertech.minecraft.forge.messages.DevInfo onInventoryTooltip(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:44:01] [NEI Item Filtering/ERROR] [FML]: 18: ASM: iguanaman.hungeroverhaul.module.event.HungerOverhaulEventHook@563d8a8c renderTooltips(Lnet/minecraftforge/event/entity/player/ItemTooltipEvent;)V
+[01:47:25] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] El Cozzani was slain by Zombie
+[01:47:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Kittopijas was slain by El Cozzani (Zombie)
+[01:47:42] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] Loading KingLemming's profile.
+[01:47:42] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[01:47:42] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] Both skin and cape not found.
+[01:47:42] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] 2/6 Try to load profile from 'Mojang'.
+[01:47:42] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] Default profile will be used.
+[01:47:42] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] KingLemming's profile loaded.
+[01:47:42] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/6b5e5289cf6158be0e1d5a811fdb90647f31372eb86fcddc228d6d893118e74f , Model: default , CapeUrl: http://textures.minecraft.net/texture/b0cc08840700447322d953a02b965f1d65a13a603bf64b17c803c21446fe1635  , Expiry: 1632631695)
+[01:47:52] [jeb_'s skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [jeb_'s skull INFO] Loading jeb_'s profile.
+[01:47:52] [jeb_'s skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [jeb_'s skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[01:47:52] [jeb_'s skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [jeb_'s skull INFO] Both skin and cape not found.
+[01:47:52] [jeb_'s skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [jeb_'s skull INFO] 2/6 Try to load profile from 'Mojang'.
+[01:47:52] [jeb_'s skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [jeb_'s skull INFO] Default profile will be used.
+[01:47:52] [jeb_'s skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [jeb_'s skull INFO] jeb_'s profile loaded.
+[01:47:52] [jeb_'s skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [jeb_'s skull INFO] (SkinUrl: http://textures.minecraft.net/texture/7fd9ba42a7c81eeea22f1524271ae85a8e045ce0af5a6ae16c6406ae917e68b5 , Model: default , CapeUrl: http://textures.minecraft.net/texture/9e507afc56359978a3eb3e32367042b853cddd0995d17d0da995662913fb00f7  , Expiry: 1632631706)
+[01:49:36] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
+[01:49:36] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
+[01:49:36] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
