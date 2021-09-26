@@ -35,7 +35,7 @@
     "result": "allow"
   },
   {
-    "mob": ["animalium:wild_dog","animalium:bear","animalium:bear_tamed"],
+    "mob": ["animalium:wild_dog","animalium:bear"],
     "mincount": {
       "amount": 15,
       "mod": "animalium",
@@ -53,7 +53,7 @@
     "result": "deny"
   },
   {
-    "mob": ["animalium:bear","animalium:wild_dog","animalium:bear_tamed","mutantbeasts:mutant_zombie"],
+    "mob": ["animalium:bear","animalium:wild_dog","mutantbeasts:mutant_zombie"],
     "seesky": false,
     "result": "deny"
   },
@@ -63,7 +63,7 @@
     "result": "deny"
   },
   {
-    "mob": ["animalium:bear","animalium:wild_dog","animalium:bear_tamed"],
+    "mob": ["animalium:bear","animalium:wild_dog"],
     "incity": true,
     "result": "deny"
   },
@@ -196,10 +196,5 @@
       "perchunk": true
     },
     "result": "deny"
-  },
-  {
-    "mob": "minecraft:zombie",
-    "result": "default",
-    "helditem":["minecraft:bone"]
   }
 ]

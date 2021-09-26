@@ -69,13 +69,6 @@
         "minlight": 8
       },
     {
-        "mob": "animalium:bear_tamed",
-        "weight": 2,
-        "groupcountmin": 1,
-        "groupcountmax": 1,
-        "minlight": 8
-      },
-    {
         "mob": "animalium:rat",
         "weight": 7,
         "groupcountmin": 1,
