@@ -20,8 +20,8 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HILLS",
     "PLAINS",
+    "HILLS",
     "WET"
   ],
   "BiomeManager Entries": {},
@@ -98,7 +98,7 @@
       "Entity Class": "com.gendeathrow.playerskins.entity.EntityPlayerMob",
       "Weight": 1,
       "Min Group Count": 1,
-      "Max Group Count": 2
+      "Max Group Count": 7
     }
   ],
   "Spawnable Water Creatures": [
@@ -187,8 +187,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "WET_TEMPERATE": 3,
-    "COOL_TEMPERATE": 7
+    "COOL_TEMPERATE": 7,
+    "WET_TEMPERATE": 3
   },
   "BOP Climate Weights": {
     "WET_TEMPERATE": [

@@ -135,6 +135,7 @@ var t1_scout_helmet = <techguns:t1_scout_helmet>;
 var t1_scout_chestplate = <techguns:t1_scout_chestplate>;
 var t1_scout_leggings = <techguns:t1_scout_leggings>;
 var t1_scout_boots = <techguns:t1_scout_boots>;
+var slime_ball = <minecraft:slime_ball>;
 recipes.addShaped("t1_scout_helmet", t1_scout_helmet, [
     [heavycloth,heavycloth,heavycloth],
     [heavycloth,null,heavycloth]
@@ -151,7 +152,8 @@ recipes.addShaped("t1_scout_leggings", t1_scout_leggings, [
 ]);
 recipes.addShaped("t1_scout_boots", t1_scout_boots, [
     [heavycloth,null,heavycloth],
-    [heavycloth,null,heavycloth]
+    [heavycloth,null,heavycloth],
+    [slime_ball,null,slime_ball],
 ]);
 // Soldier Armor set
 var t1_combat_helmet = <techguns:t1_combat_helmet>;

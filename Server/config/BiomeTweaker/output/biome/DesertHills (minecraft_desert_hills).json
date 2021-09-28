@@ -20,10 +20,10 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
+    "DRY",
     "SANDY",
-    "HILLS",
     "HOT",
-    "DRY"
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -69,7 +69,7 @@
       "Entity Class": "com.gendeathrow.playerskins.entity.EntityPlayerMob",
       "Weight": 1,
       "Min Group Count": 1,
-      "Max Group Count": 2
+      "Max Group Count": 7
     }
   ],
   "Spawnable Water Creatures": [

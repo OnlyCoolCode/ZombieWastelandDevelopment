@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "DEAD",
     "SNOWY",
     "COLD",
     "SPARSE",
     "WASTELAND",
-    "DEAD",
     "WET"
   ],
   "BiomeManager Entries": {},
@@ -71,7 +71,7 @@
       "Entity Class": "com.gendeathrow.playerskins.entity.EntityPlayerMob",
       "Weight": 1,
       "Min Group Count": 1,
-      "Max Group Count": 2
+      "Max Group Count": 7
     }
   ],
   "Spawnable Water Creatures": [

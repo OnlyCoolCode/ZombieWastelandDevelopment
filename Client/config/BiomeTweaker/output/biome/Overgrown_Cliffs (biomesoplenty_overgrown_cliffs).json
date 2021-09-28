@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "JUNGLE",
     "DENSE",
-    "MOUNTAIN",
     "LUSH",
+    "MOUNTAIN",
     "WET",
     "HILLS"
   ],
@@ -77,7 +77,7 @@
       "Entity Class": "com.gendeathrow.playerskins.entity.EntityPlayerMob",
       "Weight": 1,
       "Min Group Count": 1,
-      "Max Group Count": 2
+      "Max Group Count": 7
     }
   ],
   "Spawnable Water Creatures": [

@@ -155,7 +155,7 @@ val foodTable = LootTweaker.newTable("loottweaker:food");
  
 //==== Add pools to your tables ====
 val subwayPool = subwayTable.addPool("subway", 3, 9, 0, 0);
-val genericPool = genericTable.addPool("generic", 1, 10, 0, 0);
+val genericPool = genericTable.addPool("generic", 3, 10, 0, 0);
 val healingPool = healingTable.addPool("healing", 3, 9, 0, 0);
 val plantPool = plantTable.addPool("plant", 3, 11, 0, 0);
 val handgunPool = handgunTable.addPool("handgun", 1, 5, 0, 0);

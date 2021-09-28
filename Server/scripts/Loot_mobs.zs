@@ -112,7 +112,7 @@ banditPool.addItemEntry(morphine, 3,0, [
 
 var armysoldierTable = LootTweaker.getTable("techguns:entities/armysoldier");
 armysoldierTable.clear();
-var armysoldierPool = armysoldierTable.addPool("armysoldierPool", 3, 5, 0, 0);
+var armysoldierPool = armysoldierTable.addPool("armysoldierPool", 3, 7, 0, 0);
 
 armysoldierPool.addItemEntry(ammo_pistol_incendiary, 4,0, [
     Functions.setCount(1, 1)
