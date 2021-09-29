@@ -68,7 +68,7 @@
     "seesky": true,
     "mintime":1000,
     "maxtime":13000,
-    "random": 0.7,
+    "random": 0.85,
     "result": "deny"
   },
   {
