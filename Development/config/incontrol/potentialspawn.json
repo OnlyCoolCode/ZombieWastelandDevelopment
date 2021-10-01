@@ -40,21 +40,15 @@
       },
     {
         "mob": "iymts_mob_mod:iysuperleaper",
-        "groupcountmin": 1,
-        "groupcountmax": 1,
-        "weight": 8
+        "weight": 7
       },
     {
         "mob": "iymts_mob_mod:iysuperslasher",
-        "groupcountmin": 1,
-        "groupcountmax": 1,
-        "weight": 8
+        "weight": 7
       },
     {
         "mob": "iymts_mob_mod:iysuperexploder",
-        "groupcountmin": 1,
-        "groupcountmax": 1,
-        "weight": 8
+        "weight": 7
       },
     {
         "mob": "mutantbeasts:mutant_zombie",
@@ -64,21 +58,21 @@
       },
     {
         "mob": "animalium:wild_dog",
-        "weight": 10,
+        "weight": 45,
         "groupcountmin": 2,
         "groupcountmax": 4,
         "minlight": 7
       },
     {
         "mob": "animalium:bear",
-        "weight": 3,
+        "weight": 20,
         "groupcountmin": 1,
         "groupcountmax": 1,
         "minlight": 8
       },
     {
         "mob": "animalium:rat",
-        "weight": 7,
+        "weight": 40,
         "groupcountmin": 1,
         "groupcountmax": 3,
         "maxlight": 7

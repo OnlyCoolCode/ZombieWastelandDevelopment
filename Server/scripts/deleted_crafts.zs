@@ -529,7 +529,13 @@ var terrarium = [
     <biomesoplenty:terrarium:13>,
     <biomesoplenty:terrarium:12>
 ] as IItemStack[];
-
+var ompd = [
+    <ompd:fence>,
+    <ompd:fence:1>,
+    <ompd:fence:2>,
+    <ompd:fence:3>,
+    <ompd:fence:4>
+] as IItemStack[];
 /* var BetterWithMods_Whitelist = [
     <betterwithmods:candle_holder>,
     <betterwithmods:material:47>,
@@ -613,6 +619,9 @@ for item in betterwithmods {
 }
 for item in terrarium {
     recipes.remove(item);
+}
+for item in ompd {
+    mods.jei.JEI.removeAndHide(item);
 }
 
 for mod in loadedMods {

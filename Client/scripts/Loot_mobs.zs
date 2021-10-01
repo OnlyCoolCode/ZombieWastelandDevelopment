@@ -55,7 +55,7 @@ mutant_zombiePool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
 
 var banditTable = LootTweaker.getTable("techguns:entities/bandit");
 banditTable.clear();
-var banditPool = banditTable.addPool("banditPool", 3, 5, 0, 0);
+var banditPool = banditTable.addPool("banditPool", 4, 7, 0, 0);
 
 var ammo_pistol_incendiary = <techguns:itemshared:113>;
 var ammo_revolver_incendiary = <techguns:itemshared:109>;
@@ -112,7 +112,7 @@ banditPool.addItemEntry(morphine, 3,0, [
 
 var armysoldierTable = LootTweaker.getTable("techguns:entities/armysoldier");
 armysoldierTable.clear();
-var armysoldierPool = armysoldierTable.addPool("armysoldierPool", 3, 7, 0, 0);
+var armysoldierPool = armysoldierTable.addPool("armysoldierPool", 4, 7, 0, 0);
 
 armysoldierPool.addItemEntry(ammo_pistol_incendiary, 4,0, [
     Functions.setCount(1, 1)
@@ -156,7 +156,7 @@ armysoldierPool.addItemEntry(morphine, 3,0, [
 
 var playerskinsTable = LootTweaker.getTable("playerskins:entities/skinloot");
 playerskinsTable.clear();
-var playerskinsPool = playerskinsTable.addPool("playerskinsPool", 3, 5, 0, 0);
+var playerskinsPool = playerskinsTable.addPool("playerskinsPool", 4, 7, 0, 0);
 
 var baseballbat = <weapons_of_the_apocalypse:baseballbat>;
 var steelpipe = <weapons_of_the_apocalypse:steelpipe>;

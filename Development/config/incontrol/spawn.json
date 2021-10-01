@@ -1,5 +1,7 @@
 [
   {
+    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
+    "hostile": true,
     "incity": false,
     "seesky": false,
     "mincount": {
@@ -10,6 +12,8 @@
     "result": "deny"
   },
   {
+    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
+    "hostile": true,
     "incity": false,
     "seesky": true,
     "mincount": {
@@ -20,6 +24,8 @@
     "result": "deny"
   },
   {
+    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
+    "hostile": true,
     "incity": false,
     "seesky": false,
     "mintime":1000,
@@ -32,6 +38,8 @@
     "result": "deny"
   },
   {
+    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
+    "hostile": true,
     "incity": false,
     "seesky": true,
     "mintime":1000,
@@ -44,6 +52,8 @@
     "result": "deny"
   },
   {
+    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
+    "hostile": true,
     "incity": true,
     "mincount": {
       "amount": 120,
@@ -53,6 +63,8 @@
     "result": "deny"
   },
   {
+    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
+    "hostile": true,
     "incity": true,
     "mintime":1000,
     "maxtime":13000,
@@ -64,11 +76,13 @@
     "result": "deny"
   },
   {
+    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
+    "hostile": true,
     "incity": false,
     "seesky": true,
     "mintime":1000,
     "maxtime":13000,
-    "random": 0.85,
+    "random": 0.80,
     "result": "deny"
   },
   {
@@ -141,7 +155,7 @@
   {
     "mob": "animalium:wild_dog",
     "mincount": {
-      "amount": 12,
+      "amount": 16,
       "mod": "animalium",
       "perchunk": true
     },
@@ -172,7 +186,7 @@
   {
     "mob": "animalium:bear",
     "mincount": {
-      "amount": 12,
+      "amount": 14,
       "mod": "animalium",
       "perchunk": true
     },
@@ -186,7 +200,7 @@
   {
     "mob": "animalium:rat",
     "mincount": {
-      "amount": 12,
+      "amount": 15,
       "mod": "animalium",
       "perchunk": true
     },
