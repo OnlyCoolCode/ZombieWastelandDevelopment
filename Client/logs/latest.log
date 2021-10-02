@@ -1,861 +1,687 @@
-[00:00:25] [Client thread/INFO] [jei]: Updating ingredient filter...
-[00:00:25] [Client thread/INFO] [jei]: Updated  ingredient filter in 0 ms
-[00:00:25] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.load(LayoutManager.java:600) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$containerInitEvent$5(NEIClientEventHandler.java:220) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
-	at codechicken.nei.handler.NEIClientEventHandler.containerInitEvent(NEIClientEventHandler.java:220) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_906_NEIClientEventHandler_containerInitEvent_Pre.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:475) [blk.class:?]
-	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018) [bib.class:?]
-	at net.minecraftforge.fml.client.config.GuiConfig.actionPerformed(GuiConfig.java:344) [GuiConfig.class:?]
-	at mezz.jei.config.JEIModConfigGui.actionPerformed(JEIModConfigGui.java:88) [JEIModConfigGui.class:?]
-	at net.minecraft.client.gui.GuiScreen.mouseClicked(GuiScreen.java:443) [blk.class:?]
-	at net.minecraftforge.fml.client.config.GuiConfig.mouseClicked(GuiConfig.java:369) [GuiConfig.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleMouseInput(GuiScreen.java:533) [blk.class:?]
-	at net.minecraftforge.fml.client.config.GuiConfig.handleMouseInput(GuiConfig.java:359) [GuiConfig.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:501) [blk.class:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1759) [bib.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1098) [bib.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[00:00:39] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Getting an Upgrade]
-[00:00:39] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancements
-[00:01:27] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Sweet dreams]
-[00:01:27] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 112 advancements
-[00:01:29] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes has made the advancement [Sweet dreams]
-[00:01:29] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Sweet dreams]
-[00:04:02] [Client thread/WARN] [net.minecraft.client.shader.ShaderManager]: Could not find uniform named InSize in the specified shader program.
-[00:05:20] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 121 advancements
-[00:07:36] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 122 advancements
-[00:08:42] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by Super Slasher
-[00:09:02] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 1 times.
-[00:09:02] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:09:02] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro fell from a high place
-[00:09:18] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 2 times.
-[00:09:18] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:09:18] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro fell from a high place
-[00:09:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 3 times.
-[00:09:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:09:32] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro fell from a high place
-[00:09:50] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by Super Slasher
-[00:11:28] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 4 times.
-[00:11:28] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:11:28] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was slain by Zombie
-[00:11:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 5 times.
-[00:11:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:11:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro didn't know that poison was deadly
-[00:11:43] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 6 times.
-[00:11:43] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:11:43] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro fell from a high place
-[00:12:57] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 7 times.
-[00:12:57] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:12:57] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was slain by Spider
-[00:16:20] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.load(LayoutManager.java:600) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$containerInitEvent$5(NEIClientEventHandler.java:220) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
-	at codechicken.nei.handler.NEIClientEventHandler.containerInitEvent(NEIClientEventHandler.java:220) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_906_NEIClientEventHandler_containerInitEvent_Pre.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:475) [blk.class:?]
-	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018) [bib.class:?]
-	at net.minecraft.client.entity.EntityPlayerSP.displayGUIChest(EntityPlayerSP.java:695) [bud.class:?]
-	at net.minecraft.client.network.NetHandlerPlayClient.handleOpenWindow(NetHandlerPlayClient.java:1107) [brz.class:?]
-	at net.minecraft.network.play.server.SPacketOpenWindow.processPacket(SourceFile:43) [ir.class:?]
-	at net.minecraft.network.play.server.SPacketOpenWindow.processPacket(SourceFile:9) [ir.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) [hv$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_271]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_271]
-	at net.minecraft.util.Util.runTask(Util.java:529) [h.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1088) [bib.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[00:16:20] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:213) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$foregroundRenderEvent$8(NEIClientEventHandler.java:286) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
-	at codechicken.nei.handler.NEIClientEventHandler.foregroundRenderEvent(NEIClientEventHandler.java:286) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_907_NEIClientEventHandler_foregroundRenderEvent_DrawForeground.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:119) [bmg.class:?]
-	at net.minecraft.client.gui.inventory.GuiChest.drawScreen(SourceFile:32) [bmm.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:396) [ForgeHooksClient.class:?]
-	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.optifine.reflect.Reflector.callVoid(Reflector.java:669) [Reflector.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1462) [buq.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1119) [bib.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[00:20:54] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was blown up by Super Exploder
-[00:20:56] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes was doomed to fall by Super Exploder
-[00:21:44] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 8 times.
-[00:21:44] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:21:44] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was blown up by Super Exploder
-[00:27:29] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 9 times.
-[00:27:29] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:27:29] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was shot by Bandit
-[00:27:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes was shot by Bandit
-[00:27:53] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 10 times.
-[00:27:53] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:27:53] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro fell from a high place
-[00:28:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 11 times.
-[00:28:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:28:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro fell from a high place
-[00:28:19] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was shot by Bandit
-[00:28:50] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was shot by Bandit
-[00:29:05] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 12 times.
-[00:29:05] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:29:05] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was slain by Cave Spider
-[00:29:23] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 13 times.
-[00:29:23] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:29:23] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was shot by Bandit
-[00:29:43] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 14 times.
-[00:29:43] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:29:43] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was shot by Bandit
-[00:29:49] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by Zombie
-[00:29:49] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes was slain by Zombie
-[00:30:03] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 15 times.
-[00:30:03] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:30:03] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was shot by Bandit
-[00:30:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 16 times.
-[00:30:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[00:30:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was slain by Zombie
-[00:30:29] [Client thread/INFO] [toughasnails]: TAN configuration restored to local values
-[00:30:29] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
-[00:30:30] [Client thread/INFO] [FML]: Applying holder lookups
-[00:30:30] [Client thread/INFO] [FML]: Holder lookups applied
-[00:30:34] [Netty Client IO #2/INFO] [FML]: Attempting connection with missing mods [antiqueatlasoverlay, backtools, betterfoliage, chunkanimator, controlling, ctgui, ctm, custommainmenu, customskinloader, dsurround, enhancedvisuals, fpsreducer, inventorytweaks, jeiintegration, mobdismemberment, mousetweaks, norecipebook, resourceloader, toastcontrol, wi-zoom, betteranimals] at SERVER
-[00:31:10] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to 25.12.220.97, 25565
-[00:31:15] [Netty Client IO #4/INFO] [FML]: Server protocol version 2
-[00:31:15] [Netty Client IO #4/INFO] [FML]: Attempting connection with missing mods [antiqueatlasoverlay, backtools, betterfoliage, chunkanimator, controlling, ctgui, ctm, custommainmenu, customskinloader, dsurround, enhancedvisuals, fpsreducer, inventorytweaks, jeiintegration, mobdismemberment, mousetweaks, norecipebook, resourceloader, toastcontrol, wi-zoom, betteranimals] at SERVER
-[00:31:15] [Client thread/INFO] [FML]: Injecting existing registry data into this client instance
-[00:31:15] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
-[00:31:15] [Client thread/INFO] [FML]: Applying holder lookups
-[00:31:15] [Client thread/INFO] [FML]: Holder lookups applied
-[00:31:15] [Netty Client IO #4/INFO] [Obfuscate]: Updating 0 synced key mappings
-[00:31:15] [Netty Client IO #4/INFO] [FML]: [Netty Client IO #4] Client side modded connection established
-[00:31:15] [Client thread/INFO] [dsurround]: Setting weather renderer for dimension [overworld]
-[00:31:15] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] Loading ElDuro's profile.
-[00:31:15] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
-[00:31:15] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] ElDuro's profile loaded.
-[00:31:15] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)d14587b9701efdc5e2f7def8d3a0fa6539e4a568,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1633145510)
-[00:31:16] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] Loading guidardo's profile.
-[00:31:16] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] 1/6 Try to load profile from 'LocalSkin'.
-[00:31:16] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] guidardo's profile loaded.
-[00:31:16] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] (SkinUrl: (LOCAL_LEGACY)eae773ce18581ff9da761a0f29e9ff2a3d0c01d7,LocalSkin/skins/guidardo.png , Model: default , CapeUrl: null  , Expiry: 1633145511)
-[00:31:16] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] Loading JuanDeLosPalotes's profile.
-[00:31:16] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] 1/6 Try to load profile from 'LocalSkin'.
-[00:31:16] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] JuanDeLosPalotes's profile loaded.
-[00:31:16] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] (SkinUrl: (LOCAL_LEGACY)b921647e8152302c96034b4c081905dac121f39d,LocalSkin/skins/JuanDeLosPalotes.png , Model: default , CapeUrl: null  , Expiry: 1633145509)
-[00:31:17] [Netty Client IO #4/INFO] [firstaid]: Received remote damage model and config
-[00:31:17] [Netty Client IO #4/INFO] [Waila]: Received server authentication msg. Remote sync will be activated
-[00:31:17] [Client thread/INFO] [adminshop]: Received shop file:
-#ignore rows that start with a '#',,,
-,,,
-"#Item format: ""modname:item_name:metadata {nbt_data}"" metadata and {nbt_data} are optional. Can also use crafttweaker formatting (eg. ""<modname:item_name:metadata>.withTag{nbt_data}"")",,,
-"#Fluid format: ""fluid:fluid_name"" where fluid is literal. Can also use crafttweaker formatting",,,
-,,,
-"#Other configurations found within adminshop.cfg, such as selling price of Forge Energy",,,
-#See the examples below with the default shop,,,
-,,,
-#Category names for buy and sell. Put the category name in each column after the first,,,
-Buy Category Names:,Gun&Gold,LongWeap,Explos,AmmoHand,AmmoLong,AmmoExpl,
-Sell Category Names:,Metal,,
-,,,
-,,,
-"#buy or sell (from player's perspective)",Item/Fluid,Price,Category Index (starting from 0)
-sell,<minecraft:iron_nugget>,1,0
-sell,<minecraft:iron_ingot>,9,0
-sell,<minecraft:iron_block>,81,0
-sell,<minecraft:gold_nugget>,0.2,0
-sell,<minecraft:gold_ingot>,1.8,0
-sell,<minecraft:gold_block>,16.2,0
-#,,,
-buy,"<techguns:revolver>.withTag({ammo: 0 as short})",100,0
-buy,"<techguns:goldenrevolver>.withTag({ammo: 0 as short})",220,0
-buy,"<techguns:pistol>.withTag({ammo: 0 as short})",150,0
-buy,"<techguns:chainsaw>",100,0
-buy,"<techguns:fraggrenade>",200,0
-buy,"<techguns:stielgranate>",120,0
-buy,<minecraft:gold_nugget>,0.2,0
-buy,<minecraft:gold_ingot>,1.8,0
-buy,<minecraft:gold_block>,16.2,0
-#,,,
-buy,"<techguns:handcannon>.withTag({ammo: 0 as short})",100,1
-buy,"<techguns:sawedoff>.withTag({ammo: 0 as short})",150,1
-buy,"<techguns:thompson>.withTag({ammo: 0 as short})",300,1
-buy,"<techguns:ak47>.withTag({ammo: 0 as short})",500,1
-buy,"<techguns:boltaction>.withTag({ammo: 0 as short})",200,1
-buy,"<techguns:m4>.withTag({ammo: 0 as short})",500,1
-buy,"<techguns:m4_infiltrator>.withTag({ammo: 0 as short})",650,1
-buy,"<techguns:combatshotgun>.withTag({ammo: 0 as short})",220,1
-buy,"<techguns:mac10>.withTag({ammo: 0 as short})",350,1
-buy,"<techguns:aug>.withTag({ammo: 0 as short})",750,1
-buy,"<techguns:minigun>.withTag({ammo: 0 as short})",900,1
-buy,"<techguns:as50>.withTag({ammo: 0 as short})",650,1
-buy,"<techguns:vector>.withTag({ammo: 0 as short})",380,1
-buy,"<techguns:scar>.withTag({ammo: 0 as short})",850,1
-#,,,
-buy,"<techguns:rocketlauncher>.withTag({ammo: 0 as short})",500,2
-buy,"<techguns:grimreaper>.withTag({ammo: 0 as short})",650,2
-buy,"<techguns:grenadelauncher>.withTag({ammo: 0 as short})",300,2
-buy,"<techguns:flamethrower>.withTag({ammo: 0 as short})",700,2
-#,,,
-buy,"<techguns:itemshared:1>",999,3
-buy,"<techguns:itemshared:12>",15,3
-buy,"<techguns:itemshared:124",10,3
-buy,"<techguns:itemshared:123>",20,3
-buy,"<techguns:itemshared:28>",50,3
-#,,,
-buy,"<techguns:itemshared:2>",999,4
-buy,"<techguns:itemshared:10>",30,4
-buy,"<techguns:itemshared:14>",50,4
-buy,"<techguns:itemshared:3>",999,4
-buy,"<techguns:itemshared:18>",50,4
-buy,"<techguns:itemshared:20>",40,4
-#,,,
-buy,"<techguns:itemshared:7>",999,5
-buy,"<techguns:itemshared:5>",999,5
-buy,"<techguns:itemshared:28>",50,5
-#,,,
+[20:14:15] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:14:15] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:14:15] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[20:14:15] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2855 for Minecraft 1.12.2 loading
+[20:14:15] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_271, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_271
+[20:14:19] [main/INFO] [FML]: Searching C:\Repositorios\ZombieWastelandDevelopment\Client\mods for mods
+[20:14:19] [main/INFO] [FML]: Searching C:\Repositorios\ZombieWastelandDevelopment\Client\mods\1.12.2 for mods
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.12.2-3.4.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in BetterFoliage-MC1.12-2.3.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod BetterFoliageLoader (mods.betterfoliage.loader.BetterFoliageLoader) is not signed!
+[20:14:19] [main/INFO] [FML]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ChunkAnimator-MC1.12-1.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod lumien.chunkanimator.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:14:19] [main/WARN] [FML]: The coremod LoadingPlugin (lumien.chunkanimator.asm.LoadingPlugin) is not signed!
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.61_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:14:19] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:14:19] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CustomSkinLoader_Forge-14.9.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod customskinloader.forge.ForgePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:14:19] [main/WARN] [FML]: The coremod ForgePlugin (customskinloader.forge.ForgePlugin) is not signed!
+[20:14:19] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from DynamicSurroundings-1.12.2-3.6.2.1.jar
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in foamfix-0.10.14-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ForgeEndertech-1.12.2-4.5.5.0-build.0561.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod com.endertech.minecraft.forge.coremod.CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:14:19] [main/WARN] [FML]: The coremod CorePlugin (com.endertech.minecraft.forge.coremod.CorePlugin) is not signed!
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:14:19] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:14:19] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
+[20:14:19] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ResourceLoader-MC1.12.1-1.5.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod lumien.resourceloader.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in somnia-1.11-beta.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod SFMLLoadingPlugin (com.kingrunes.somnia.asm.SFMLLoadingPlugin) is not signed!
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Sound-Physics-1.12.2-1.0.10-1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod CoreModLoader (com.sonicether.soundphysics.CoreModLoader) is not signed!
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in techguns-1.12.2-2.0.2.0_pre3.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod Techguns Core (techguns.core.TechgunsFMLPlugin) is not signed!
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in TenshiLib-1.12.2-1.2.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod TenshiCore (com.flemmli97.tenshilib.asm.ASMLoader) is not signed!
+[20:14:19] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in thiccentities-1.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[20:14:19] [main/WARN] [FML]: The coremod wiresegal.thicc.asm.ThiccCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[20:14:19] [main/WARN] [FML]: The coremod ThiccEntities Plugin (wiresegal.thicc.asm.ThiccCorePlugin) is not signed!
+[20:14:19] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from VanillaFix-1.0.10-150.jar
+[20:14:19] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from wi-zoom-v1.1-MC1.12.2-release.jar
+[20:14:19] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from phosphor-forge-mc1.12.2-0.2.7-universal.jar
+[20:14:19] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:14:19] [main/INFO] [LaunchWrapper]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[20:14:19] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[20:14:19] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Repositorios/ZombieWastelandDevelopment/Client/mods/1.12.2/VanillaFix-1.0.10-150.jar Service=LaunchWrapper Env=CLIENT
+[20:14:19] [main/INFO] [VanillaFix]: Initializing VanillaFix
+[20:14:20] [main/INFO] [VanillaFix]: Initializing StacktraceDeobfuscator
+[20:14:20] [main/INFO] [VanillaFix]: Found MCP method mappings: methods-stable_39.csv
+[20:14:20] [main/INFO] [VanillaFix]: Done initializing StacktraceDeobfuscator
+[20:14:20] [main/INFO] [VanillaFix]: Initializing Bug Fix Mixins
+[20:14:20] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[20:14:20] [main/INFO] [VanillaFix]: Initializing Crash Fix Mixins
+[20:14:20] [main/INFO] [VanillaFix]: Initializing Profiler Improvement Mixins
+[20:14:20] [main/INFO] [VanillaFix]: Initializing Texture Fix Mixins
+[20:14:20] [main/INFO] [VanillaFix]: Initializing Mod Support Mixins
+[20:14:20] [main/WARN] [FML]: The coremod VanillaFixLoadingPlugin (org.dimdev.vanillafix.VanillaFixLoadingPlugin) is not signed!
+[20:14:20] [main/WARN] [FML]: The coremod WiZoomCoreMod (net.wurstclient.zoom.WiZoomCoreMod) is not signed!
+[20:14:20] [main/ERROR] [mixin]: Mixin config wi-zoom.mixins.json does not specify "minVersion" property
+[20:14:20] [main/WARN] [FML]: The coremod PhosphorFMLLoadingPlugin (me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin) is not signed!
+[20:14:20] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[20:14:20] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[20:14:20] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[20:14:20] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[20:14:20] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:14:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:14:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[20:14:20] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[20:14:20] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[20:14:20] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[20:14:20] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[20:14:20] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: C:\Repositorios\ZombieWastelandDevelopment\Client\mods\1.12.2\OptiFine_1.12.2_HD_U_G5.jar
+[20:14:20] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:22] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[20:14:22] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[20:14:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$InitTransformer
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(<init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V)
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinTransformer
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;)
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadSkin(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;)
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadProfileTexturesTransformer
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V)
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadProfileTextures(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V)
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinFromCacheTransformer
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;)
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadSkinFromCache(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;)
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.PlayerTabTransformer$ScoreObjectiveTransformer
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay(func_175249_a(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V)
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay(renderPlayerlist(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V)
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SpectatorMenuTransformer$PlayerMenuObjectTransformer
+[20:14:22] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.spectator.PlayerMenuObject(<init>(Lcom/mojang/authlib/GameProfile;)V)
+[20:14:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:23] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[20:14:23] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@5a237731
+[20:14:23] [main/INFO] [LaunchWrapper]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[20:14:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[20:14:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:23] [main/INFO] [BiomeTweakerCore]: Beginning early config parsing...
+[20:14:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[20:14:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:14:24] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[20:14:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[20:14:24] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[20:14:24] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[20:14:24] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentHelper
+[20:14:24] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
+[20:14:24] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:24] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
+[20:14:24] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:24] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.com.sonicether.soundphysics.CoreModInjector' was detected and will no longer process meta class data
+[20:14:24] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[20:14:24] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[20:14:24] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:24] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:24] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:24] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[20:14:24] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:24] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[20:14:24] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:24] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:24] [main/INFO] [Thicc ASM]: Transforming Entity
+[20:14:24] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [setSize, func_70105_a] Descriptor (FF)V)
+[20:14:24] [main/INFO] [Thicc ASM]: Attempting to insert: Size hook
+[20:14:24] [main/INFO] [Thicc ASM]: Patch result: Success
+[20:14:24] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class MinecraftServer
+[20:14:24] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class MinecraftServer
+[20:14:24] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.world.chunk.BlockStateContainer.func_186018_a
+[20:14:24] [main/INFO] [STDOUT]: [com.flemmli97.tenshilib.asm.ASMTransformer:asmDebug:43]: [TenshiCore]: Patching Minecraft.clickMouse
+[20:14:24] [main/INFO] [BetterFps]: Patching net.minecraft.client.Minecraft... (bib)
+[20:14:24] [main/INFO] [mixin]: A re-entrant transformer 'guichaguri.betterfps.transformers.PatcherTransformer' was detected and will no longer process meta class data
+[20:14:24] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.lumien.resourceloader.asm.ClassTransformer' was detected and will no longer process meta class data
+[20:14:24] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class EntityRenderer
+[20:14:24] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class EntityRenderer
+[20:14:25] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.EntityRenderer
+[20:14:25] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [renderWorldPass, func_175068_a] Descriptor (IFJ)V)
+[20:14:25] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:25] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/EntityRenderer.func_78479_a (FI)V
+[20:14:25] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:25] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[20:14:25] [main/INFO] [BiomeTweakerCore]: Attempting to patch class net.minecraft.world.World...
+[20:14:25] [main/INFO] [BiomeTweakerCore]: Sucessfully patched net.minecraft.world.World!
+[20:14:25] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.me.superckl.biometweakercore.BiomeTweakerASMTransformer' was detected and will no longer process meta class data
+[20:14:25] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[20:14:25] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:141]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[20:14:25] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.BlockModelRenderer
+[20:14:25] [main/INFO] [Quark ASM]: Optifine Detected. Disabling Patch for Names [renderQuadsFlat, func_187496_a] Descriptor (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;IZLnet/minecraft/client/renderer/BufferBuilder;Ljava/util/List;Ljava/util/BitSet;)V
+[20:14:25] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchItemRenderer_updateEquippedItem:530]: Successfully patched ItemRenderer.updateEquippedItem with ASM
+[20:14:25] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.lumien.chunkanimator.asm.ClassTransformer' was detected and will no longer process meta class data
+[20:14:25] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.client.renderer.chunk.RenderChunk.func_178581_b (FFFLnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;)V (matching rebuildChunk)
+[20:14:25] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying RenderChunk block render override
+[20:14:25] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying RenderChunk block layer override (Optifine)
+[20:14:25] [main/INFO] [Obfuscate]: Applying ASM to RenderItem
+[20:14:25] [main/INFO] [Obfuscate]: Successfully patched RenderItem
+[20:14:25] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.RenderItem
+[20:14:25] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [renderItem, func_180454_a] Descriptor (Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[20:14:25] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:25] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:25] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEffect, func_191966_a] Descriptor (Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[20:14:25] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:25] [main/INFO] [Quark ASM]: Located patch target node LDC -8372020
+[20:14:25] [main/INFO] [Quark ASM]: Located patch target node LDC -8372020
+[20:14:25] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:26] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.vazkii.quark.base.asm.ClassTransformer' was detected and will no longer process meta class data
+[20:14:26] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderModel:482]: Successfully patched 2 arg RenderItem.RenderModel with ASM
+[20:14:26] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem2:370]: Successfully patched 2 arg RenderItem.RenderItem with ASM
+[20:14:26] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem:301]: Successfully patched 4 arg RenderItem.RenderItem with ASM
+[20:14:26] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItemGUI:425]: Successfully patched RenderItem.renderItemModelIntoGUI with ASM
+[20:14:26] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:89]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
+[20:14:26] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[20:14:26] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[20:14:26] [main/INFO] [Thicc ASM]: Transforming Render
+[20:14:26] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [renderShadow, func_76975_c] Descriptor (Lnet/minecraft/entity/Entity;DDDFF)V)
+[20:14:26] [main/INFO] [Thicc ASM]: Attempting to insert: Resize shadow
+[20:14:26] [main/INFO] [Thicc ASM]: Patch result: Success
+[20:14:26] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[20:14:26] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[20:14:26] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.pl.asie.foamfix.coremod.FoamFixTransformer' was detected and will no longer process meta class data
+[20:14:26] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[20:14:26] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[20:14:26] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class Chunk
+[20:14:26] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class Chunk
+[20:14:26] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[20:14:26] [main/INFO] [STDOUT]: [com.flemmli97.tenshilib.asm.ASMTransformer:asmDebug:43]: [TenshiCore]: Patching Minecraft.clickMouse
+[20:14:26] [main/INFO] [BetterFps]: Patching net.minecraft.client.Minecraft... (bib)
+[20:14:26] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[20:14:26] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[20:14:27] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.client.multiplayer.WorldClient.func_184153_a (IIIILjava/util/Random;ZLnet/minecraft/util/math/BlockPos$MutableBlockPos;)V (matching showBarrierParticles)
+[20:14:27] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying random display tick call hook
+[20:14:27] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class EntityPlayer
+[20:14:27] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class EntityPlayer
+[20:14:27] [main/INFO] [Thicc ASM]: Transforming EntityPlayer
+[20:14:27] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getDefaultEyeHeight, ] Descriptor ()F)
+[20:14:27] [main/INFO] [Thicc ASM]: Attempting to insert: Default eye height
+[20:14:27] [main/INFO] [Thicc ASM]: Patch result: Success
+[20:14:27] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[20:14:27] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[20:14:27] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:27] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:27] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:27] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[20:14:27] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:27] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[20:14:27] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:27] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:27] [main/INFO] [Thicc ASM]: Transforming Entity
+[20:14:27] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [setSize, func_70105_a] Descriptor (FF)V)
+[20:14:27] [main/INFO] [Thicc ASM]: Attempting to insert: Size hook
+[20:14:27] [main/INFO] [Thicc ASM]: Patch result: Success
+[20:14:27] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getEyeHeight, func_70047_e] Descriptor ()F)
+[20:14:27] [main/INFO] [Thicc ASM]: Attempting to insert: Rescale original height
+[20:14:27] [main/INFO] [Thicc ASM]: Patch result: Success
+[20:14:27] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getEyeHeight, func_70047_e] Descriptor ()F)
+[20:14:27] [main/INFO] [Thicc ASM]: Attempting to insert: Eye height hook
+[20:14:27] [main/INFO] [Thicc ASM]: Patch result: Success
+[20:14:27] [main/INFO] [BetterFps]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[20:14:28] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class EntityPlayer
+[20:14:28] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class EntityPlayer
+[20:14:28] [main/INFO] [Thicc ASM]: Transforming EntityPlayer
+[20:14:28] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getDefaultEyeHeight, ] Descriptor ()F)
+[20:14:28] [main/INFO] [Thicc ASM]: Attempting to insert: Default eye height
+[20:14:28] [main/INFO] [Thicc ASM]: Patch result: Success
+[20:14:28] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getEyeHeight, func_70047_e] Descriptor ()F)
+[20:14:28] [main/INFO] [Thicc ASM]: Attempting to insert: Rescale original height
+[20:14:28] [main/INFO] [Thicc ASM]: Patch result: Success
+[20:14:28] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getEyeHeight, func_70047_e] Descriptor ()F)
+[20:14:28] [main/INFO] [Thicc ASM]: Attempting to insert: Eye height hook
+[20:14:28] [main/INFO] [Thicc ASM]: Patch result: Success
+[20:14:28] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.gui.inventory.GuiContainer
+[20:14:28] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [drawScreen, func_73863_a] Descriptor (IIF)V)
+[20:14:28] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:28] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiContainer.func_146979_b (II)V
+[20:14:28] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:28] [main/INFO] [BiomeTweakerCore]: Attempting to patch class net.minecraft.world.World...
+[20:14:28] [main/INFO] [BiomeTweakerCore]: Sucessfully patched net.minecraft.world.World!
+[20:14:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[20:14:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:141]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[20:14:28] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.client.multiplayer.WorldClient.func_184153_a (IIIILjava/util/Random;ZLnet/minecraft/util/math/BlockPos$MutableBlockPos;)V (matching showBarrierParticles)
+[20:14:28] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying random display tick call hook
+[20:14:28] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class MinecraftServer
+[20:14:28] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class MinecraftServer
+[20:14:28] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class WorldServer
+[20:14:28] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class WorldServer
+[20:14:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:57]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[20:14:28] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
+[20:14:28] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
+[20:14:28] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:28] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:28] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
+[20:14:28] [main/INFO] [Quark ASM]: Located Method, patching...
+[20:14:28] [main/INFO] [Quark ASM]: Patch result: true
+[20:14:28] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.client.util.SearchTreeManager.func_110549_a
+[20:14:29] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[20:14:29] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[20:14:29] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: ElDuro
+[20:14:30] [Client thread/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
+[20:14:30] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[20:14:30] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[20:14:30] [Client thread/INFO] [BiomeTweakerCore]: Attempting to patch class net.minecraft.world.biome.Biome...
+[20:14:30] [Client thread/INFO] [BiomeTweakerCore]: Sucessfully patched net.minecraft.world.biome.Biome! 1 patches were applied.
+[20:14:30] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
+[20:14:30] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[20:14:30] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:30] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[20:14:30] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:30] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
+[20:14:30] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
+[20:14:30] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:30] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:30] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
+[20:14:30] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.state.BlockStateContainer.foamfix_mapper
+[20:14:30] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.func_185892_j ()F (matching getAmbientOcclusionLightValue)
+[20:14:30] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying getAmbientOcclusionLightValue() override
+[20:14:30] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.func_185916_f ()Z (matching useNeighborBrightness)
+[20:14:30] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying useNeighborBrightness() override
+[20:14:30] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.doesSideBlockRendering (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
+[20:14:30] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying doesSideBlockRendering() override
+[20:14:30] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.func_185914_p ()Z (matching isOpaqueCube)
+[20:14:30] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying isOpaqueCube() override
+[20:14:30] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
+[20:14:30] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
+[20:14:30] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
+[20:14:30] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
+[20:14:30] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
+[20:14:30] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
+[20:14:30] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
+[20:14:30] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
+[20:14:30] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
+[20:14:30] [Client thread/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
+[20:14:31] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
+[20:14:31] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located patch target node ARETURN
+[20:14:31] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:31] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
+[20:14:31] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[20:14:31] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:31] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[20:14:31] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
+[20:14:31] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
+[20:14:31] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
+[20:14:31] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:31] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
+[20:14:31] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:31] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[20:14:31] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:31] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[20:14:31] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:31] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
+[20:14:31] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:31] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:31] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[20:14:31] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:31] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:31] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[20:14:31] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:31] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.GhostBusterBlockStateAccessPatch$FFMethodVisitor:visitMethodInsn:93]: Added ghost buster patch (getBlockState call wrapped) in net/minecraft/block/BlockFarmland func_176530_e (net/minecraft/world/World func_180495_p (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;)
+[20:14:32] [Client thread/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[20:14:32] [Client thread/INFO] [BetterFps]: Patching net.minecraft.block.BlockHopper... (arl)
+[20:14:32] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[20:14:32] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[20:14:32] [Client thread/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[20:14:32] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
+[20:14:32] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[20:14:32] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:32] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[20:14:32] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[20:14:32] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:33] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
+[20:14:33] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
+[20:14:33] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:33] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
+[20:14:33] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:33] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
+[20:14:33] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
+[20:14:33] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:33] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
+[20:14:33] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:33] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class WorldServer
+[20:14:33] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class WorldServer
+[20:14:33] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
+[20:14:33] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
+[20:14:33] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:33] [Client thread/INFO] [Quark ASM]: Located patch target node BIPUSH 6
+[20:14:33] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:34] [Client thread/INFO] [STDOUT]: [com.flemmli97.tenshilib.asm.ASMTransformer:asmDebug:43]: [TenshiCore]: Patching PathNavigate
+[20:14:34] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
+[20:14:34] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
+[20:14:34] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:34] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:34] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/api/IFoamFixMobSpawnerLogic
+[20:14:34] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.MobSpawnerBaseLogic.func_98279_f
+[20:14:34] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCache
+[20:14:34] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCachePESize
+[20:14:34] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCacheTime
+[20:14:34] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCache
+[20:14:34] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCacheTime
+[20:14:35] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
+[20:14:35] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
+[20:14:35] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:35] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
+[20:14:35] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:36] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
+[20:14:36] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
+[20:14:36] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:36] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[20:14:36] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[20:14:36] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[20:14:36] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[20:14:36] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:36] [BetterFps Update Checker/WARN] [BetterFps]: Could not check for updates: Server returned HTTP response code: 403 for URL: http://widget.mcf.li/mc-mods/minecraft/229876-betterfps.json
+[20:14:36] [Client thread/INFO] [net.optifine.reflect.Reflector]: [OptiFine] *** Reflector Forge ***
+[20:14:36] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class EntityRenderer
+[20:14:36] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class EntityRenderer
+[20:14:36] [Client thread/INFO] [BetterFps]: Patching net.minecraft.client.renderer.EntityRenderer... (buq)
+[20:14:36] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.EntityRenderer
+[20:14:36] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderWorldPass, func_175068_a] Descriptor (IFJ)V)
+[20:14:36] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:36] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/EntityRenderer.func_78479_a (FI)V
+[20:14:37] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:37] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ModelLoaderCleanupPatch:apply:99]: Added ModelLoader cleanup patch (1 occurences).
+[20:14:37] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.entity.RenderManager
+[20:14:37] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEntity, func_188391_a] Descriptor (Lnet/minecraft/entity/Entity;DDDFFZ)V)
+[20:14:37] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:37] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/entity/Render.func_76986_a (Lnet/minecraft/entity/Entity;DDDFF)V
+[20:14:37] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:37] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.entity.Render
+[20:14:37] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEntityOnFire, func_76977_a] Descriptor (Lnet/minecraft/entity/Entity;DDDF)V)
+[20:14:37] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:37] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:37] [Client thread/INFO] [Thicc ASM]: Transforming Render
+[20:14:37] [Client thread/INFO] [Thicc ASM]: Applying Transformation to method (Names [renderShadow, func_76975_c] Descriptor (Lnet/minecraft/entity/Entity;DDDFF)V)
+[20:14:37] [Client thread/INFO] [Thicc ASM]: Attempting to insert: Resize shadow
+[20:14:37] [Client thread/INFO] [Thicc ASM]: Patch result: Success
+[20:14:37] [Client thread/INFO] [net.optifine.reflect.Reflector]: [OptiFine] *** Reflector Vanilla ***
+[20:14:37] [Client thread/INFO] [STDOUT]: [com.flemmli97.tenshilib.asm.ASMTransformer:asmDebug:43]: [TenshiCore]: Patching ModelPlayer.doRender (Actually ModelBiped.doRender)
+[20:14:37] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.model.ModelBiped
+[20:14:37] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [setRotationAngles, func_78087_a] Descriptor (FFFFFFLnet/minecraft/entity/Entity;)V)
+[20:14:37] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:37] [Client thread/INFO] [Quark ASM]: Located patch target node RETURN
+[20:14:37] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:37] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.entity.RenderBoat
+[20:14:37] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [doRender, func_188300_b] Descriptor (Lnet/minecraft/entity/item/EntityBoat;DDDFF)V)
+[20:14:37] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:37] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEINTERFACE net/minecraft/client/model/IMultipassModel.func_187054_b (Lnet/minecraft/entity/Entity;FFFFFF)V
+[20:14:37] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:37] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[20:14:37] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[20:14:38] [Client thread/INFO] [Config]: [OptiFine] 
+[20:14:38] [Client thread/INFO] [Config]: [OptiFine] OptiFine_1.12.2_HD_U_G5
+[20:14:38] [Client thread/INFO] [Config]: [OptiFine] Build: 20210124-142939
+[20:14:38] [Client thread/INFO] [Config]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[20:14:38] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_271, Oracle Corporation
+[20:14:38] [Client thread/INFO] [Config]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[20:14:38] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.4
+[20:14:38] [Client thread/INFO] [Config]: [OptiFine] OpenGL: NVIDIA GeForce GTX 1050/PCIe/SSE2, version 4.6.0 NVIDIA 466.11, NVIDIA Corporation
+[20:14:38] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.0
+[20:14:38] [Client thread/INFO] [Config]: [OptiFine] Maximum texture size: 32768x32768
+[20:14:38] [VersionCheck/INFO] [Config]: [OptiFine] Checking for new version
+[20:14:38] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 466.11
+[20:14:38] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Vendor:  NVIDIA Corporation
+[20:14:38] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Renderer: NVIDIA GeForce GTX 1050/PCIe/SSE2
+[20:14:38] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[20:14:38] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[20:14:38] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[20:14:38] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[20:14:38] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Load shaders configuration.
+[20:14:38] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Loaded shaderpack: Chocapic13_V8_Ultra.zip
+[20:14:38] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Worlds: -1, 1
+[20:14:38] [VersionCheck/INFO] [Config]: [OptiFine] Version found: G5
+[20:14:39] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[20:14:39] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[20:14:39] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[20:14:39] [Client thread/WARN] [Config]: [OptiFine] [Shaders] Duplicate option: Purkinje_strength, key: screen.Purkinje_effect
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: texelSizeX
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: texelSizeY
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: texelSize
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: framemod8
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: normSunVec
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: normUpVec
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: sunPosX
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: sunPosY
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: sunPosZ
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: sunVec
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: upPosX
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: upPosY
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: upPosZ
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: upVec
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: sunElevation
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: lightSign
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: maxAngle
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: cosFov
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: viewDirX
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: viewDirY
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: viewDirZ
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: normView
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shViewDirX
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shViewDirY
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shViewDirZ
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: shadowViewDir
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shStartX
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shStartY
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shStartZ
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: shadowCamera
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: wSunX
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: wSunY
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: wSunZ
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shSunX
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shSunY
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shSunZ
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: shadowLightVec
+[20:14:39] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: shadowMaxProj
+[20:14:39] [Client thread/INFO] [Quark ASM]: Transforming net.minecraftforge.client.model.pipeline.LightUtil
+[20:14:39] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderQuadColor, ] Descriptor (Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/client/renderer/block/model/BakedQuad;I)V)
+[20:14:39] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:39] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:39] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:89]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
+[20:14:39] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[20:14:39] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[20:14:39] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_G5, enabling compatibility features
+[20:14:39] [Client thread/INFO] [FML]: -- System Details --
+  Minecraft Version: 1.12.2
+  Operating System: Windows 10 (amd64) version 10.0
+  Java Version: 1.8.0_271, Oracle Corporation
+  Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+  Memory: 116128384 bytes (110 MB) / 335544320 bytes (320 MB) up to 5368709120 bytes (5120 MB)
+  JVM Flags: 9 total; -Xmx5G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:+IgnoreUnrecognizedVMOptions -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+  IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+  FML: 
+  Loaded coremods (and transformers): CreativePatchingLoader (CreativeCore_v1.10.61_mc1.12.2.jar)
+                                        
+                                      TenshiCore (TenshiLib-1.12.2-1.2.4.jar)
+                                        com.flemmli97.tenshilib.asm.ASMTransformer
+                                      Do not report to Forge! (If you haven't disabled the FoamFix coremod, try disabling it in the config! Note that this bit of text will still appear.) (foamfix-0.10.14-1.12.2.jar)
+                                        pl.asie.foamfix.coremod.FoamFixTransformer
+                                      TransformLoader (DynamicSurroundings-1.12.2-3.6.2.1.jar)
+                                        
+                                      PhosphorFMLLoadingPlugin (phosphor-forge-mc1.12.2-0.2.7-universal.jar)
+                                        
+                                      Quark Plugin (Quark-r1.6-179.jar)
+                                        vazkii.quark.base.asm.ClassTransformer
+                                      AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+                                        squeek.applecore.asm.TransformerModuleHandler
+                                      CorePlugin (ForgeEndertech-1.12.2-4.5.5.0-build.0561.jar)
+                                        
+                                      BiomeTweakerCore (BiomeTweakerCore-1.12.2-1.0.39.jar)
+                                        me.superckl.biometweakercore.BiomeTweakerASMTransformer
+                                      ObfuscatePlugin (obfuscate-0.4.2-1.12.2.jar)
+                                        com.mrcrayfish.obfuscate.asm.ObfuscateTransformer
+                                      CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+                                        team.chisel.ctm.client.asm.CTMTransformer
+                                      SFMLLoadingPlugin (somnia-1.11-beta.2.jar)
+                                        com.kingrunes.somnia.asm.SClassTransformer
+                                      CoreModLoader (Sound-Physics-1.12.2-1.0.10-1.jar)
+                                        com.sonicether.soundphysics.CoreModInjector
+                                      ForgePlugin (CustomSkinLoader_Forge-14.9.jar)
+                                        customskinloader.forge.TransformerManager
+                                      ForgelinPlugin (Forgelin-1.8.3.jar)
+                                        
+                                      Inventory Tweaks Coremod (InventoryTweaks-1.63.jar)
+                                        invtweaks.forge.asm.ContainerTransformer
+                                      VanillaFixLoadingPlugin (VanillaFix-1.0.10-150.jar)
+                                        
+                                      WiZoomCoreMod (wi-zoom-v1.1-MC1.12.2-release.jar)
+                                        
+                                      LoadingPlugin (ResourceLoader-MC1.12.1-1.5.3.jar)
+                                        lumien.resourceloader.asm.ClassTransformer
+                                      Techguns Core (techguns-1.12.2-2.0.2.0_pre3.2.jar)
+                                        techguns.core.TechgunsASMTransformer
+                                      ThiccEntities Plugin (thiccentities-1.4.jar)
+                                        wiresegal.thicc.asm.ThiccAsmTransformer
+                                      BetterFoliageLoader (BetterFoliage-MC1.12-2.3.3.jar)
+                                        mods.betterfoliage.loader.BetterFoliageTransformer
+                                      LoadingPlugin (ChunkAnimator-MC1.12-1.2.jar)
+                                        lumien.chunkanimator.asm.ClassTransformer
+  GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 466.11' Renderer: 'NVIDIA GeForce GTX 1050/PCIe/SSE2'
+  Suspected Mods: Unknown
 
-[00:31:17] [Client thread/INFO] [adminshop]: Loading shop!
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:revolver:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:goldenrevolver:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:pistol:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:chainsaw:0
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:fraggrenade:0
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:stielgranate:0
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_nugget:0
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_ingot:0
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_block:0
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:handcannon:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:sawedoff:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:thompson:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:ak47:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:boltaction:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:m4:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:m4_infiltrator:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:combatshotgun:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:mac10:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:aug:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:minigun:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:as50:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:vector:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:scar:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:rocketlauncher:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:grimreaper:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:grenadelauncher:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:flamethrower:0 {ammo:0}
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:1
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:12
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:124
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:123
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:28
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:2
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:10
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:14
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:3
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:18
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:20
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:7
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:5
-[00:31:17] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:28
-[00:31:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [MPR] Reloading JSONs from 'json' & 'group' folders
-[00:31:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [MPR] Reloading successfully completed
-[00:31:17] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:31:17] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:31:17] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:31:17] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:31:17] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:31:17] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:31:17] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:31:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your name is: §aHidden
-[00:31:17] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 122 advancements
-[00:31:29] [Client thread/INFO] [foamfix]: Unloaded world <net.minecraft.client.multiplayer.WorldClient@5b8b67a4 0 MultiplayerChunkCache: 625, 625> is still hanging around after 60 seconds.
-[00:31:56] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was shot by Bandit
-[00:32:38] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes fell from a high place
-[00:32:46] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Not Today, Thank You]
-[00:33:00] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was shot by Bandit
-[00:33:07] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo didn't know that poison was deadly
-[00:34:18] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes was slain by Piranha
-[00:34:32] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 123 advancements
-[00:35:06] [Client thread/INFO] [toughasnails]: TAN configuration restored to local values
-[00:35:07] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
-[00:35:07] [Client thread/INFO] [FML]: Applying holder lookups
-[00:35:07] [Client thread/INFO] [FML]: Holder lookups applied
-[00:36:06] [Client thread/INFO] [foamfix]: Unloaded world <net.minecraft.client.multiplayer.WorldClient@4eb692f8 0 MultiplayerChunkCache: 625, 625> is still hanging around after 60 seconds.
-[00:39:18] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to 25.12.220.97, 25565
-[00:39:23] [Netty Client IO #5/INFO] [FML]: Server protocol version 2
-[00:39:23] [Netty Client IO #5/INFO] [FML]: Attempting connection with missing mods [antiqueatlasoverlay, backtools, betterfoliage, chunkanimator, controlling, ctgui, ctm, custommainmenu, customskinloader, dsurround, enhancedvisuals, fpsreducer, inventorytweaks, jeiintegration, mobdismemberment, mousetweaks, norecipebook, resourceloader, toastcontrol, wi-zoom, betteranimals] at SERVER
-[00:39:23] [Client thread/INFO] [FML]: Injecting existing registry data into this client instance
-[00:39:23] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
-[00:39:23] [Client thread/INFO] [FML]: Applying holder lookups
-[00:39:23] [Client thread/INFO] [FML]: Holder lookups applied
-[00:39:23] [Netty Client IO #5/INFO] [Obfuscate]: Updating 0 synced key mappings
-[00:39:23] [Netty Client IO #5/INFO] [FML]: [Netty Client IO #5] Client side modded connection established
-[00:39:24] [Client thread/INFO] [dsurround]: Setting weather renderer for dimension [overworld]
-[00:39:24] [Netty Client IO #5/INFO] [firstaid]: Received remote damage model and config
-[00:39:24] [Netty Client IO #5/INFO] [Waila]: Received server authentication msg. Remote sync will be activated
-[00:39:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [First Aid] Press H for the tutorial
-[00:39:24] [Client thread/INFO] [adminshop]: Received shop file:
-#ignore rows that start with a '#',,,
-,,,
-"#Item format: ""modname:item_name:metadata {nbt_data}"" metadata and {nbt_data} are optional. Can also use crafttweaker formatting (eg. ""<modname:item_name:metadata>.withTag{nbt_data}"")",,,
-"#Fluid format: ""fluid:fluid_name"" where fluid is literal. Can also use crafttweaker formatting",,,
-,,,
-"#Other configurations found within adminshop.cfg, such as selling price of Forge Energy",,,
-#See the examples below with the default shop,,,
-,,,
-#Category names for buy and sell. Put the category name in each column after the first,,,
-Buy Category Names:,Gun&Gold,LongWeap,Explos,AmmoHand,AmmoLong,AmmoExpl,
-Sell Category Names:,Metal,,
-,,,
-,,,
-"#buy or sell (from player's perspective)",Item/Fluid,Price,Category Index (starting from 0)
-sell,<minecraft:iron_nugget>,1,0
-sell,<minecraft:iron_ingot>,9,0
-sell,<minecraft:iron_block>,81,0
-sell,<minecraft:gold_nugget>,0.2,0
-sell,<minecraft:gold_ingot>,1.8,0
-sell,<minecraft:gold_block>,16.2,0
-#,,,
-buy,"<techguns:revolver>.withTag({ammo: 0 as short})",100,0
-buy,"<techguns:goldenrevolver>.withTag({ammo: 0 as short})",220,0
-buy,"<techguns:pistol>.withTag({ammo: 0 as short})",150,0
-buy,"<techguns:chainsaw>",100,0
-buy,"<techguns:fraggrenade>",200,0
-buy,"<techguns:stielgranate>",120,0
-buy,<minecraft:gold_nugget>,0.2,0
-buy,<minecraft:gold_ingot>,1.8,0
-buy,<minecraft:gold_block>,16.2,0
-#,,,
-buy,"<techguns:handcannon>.withTag({ammo: 0 as short})",100,1
-buy,"<techguns:sawedoff>.withTag({ammo: 0 as short})",150,1
-buy,"<techguns:thompson>.withTag({ammo: 0 as short})",300,1
-buy,"<techguns:ak47>.withTag({ammo: 0 as short})",500,1
-buy,"<techguns:boltaction>.withTag({ammo: 0 as short})",200,1
-buy,"<techguns:m4>.withTag({ammo: 0 as short})",500,1
-buy,"<techguns:m4_infiltrator>.withTag({ammo: 0 as short})",650,1
-buy,"<techguns:combatshotgun>.withTag({ammo: 0 as short})",220,1
-buy,"<techguns:mac10>.withTag({ammo: 0 as short})",350,1
-buy,"<techguns:aug>.withTag({ammo: 0 as short})",750,1
-buy,"<techguns:minigun>.withTag({ammo: 0 as short})",900,1
-buy,"<techguns:as50>.withTag({ammo: 0 as short})",650,1
-buy,"<techguns:vector>.withTag({ammo: 0 as short})",380,1
-buy,"<techguns:scar>.withTag({ammo: 0 as short})",850,1
-#,,,
-buy,"<techguns:rocketlauncher>.withTag({ammo: 0 as short})",500,2
-buy,"<techguns:grimreaper>.withTag({ammo: 0 as short})",650,2
-buy,"<techguns:grenadelauncher>.withTag({ammo: 0 as short})",300,2
-buy,"<techguns:flamethrower>.withTag({ammo: 0 as short})",700,2
-#,,,
-buy,"<techguns:itemshared:1>",999,3
-buy,"<techguns:itemshared:12>",15,3
-buy,"<techguns:itemshared:124",10,3
-buy,"<techguns:itemshared:123>",20,3
-buy,"<techguns:itemshared:28>",50,3
-#,,,
-buy,"<techguns:itemshared:2>",999,4
-buy,"<techguns:itemshared:10>",30,4
-buy,"<techguns:itemshared:14>",50,4
-buy,"<techguns:itemshared:3>",999,4
-buy,"<techguns:itemshared:18>",50,4
-buy,"<techguns:itemshared:20>",40,4
-#,,,
-buy,"<techguns:itemshared:7>",999,5
-buy,"<techguns:itemshared:5>",999,5
-buy,"<techguns:itemshared:28>",50,5
-#,,,
-
-[00:39:24] [Client thread/INFO] [adminshop]: Loading shop!
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:revolver:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:goldenrevolver:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:pistol:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:chainsaw:0
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:fraggrenade:0
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:stielgranate:0
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_nugget:0
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_ingot:0
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_block:0
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:handcannon:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:sawedoff:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:thompson:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:ak47:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:boltaction:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:m4:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:m4_infiltrator:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:combatshotgun:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:mac10:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:aug:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:minigun:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:as50:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:vector:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:scar:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:rocketlauncher:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:grimreaper:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:grenadelauncher:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:flamethrower:0 {ammo:0}
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:1
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:12
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:124
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:123
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:28
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:2
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:10
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:14
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:3
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:18
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:20
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:7
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:5
-[00:39:24] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:28
-[00:39:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [MPR] Reloading JSONs from 'json' & 'group' folders
-[00:39:24] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] Loading ElDuro's profile.
-[00:39:24] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
-[00:39:24] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] ElDuro's profile loaded.
-[00:39:24] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)d14587b9701efdc5e2f7def8d3a0fa6539e4a568,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1633145995)
-[00:39:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [MPR] Reloading successfully completed
-[00:39:24] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:39:24] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:39:24] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:39:24] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:39:24] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:39:24] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:39:24] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:39:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your name is: §aHidden
-[00:39:26] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 27 advancements
-[00:39:45] [Client thread/INFO] [toughasnails]: TAN configuration restored to local values
-[00:39:46] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
-[00:39:46] [Client thread/INFO] [FML]: Applying holder lookups
-[00:39:46] [Client thread/INFO] [FML]: Holder lookups applied
-[00:39:51] [Netty Client IO #6/INFO] [FML]: Attempting connection with missing mods [antiqueatlasoverlay, backtools, betterfoliage, chunkanimator, controlling, ctgui, ctm, custommainmenu, customskinloader, dsurround, enhancedvisuals, fpsreducer, inventorytweaks, jeiintegration, mobdismemberment, mousetweaks, norecipebook, resourceloader, toastcontrol, wi-zoom, betteranimals] at SERVER
-[00:40:45] [Client thread/INFO] [foamfix]: Unloaded world <net.minecraft.client.multiplayer.WorldClient@74e25847 0 MultiplayerChunkCache: 228, 228> is still hanging around after 60 seconds.
-[00:43:05] [Client thread/INFO] [net.minecraft.client.multiplayer.GuiConnecting]: Connecting to 25.12.220.97, 25565
-[00:43:09] [Netty Client IO #0/INFO] [FML]: Attempting connection with missing mods [antiqueatlasoverlay, backtools, betterfoliage, chunkanimator, controlling, ctgui, ctm, custommainmenu, customskinloader, dsurround, enhancedvisuals, fpsreducer, inventorytweaks, jeiintegration, mobdismemberment, mousetweaks, norecipebook, resourceloader, toastcontrol, wi-zoom, betteranimals] at SERVER
-[00:43:09] [Netty Client IO #2/INFO] [FML]: Server protocol version 2
-[00:43:09] [Netty Client IO #2/INFO] [FML]: Attempting connection with missing mods [antiqueatlasoverlay, backtools, betterfoliage, chunkanimator, controlling, ctgui, ctm, custommainmenu, customskinloader, dsurround, enhancedvisuals, fpsreducer, inventorytweaks, jeiintegration, mobdismemberment, mousetweaks, norecipebook, resourceloader, toastcontrol, wi-zoom, betteranimals] at SERVER
-[00:43:10] [Client thread/INFO] [FML]: Injecting existing registry data into this client instance
-[00:43:10] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
-[00:43:10] [Client thread/INFO] [FML]: Applying holder lookups
-[00:43:10] [Client thread/INFO] [FML]: Holder lookups applied
-[00:43:10] [Netty Client IO #2/INFO] [Obfuscate]: Updating 0 synced key mappings
-[00:43:10] [Netty Client IO #2/INFO] [FML]: [Netty Client IO #2] Client side modded connection established
-[00:43:12] [Client thread/INFO] [dsurround]: Setting weather renderer for dimension [overworld]
-[00:43:12] [Netty Client IO #2/INFO] [firstaid]: Received remote damage model and config
-[00:43:12] [Netty Client IO #2/INFO] [Waila]: Received server authentication msg. Remote sync will be activated
-[00:43:12] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [First Aid] Press H for the tutorial
-[00:43:12] [Client thread/INFO] [adminshop]: Received shop file:
-#ignore rows that start with a '#',,,
-,,,
-"#Item format: ""modname:item_name:metadata {nbt_data}"" metadata and {nbt_data} are optional. Can also use crafttweaker formatting (eg. ""<modname:item_name:metadata>.withTag{nbt_data}"")",,,
-"#Fluid format: ""fluid:fluid_name"" where fluid is literal. Can also use crafttweaker formatting",,,
-,,,
-"#Other configurations found within adminshop.cfg, such as selling price of Forge Energy",,,
-#See the examples below with the default shop,,,
-,,,
-#Category names for buy and sell. Put the category name in each column after the first,,,
-Buy Category Names:,Gun&Gold,LongWeap,Explos,AmmoHand,AmmoLong,AmmoExpl,
-Sell Category Names:,Metal,,
-,,,
-,,,
-"#buy or sell (from player's perspective)",Item/Fluid,Price,Category Index (starting from 0)
-sell,<minecraft:iron_nugget>,1,0
-sell,<minecraft:iron_ingot>,9,0
-sell,<minecraft:iron_block>,81,0
-sell,<minecraft:gold_nugget>,0.2,0
-sell,<minecraft:gold_ingot>,1.8,0
-sell,<minecraft:gold_block>,16.2,0
-#,,,
-buy,"<techguns:revolver>.withTag({ammo: 0 as short})",100,0
-buy,"<techguns:goldenrevolver>.withTag({ammo: 0 as short})",220,0
-buy,"<techguns:pistol>.withTag({ammo: 0 as short})",150,0
-buy,"<techguns:chainsaw>",100,0
-buy,"<techguns:fraggrenade>",200,0
-buy,"<techguns:stielgranate>",120,0
-buy,<minecraft:gold_nugget>,0.2,0
-buy,<minecraft:gold_ingot>,1.8,0
-buy,<minecraft:gold_block>,16.2,0
-#,,,
-buy,"<techguns:handcannon>.withTag({ammo: 0 as short})",100,1
-buy,"<techguns:sawedoff>.withTag({ammo: 0 as short})",150,1
-buy,"<techguns:thompson>.withTag({ammo: 0 as short})",300,1
-buy,"<techguns:ak47>.withTag({ammo: 0 as short})",500,1
-buy,"<techguns:boltaction>.withTag({ammo: 0 as short})",200,1
-buy,"<techguns:m4>.withTag({ammo: 0 as short})",500,1
-buy,"<techguns:m4_infiltrator>.withTag({ammo: 0 as short})",650,1
-buy,"<techguns:combatshotgun>.withTag({ammo: 0 as short})",220,1
-buy,"<techguns:mac10>.withTag({ammo: 0 as short})",350,1
-buy,"<techguns:aug>.withTag({ammo: 0 as short})",750,1
-buy,"<techguns:minigun>.withTag({ammo: 0 as short})",900,1
-buy,"<techguns:as50>.withTag({ammo: 0 as short})",650,1
-buy,"<techguns:vector>.withTag({ammo: 0 as short})",380,1
-buy,"<techguns:scar>.withTag({ammo: 0 as short})",850,1
-#,,,
-buy,"<techguns:rocketlauncher>.withTag({ammo: 0 as short})",500,2
-buy,"<techguns:grimreaper>.withTag({ammo: 0 as short})",650,2
-buy,"<techguns:grenadelauncher>.withTag({ammo: 0 as short})",300,2
-buy,"<techguns:flamethrower>.withTag({ammo: 0 as short})",700,2
-#,,,
-buy,"<techguns:itemshared:1>",999,3
-buy,"<techguns:itemshared:12>",15,3
-buy,"<techguns:itemshared:124",10,3
-buy,"<techguns:itemshared:123>",20,3
-buy,"<techguns:itemshared:28>",50,3
-#,,,
-buy,"<techguns:itemshared:2>",999,4
-buy,"<techguns:itemshared:10>",30,4
-buy,"<techguns:itemshared:14>",50,4
-buy,"<techguns:itemshared:3>",999,4
-buy,"<techguns:itemshared:18>",50,4
-buy,"<techguns:itemshared:20>",40,4
-#,,,
-buy,"<techguns:itemshared:7>",999,5
-buy,"<techguns:itemshared:5>",999,5
-buy,"<techguns:itemshared:28>",50,5
-#,,,
-
-[00:43:12] [Client thread/INFO] [adminshop]: Loading shop!
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:revolver:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:goldenrevolver:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:pistol:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:chainsaw:0
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:fraggrenade:0
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:stielgranate:0
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_nugget:0
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_ingot:0
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	minecraft:gold_block:0
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:handcannon:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:sawedoff:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:thompson:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:ak47:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:boltaction:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:m4:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:m4_infiltrator:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:combatshotgun:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:mac10:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:aug:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:minigun:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:as50:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:vector:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:scar:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:rocketlauncher:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:grimreaper:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:grenadelauncher:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:flamethrower:0 {ammo:0}
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:1
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:12
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:124
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:123
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:28
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:2
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:10
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:14
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:3
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:18
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:20
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:64]: Category:
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:7
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:5
-[00:43:12] [Client thread/INFO] [STDOUT]: [com.vnator.adminshop.blocks.shop.ShopStock:setShopStock:66]: 	techguns:itemshared:28
-[00:43:12] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] Loading ElDuro's profile.
-[00:43:12] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
-[00:43:12] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] ElDuro's profile loaded.
-[00:43:12] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)d14587b9701efdc5e2f7def8d3a0fa6539e4a568,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1633146226)
-[00:43:12] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [MPR] Reloading JSONs from 'json' & 'group' folders
-[00:43:12] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] [MPR] Reloading successfully completed
-[00:43:12] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:43:12] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:43:12] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:43:12] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:43:12] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:43:12] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:43:12] [Client thread/INFO] [toughasnails]: TAN configuration synchronized with the server
-[00:43:12] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] Your name is: §aHidden
-[00:43:13] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 27 advancements
-[00:43:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are no longer AFK.
-[00:43:18] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo joined the game
-[00:43:21] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] Loading JuanDeLosPalotes's profile.
-[00:43:21] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] 1/6 Try to load profile from 'LocalSkin'.
-[00:43:21] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] JuanDeLosPalotes's profile loaded.
-[00:43:21] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [JuanDeLosPalotes INFO] (SkinUrl: (LOCAL_LEGACY)b921647e8152302c96034b4c081905dac121f39d,LocalSkin/skins/JuanDeLosPalotes.png , Model: default , CapeUrl: null  , Expiry: 1633146235)
-[00:43:21] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] Loading guidardo's profile.
-[00:43:21] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] 1/6 Try to load profile from 'LocalSkin'.
-[00:43:21] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] guidardo's profile loaded.
-[00:43:21] [ElDuro/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [guidardo INFO] (SkinUrl: (LOCAL_LEGACY)eae773ce18581ff9da761a0f29e9ff2a3d0c01d7,LocalSkin/skins/guidardo.png , Model: default , CapeUrl: null  , Expiry: 1633146231)
-[00:44:41] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 29 advancements
-[00:46:04] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 32 advancements
-[00:46:55] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] Loading KingLemming's profile.
-[00:46:55] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
-[00:46:55] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] Both skin and cape not found.
-[00:46:55] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] 2/6 Try to load profile from 'Mojang'.
-[00:46:55] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] Default profile will be used.
-[00:46:55] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] KingLemming's profile loaded.
-[00:46:55] [KingLemming's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [KingLemming's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/6b5e5289cf6158be0e1d5a811fdb90647f31372eb86fcddc228d6d893118e74f , Model: default , CapeUrl: http://textures.minecraft.net/texture/b0cc08840700447322d953a02b965f1d65a13a603bf64b17c803c21446fe1635  , Expiry: 1633146448)
-[00:47:42] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 35 advancements
-[00:48:51] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 36 advancements
-[00:54:19] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Monster Hunter]
-[00:59:02] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 38 advancements
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] Loading DatFailGamur's profile.
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] Loading DatFailGamur's profile.
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] Both skin and cape not found.
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] 2/6 Try to load profile from 'Mojang'.
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] Both skin and cape not found.
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] 2/6 Try to load profile from 'Mojang'.
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] Default profile will be used.
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] DatFailGamur's profile loaded.
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/8b9ca0528eef78c10fe2875d17d556c863c5628b5ea500d9a7dc51f043442283 , Model: default , CapeUrl: null  , Expiry: 1633147438)
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] Default profile will be used.
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] DatFailGamur's profile loaded.
-[01:03:25] [DatFailGamur's skull/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [DatFailGamur's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/8b9ca0528eef78c10fe2875d17d556c863c5628b5ea500d9a7dc51f043442283 , Model: default , CapeUrl: null  , Expiry: 1633147436)
-[01:06:40] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Monster Hunter]
-[01:06:40] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 55 advancements
-[01:06:57] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 56 advancements
-[01:07:47] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes has made the advancement [Monster Hunter]
-[01:08:13] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 65 advancements
-[01:09:16] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 90 advancements
-[01:09:35] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 91 advancements
-[01:09:35] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 93 advancements
-[01:10:05] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
-[01:10:05] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Stone Age]
-[01:10:05] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 101 advancements
-[01:10:20] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
-[01:10:22] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 102 advancements
-[01:11:55] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 103 advancements
-[01:12:47] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes has made the advancement [Stone Age]
-[01:14:11] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 108 advancements
-[01:15:47] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 109 advancements
-[01:16:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Acquire Hardware]
-[01:16:16] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 128 advancements
-[01:17:13] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes has made the advancement [Getting an Upgrade]
-[01:18:47] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro has made the advancement [Isn't It Iron Pick]
-[01:18:47] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 130 advancements
-[01:19:10] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 131 advancements
-[01:20:17] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Stone Age]
-[01:21:02] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Getting an Upgrade]
-[01:21:10] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.load(LayoutManager.java:600) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$containerInitEvent$5(NEIClientEventHandler.java:220) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
-	at codechicken.nei.handler.NEIClientEventHandler.containerInitEvent(NEIClientEventHandler.java:220) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_906_NEIClientEventHandler_containerInitEvent_Pre.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:475) [blk.class:?]
-	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018) [bib.class:?]
-	at net.minecraft.client.entity.EntityPlayerSP.displayGUIChest(EntityPlayerSP.java:703) [bud.class:?]
-	at net.minecraft.client.network.NetHandlerPlayClient.handleOpenWindow(NetHandlerPlayClient.java:1107) [brz.class:?]
-	at net.minecraft.network.play.server.SPacketOpenWindow.processPacket(SourceFile:43) [ir.class:?]
-	at net.minecraft.network.play.server.SPacketOpenWindow.processPacket(SourceFile:9) [ir.class:?]
-	at net.minecraft.network.PacketThreadUtil$1.run(PacketThreadUtil.java:22) [hv$1.class:?]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source) [?:1.8.0_271]
-	at java.util.concurrent.FutureTask.run(Unknown Source) [?:1.8.0_271]
-	at net.minecraft.util.Util.runTask(Util.java:529) [h.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1088) [bib.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[01:21:10] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.renderObjects(LayoutManager.java:213) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$foregroundRenderEvent$8(NEIClientEventHandler.java:286) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
-	at codechicken.nei.handler.NEIClientEventHandler.foregroundRenderEvent(NEIClientEventHandler.java:286) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_907_NEIClientEventHandler_foregroundRenderEvent_DrawForeground.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.inventory.GuiContainer.drawScreen(GuiContainer.java:119) [bmg.class:?]
-	at net.minecraft.client.gui.inventory.GuiFurnace.drawScreen(SourceFile:24) [bmu.class:?]
-	at net.minecraftforge.client.ForgeHooksClient.drawScreen(ForgeHooksClient.java:396) [ForgeHooksClient.class:?]
-	at sun.reflect.GeneratedMethodAccessor35.invoke(Unknown Source) ~[?:?]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.optifine.reflect.Reflector.callVoid(Reflector.java:669) [Reflector.class:?]
-	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1462) [buq.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1119) [bib.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[01:23:26] [Client thread/INFO] [inventorytweaks]: Automatic stack replacement.
-[01:24:22] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo has made the advancement [Sweet dreams]
-[01:24:51] [Client thread/ERROR] [NotEnoughItems]: Error thrown whilst accessing JEI internals!
-java.lang.NoSuchMethodError: mezz.jei.runtime.JeiRuntime.getActiveAdvancedGuiHandlers(Lnet/minecraft/client/gui/inventory/GuiContainer;)Ljava/util/List;
-	at codechicken.nei.jei.proxy.JEIProxy.getExtraAreas(JEIProxy.java:91) ~[JEIProxy.class:?]
-	at codechicken.nei.jei.proxy.JEIProxy$1.hideItemPanelSlot(JEIProxy.java:43) ~[JEIProxy$1.class:?]
-	at codechicken.nei.widget.ItemPanel.slotValid(ItemPanel.java:118) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.updateValidSlots(ItemPanel.java:108) ~[ItemPanel.class:?]
-	at codechicken.nei.widget.ItemPanel.resize(ItemPanel.java:82) ~[ItemPanel.class:?]
-	at codechicken.nei.layout.LayoutStyleDefault.layout(LayoutStyleDefault.java:46) ~[LayoutStyleDefault.class:?]
-	at codechicken.nei.LayoutManager.layout(LayoutManager.java:286) ~[LayoutManager.class:?]
-	at codechicken.nei.LayoutManager.load(LayoutManager.java:600) ~[LayoutManager.class:?]
-	at codechicken.nei.handler.NEIClientEventHandler.lambda$containerInitEvent$5(NEIClientEventHandler.java:220) ~[NEIClientEventHandler.class:?]
-	at java.lang.Iterable.forEach(Unknown Source) [?:1.8.0_271]
-	at codechicken.nei.handler.NEIClientEventHandler.containerInitEvent(NEIClientEventHandler.java:220) [NEIClientEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_906_NEIClientEventHandler_containerInitEvent_Pre.invoke(.dynamic) [?:?]
-	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) [ASMEventHandler.class:?]
-	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
-	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:475) [blk.class:?]
-	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1018) [bib.class:?]
-	at mezz.jei.gui.recipes.RecipesGui.close(RecipesGui.java:391) [RecipesGui.class:?]
-	at mezz.jei.gui.recipes.RecipesGui.handleKeybinds(RecipesGui.java:348) [RecipesGui.class:?]
-	at mezz.jei.gui.recipes.RecipesGui.keyTyped(RecipesGui.java:341) [RecipesGui.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleKeyboardInput(GuiScreen.java:558) [blk.class:?]
-	at net.minecraft.client.gui.GuiScreen.handleInput(GuiScreen.java:512) [blk.class:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1759) [bib.class:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1098) [bib.class:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:3942) [bib.class:?]
-	at net.minecraft.client.main.Main.main(SourceFile:123) [Main.class:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_271]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source) ~[?:1.8.0_271]
-	at java.lang.reflect.Method.invoke(Unknown Source) ~[?:1.8.0_271]
-	at net.minecraft.a.m.main(Unknown Source) [laulib-1.0.jar:?]
-[01:27:14] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes was slain by Zombie
-[01:27:15] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by Zombie
-[01:33:08] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 133 advancements
-[01:35:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 1 times.
-[01:35:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[01:35:16] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was slain by Zombie
-[01:35:20] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes has made the advancement [Isn't It Iron Pick]
-[01:35:20] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo was slain by Zombie
-[01:35:34] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes was slain by ElDuro (Zombie)
-[01:35:52] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] guidardo left the game
-[01:46:19] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 2 times.
-[01:46:19] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[01:46:19] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was slain by Mutant Zombie
-[01:46:24] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] JuanDeLosPalotes was slain by Zombie
-[01:50:00] [Client thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 141 advancements
-[01:50:57] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You have died 3 times.
-[01:50:57] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] You are ranked 1 on the server.
-[01:50:57] [Client thread/INFO] [net.minecraft.client.gui.GuiNewChat]: [CHAT] ElDuro was slain by ElDuro (Zombie)
-[01:54:29] [Client thread/INFO] [toughasnails]: TAN configuration restored to local values
-[01:54:30] [Client thread/INFO] [foamfix]: JEI search tree manager injection complete!
-[01:54:30] [Client thread/INFO] [FML]: Applying holder lookups
-[01:54:30] [Client thread/INFO] [FML]: Holder lookups applied
-[01:54:34] [Client thread/INFO] [net.minecraft.client.Minecraft]: Stopping!
-[01:54:34] [Client thread/INFO] [net.minecraft.client.audio.SoundManager]: SoundSystem shutting down...
-[01:54:34] [Client thread/WARN] [net.minecraft.client.audio.SoundManager]: Author: Paul Lamb, www.paulscode.com
+[20:14:39] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2855 Initialized
+[20:14:39] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[20:14:39] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[20:14:40] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[20:14:40] [Client thread/INFO] [FML]: Searching C:\Repositorios\ZombieWastelandDevelopment\Client\mods for mods
+[20:14:40] [Client thread/INFO] [FML]: Searching C:\Repositorios\ZombieWastelandDevelopment\Client\mods\1.12.2 for mods
+[20:14:41] [Client thread/ERROR] [FML]: Unable to parse dependency for mod 'animalium' with dependency string 'after:BiomesOPlenty'. The modId 'BiomesOPlenty' must be all lowercase.
+[20:14:41] [Client thread/WARN] [FML]: Mod betterfoliage is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.3.2
+[20:14:41] [Client thread/WARN] [FML]: Mod bettermineshafts is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-2.2.1
+[20:14:41] [Client thread/WARN] [FML]: Mod chickenchunks is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.2.74
+[20:14:41] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[20:14:42] [Client thread/WARN] [FML]: Mod fpsreducer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.12.2-1.18
+[20:14:42] [Client thread/WARN] [FML]: Mod mobends is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.0-beta-20.06.20
+[20:14:43] [Client thread/ERROR] [FML]: Unable to parse dependency for mod 'playerskins' with dependency string 'after:BiomesOPlenty'. The modId 'BiomesOPlenty' must be all lowercase.
+[20:14:43] [Client thread/WARN] [FML]: Mod realdrops is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.14
+[20:14:43] [Client thread/WARN] [FML]: Mod somnia is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.11-beta.2
+[20:14:43] [Client thread/INFO] [FML]: Disabling mod soundphysics it is server side only.
+[20:14:43] [Client thread/WARN] [FML]: Mod vanillafix is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.10-150
+[20:14:43] [Client thread/WARN] [FML]: Mod worldstripper is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.6.0-1.12.2
+[20:14:43] [Client thread/WARN] [FML]: Mod wgblockreplacer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.3.0
+[20:14:43] [Client thread/INFO] [FML]: Forge Mod Loader has identified 127 mods to load
+[20:14:43] [Client thread/INFO] [FML]: FML has found a non-mod file mcjtytools-0.0.21.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[20:14:43] [Client thread/WARN] [mixin]: Error loading class: team/chisel/client/TextureStitcher$MagicStitchingSprite (java.lang.ClassNotFoundException: The specified class 'team.chisel.client.TextureStitcher$MagicStitchingSprite' was not found)
+[20:14:43] [Client thread/WARN] [mixin]: Error loading class: openblocks/client/renderer/tileentity/TileEntityTankRenderer (java.lang.ClassNotFoundException: The specified class 'openblocks.client.renderer.tileentity.TileEntityTankRenderer' was not found)
+[20:14:43] [Client thread/WARN] [mixin]: Error loading class: slimeknights/tconstruct/library/client/GuiUtil (java.lang.ClassNotFoundException: The specified class 'slimeknights.tconstruct.library.client.GuiUtil' was not found)
+[20:14:43] [Client thread/WARN] [mixin]: Error loading class: slimeknights/tconstruct/library/client/RenderUtil (java.lang.ClassNotFoundException: The specified class 'slimeknights.tconstruct.library.client.RenderUtil' was not found)
+[20:14:43] [Client thread/WARN] [mixin]: Error loading class: morph/avaritia/client/render/item/HaloRenderItem (java.lang.ClassNotFoundException: The specified class 'morph.avaritia.client.render.item.HaloRenderItem' was not found)
+[20:14:43] [Client thread/WARN] [mixin]: Error loading class: morph/avaritia/client/render/item/WrappedItemRenderer (java.lang.ClassNotFoundException: The specified class 'morph.avaritia.client.render.item.WrappedItemRenderer' was not found)
+[20:14:45] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, somniacore, biometweakercore, foamfixcore, obfuscate, techguns_core, adminshop, aiimprovements, animalium, antiqueatlas, antiqueatlasoverlay, applecore, appleskin, autoreglib, backtools, badmobs, bettercaves, bettercompass, betterfoliage, bettermineshafts, betterwithmods, biomesoplenty, biometweaker, blockgravity, carryon, chickenchunks, chisel, chunkpregenerator, chunkanimator, classiccombat, codechickenlib, cofhworld, collective, comforts, controlling, extendedrenderer, coroutil, configmod, corpsecomplex, ctgui, crafttweaker, crafttweakerjei, creativecore, ctm, custommainmenu, customskinloader, customstartinggear, dmgcontrol, deathcounter, dsurround, dynamictrees, dynamictreesbop, enhancedvisuals, epicsiegemod, firstaid, flashlight, foamfix, foodexpansion, foodfunk, forgeendertech, forgelin, fpsreducer, hidenames, hungeroverhaul, waila, ichunutil, iguanatweaks, incontrol, inventorytweaks, iymts_mob_mod, jei, jeiintegration, jrftl, loottweaker, lostcities, materialchanger, mcwfences, mininghelmet, mobdismemberment, mobends, mpr, mobsunscreen, modtweaker, mousetweaks, moveplus, mtlib, mutantbeasts, nonetherportals, norecipebook, nei, omlib, ompd, openmodularturrets, placebo, playerskins, quark, realdrops, realistictorches, resourceloader, roughmobsrevamped, somnia, soundphysics, spartanshields, spawnercontrol, techguns, tenshilib, thiccentities, toastcontrol, toughasnails, tumbleweed, vanillafix, watercontrolextreme, wi-zoom, wildcrops, worldstripper, wgblockreplacer, weapons_of_the_apocalypse, wumpleutil, zombieawareness, betteranimals, betteranimalsplus, orelib, phosphor-lighting] at CLIENT
+[20:14:45] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, somniacore, biometweakercore, foamfixcore, obfuscate, techguns_core, adminshop, aiimprovements, animalium, antiqueatlas, antiqueatlasoverlay, applecore, appleskin, autoreglib, backtools, badmobs, bettercaves, bettercompass, betterfoliage, bettermineshafts, betterwithmods, biomesoplenty, biometweaker, blockgravity, carryon, chickenchunks, chisel, chunkpregenerator, chunkanimator, classiccombat, codechickenlib, cofhworld, collective, comforts, controlling, extendedrenderer, coroutil, configmod, corpsecomplex, ctgui, crafttweaker, crafttweakerjei, creativecore, ctm, custommainmenu, customskinloader, customstartinggear, dmgcontrol, deathcounter, dsurround, dynamictrees, dynamictreesbop, enhancedvisuals, epicsiegemod, firstaid, flashlight, foamfix, foodexpansion, foodfunk, forgeendertech, forgelin, fpsreducer, hidenames, hungeroverhaul, waila, ichunutil, iguanatweaks, incontrol, inventorytweaks, iymts_mob_mod, jei, jeiintegration, jrftl, loottweaker, lostcities, materialchanger, mcwfences, mininghelmet, mobdismemberment, mobends, mpr, mobsunscreen, modtweaker, mousetweaks, moveplus, mtlib, mutantbeasts, nonetherportals, norecipebook, nei, omlib, ompd, openmodularturrets, placebo, playerskins, quark, realdrops, realistictorches, resourceloader, roughmobsrevamped, somnia, soundphysics, spartanshields, spawnercontrol, techguns, tenshilib, thiccentities, toastcontrol, toughasnails, tumbleweed, vanillafix, watercontrolextreme, wi-zoom, wildcrops, worldstripper, wgblockreplacer, weapons_of_the_apocalypse, wumpleutil, zombieawareness, betteranimals, betteranimalsplus, orelib, phosphor-lighting] at SERVER
+[20:14:45] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.network.PacketBuffer.func_180714_a
+[20:14:45] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderEntityItem:169]: Successfully patched RenderEntityItem with ASM
+[20:14:45] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderEntityItem:169]: Successfully patched RenderEntityItem with ASM
+[20:14:45] [Thread-3/INFO] [FML]: Using alternative sync timing : 200 frames of Display.update took 5382380900 nanos
+[20:14:45] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.client.renderer.block.model.ModelResourceLocation.<init>
+[20:14:46] [Client thread/ERROR] [FML]: The mod wumpleutil is expecting signature @FINGERPRINT@ for source wumpleutil-1.12.2-2.12.9.jar, however there is no signature matching that description
+[20:14:46] [Client thread/WARN] [wumpleutil]: Invalid fingerprint detected! The file wumpleutil-1.12.2-2.12.9.jar may have been tampered with. This version will NOT be supported by the author!
+[20:14:46] [Client thread/WARN] [wumpleutil]: Expected fingerprint "@FINGERPRINT@" found "[]"
+[20:14:46] [Client thread/ERROR] [FML]: The mod foodfunk is expecting signature @FINGERPRINT@ for source foodfunk-1.12.2-4.9.6.jar, however there is no signature matching that description
+[20:14:46] [Client thread/WARN] [foodfunk]: Invalid fingerprint detected! The file foodfunk-1.12.2-4.9.6.jar may have been tampered with. This version will NOT be supported by the author!
+[20:14:46] [Client thread/WARN] [foodfunk]: Expected fingerprint "@FINGERPRINT@" found "[]"
+[20:14:46] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[20:14:46] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[20:14:46] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[20:14:46] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[20:14:47] [Client thread/INFO] [Obfuscate]: Applying ASM to RenderItem
+[20:14:47] [Client thread/INFO] [Obfuscate]: Successfully patched RenderItem
+[20:14:47] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.RenderItem
+[20:14:47] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderItem, func_180454_a] Descriptor (Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[20:14:47] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:47] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:47] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEffect, func_191966_a] Descriptor (Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[20:14:47] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:47] [Client thread/INFO] [Quark ASM]: Located patch target node LDC -8372020
+[20:14:47] [Client thread/INFO] [Quark ASM]: Located patch target node LDC -8372020
+[20:14:47] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:47] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderModel:482]: Successfully patched 2 arg RenderItem.RenderModel with ASM
+[20:14:47] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem2:370]: Successfully patched 2 arg RenderItem.RenderItem with ASM
+[20:14:47] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem:301]: Successfully patched 4 arg RenderItem.RenderItem with ASM
+[20:14:47] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItemGUI:425]: Successfully patched RenderItem.renderItemModelIntoGUI with ASM
+[20:14:47] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchItemRenderer_updateEquippedItem:530]: Successfully patched ItemRenderer.updateEquippedItem with ASM
+[20:14:47] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] CLASS net.minecraft.client.resources.SkinManager will be transformed
+[20:14:47] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method <init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V in class cex(net.minecraft.client.resources.SkinManager)
+[20:14:47] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method <init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V in class cex(net.minecraft.client.resources.SkinManager)
+[20:14:47] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation; in class cex(net.minecraft.client.resources.SkinManager)
+[20:14:47] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation; in class cex(net.minecraft.client.resources.SkinManager)
+[20:14:47] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V in class cex(net.minecraft.client.resources.SkinManager)
+[20:14:47] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V in class cex(net.minecraft.client.resources.SkinManager)
+[20:14:47] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map; in class cex(net.minecraft.client.resources.SkinManager)
+[20:14:47] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map; in class cex(net.minecraft.client.resources.SkinManager)
+[20:14:47] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
+[20:14:47] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
+[20:14:47] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[20:14:47] [Client thread/INFO] [Quark ASM]: Patch result: true
+[20:14:48] [Client thread/ERROR] [FML]: The mod cofhworld is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source CoFHWorld-1.12.2-1.4.0.1-universal.jar, however there is no signature matching that description
+[20:14:48] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class Chunk
+[20:14:48] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class Chunk
+[20:14:48] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[20:14:48] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[20:14:48] [Client thread/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_76615_h in mixins.phosphor.json:common.MixinChunk cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[20:14:48] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[20:14:48] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[20:14:49] [Client thread/ERROR] [soundphysicsinjector]: Target node not found! org.orecruncher.dsurround.client.sound.ConfigSoundInstance
+[20:14:49] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraftforge.client.model.ModelLoader.func_177570_a ()Lnet/minecraft/util/registry/IRegistry; (matching setupModelRegistry)
+[20:14:49] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying ModelLoader lifecycle callback
+[20:14:51] [Client thread/INFO] [FML]: The game window is being closed by the player, exiting.
+[20:14:51] [Client thread/WARN] [FML]: Java has been asked to exit (code 0)
+[20:14:51] [Client thread/WARN] [FML]: Exit trace:
+[20:14:51] [Client thread/WARN] [FML]: 	net.minecraftforge.fml.common.LoadController.transition(LoadController.java:145)
+[20:14:51] [Client thread/WARN] [FML]: 	net.minecraftforge.fml.common.Loader.loadMods(Loader.java:615)
+[20:14:51] [Client thread/WARN] [FML]: 	net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
+[20:14:51] [Client thread/WARN] [FML]: 	net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+[20:14:51] [Client thread/WARN] [FML]: 	net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[20:14:51] [Client thread/WARN] [FML]: 	net.minecraft.client.main.Main.main(SourceFile:123)
+[20:14:51] [Client thread/WARN] [FML]: 	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:14:51] [Client thread/WARN] [FML]: 	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[20:14:51] [Client thread/WARN] [FML]: 	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[20:14:51] [Client thread/WARN] [FML]: 	java.lang.reflect.Method.invoke(Unknown Source)
+[20:14:51] [Client thread/WARN] [FML]: 	net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[20:14:51] [Client thread/WARN] [FML]: 	net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[20:14:51] [Client thread/WARN] [FML]: 	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[20:14:51] [Client thread/WARN] [FML]: 	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[20:14:51] [Client thread/WARN] [FML]: 	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[20:14:51] [Client thread/WARN] [FML]: 	java.lang.reflect.Method.invoke(Unknown Source)
+[20:14:51] [Client thread/WARN] [FML]: 	net.minecraft.a.m.main(Unknown Source)
