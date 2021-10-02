@@ -148,7 +148,7 @@
   {
     "mob": "animalium:wild_dog",
     "mincount": {
-      "amount": 16,
+      "amount": 20,
       "mod": "animalium",
       "perchunk": true
     },
@@ -193,7 +193,7 @@
   {
     "mob": "animalium:rat",
     "mincount": {
-      "amount": 15,
+      "amount": 25,
       "mod": "animalium",
       "perchunk": true
     },
