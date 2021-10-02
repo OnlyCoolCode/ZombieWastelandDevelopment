@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "SWAMP",
     "LUSH",
+    "WATER",
     "WET",
-    "DENSE",
-    "WATER"
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

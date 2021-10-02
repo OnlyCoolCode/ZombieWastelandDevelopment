@@ -68,23 +68,6 @@
           "name": "biomesoplenty:terrarium"
         },
         {
-          "entryName": "loottweaker#14",
-          "weight": 100,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 9.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "biomesoplenty:terrarium"
-        },
-        {
           "entryName": "loottweaker#3",
           "weight": 100,
           "quality": 1,
