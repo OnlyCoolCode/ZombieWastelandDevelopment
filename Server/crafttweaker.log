@@ -1,30 +1,31 @@
 [PREINITIALIZATION][SERVER][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Barrier
-Xavier
-Zuniroa
-Psyberition
-ThirtyTwelve
-DreamThorn
 Otakup0pe
-BrÃ¸nsted
+Jonathan McManus
 Genryu
-Peregrinus11
-Mouse
-Shotguun29
-BocKerDoesGames
-Gildrag 09
+Psyberition
+Barrier
 Pongo Sapiens
+IDroid
 AdaraChristine
-Belathus
+Xavier
 Jimmie L Hines jr
-Jams
-Quaternary
+Shotguun29
+ThirtyTwelve
+Peregrinus11
+NickT
+Zuniroa
+Ivy_
+Ncc1702
+NerdyWhiteGuy
+Gildrag 09
+BrÃ¸nsted
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][SERVER][INFO] Loading scripts for loader with names [preinit]
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: BetterWithModsRemove.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: deleted_crafts.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: deleted_crafts_client.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: glass.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Loot_mobs.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: Loot_mobs_direct.zs} as we are currently loading with a different loader
@@ -36,11 +37,12 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_crafts_adminshop.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_crafts_betterwithmods.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_crafts_chickenchunk.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_crafts_FencesAndWalls.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_crafts_firstaid.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_crafts_foodfunk.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_crafts_vanilla.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][SERVER][INFO] [preinit | SIDE_SERVER]: Skipping file {[0:crafttweaker]: new_crafts_WOTApocalypse.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 2ms
+[PREINITIALIZATION][SERVER][INFO] Completed script loading in: 4ms
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Building registry
 [INITIALIZATION][SERVER][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][SERVER][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
@@ -99,8 +101,11 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Custom Starting Gear:
 [INITIALIZATION][SERVER][INFO] Damage Control:
 [INITIALIZATION][SERVER][INFO] DeathCounter:
+[INITIALIZATION][SERVER][INFO] OreLib Support Mod:
+[INITIALIZATION][SERVER][INFO] Dynamic Surroundings:
 [INITIALIZATION][SERVER][INFO] Dynamic Trees:
 [INITIALIZATION][SERVER][INFO] Dynamic Trees BOP:
+[INITIALIZATION][SERVER][INFO] Enhanced Visuals:
 [INITIALIZATION][SERVER][INFO] Epic Siege Mod:
 [INITIALIZATION][SERVER][INFO] First Aid:
 [INITIALIZATION][SERVER][INFO] Simple Flashlight Port:
@@ -112,19 +117,23 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] iChunUtil:
 [INITIALIZATION][SERVER][INFO] IguanaTweaks Reborn:
 [INITIALIZATION][SERVER][INFO] InControl:
+[INITIALIZATION][SERVER][INFO] Inventory Tweaks:
 [INITIALIZATION][SERVER][INFO] iYAMATO's Mob Mod:
 [INITIALIZATION][SERVER][INFO] Just Another Rotten Flesh to Leather Mod:
 [INITIALIZATION][SERVER][INFO] LootTweaker:
 [INITIALIZATION][SERVER][INFO] The Lost Cities:
 [INITIALIZATION][SERVER][INFO] Material Changer:
+[INITIALIZATION][SERVER][INFO] Macaw's Fences and Walls:
 [INITIALIZATION][SERVER][INFO] Mining Helmet Mod:
 [INITIALIZATION][SERVER][INFO] Mo' Bends:
+[INITIALIZATION][SERVER][INFO] Mob Properties Randomness:
 [INITIALIZATION][SERVER][INFO] mobsunscreen:
 [INITIALIZATION][SERVER][INFO] Move Plus:
 [INITIALIZATION][SERVER][INFO] Mutant Beasts:
 [INITIALIZATION][SERVER][INFO] No Nether Portals:
 [INITIALIZATION][SERVER][INFO] Not Enough Items:
 [INITIALIZATION][SERVER][INFO] OMLib:
+[INITIALIZATION][SERVER][INFO] Open Modular Passive Defense:
 [INITIALIZATION][SERVER][INFO] Open Modular Turrets:
 [INITIALIZATION][SERVER][INFO] Placebo:
 [INITIALIZATION][SERVER][INFO] Player Skin Mobs:
@@ -141,13 +150,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Tumbleweed:
 [INITIALIZATION][SERVER][INFO] VanillaFix:
 [INITIALIZATION][SERVER][INFO] Water Control Extreme:
+[INITIALIZATION][SERVER][INFO] WI Zoom:
 [INITIALIZATION][SERVER][INFO] Wild Crops:
 [INITIALIZATION][SERVER][INFO] World Stripper:
 [INITIALIZATION][SERVER][INFO] WorldGen Block Replacer:
 [INITIALIZATION][SERVER][INFO] Weapons of the Apocalypse:
 [INITIALIZATION][SERVER][INFO] Zombie Awareness:
 [INITIALIZATION][SERVER][INFO] Better Animals Plus:
-[INITIALIZATION][SERVER][INFO] OreLib Support Mod:
 [INITIALIZATION][SERVER][INFO] Phosphor Lighting Engine:
 [INITIALIZATION][SERVER][INFO] Hunger Overhaul:
 [INITIALIZATION][SERVER][INFO] Minecraft:
@@ -4270,6 +4279,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Custom Starting Gear:
 [INITIALIZATION][SERVER][INFO] Damage Control:
 [INITIALIZATION][SERVER][INFO] DeathCounter:
+[INITIALIZATION][SERVER][INFO] OreLib Support Mod:
+[INITIALIZATION][SERVER][INFO] Dynamic Surroundings:
 [INITIALIZATION][SERVER][INFO] Dynamic Trees:
 [INITIALIZATION][SERVER][INFO] 		Birch Catkin
 [INITIALIZATION][SERVER][INFO] 		Dark Oak Acorn
@@ -4316,6 +4327,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] 		Hellish Acorn
 [INITIALIZATION][SERVER][INFO] 		Mahogany Pod
 [INITIALIZATION][SERVER][INFO] 		Magic Cypsela
+[INITIALIZATION][SERVER][INFO] Enhanced Visuals:
 [INITIALIZATION][SERVER][INFO] Epic Siege Mod:
 [INITIALIZATION][SERVER][INFO] First Aid:
 [INITIALIZATION][SERVER][INFO] 		Plaster
@@ -4369,6 +4381,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] IguanaTweaks Reborn:
 [INITIALIZATION][SERVER][INFO] 		Weightless Ring
 [INITIALIZATION][SERVER][INFO] InControl:
+[INITIALIZATION][SERVER][INFO] Inventory Tweaks:
 [INITIALIZATION][SERVER][INFO] iYAMATO's Mob Mod:
 [INITIALIZATION][SERVER][INFO] 		Slasher Clow
 [INITIALIZATION][SERVER][INFO] 		Advanced Suit Leggings
@@ -4387,9 +4400,57 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] LootTweaker:
 [INITIALIZATION][SERVER][INFO] The Lost Cities:
 [INITIALIZATION][SERVER][INFO] Material Changer:
+[INITIALIZATION][SERVER][INFO] Macaw's Fences and Walls:
+[INITIALIZATION][SERVER][INFO] 		Birch Picket Fence
+[INITIALIZATION][SERVER][INFO] 		Birch Horse Fence
+[INITIALIZATION][SERVER][INFO] 		Railing Granite Wall
+[INITIALIZATION][SERVER][INFO] 		Oak Stockade Fence
+[INITIALIZATION][SERVER][INFO] 		Railing Sandstone Wall
+[INITIALIZATION][SERVER][INFO] 		Railing Red Sandstone Wall
+[INITIALIZATION][SERVER][INFO] 		Dark Oak Wired Fence
+[INITIALIZATION][SERVER][INFO] 		Acacia Picket Fence
+[INITIALIZATION][SERVER][INFO] 		Spruce Wired Fence
+[INITIALIZATION][SERVER][INFO] 		Railing Andesite Wall
+[INITIALIZATION][SERVER][INFO] 		Acacia Highley Gate
+[INITIALIZATION][SERVER][INFO] 		Modern Stone Brick Wall
+[INITIALIZATION][SERVER][INFO] 		Oak Highley Gate
+[INITIALIZATION][SERVER][INFO] 		Spruce Stockade Fence
+[INITIALIZATION][SERVER][INFO] 		Railing Stone Brick Wall
+[INITIALIZATION][SERVER][INFO] 		Jungle Horse Fence
+[INITIALIZATION][SERVER][INFO] 		Birch Stockade Fence
+[INITIALIZATION][SERVER][INFO] 		Dark Oak Stockade Fence
+[INITIALIZATION][SERVER][INFO] 		Dark Oak Picket Fence
+[INITIALIZATION][SERVER][INFO] 		Jungle Highley Gate
+[INITIALIZATION][SERVER][INFO] 		Oak Picket Fence
+[INITIALIZATION][SERVER][INFO] 		Railing Diorite Wall
+[INITIALIZATION][SERVER][INFO] 		Oak Wired Fence
+[INITIALIZATION][SERVER][INFO] 		Jungle Wired Fence
+[INITIALIZATION][SERVER][INFO] 		Oak Horse Fence
+[INITIALIZATION][SERVER][INFO] 		Modern Red Sandstone Wall
+[INITIALIZATION][SERVER][INFO] 		Acacia Stockade Fence
+[INITIALIZATION][SERVER][INFO] 		Spruce Highley Gate
+[INITIALIZATION][SERVER][INFO] 		Modern Nether Brick Wall
+[INITIALIZATION][SERVER][INFO] 		Spruce Horse Fence
+[INITIALIZATION][SERVER][INFO] 		Dark Oak Horse Fence
+[INITIALIZATION][SERVER][INFO] 		Spruce Picket Fence
+[INITIALIZATION][SERVER][INFO] 		Birch Wired Fence
+[INITIALIZATION][SERVER][INFO] 		Dark Oak Highley Gate
+[INITIALIZATION][SERVER][INFO] 		Jungle Picket Fence
+[INITIALIZATION][SERVER][INFO] 		Modern Andesite Wall
+[INITIALIZATION][SERVER][INFO] 		Modern End Brick Wall
+[INITIALIZATION][SERVER][INFO] 		Modern Granite Wall
+[INITIALIZATION][SERVER][INFO] 		Modern Diorite Wall
+[INITIALIZATION][SERVER][INFO] 		Railing End Brick Wall
+[INITIALIZATION][SERVER][INFO] 		Railing Nether Brick Wall
+[INITIALIZATION][SERVER][INFO] 		Birch Highley Gate
+[INITIALIZATION][SERVER][INFO] 		Jungle Stockade Fence
+[INITIALIZATION][SERVER][INFO] 		Modern Sandstone Wall
+[INITIALIZATION][SERVER][INFO] 		Acacia Wired Fence
+[INITIALIZATION][SERVER][INFO] 		Acacia Horse Fence
 [INITIALIZATION][SERVER][INFO] Mining Helmet Mod:
 [INITIALIZATION][SERVER][INFO] 		Mining Helmet
 [INITIALIZATION][SERVER][INFO] Mo' Bends:
+[INITIALIZATION][SERVER][INFO] Mob Properties Randomness:
 [INITIALIZATION][SERVER][INFO] mobsunscreen:
 [INITIALIZATION][SERVER][INFO] Move Plus:
 [INITIALIZATION][SERVER][INFO] Mutant Beasts:
@@ -4412,6 +4473,23 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Not Enough Items:
 [INITIALIZATION][SERVER][INFO] OMLib:
 [INITIALIZATION][SERVER][INFO] 		item.fake_sword.name
+[INITIALIZATION][SERVER][INFO] Open Modular Passive Defense:
+[INITIALIZATION][SERVER][INFO] 		Camouflage Trap
+[INITIALIZATION][SERVER][INFO] 		Fence (Tier 1)
+[INITIALIZATION][SERVER][INFO] 		Fence (Tier 2)
+[INITIALIZATION][SERVER][INFO] 		Fence (Tier 3)
+[INITIALIZATION][SERVER][INFO] 		Fence (Tier 4)
+[INITIALIZATION][SERVER][INFO] 		Fence (Tier 5)
+[INITIALIZATION][SERVER][INFO] 		Hardened Block (Tier 1)
+[INITIALIZATION][SERVER][INFO] 		Hardened Block (Tier 2)
+[INITIALIZATION][SERVER][INFO] 		Hardened Block (Tier 3)
+[INITIALIZATION][SERVER][INFO] 		Hardened Block (Tier 4)
+[INITIALIZATION][SERVER][INFO] 		Hardened Block (Tier 5)
+[INITIALIZATION][SERVER][INFO] 		Hardened Wall (Tier 1)
+[INITIALIZATION][SERVER][INFO] 		Hardened Wall (Tier 2)
+[INITIALIZATION][SERVER][INFO] 		Hardened Wall (Tier 3)
+[INITIALIZATION][SERVER][INFO] 		Hardened Wall (Tier 4)
+[INITIALIZATION][SERVER][INFO] 		Hardened Wall (Tier 5)
 [INITIALIZATION][SERVER][INFO] Open Modular Turrets:
 [INITIALIZATION][SERVER][INFO] 		Upgrade - Accuracy
 [INITIALIZATION][SERVER][INFO] 		Upgrade - Efficiency
@@ -4918,6 +4996,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Tumbleweed:
 [INITIALIZATION][SERVER][INFO] VanillaFix:
 [INITIALIZATION][SERVER][INFO] Water Control Extreme:
+[INITIALIZATION][SERVER][INFO] WI Zoom:
 [INITIALIZATION][SERVER][INFO] Wild Crops:
 [INITIALIZATION][SERVER][INFO] World Stripper:
 [INITIALIZATION][SERVER][INFO] WorldGen Block Replacer:
@@ -5012,7 +5091,117 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] 		Brown Bear Skin
 [INITIALIZATION][SERVER][INFO] 		Trillium
 [INITIALIZATION][SERVER][INFO] 		Raw Turkey
+[INITIALIZATION][SERVER][INFO] Phosphor Lighting Engine:
+[INITIALIZATION][SERVER][INFO] Hunger Overhaul:
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: deleted_crafts_client.zs}
+[INITIALIZATION][SERVER][INFO] Minecraft:
+[INITIALIZATION][SERVER][INFO] Minecraft Coder Pack:
+[INITIALIZATION][SERVER][INFO] Forge Mod Loader:
+[INITIALIZATION][SERVER][INFO] Minecraft Forge:
+[INITIALIZATION][SERVER][INFO] CreativeCoreDummy:
+[INITIALIZATION][SERVER][INFO] SomniaCore:
+[INITIALIZATION][SERVER][INFO] BiomeTweakerCore:
+[INITIALIZATION][SERVER][INFO] FoamFixCore:
+[INITIALIZATION][SERVER][INFO] Obfuscate:
+[INITIALIZATION][SERVER][INFO] Techguns Core:
+[INITIALIZATION][SERVER][INFO] Admin Shop:
+[INITIALIZATION][SERVER][INFO] AI Improvements:
+[INITIALIZATION][SERVER][INFO] animalium:
+[INITIALIZATION][SERVER][INFO] Antique Atlas:
+[INITIALIZATION][SERVER][INFO] Waila:
+[INITIALIZATION][SERVER][INFO] Wumple Util Library:
+[INITIALIZATION][SERVER][INFO] Food Funk:
+[INITIALIZATION][SERVER][INFO] AppleCore:
+[INITIALIZATION][SERVER][INFO] CraftTweaker2:
+[INITIALIZATION][SERVER][INFO] MTLib:
+[INITIALIZATION][SERVER][INFO] Mod Tweaker:
+[INITIALIZATION][SERVER][INFO] Just Enough Items:
+[INITIALIZATION][SERVER][INFO] Better With Mods:
+[INITIALIZATION][SERVER][INFO] AppleSkin:
+[INITIALIZATION][SERVER][INFO] Quark:
+[INITIALIZATION][SERVER][INFO] AutoRegLib:
+[INITIALIZATION][SERVER][INFO] Bad Mobs:
+[INITIALIZATION][SERVER][INFO] YUNG's Better Caves:
+[INITIALIZATION][SERVER][INFO] Better Compass:
+[INITIALIZATION][SERVER][INFO] YUNG's Better Mineshafts:
+[INITIALIZATION][SERVER][INFO] BiomeTweaker:
+[INITIALIZATION][SERVER][INFO] Biomes O' Plenty:
+[INITIALIZATION][SERVER][INFO] Fragile Blocks:
+[INITIALIZATION][SERVER][INFO] Carry On:
+[INITIALIZATION][SERVER][INFO] CodeChicken Lib:
+[INITIALIZATION][SERVER][INFO] ChickenChunks:
+[INITIALIZATION][SERVER][INFO] Chisel:
+[INITIALIZATION][SERVER][INFO] Chunk Pregenerator:
+[INITIALIZATION][SERVER][INFO] Classic Combat:
+[INITIALIZATION][SERVER][INFO] CoFH World:
+[INITIALIZATION][SERVER][INFO] Collective:
+[INITIALIZATION][SERVER][INFO] Tough As Nails:
+[INITIALIZATION][SERVER][INFO] Comforts:
+[INITIALIZATION][SERVER][INFO] Extended Renderer:
+[INITIALIZATION][SERVER][INFO] CoroUtil Library:
+[INITIALIZATION][SERVER][INFO] Extended Mod Config:
+[INITIALIZATION][SERVER][INFO] Corpse Complex:
+[INITIALIZATION][SERVER][INFO] CraftTweaker JEI Support:
+[INITIALIZATION][SERVER][INFO] CreativeCore:
+[INITIALIZATION][SERVER][INFO] Custom Starting Gear:
+[INITIALIZATION][SERVER][INFO] Damage Control:
+[INITIALIZATION][SERVER][INFO] DeathCounter:
 [INITIALIZATION][SERVER][INFO] OreLib Support Mod:
+[INITIALIZATION][SERVER][INFO] Dynamic Surroundings:
+[INITIALIZATION][SERVER][INFO] Dynamic Trees:
+[INITIALIZATION][SERVER][INFO] Dynamic Trees BOP:
+[INITIALIZATION][SERVER][INFO] Enhanced Visuals:
+[INITIALIZATION][SERVER][INFO] Epic Siege Mod:
+[INITIALIZATION][SERVER][INFO] First Aid:
+[INITIALIZATION][SERVER][INFO] Simple Flashlight Port:
+[INITIALIZATION][SERVER][INFO] FoamFix:
+[INITIALIZATION][SERVER][INFO] Food Expansion:
+[INITIALIZATION][SERVER][INFO] Forge Endertech:
+[INITIALIZATION][SERVER][INFO] Shadowfacts' Forgelin:
+[INITIALIZATION][SERVER][INFO] HideNames:
+[INITIALIZATION][SERVER][INFO] iChunUtil:
+[INITIALIZATION][SERVER][INFO] IguanaTweaks Reborn:
+[INITIALIZATION][SERVER][INFO] InControl:
+[INITIALIZATION][SERVER][INFO] Inventory Tweaks:
+[INITIALIZATION][SERVER][INFO] iYAMATO's Mob Mod:
+[INITIALIZATION][SERVER][INFO] Just Another Rotten Flesh to Leather Mod:
+[INITIALIZATION][SERVER][INFO] LootTweaker:
+[INITIALIZATION][SERVER][INFO] The Lost Cities:
+[INITIALIZATION][SERVER][INFO] Material Changer:
+[INITIALIZATION][SERVER][INFO] Macaw's Fences and Walls:
+[INITIALIZATION][SERVER][INFO] Mining Helmet Mod:
+[INITIALIZATION][SERVER][INFO] Mo' Bends:
+[INITIALIZATION][SERVER][INFO] Mob Properties Randomness:
+[INITIALIZATION][SERVER][INFO] mobsunscreen:
+[INITIALIZATION][SERVER][INFO] Move Plus:
+[INITIALIZATION][SERVER][INFO] Mutant Beasts:
+[INITIALIZATION][SERVER][INFO] No Nether Portals:
+[INITIALIZATION][SERVER][INFO] Not Enough Items:
+[INITIALIZATION][SERVER][INFO] OMLib:
+[INITIALIZATION][SERVER][INFO] Open Modular Passive Defense:
+[INITIALIZATION][SERVER][INFO] Open Modular Turrets:
+[INITIALIZATION][SERVER][INFO] Placebo:
+[INITIALIZATION][SERVER][INFO] Player Skin Mobs:
+[INITIALIZATION][SERVER][INFO] Realistic Item Drops:
+[INITIALIZATION][SERVER][INFO] Realistic Torches:
+[INITIALIZATION][SERVER][INFO] Rough Mobs Revamped:
+[INITIALIZATION][SERVER][INFO] Somnia:
+[INITIALIZATION][SERVER][INFO] Sound Physics:
+[INITIALIZATION][SERVER][INFO] Spartan Shields:
+[INITIALIZATION][SERVER][INFO] SpawnerControl:
+[INITIALIZATION][SERVER][INFO] Techguns:
+[INITIALIZATION][SERVER][INFO] TenshiLib:
+[INITIALIZATION][SERVER][INFO] Thicc Entities:
+[INITIALIZATION][SERVER][INFO] Tumbleweed:
+[INITIALIZATION][SERVER][INFO] VanillaFix:
+[INITIALIZATION][SERVER][INFO] Water Control Extreme:
+[INITIALIZATION][SERVER][INFO] WI Zoom:
+[INITIALIZATION][SERVER][INFO] Wild Crops:
+[INITIALIZATION][SERVER][INFO] World Stripper:
+[INITIALIZATION][SERVER][INFO] WorldGen Block Replacer:
+[INITIALIZATION][SERVER][INFO] Weapons of the Apocalypse:
+[INITIALIZATION][SERVER][INFO] Zombie Awareness:
+[INITIALIZATION][SERVER][INFO] Better Animals Plus:
 [INITIALIZATION][SERVER][INFO] Phosphor Lighting Engine:
 [INITIALIZATION][SERVER][INFO] Hunger Overhaul:
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: glass.zs}
@@ -5045,6 +5234,9 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'banditPool' of table 'techguns:entities/bandit'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'banditPool' of table 'techguns:entities/bandit'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'banditPool' of table 'techguns:entities/bandit'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'banditPool' of table 'techguns:entities/bandit'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'banditPool' of table 'techguns:entities/bandit'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'banditPool' of table 'techguns:entities/bandit'
 [INITIALIZATION][SERVER][INFO] Queued all pools of table techguns:entities/armysoldier for removal
 [INITIALIZATION][SERVER][INFO] Queued pool armysoldierPool for addition to table techguns:entities/armysoldier
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'armysoldierPool' of table 'techguns:entities/armysoldier'
@@ -5057,6 +5249,9 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#8' for addition to pool 'armysoldierPool' of table 'techguns:entities/armysoldier'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'armysoldierPool' of table 'techguns:entities/armysoldier'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'armysoldierPool' of table 'techguns:entities/armysoldier'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'armysoldierPool' of table 'techguns:entities/armysoldier'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'armysoldierPool' of table 'techguns:entities/armysoldier'
+[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'armysoldierPool' of table 'techguns:entities/armysoldier'
 [INITIALIZATION][SERVER][INFO] Queued all pools of table playerskins:entities/skinloot for removal
 [INITIALIZATION][SERVER][INFO] Queued pool playerskinsPool for addition to table playerskins:entities/skinloot
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'playerskinsPool' of table 'playerskins:entities/skinloot'
@@ -5070,7 +5265,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#9' for addition to pool 'playerskinsPool' of table 'playerskins:entities/skinloot'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#10' for addition to pool 'playerskinsPool' of table 'playerskins:entities/skinloot'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'playerskinsPool' of table 'playerskins:entities/skinloot'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'playerskinsPool' of table 'playerskins:entities/skinloot'
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Loot_mobs_direct.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: Loot_tweak_lostcities.zs}
 [INITIALIZATION][SERVER][INFO] Created new table 'loottweaker:subway'
@@ -5173,7 +5367,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#11' for addition to pool 'plant' of table 'loottweaker:plant'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#12' for addition to pool 'plant' of table 'loottweaker:plant'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#13' for addition to pool 'plant' of table 'loottweaker:plant'
-[INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#14' for addition to pool 'plant' of table 'loottweaker:plant'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#1' for addition to pool 'handgun' of table 'loottweaker:handgun'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#2' for addition to pool 'handgun' of table 'loottweaker:handgun'
 [INITIALIZATION][SERVER][INFO] Queued item entry 'loottweaker#3' for addition to pool 'handgun' of table 'loottweaker:handgun'
@@ -5297,330 +5490,19 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][SERVER][INFO] Setting fuel for <dynamictreesbop:firseed>
 [INITIALIZATION][SERVER][INFO] Setting fuel for <dynamictreesbop:redwoodseed>
 [INITIALIZATION][SERVER][INFO] Setting fuel for <dynamictreesbop:pineseed>
+[INITIALIZATION][SERVER][INFO] Setting fuel for <dynamictrees:oakseed>
+[INITIALIZATION][SERVER][INFO] Setting fuel for <dynamictrees:darkoakseed>
+[INITIALIZATION][SERVER][INFO] Setting fuel for <dynamictreesbop:floweringoakseed>
+[INITIALIZATION][SERVER][INFO] Setting fuel for <dynamictreesbop:orangeautumnseed>
+[INITIALIZATION][SERVER][INFO] Setting fuel for <dynamictreesbop:oakdyingseed>
+[INITIALIZATION][SERVER][INFO] Setting fuel for <dynamictreesbop:hellbarkseed>
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new-crafts_techguns.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_crafts_adminshop.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_crafts_betterwithmods.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_crafts_chickenchunk.zs}
+[INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_crafts_FencesAndWalls.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_crafts_firstaid.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_crafts_foodfunk.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_crafts_vanilla.zs}
 [INITIALIZATION][SERVER][INFO] [crafttweaker | SIDE_SERVER]: Loading Script: {[0:crafttweaker]: new_crafts_WOTApocalypse.zs}
-[INITIALIZATION][SERVER][INFO] Completed script loading in: 1772ms
-[POSTINITIALIZATION][SERVER][INFO] Removing recipes for various outputs
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "weapons_of_the_apocalypse:leatherr2"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "minecraft:glass_bottle"
-[POSTINITIALIZATION][SERVER][INFO] Removing recipe with name "weapons_of_the_apocalypse:scyther"
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Weather Sensor with name rain_detector
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Daylight Sensor with name daylight_detector
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Orange Stained Glass with name stained_glass1
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Magenta Stained Glass with name stained_glass2
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Light Blue Stained Glass with name stained_glass3
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Yellow Stained Glass with name stained_glass4
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Lime Stained Glass with name stained_glass5
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Pink Stained Glass with name stained_glass6
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Gray Stained Glass with name stained_glass7
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Light Gray Stained Glass with name stained_glass8
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cyan Stained Glass with name stained_glass9
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Purple Stained Glass with name stained_glass10
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Blue Stained Glass with name stained_glass11
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Brown Stained Glass with name stained_glass12
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Green Stained Glass with name stained_glass13
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Red Stained Glass with name stained_glass14
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Black Stained Glass with name stained_glass15
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Bone Meal with name bone_meal
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for White Wool with name wool_pelt_1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for White Wool with name wool_pelt_2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for White Wool with name wool_pelt_3
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for White Wool with name wool_pelt_
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for White Wool with name wool_pelt_4
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for White Wool with name wool_pelt_5
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for White Wool with name wool_lea_1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for White Wool with name wool_lea_2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for White Wool with name wool_lea_3
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather with name leather_pelt_1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather with name leather_pelt_2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather with name leather_pelt_3
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather with name leather_pelt_
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather with name leather_pelt_4
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather with name leather_pelt_5
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather with name leather_lea_1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather with name leather_lea_2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather with name leather_lea_3
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Seeds with name terrarium_to_wheat_seeds
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Bamboo with name terrarium_to_bamboo
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Cactus with name terrarium_to_cactus
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Melon Seeds with name terrarium_to_melon_seeds
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pumpkin Seeds with name terrarium_to_pumpkin_seeds
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Carrot with name terrarium_to_carrot
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Potato with name terrarium_to_potato
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Mushroom with name terrarium_to_red_mushroom
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Mushroom with name terrarium_to_brown_mushroom
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pistol Rounds with name ammo_revolver1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pistol Rounds with name ammo_revolver2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pistol Rounds with name ammo_revolver3
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pistol Magazine with name ammo_pistol1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pistol Magazine with name ammo_pistol2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Stone Bullets with name ammo_handcannon
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Shotgun Rounds with name ammo_shotgun1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Shotgun Rounds with name ammo_shotgun2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Shotgun Rounds with name ammo_shotgun3
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for SMG Magazine with name ammo_smg1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for SMG Magazine with name ammo_smg2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Assault Rifle Magazine with name ammo_assault1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Assault Rifle Magazine with name ammo_assault2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Rifle Rounds with name ammo_rifle1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Rifle Rounds with name ammo_rifle2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Minigun Ammo Drum with name ammo_minigun1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Minigun Ammo Drum with name ammo_minigun2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for AS50 Magazine with name ammo_AS501
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for AS50 Magazine with name ammo_AS502
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Fuel Tank with name fueltank
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Rocket with name ammo_rocket1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Rocket with name ammo_rocket2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Rocket with name ammo_rocket3
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for 40mm Grenade with name ammo_grenade1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for 40mm Grenade with name ammo_grenade2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Stick Grenade with name stielgranate
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Frag Grenade with name fraggrenade
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Heavy Cloth with name heavycloth
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bandit Mask with name t1_scout_helmet
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bandit Vest with name t1_scout_chestplate
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bandit Pants with name t1_scout_leggings
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bandit Boots with name t1_scout_boots
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Soldier's Helmet with name t1_combat_helmet
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Soldier's Vest with name t1_combat_chestplate
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Soldier's Pants with name t1_combat_leggings
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Soldier's Boots with name t1_combat_boots
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ranger Veteran Helmet with name t2_riot_helmet
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ranger Veteran Jacket with name t2_riot_chestplate
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ranger Veteran Pants with name t2_riot_leggings
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Ranger Veteran Boots with name t2_riot_boots
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Combat Helmet with name t2_combat_helmet
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Combat Vest with name t2_combat_chestplate
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Combat Pants with name t2_combat_leggings
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Combat Boots with name t2_combat_boots
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Bandit Mask with name repair_t1_scout_helmet
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Bandit Vest with name repair_t1_scout_chestplate
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Bandit Pants with name repair_t1_scout_leggings
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Bandit Boots with name repair_t1_scout_boots
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Soldier's Helmet with name repair_t1_combat_helmet
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Soldier's Vest with name repair_t1_combat_chestplate
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Soldier's Pants with name repair_t1_combat_leggings
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Soldier's Boots with name repair_t1_combat_boots
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Ranger Veteran Helmet with name repair_t2_riot_helmet
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Ranger Veteran Jacket with name repair_t2_riot_chestplate
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Ranger Veteran Pants with name repair_t2_riot_leggings
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Ranger Veteran Boots with name repair_t2_riot_boots
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Combat Helmet with name repair_t2_combat_helmet
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Combat Vest with name repair_t2_combat_chestplate
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Combat Pants with name repair_t2_combat_leggings
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Combat Boots with name repair_t2_combat_boots
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Riot Shield with name riot_shield
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Shotgun Rounds (Incediary) with name ammo_shotgun_incendiary
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for AS50 Magazine (Incediary) with name ammo_AS50_incendiary
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pistol Rounds (Incediary) with name ammo_revolver_incendiary
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Rifle Rounds (Incediary) with name ammo_rifle_incendiary
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for SMG Magazine (Incediary) with name ammo_smg_incendiary
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Pistol Magazine (Incediary) with name ammo_pistol_incendiary
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Minigun Ammo Drum (Incediary) with name ammo_minigun_incendiary
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Assault Rifle Magazine (Incendiary) with name ammo_assault_incendiary
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Wooden Gun Stock with name gunstock
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Stone Barrel with name stonebarrel
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Hand Cannon with name handcannon
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Shop with name shop
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Tanned Leather with name tannedleather
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Padding with name padding
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Soulforged Steel Ingot with name soulforged_steel
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Haft with name haft
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Plate Armor Helmet with name repair_steel_helmet
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Plate Armor Chest with name repair_steel_chest
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Plate Armor Leggings with name repair_steel_pants
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Plate Armor Boots with name repair_steel_boots
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Composite Bow with name composite_bow
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Chunk Loader with name chunk_loader
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Plaster with name plaster1
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Plaster with name plaster2
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Plaster with name plaster3
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Bandage with name bandage1
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Esky with name esky
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Freezer with name freezer
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Cobweb with name web
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Slimeball with name Slime1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Slimeball with name Slime2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Paper with name Paper
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Paper with name Paperfrombook
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Gunpowder with name Gunpowder
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Gunpowder with name Gunpowder2
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Glass Bottle with name glass_bottle1
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Glass Bottle with name glass_bottle2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Obsidian with name obsidian
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Name Tag with name name_tag
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Dandelion Yellow with name dyeYellow
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Rose Red with name dyeRed1
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Rose Red with name dyeRed2
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather Cap with name repair_leather_helmet
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather Tunic with name repair_leather_chestplate
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather Pants with name repair_leather_leggings
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Leather Boots with name repair_leather_boots
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iron Helmet with name repair_iron_helmet
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iron Chestplate with name repair_iron_chestplate
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iron Leggings with name repair_iron_leggings
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iron Boots with name repair_iron_boots
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Baseball Bat with name baseballbat
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Super Sledgehammer with name supersledgehammer
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Stop Sign Axe with name stopsignaxe
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Spiked Baseball Bat with name spikedbaseballbat
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Crowbar with name crowbar
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Scythe with name sythe
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Metal Bat with name metalbat
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Zombie Blood with name zombieblood
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Stimpack with name stimpack
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Empty Stimpack with name emptystimpack
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Cloth Roll with name cloth
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Glue with name glue2
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Nails with name nails
-[POSTINITIALIZATION][SERVER][INFO] Adding shaped recipe for Duct Tape with name ducttape
-[POSTINITIALIZATION][SERVER][INFO] Adding shapeless recipe for Iron Ingot with name can_to_iron
-[POSTINITIALIZATION][SERVER][INFO] Removing furnace recipes for: <ore:blockGlassColorless>
-[POSTINITIALIZATION][SERVER][INFO] 2 recipes removed for: <ore:blockGlassColorless>
-[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <biomesoplenty:white_sand>
-[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:sand>
-[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:spider_eye>.withTag({Rot: {start: 0 as long, time: 0 as long}})
-[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:coal>
-[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:spider_eye>.withTag({Rot: {start: 0 as long, time: 0 as long}})
-[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:glowstone_dust>
-[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:anvil>
-[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:anvil:1>
-[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:anvil:2>
-[POSTINITIALIZATION][SERVER][INFO] Adding furnace recipe for <minecraft:cauldron>
-[AVAILABLE][SERVER][INFO] Fixing Vanilla Brewing Recipes
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:regeneration"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_regeneration"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_regeneration"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strength"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_strength"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_strength"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:weakness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_weakness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:luck"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:mundane"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:thick"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:awkward"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:night_vision"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:invisibility"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_invisibility"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:leaping"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_leaping"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_leaping"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_fire_resistance"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:swiftness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:slowness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_slowness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:water_breathing"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:healing"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_healing"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:harming"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_harming"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:poison"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_poison"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_poison"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_regeneration"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_regeneration"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strength"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_strength"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_strength"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:weakness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_weakness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:luck"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:water"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:mundane"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:thick"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:night_vision"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_night_vision"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:invisibility"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_invisibility"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:leaping"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_leaping"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_leaping"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:fire_resistance"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_fire_resistance"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:swiftness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_swiftness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_swiftness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:slowness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_slowness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:healing"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_healing"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:harming"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:poison"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_poison"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_poison"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_regeneration"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_regeneration"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strength"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_strength"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_strength"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:weakness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_weakness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:luck"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:water"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:mundane"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:thick"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:night_vision"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_night_vision"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:invisibility"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_invisibility"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:leaping"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_leaping"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_leaping"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:fire_resistance"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_fire_resistance"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:swiftness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_swiftness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_swiftness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:slowness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_slowness"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:water_breathing"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_water_breathing"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:healing"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_healing"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:harming"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_harming"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:poison"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_poison"})
-[AVAILABLE][SERVER][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_poison"})
-[AVAILABLE][SERVER][INFO] Altering Cauldron Recipe(s) for Removing all recipes for Cauldron
-[AVAILABLE][SERVER][INFO] Altering Crucible Recipe(s) for Removing all recipes for Crucible
-[AVAILABLE][SERVER][INFO] Altering Kiln Recipe(s) for Removing all recipes for Kiln
-[AVAILABLE][SERVER][INFO] Altering Mill Recipe(s) for Removing all recipes for Mill
-[AVAILABLE][SERVER][INFO] Altering Saw Recipe(s) for Removing all recipes for Saw
-[AVAILABLE][SERVER][INFO] Altering Turntable Recipe(s) for Removing all recipes for Turntable
-[AVAILABLE][SERVER][INFO] Altering Remove Shaped Anvil Recipe(s) for Block Dispenser
-[AVAILABLE][SERVER][INFO] Altering Remove Shaped Anvil Recipe(s) for Steel Gearbox
-[AVAILABLE][SERVER][INFO] Altering Remove Shaped Anvil Recipe(s) for Refined Hacksaw
-[AVAILABLE][SERVER][INFO] Altering Remove Shaped Anvil Recipe(s) for Candle Holder
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool mutant_zombiePool to table mutantbeasts:entities/mutant_zombie
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool MineshaftPool to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool ZombiePool to table minecraft:entities/zombie
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool spawn_bonus_chest to table minecraft:chests/spawn_bonus_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool playerskinsPool to table playerskins:entities/skinloot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool SpiderPool to table minecraft:entities/spider
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool handgun to table loottweaker:handgun
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool longguns to table loottweaker:longguns
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool healing to table loottweaker:healing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool plant to table loottweaker:plant
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool generic to table loottweaker:generic
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool food to table loottweaker:food
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool subway to table loottweaker:subway
+[INITIALIZATION][SERVER][INFO] Completed script loading in: 1744ms
