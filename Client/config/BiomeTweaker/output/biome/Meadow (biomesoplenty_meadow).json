@@ -24,8 +24,8 @@
     "PLAINS",
     "WET",
     "SPARSE",
-    "LUSH",
-    "COLD"
+    "COLD",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

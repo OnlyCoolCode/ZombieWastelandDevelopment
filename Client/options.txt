@@ -134,7 +134,7 @@ key_techguns.key.toggleStepassist:24
 key_techguns.key.forceReload:19
 key_techguns.key.toggleJetpack:36
 key_wi-zoom.zoom:46
-soundCategory_master:0.60596025
+soundCategory_master:0.75827813
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.75352114

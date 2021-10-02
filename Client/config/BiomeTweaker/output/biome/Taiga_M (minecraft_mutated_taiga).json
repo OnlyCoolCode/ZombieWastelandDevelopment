@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "FOREST",
     "RARE",
-    "CONIFEROUS",
     "COLD",
+    "CONIFEROUS",
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {},

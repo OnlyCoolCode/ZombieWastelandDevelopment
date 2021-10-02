@@ -1,6 +1,5 @@
 [
   {
-    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
     "hostile": true,
     "incity": false,
     "seesky": false,
@@ -12,7 +11,6 @@
     "result": "deny"
   },
   {
-    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
     "hostile": true,
     "incity": false,
     "seesky": true,
@@ -24,7 +22,6 @@
     "result": "deny"
   },
   {
-    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
     "hostile": true,
     "incity": false,
     "seesky": false,
@@ -38,7 +35,6 @@
     "result": "deny"
   },
   {
-    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
     "hostile": true,
     "incity": false,
     "seesky": true,
@@ -52,7 +48,6 @@
     "result": "deny"
   },
   {
-    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
     "hostile": true,
     "incity": true,
     "mincount": {
@@ -63,7 +58,6 @@
     "result": "deny"
   },
   {
-    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
     "hostile": true,
     "incity": true,
     "mintime":1000,
@@ -76,7 +70,6 @@
     "result": "deny"
   },
   {
-    "mod": ["minecraft","techguns","iymts_mob_mod","mutantbeasts","playerskins","betteranimalsplus"],
     "hostile": true,
     "incity": false,
     "seesky": true,

@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "FOREST",
     "RARE",
-    "CONIFEROUS",
     "SNOWY",
     "COLD",
+    "CONIFEROUS",
     "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
