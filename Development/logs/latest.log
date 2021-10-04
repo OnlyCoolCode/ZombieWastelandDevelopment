@@ -1,533 +1,533 @@
-[17:52:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:52:29] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:52:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[17:52:29] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2855 for Minecraft 1.12.2 loading
-[17:52:29] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_271, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_271
-[17:52:29] [main/INFO] [FML]: Searching C:\Repositorios\ZombieWastelandDevelopment\Development\mods for mods
-[17:52:29] [main/INFO] [FML]: Searching C:\Repositorios\ZombieWastelandDevelopment\Development\mods\1.12.2 for mods
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.12.2-3.4.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in BetterFoliage-MC1.12-2.3.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod BetterFoliageLoader (mods.betterfoliage.loader.BetterFoliageLoader) is not signed!
-[17:52:30] [main/INFO] [FML]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ChunkAnimator-MC1.12-1.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod lumien.chunkanimator.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:52:30] [main/WARN] [FML]: The coremod LoadingPlugin (lumien.chunkanimator.asm.LoadingPlugin) is not signed!
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.61_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:52:30] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:52:30] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CustomSkinLoader_Forge-14.9.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod customskinloader.forge.ForgePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:52:30] [main/WARN] [FML]: The coremod ForgePlugin (customskinloader.forge.ForgePlugin) is not signed!
-[17:52:30] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from DynamicSurroundings-1.12.2-3.6.2.1.jar
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in foamfix-0.10.14-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ForgeEndertech-1.12.2-4.5.5.0-build.0561.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod com.endertech.minecraft.forge.coremod.CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:52:30] [main/WARN] [FML]: The coremod CorePlugin (com.endertech.minecraft.forge.coremod.CorePlugin) is not signed!
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:52:30] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:52:30] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
-[17:52:30] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ResourceLoader-MC1.12.1-1.5.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod lumien.resourceloader.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in somnia-1.11-beta.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod SFMLLoadingPlugin (com.kingrunes.somnia.asm.SFMLLoadingPlugin) is not signed!
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Sound-Physics-1.12.2-1.0.10-1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod CoreModLoader (com.sonicether.soundphysics.CoreModLoader) is not signed!
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in techguns-1.12.2-2.0.2.0_pre3.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod Techguns Core (techguns.core.TechgunsFMLPlugin) is not signed!
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in TenshiLib-1.12.2-1.2.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod TenshiCore (com.flemmli97.tenshilib.asm.ASMLoader) is not signed!
-[17:52:30] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in thiccentities-1.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[17:52:30] [main/WARN] [FML]: The coremod wiresegal.thicc.asm.ThiccCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[17:52:30] [main/WARN] [FML]: The coremod ThiccEntities Plugin (wiresegal.thicc.asm.ThiccCorePlugin) is not signed!
-[17:52:30] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from VanillaFix-1.0.10-150.jar
-[17:52:30] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from wi-zoom-v1.1-MC1.12.2-release.jar
-[17:52:30] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from phosphor-forge-mc1.12.2-0.2.7-universal.jar
-[17:52:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:52:30] [main/INFO] [LaunchWrapper]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
-[17:52:30] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
-[17:52:30] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Repositorios/ZombieWastelandDevelopment/Development/mods/1.12.2/VanillaFix-1.0.10-150.jar Service=LaunchWrapper Env=CLIENT
-[17:52:30] [main/INFO] [VanillaFix]: Initializing VanillaFix
-[17:52:30] [main/INFO] [VanillaFix]: Initializing StacktraceDeobfuscator
-[17:52:30] [main/INFO] [VanillaFix]: Found MCP method mappings: methods-stable_39.csv
-[17:52:30] [main/INFO] [VanillaFix]: Done initializing StacktraceDeobfuscator
-[17:52:30] [main/INFO] [VanillaFix]: Initializing Bug Fix Mixins
-[17:52:30] [main/INFO] [mixin]: Compatibility level set to JAVA_8
-[17:52:30] [main/INFO] [VanillaFix]: Initializing Crash Fix Mixins
-[17:52:30] [main/INFO] [VanillaFix]: Initializing Profiler Improvement Mixins
-[17:52:30] [main/INFO] [VanillaFix]: Initializing Texture Fix Mixins
-[17:52:30] [main/INFO] [VanillaFix]: Initializing Mod Support Mixins
-[17:52:30] [main/WARN] [FML]: The coremod VanillaFixLoadingPlugin (org.dimdev.vanillafix.VanillaFixLoadingPlugin) is not signed!
-[17:52:30] [main/WARN] [FML]: The coremod WiZoomCoreMod (net.wurstclient.zoom.WiZoomCoreMod) is not signed!
-[17:52:30] [main/ERROR] [mixin]: Mixin config wi-zoom.mixins.json does not specify "minVersion" property
-[17:52:30] [main/WARN] [FML]: The coremod PhosphorFMLLoadingPlugin (me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin) is not signed!
-[17:52:30] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
-[17:52:30] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
-[17:52:30] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
-[17:52:30] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
-[17:52:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:52:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:52:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:52:30] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
-[17:52:30] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
-[17:52:30] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
-[17:52:30] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
-[17:52:30] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: C:\Repositorios\ZombieWastelandDevelopment\Development\mods\1.12.2\OptiFine_1.12.2_HD_U_G5.jar
-[17:52:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:34] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[17:52:34] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
-[17:52:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$InitTransformer
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(<init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V)
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinTransformer
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;)
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadSkin(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;)
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadProfileTexturesTransformer
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V)
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadProfileTextures(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V)
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinFromCacheTransformer
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;)
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadSkinFromCache(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;)
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.PlayerTabTransformer$ScoreObjectiveTransformer
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay(func_175249_a(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V)
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay(renderPlayerlist(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V)
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SpectatorMenuTransformer$PlayerMenuObjectTransformer
-[17:52:35] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.spectator.PlayerMenuObject(<init>(Lcom/mojang/authlib/GameProfile;)V)
-[17:52:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:35] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
-[17:52:35] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@5a237731
-[17:52:35] [main/INFO] [LaunchWrapper]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
-[17:52:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:52:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:37] [main/INFO] [BiomeTweakerCore]: Beginning early config parsing...
-[17:52:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:52:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:52:38] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[17:52:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:52:38] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
-[17:52:38] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
-[17:52:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentHelper
-[17:52:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
-[17:52:38] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:38] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
-[17:52:38] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:38] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.com.sonicether.soundphysics.CoreModInjector' was detected and will no longer process meta class data
-[17:52:38] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
-[17:52:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
-[17:52:38] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:38] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:38] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:38] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
-[17:52:38] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:38] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
-[17:52:38] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:38] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:38] [main/INFO] [Thicc ASM]: Transforming Entity
-[17:52:38] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [setSize, func_70105_a] Descriptor (FF)V)
-[17:52:38] [main/INFO] [Thicc ASM]: Attempting to insert: Size hook
-[17:52:38] [main/INFO] [Thicc ASM]: Patch result: Success
-[17:52:38] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class MinecraftServer
-[17:52:38] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class MinecraftServer
-[17:52:38] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.world.chunk.BlockStateContainer.func_186018_a
-[17:52:39] [main/INFO] [STDOUT]: [com.flemmli97.tenshilib.asm.ASMTransformer:asmDebug:43]: [TenshiCore]: Patching Minecraft.clickMouse
-[17:52:39] [main/INFO] [BetterFps]: Patching net.minecraft.client.Minecraft... (bib)
-[17:52:39] [main/INFO] [mixin]: A re-entrant transformer 'guichaguri.betterfps.transformers.PatcherTransformer' was detected and will no longer process meta class data
-[17:52:39] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.lumien.resourceloader.asm.ClassTransformer' was detected and will no longer process meta class data
-[17:52:39] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class EntityRenderer
-[17:52:39] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class EntityRenderer
-[17:52:39] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.EntityRenderer
-[17:52:39] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [renderWorldPass, func_175068_a] Descriptor (IFJ)V)
-[17:52:39] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:39] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/EntityRenderer.func_78479_a (FI)V
-[17:52:39] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
-[17:52:40] [main/INFO] [BiomeTweakerCore]: Attempting to patch class net.minecraft.world.World...
-[17:52:40] [main/INFO] [BiomeTweakerCore]: Sucessfully patched net.minecraft.world.World!
-[17:52:40] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.me.superckl.biometweakercore.BiomeTweakerASMTransformer' was detected and will no longer process meta class data
-[17:52:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
-[17:52:40] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:141]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
-[17:52:40] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.BlockModelRenderer
-[17:52:40] [main/INFO] [Quark ASM]: Optifine Detected. Disabling Patch for Names [renderQuadsFlat, func_187496_a] Descriptor (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;IZLnet/minecraft/client/renderer/BufferBuilder;Ljava/util/List;Ljava/util/BitSet;)V
-[17:52:41] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchItemRenderer_updateEquippedItem:530]: Successfully patched ItemRenderer.updateEquippedItem with ASM
-[17:52:41] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.lumien.chunkanimator.asm.ClassTransformer' was detected and will no longer process meta class data
-[17:52:41] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.client.renderer.chunk.RenderChunk.func_178581_b (FFFLnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;)V (matching rebuildChunk)
-[17:52:41] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying RenderChunk block render override
-[17:52:41] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying RenderChunk block layer override (Optifine)
-[17:52:41] [main/INFO] [Obfuscate]: Applying ASM to RenderItem
-[17:52:41] [main/INFO] [Obfuscate]: Successfully patched RenderItem
-[17:52:41] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.RenderItem
-[17:52:41] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [renderItem, func_180454_a] Descriptor (Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
-[17:52:41] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:41] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:41] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEffect, func_191966_a] Descriptor (Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
-[17:52:41] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:41] [main/INFO] [Quark ASM]: Located patch target node LDC -8372020
-[17:52:41] [main/INFO] [Quark ASM]: Located patch target node LDC -8372020
-[17:52:41] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:41] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.vazkii.quark.base.asm.ClassTransformer' was detected and will no longer process meta class data
-[17:52:41] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderModel:482]: Successfully patched 2 arg RenderItem.RenderModel with ASM
-[17:52:41] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem2:370]: Successfully patched 2 arg RenderItem.RenderItem with ASM
-[17:52:41] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem:301]: Successfully patched 4 arg RenderItem.RenderItem with ASM
-[17:52:41] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItemGUI:425]: Successfully patched RenderItem.renderItemModelIntoGUI with ASM
-[17:52:41] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:89]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
-[17:52:41] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
-[17:52:41] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
-[17:52:41] [main/INFO] [Thicc ASM]: Transforming Render
-[17:52:41] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [renderShadow, func_76975_c] Descriptor (Lnet/minecraft/entity/Entity;DDDFF)V)
-[17:52:41] [main/INFO] [Thicc ASM]: Attempting to insert: Resize shadow
-[17:52:41] [main/INFO] [Thicc ASM]: Patch result: Success
-[17:52:41] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
-[17:52:41] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
-[17:52:41] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.pl.asie.foamfix.coremod.FoamFixTransformer' was detected and will no longer process meta class data
-[17:52:41] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
-[17:52:41] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
-[17:52:42] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class Chunk
-[17:52:42] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class Chunk
-[17:52:42] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[17:52:42] [main/INFO] [STDOUT]: [com.flemmli97.tenshilib.asm.ASMTransformer:asmDebug:43]: [TenshiCore]: Patching Minecraft.clickMouse
-[17:52:42] [main/INFO] [BetterFps]: Patching net.minecraft.client.Minecraft... (bib)
-[17:52:43] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
-[17:52:43] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
-[17:52:44] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.client.multiplayer.WorldClient.func_184153_a (IIIILjava/util/Random;ZLnet/minecraft/util/math/BlockPos$MutableBlockPos;)V (matching showBarrierParticles)
-[17:52:44] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying random display tick call hook
-[17:52:44] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class EntityPlayer
-[17:52:44] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class EntityPlayer
-[17:52:44] [main/INFO] [Thicc ASM]: Transforming EntityPlayer
-[17:52:44] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getDefaultEyeHeight, ] Descriptor ()F)
-[17:52:44] [main/INFO] [Thicc ASM]: Attempting to insert: Default eye height
-[17:52:44] [main/INFO] [Thicc ASM]: Patch result: Success
-[17:52:45] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
-[17:52:45] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
-[17:52:45] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:45] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:45] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:45] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
-[17:52:45] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:45] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
-[17:52:45] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:45] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:45] [main/INFO] [Thicc ASM]: Transforming Entity
-[17:52:45] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [setSize, func_70105_a] Descriptor (FF)V)
-[17:52:45] [main/INFO] [Thicc ASM]: Attempting to insert: Size hook
-[17:52:45] [main/INFO] [Thicc ASM]: Patch result: Success
-[17:52:45] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getEyeHeight, func_70047_e] Descriptor ()F)
-[17:52:45] [main/INFO] [Thicc ASM]: Attempting to insert: Rescale original height
-[17:52:45] [main/INFO] [Thicc ASM]: Patch result: Success
-[17:52:45] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getEyeHeight, func_70047_e] Descriptor ()F)
-[17:52:45] [main/INFO] [Thicc ASM]: Attempting to insert: Eye height hook
-[17:52:45] [main/INFO] [Thicc ASM]: Patch result: Success
-[17:52:45] [main/INFO] [BetterFps]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
-[17:52:45] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class EntityPlayer
-[17:52:45] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class EntityPlayer
-[17:52:45] [main/INFO] [Thicc ASM]: Transforming EntityPlayer
-[17:52:45] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getDefaultEyeHeight, ] Descriptor ()F)
-[17:52:45] [main/INFO] [Thicc ASM]: Attempting to insert: Default eye height
-[17:52:45] [main/INFO] [Thicc ASM]: Patch result: Success
-[17:52:45] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getEyeHeight, func_70047_e] Descriptor ()F)
-[17:52:45] [main/INFO] [Thicc ASM]: Attempting to insert: Rescale original height
-[17:52:45] [main/INFO] [Thicc ASM]: Patch result: Success
-[17:52:45] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getEyeHeight, func_70047_e] Descriptor ()F)
-[17:52:45] [main/INFO] [Thicc ASM]: Attempting to insert: Eye height hook
-[17:52:45] [main/INFO] [Thicc ASM]: Patch result: Success
-[17:52:46] [main/INFO] [BiomeTweakerCore]: Attempting to patch class net.minecraft.world.World...
-[17:52:46] [main/INFO] [BiomeTweakerCore]: Sucessfully patched net.minecraft.world.World!
-[17:52:46] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
-[17:52:46] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:141]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
-[17:52:46] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.client.multiplayer.WorldClient.func_184153_a (IIIILjava/util/Random;ZLnet/minecraft/util/math/BlockPos$MutableBlockPos;)V (matching showBarrierParticles)
-[17:52:46] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying random display tick call hook
-[17:52:47] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.gui.inventory.GuiContainer
-[17:52:47] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [drawScreen, func_73863_a] Descriptor (IIF)V)
-[17:52:47] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:47] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiContainer.func_146979_b (II)V
-[17:52:47] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:47] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class MinecraftServer
-[17:52:47] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class MinecraftServer
-[17:52:47] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class WorldServer
-[17:52:47] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class WorldServer
-[17:52:47] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:57]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
-[17:52:48] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
-[17:52:48] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
-[17:52:48] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:48] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:48] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
-[17:52:48] [main/INFO] [Quark ASM]: Located Method, patching...
-[17:52:48] [main/INFO] [Quark ASM]: Patch result: true
-[17:52:48] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.client.util.SearchTreeManager.func_110549_a
-[17:52:48] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
-[17:52:48] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
-[17:52:49] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Mati
-[17:52:49] [Client thread/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
-[17:52:50] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[17:52:50] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
-[17:52:50] [Client thread/INFO] [BiomeTweakerCore]: Attempting to patch class net.minecraft.world.biome.Biome...
-[17:52:50] [Client thread/INFO] [BiomeTweakerCore]: Sucessfully patched net.minecraft.world.biome.Biome! 1 patches were applied.
-[17:52:50] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
-[17:52:50] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
-[17:52:50] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:50] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
-[17:52:50] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:51] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
-[17:52:51] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
-[17:52:51] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:51] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:51] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
-[17:52:51] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.state.BlockStateContainer.foamfix_mapper
-[17:52:51] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.func_185892_j ()F (matching getAmbientOcclusionLightValue)
-[17:52:52] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying getAmbientOcclusionLightValue() override
-[17:52:52] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.func_185916_f ()Z (matching useNeighborBrightness)
-[17:52:52] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying useNeighborBrightness() override
-[17:52:52] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.doesSideBlockRendering (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
-[17:52:52] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying doesSideBlockRendering() override
-[17:52:52] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.func_185914_p ()Z (matching isOpaqueCube)
-[17:52:52] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying isOpaqueCube() override
-[17:52:52] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
-[17:52:52] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
-[17:52:52] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
-[17:52:52] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
-[17:52:52] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
-[17:52:52] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
-[17:52:52] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
-[17:52:52] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
-[17:52:52] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
-[17:52:52] [Client thread/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
-[17:52:53] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
-[17:52:53] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located patch target node ARETURN
-[17:52:53] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:53] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
-[17:52:53] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
-[17:52:53] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:53] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
-[17:52:53] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
-[17:52:53] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
-[17:52:53] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
-[17:52:53] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:53] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
-[17:52:53] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:53] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
-[17:52:53] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:53] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:53] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
-[17:52:53] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:54] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
-[17:52:54] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
-[17:52:54] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:54] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:54] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
-[17:52:54] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:54] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-[17:52:54] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:54] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
-[17:52:54] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:54] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-[17:52:54] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:54] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.GhostBusterBlockStateAccessPatch$FFMethodVisitor:visitMethodInsn:93]: Added ghost buster patch (getBlockState call wrapped) in net/minecraft/block/BlockFarmland func_176530_e (net/minecraft/world/World func_180495_p (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;)
-[17:52:54] [Client thread/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
-[17:52:55] [Client thread/INFO] [BetterFps]: Patching net.minecraft.block.BlockHopper... (arl)
-[17:52:55] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
-[17:52:55] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
-[17:52:55] [Client thread/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
-[17:52:55] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
-[17:52:55] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
-[17:52:55] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:55] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
-[17:52:55] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
-[17:52:55] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:56] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
-[17:52:56] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
-[17:52:56] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:56] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
-[17:52:56] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:56] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
-[17:52:56] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
-[17:52:56] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:56] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
-[17:52:56] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:56] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class WorldServer
-[17:52:56] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class WorldServer
-[17:52:56] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
-[17:52:56] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
-[17:52:56] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:56] [Client thread/INFO] [Quark ASM]: Located patch target node BIPUSH 6
-[17:52:56] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:57] [Client thread/INFO] [STDOUT]: [com.flemmli97.tenshilib.asm.ASMTransformer:asmDebug:43]: [TenshiCore]: Patching PathNavigate
-[17:52:57] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
-[17:52:57] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
-[17:52:57] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:57] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:57] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/api/IFoamFixMobSpawnerLogic
-[17:52:57] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.MobSpawnerBaseLogic.func_98279_f
-[17:52:57] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCache
-[17:52:57] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCachePESize
-[17:52:57] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCacheTime
-[17:52:57] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCache
-[17:52:57] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCacheTime
-[17:52:58] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
-[17:52:58] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
-[17:52:58] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:58] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
-[17:52:58] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:52:59] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
-[17:52:59] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
-[17:52:59] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:52:59] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[17:52:59] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[17:52:59] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[17:52:59] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[17:52:59] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:53:00] [BetterFps Update Checker/WARN] [BetterFps]: Could not check for updates: Server returned HTTP response code: 403 for URL: http://widget.mcf.li/mc-mods/minecraft/229876-betterfps.json
-[17:53:00] [Client thread/INFO] [net.optifine.reflect.Reflector]: [OptiFine] *** Reflector Forge ***
-[17:53:00] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class EntityRenderer
-[17:53:00] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class EntityRenderer
-[17:53:00] [Client thread/INFO] [BetterFps]: Patching net.minecraft.client.renderer.EntityRenderer... (buq)
-[17:53:00] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.EntityRenderer
-[17:53:00] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderWorldPass, func_175068_a] Descriptor (IFJ)V)
-[17:53:00] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:53:00] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/EntityRenderer.func_78479_a (FI)V
-[17:53:00] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:53:00] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ModelLoaderCleanupPatch:apply:99]: Added ModelLoader cleanup patch (1 occurences).
-[17:53:00] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.entity.RenderManager
-[17:53:00] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEntity, func_188391_a] Descriptor (Lnet/minecraft/entity/Entity;DDDFFZ)V)
-[17:53:00] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:53:00] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/entity/Render.func_76986_a (Lnet/minecraft/entity/Entity;DDDFF)V
-[17:53:00] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:53:00] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.entity.Render
-[17:53:00] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEntityOnFire, func_76977_a] Descriptor (Lnet/minecraft/entity/Entity;DDDF)V)
-[17:53:00] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:53:00] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:53:00] [Client thread/INFO] [Thicc ASM]: Transforming Render
-[17:53:00] [Client thread/INFO] [Thicc ASM]: Applying Transformation to method (Names [renderShadow, func_76975_c] Descriptor (Lnet/minecraft/entity/Entity;DDDFF)V)
-[17:53:00] [Client thread/INFO] [Thicc ASM]: Attempting to insert: Resize shadow
-[17:53:00] [Client thread/INFO] [Thicc ASM]: Patch result: Success
-[17:53:00] [Client thread/INFO] [net.optifine.reflect.Reflector]: [OptiFine] *** Reflector Vanilla ***
-[17:53:00] [Client thread/INFO] [STDOUT]: [com.flemmli97.tenshilib.asm.ASMTransformer:asmDebug:43]: [TenshiCore]: Patching ModelPlayer.doRender (Actually ModelBiped.doRender)
-[17:53:00] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.model.ModelBiped
-[17:53:00] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [setRotationAngles, func_78087_a] Descriptor (FFFFFFLnet/minecraft/entity/Entity;)V)
-[17:53:00] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:53:00] [Client thread/INFO] [Quark ASM]: Located patch target node RETURN
-[17:53:00] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:53:00] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.entity.RenderBoat
-[17:53:00] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [doRender, func_188300_b] Descriptor (Lnet/minecraft/entity/item/EntityBoat;DDDFF)V)
-[17:53:00] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:53:00] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEINTERFACE net/minecraft/client/model/IMultipassModel.func_187054_b (Lnet/minecraft/entity/Entity;FFFFFF)V
-[17:53:00] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:53:00] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[17:53:00] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[17:53:01] [Client thread/INFO] [Config]: [OptiFine] 
-[17:53:01] [Client thread/INFO] [Config]: [OptiFine] OptiFine_1.12.2_HD_U_G5
-[17:53:01] [Client thread/INFO] [Config]: [OptiFine] Build: 20210124-142939
-[17:53:01] [Client thread/INFO] [Config]: [OptiFine] OS: Windows 10 (amd64) version 10.0
-[17:53:01] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_271, Oracle Corporation
-[17:53:01] [Client thread/INFO] [Config]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-[17:53:01] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.4
-[17:53:01] [Client thread/INFO] [Config]: [OptiFine] OpenGL: NVIDIA GeForce GTX 1050/PCIe/SSE2, version 4.6.0 NVIDIA 466.11, NVIDIA Corporation
-[17:53:01] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.0
-[17:53:02] [Client thread/INFO] [Config]: [OptiFine] Maximum texture size: 32768x32768
-[17:53:02] [VersionCheck/INFO] [Config]: [OptiFine] Checking for new version
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 466.11
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Vendor:  NVIDIA Corporation
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Renderer: NVIDIA GeForce GTX 1050/PCIe/SSE2
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Load shaders configuration.
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Loaded shaderpack: Chocapic13_V8_Ultra.zip
-[17:53:02] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Worlds: -1, 1
-[17:53:02] [VersionCheck/INFO] [Config]: [OptiFine] Version found: G5
-[17:53:02] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
-[17:53:02] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
-[17:53:02] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
-[17:53:02] [Client thread/WARN] [Config]: [OptiFine] [Shaders] Duplicate option: Purkinje_strength, key: screen.Purkinje_effect
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: texelSizeX
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: texelSizeY
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: texelSize
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: framemod8
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: normSunVec
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: normUpVec
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: sunPosX
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: sunPosY
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: sunPosZ
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: sunVec
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: upPosX
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: upPosY
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: upPosZ
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: upVec
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: sunElevation
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: lightSign
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: maxAngle
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: cosFov
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: viewDirX
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: viewDirY
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: viewDirZ
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: normView
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shViewDirX
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shViewDirY
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shViewDirZ
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: shadowViewDir
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shStartX
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shStartY
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shStartZ
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: shadowCamera
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: wSunX
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: wSunY
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: wSunZ
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shSunX
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shSunY
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shSunZ
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: shadowLightVec
-[17:53:02] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: shadowMaxProj
-[17:53:02] [Client thread/INFO] [Quark ASM]: Transforming net.minecraftforge.client.model.pipeline.LightUtil
-[17:53:02] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderQuadColor, ] Descriptor (Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/client/renderer/block/model/BakedQuad;I)V)
-[17:53:02] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:53:02] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:53:02] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:89]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
-[17:53:02] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
-[17:53:02] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
-[17:53:03] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_G5, enabling compatibility features
-[17:53:03] [Client thread/INFO] [FML]: -- System Details --
+[21:35:47] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:35:47] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:35:47] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[21:35:48] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2855 for Minecraft 1.12.2 loading
+[21:35:48] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_301, running on Windows 10:amd64:10.0, installed at D:\Programas\Java\jre1.8.0_301
+[21:35:48] [main/INFO] [FML]: Searching C:\Repositorios\ZombieWastelandDevelopment\Development\mods for mods
+[21:35:48] [main/INFO] [FML]: Searching C:\Repositorios\ZombieWastelandDevelopment\Development\mods\1.12.2 for mods
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.12.2-3.4.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in BetterFoliage-MC1.12-2.3.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod BetterFoliageLoader (mods.betterfoliage.loader.BetterFoliageLoader) is not signed!
+[21:35:48] [main/INFO] [FML]: Loading tweaker guichaguri.betterfps.tweaker.BetterFpsTweaker from BetterFps-1.4.8.jar
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ChunkAnimator-MC1.12-1.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod lumien.chunkanimator.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:35:48] [main/WARN] [FML]: The coremod LoadingPlugin (lumien.chunkanimator.asm.LoadingPlugin) is not signed!
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CreativeCore_v1.10.61_mc1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod com.creativemd.creativecore.core.CreativePatchingLoader does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:35:48] [main/WARN] [FML]: The coremod CreativePatchingLoader (com.creativemd.creativecore.core.CreativePatchingLoader) is not signed!
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:35:48] [main/WARN] [FML]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in CustomSkinLoader_Forge-14.9.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod customskinloader.forge.ForgePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:35:48] [main/WARN] [FML]: The coremod ForgePlugin (customskinloader.forge.ForgePlugin) is not signed!
+[21:35:48] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from DynamicSurroundings-1.12.2-3.6.2.1.jar
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in foamfix-0.10.14-1.12.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod pl.asie.foamfix.coremod.FoamFixCore does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ForgeEndertech-1.12.2-4.5.5.0-build.0561.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod com.endertech.minecraft.forge.coremod.CorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:35:48] [main/WARN] [FML]: The coremod CorePlugin (com.endertech.minecraft.forge.coremod.CorePlugin) is not signed!
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Forgelin-1.8.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod net.shadowfacts.forgelin.preloader.ForgelinPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:35:48] [main/WARN] [FML]: The coremod ForgelinPlugin (net.shadowfacts.forgelin.preloader.ForgelinPlugin) is not signed!
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in InventoryTweaks-1.63.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod invtweaks.forge.asm.FMLPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:35:48] [main/WARN] [FML]: The coremod ObfuscatePlugin (com.mrcrayfish.obfuscate.asm.ObfuscatePlugin) is not signed!
+[21:35:48] [main/INFO] [FML]: Loading tweaker optifine.OptiFineForgeTweaker from OptiFine_1.12.2_HD_U_G5.jar
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in ResourceLoader-MC1.12.1-1.5.3.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod lumien.resourceloader.asm.LoadingPlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in somnia-1.11-beta.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod SFMLLoadingPlugin (com.kingrunes.somnia.asm.SFMLLoadingPlugin) is not signed!
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in Sound-Physics-1.12.2-1.0.10-1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod CoreModLoader (com.sonicether.soundphysics.CoreModLoader) is not signed!
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in techguns-1.12.2-2.0.2.0_pre3.2.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod Techguns Core (techguns.core.TechgunsFMLPlugin) is not signed!
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in TenshiLib-1.12.2-1.2.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod TenshiCore (com.flemmli97.tenshilib.asm.ASMLoader) is not signed!
+[21:35:48] [main/WARN] [FML]: Found FMLCorePluginContainsFMLMod marker in thiccentities-1.4.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[21:35:48] [main/WARN] [FML]: The coremod wiresegal.thicc.asm.ThiccCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[21:35:48] [main/WARN] [FML]: The coremod ThiccEntities Plugin (wiresegal.thicc.asm.ThiccCorePlugin) is not signed!
+[21:35:48] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from VanillaFix-1.0.10-150.jar
+[21:35:48] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from wi-zoom-v1.1-MC1.12.2-release.jar
+[21:35:48] [main/INFO] [FML]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from phosphor-forge-mc1.12.2-0.2.7-universal.jar
+[21:35:48] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:35:48] [main/INFO] [LaunchWrapper]: Loading tweak class name guichaguri.betterfps.tweaker.BetterFpsTweaker
+[21:35:48] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[21:35:48] [main/INFO] [mixin]: SpongePowered MIXIN Subsystem Version=0.8 Source=file:/C:/Repositorios/ZombieWastelandDevelopment/Development/mods/1.12.2/VanillaFix-1.0.10-150.jar Service=LaunchWrapper Env=CLIENT
+[21:35:48] [main/INFO] [VanillaFix]: Initializing VanillaFix
+[21:35:48] [main/INFO] [VanillaFix]: Initializing StacktraceDeobfuscator
+[21:35:48] [main/INFO] [VanillaFix]: Found MCP method mappings: methods-stable_39.csv
+[21:35:49] [main/INFO] [VanillaFix]: Done initializing StacktraceDeobfuscator
+[21:35:49] [main/INFO] [VanillaFix]: Initializing Bug Fix Mixins
+[21:35:49] [main/INFO] [mixin]: Compatibility level set to JAVA_8
+[21:35:49] [main/INFO] [VanillaFix]: Initializing Crash Fix Mixins
+[21:35:49] [main/INFO] [VanillaFix]: Initializing Profiler Improvement Mixins
+[21:35:49] [main/INFO] [VanillaFix]: Initializing Texture Fix Mixins
+[21:35:49] [main/INFO] [VanillaFix]: Initializing Mod Support Mixins
+[21:35:49] [main/WARN] [FML]: The coremod VanillaFixLoadingPlugin (org.dimdev.vanillafix.VanillaFixLoadingPlugin) is not signed!
+[21:35:49] [main/WARN] [FML]: The coremod WiZoomCoreMod (net.wurstclient.zoom.WiZoomCoreMod) is not signed!
+[21:35:49] [main/ERROR] [mixin]: Mixin config wi-zoom.mixins.json does not specify "minVersion" property
+[21:35:49] [main/WARN] [FML]: The coremod PhosphorFMLLoadingPlugin (me.jellysquid.mods.phosphor.core.PhosphorFMLLoadingPlugin) is not signed!
+[21:35:49] [main/INFO] [LaunchWrapper]: Loading tweak class name optifine.OptiFineForgeTweaker
+[21:35:49] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:35:49] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:35:49] [main/WARN] [LaunchWrapper]: Tweak class name org.spongepowered.asm.launch.MixinTweaker has already been visited -- skipping
+[21:35:49] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:35:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:35:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[21:35:49] [main/INFO] [LaunchWrapper]: Calling tweak class optifine.OptiFineForgeTweaker
+[21:35:49] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: acceptOptions
+[21:35:49] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: injectIntoClassLoader
+[21:35:49] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ClassTransformer
+[21:35:49] [main/INFO] [STDOUT]: [optifine.OptiFineClassTransformer:dbg:242]: OptiFine ZIP file: C:\Repositorios\ZombieWastelandDevelopment\Development\mods\1.12.2\OptiFine_1.12.2_HD_U_G5.jar
+[21:35:49] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:52] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[21:35:52] [main/INFO] [FML]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[21:35:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$InitTransformer
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(<init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V)
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinTransformer
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;)
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadSkin(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation;)
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadProfileTexturesTransformer
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V)
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadProfileTextures(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V)
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SkinManagerTransformer$LoadSkinFromCacheTransformer
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;)
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.resources.SkinManager(loadSkinFromCache(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map;)
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.PlayerTabTransformer$ScoreObjectiveTransformer
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay(func_175249_a(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V)
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.GuiPlayerTabOverlay(renderPlayerlist(ILnet/minecraft/scoreboard/Scoreboard;Lnet/minecraft/scoreboard/ScoreObjective;)V)
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING TRANSFORMER customskinloader.forge.transformer.SpectatorMenuTransformer$PlayerMenuObjectTransformer
+[21:35:52] [main/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [main INFO] [CSL DEBUG] REGISTERING METHOD net.minecraft.client.gui.spectator.PlayerMenuObject(<init>(Lcom/mojang/authlib/GameProfile;)V)
+[21:35:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:52] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[21:35:52] [main/INFO] [mixin]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@28cb3a25
+[21:35:52] [main/INFO] [LaunchWrapper]: Calling tweak class guichaguri.betterfps.tweaker.BetterFpsTweaker
+[21:35:52] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[21:35:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:53] [main/INFO] [BiomeTweakerCore]: Beginning early config parsing...
+[21:35:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[21:35:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:35:54] [main/INFO] [LaunchWrapper]: Loading tweak class name org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[21:35:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[21:35:54] [main/INFO] [LaunchWrapper]: Calling tweak class org.spongepowered.asm.mixin.EnvironmentStateTweaker
+[21:35:54] [main/INFO] [STDOUT]: [optifine.OptiFineForgeTweaker:dbg:56]: OptiFineForgeTweaker: getLaunchArguments
+[21:35:54] [main/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentHelper
+[21:35:54] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
+[21:35:54] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:54] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
+[21:35:54] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:54] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.com.sonicether.soundphysics.CoreModInjector' was detected and will no longer process meta class data
+[21:35:54] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[21:35:54] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[21:35:54] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:54] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:54] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:54] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[21:35:54] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:54] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[21:35:54] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:54] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:54] [main/INFO] [Thicc ASM]: Transforming Entity
+[21:35:54] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [setSize, func_70105_a] Descriptor (FF)V)
+[21:35:54] [main/INFO] [Thicc ASM]: Attempting to insert: Size hook
+[21:35:54] [main/INFO] [Thicc ASM]: Patch result: Success
+[21:35:55] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class MinecraftServer
+[21:35:55] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class MinecraftServer
+[21:35:55] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.world.chunk.BlockStateContainer.func_186018_a
+[21:35:55] [main/INFO] [STDOUT]: [com.flemmli97.tenshilib.asm.ASMTransformer:asmDebug:43]: [TenshiCore]: Patching Minecraft.clickMouse
+[21:35:55] [main/INFO] [BetterFps]: Patching net.minecraft.client.Minecraft... (bib)
+[21:35:55] [main/INFO] [mixin]: A re-entrant transformer 'guichaguri.betterfps.transformers.PatcherTransformer' was detected and will no longer process meta class data
+[21:35:55] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.lumien.resourceloader.asm.ClassTransformer' was detected and will no longer process meta class data
+[21:35:55] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class EntityRenderer
+[21:35:55] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class EntityRenderer
+[21:35:55] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.EntityRenderer
+[21:35:55] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [renderWorldPass, func_175068_a] Descriptor (IFJ)V)
+[21:35:55] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:55] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/EntityRenderer.func_78479_a (FI)V
+[21:35:55] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:56] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[21:35:56] [main/INFO] [BiomeTweakerCore]: Attempting to patch class net.minecraft.world.World...
+[21:35:56] [main/INFO] [BiomeTweakerCore]: Sucessfully patched net.minecraft.world.World!
+[21:35:56] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.me.superckl.biometweakercore.BiomeTweakerASMTransformer' was detected and will no longer process meta class data
+[21:35:56] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[21:35:56] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:141]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[21:35:56] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.BlockModelRenderer
+[21:35:56] [main/INFO] [Quark ASM]: Optifine Detected. Disabling Patch for Names [renderQuadsFlat, func_187496_a] Descriptor (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;IZLnet/minecraft/client/renderer/BufferBuilder;Ljava/util/List;Ljava/util/BitSet;)V
+[21:35:56] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchItemRenderer_updateEquippedItem:530]: Successfully patched ItemRenderer.updateEquippedItem with ASM
+[21:35:56] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.lumien.chunkanimator.asm.ClassTransformer' was detected and will no longer process meta class data
+[21:35:56] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.client.renderer.chunk.RenderChunk.func_178581_b (FFFLnet/minecraft/client/renderer/chunk/ChunkCompileTaskGenerator;)V (matching rebuildChunk)
+[21:35:56] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying RenderChunk block render override
+[21:35:56] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying RenderChunk block layer override (Optifine)
+[21:35:56] [main/INFO] [Obfuscate]: Applying ASM to RenderItem
+[21:35:56] [main/INFO] [Obfuscate]: Successfully patched RenderItem
+[21:35:56] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.RenderItem
+[21:35:56] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [renderItem, func_180454_a] Descriptor (Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[21:35:56] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:56] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:56] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEffect, func_191966_a] Descriptor (Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[21:35:56] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:56] [main/INFO] [Quark ASM]: Located patch target node LDC -8372020
+[21:35:56] [main/INFO] [Quark ASM]: Located patch target node LDC -8372020
+[21:35:56] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:56] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.vazkii.quark.base.asm.ClassTransformer' was detected and will no longer process meta class data
+[21:35:56] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderModel:482]: Successfully patched 2 arg RenderItem.RenderModel with ASM
+[21:35:56] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem2:370]: Successfully patched 2 arg RenderItem.RenderItem with ASM
+[21:35:56] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem:301]: Successfully patched 4 arg RenderItem.RenderItem with ASM
+[21:35:56] [main/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItemGUI:425]: Successfully patched RenderItem.renderItemModelIntoGUI with ASM
+[21:35:56] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:89]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
+[21:35:56] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[21:35:56] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[21:35:56] [main/INFO] [Thicc ASM]: Transforming Render
+[21:35:56] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [renderShadow, func_76975_c] Descriptor (Lnet/minecraft/entity/Entity;DDDFF)V)
+[21:35:56] [main/INFO] [Thicc ASM]: Attempting to insert: Resize shadow
+[21:35:56] [main/INFO] [Thicc ASM]: Patch result: Success
+[21:35:56] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[21:35:56] [main/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[21:35:57] [main/INFO] [mixin]: A re-entrant transformer '$wrapper.pl.asie.foamfix.coremod.FoamFixTransformer' was detected and will no longer process meta class data
+[21:35:57] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[21:35:57] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[21:35:57] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class Chunk
+[21:35:57] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class Chunk
+[21:35:57] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[21:35:57] [main/INFO] [STDOUT]: [com.flemmli97.tenshilib.asm.ASMTransformer:asmDebug:43]: [TenshiCore]: Patching Minecraft.clickMouse
+[21:35:57] [main/INFO] [BetterFps]: Patching net.minecraft.client.Minecraft... (bib)
+[21:35:57] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[21:35:57] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[21:35:57] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.client.multiplayer.WorldClient.func_184153_a (IIIILjava/util/Random;ZLnet/minecraft/util/math/BlockPos$MutableBlockPos;)V (matching showBarrierParticles)
+[21:35:58] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying random display tick call hook
+[21:35:58] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class EntityPlayer
+[21:35:58] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class EntityPlayer
+[21:35:58] [main/INFO] [Thicc ASM]: Transforming EntityPlayer
+[21:35:58] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getDefaultEyeHeight, ] Descriptor ()F)
+[21:35:58] [main/INFO] [Thicc ASM]: Attempting to insert: Default eye height
+[21:35:58] [main/INFO] [Thicc ASM]: Patch result: Success
+[21:35:58] [main/INFO] [Quark ASM]: Transforming net.minecraft.entity.Entity
+[21:35:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[21:35:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:58] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:58] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[21:35:58] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:58] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[21:35:58] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:58] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:58] [main/INFO] [Thicc ASM]: Transforming Entity
+[21:35:58] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [setSize, func_70105_a] Descriptor (FF)V)
+[21:35:58] [main/INFO] [Thicc ASM]: Attempting to insert: Size hook
+[21:35:58] [main/INFO] [Thicc ASM]: Patch result: Success
+[21:35:58] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getEyeHeight, func_70047_e] Descriptor ()F)
+[21:35:58] [main/INFO] [Thicc ASM]: Attempting to insert: Rescale original height
+[21:35:58] [main/INFO] [Thicc ASM]: Patch result: Success
+[21:35:58] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getEyeHeight, func_70047_e] Descriptor ()F)
+[21:35:58] [main/INFO] [Thicc ASM]: Attempting to insert: Eye height hook
+[21:35:58] [main/INFO] [Thicc ASM]: Patch result: Success
+[21:35:58] [main/INFO] [BetterFps]: Patching net.minecraft.client.entity.EntityPlayerSP... (bud)
+[21:35:58] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class EntityPlayer
+[21:35:58] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class EntityPlayer
+[21:35:58] [main/INFO] [Thicc ASM]: Transforming EntityPlayer
+[21:35:58] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getDefaultEyeHeight, ] Descriptor ()F)
+[21:35:58] [main/INFO] [Thicc ASM]: Attempting to insert: Default eye height
+[21:35:58] [main/INFO] [Thicc ASM]: Patch result: Success
+[21:35:58] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getEyeHeight, func_70047_e] Descriptor ()F)
+[21:35:58] [main/INFO] [Thicc ASM]: Attempting to insert: Rescale original height
+[21:35:58] [main/INFO] [Thicc ASM]: Patch result: Success
+[21:35:58] [main/INFO] [Thicc ASM]: Applying Transformation to method (Names [getEyeHeight, func_70047_e] Descriptor ()F)
+[21:35:58] [main/INFO] [Thicc ASM]: Attempting to insert: Eye height hook
+[21:35:58] [main/INFO] [Thicc ASM]: Patch result: Success
+[21:35:58] [main/INFO] [BiomeTweakerCore]: Attempting to patch class net.minecraft.world.World...
+[21:35:58] [main/INFO] [BiomeTweakerCore]: Sucessfully patched net.minecraft.world.World!
+[21:35:58] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/coremod/patches/IFoamFixWorldRemovable
+[21:35:58] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:141]: Added METHOD: net.minecraft.world.World.foamfix_removeUnloadedEntities
+[21:35:59] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.client.multiplayer.WorldClient.func_184153_a (IIIILjava/util/Random;ZLnet/minecraft/util/math/BlockPos$MutableBlockPos;)V (matching showBarrierParticles)
+[21:35:59] [main/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying random display tick call hook
+[21:35:59] [main/INFO] [Quark ASM]: Transforming net.minecraft.client.gui.inventory.GuiContainer
+[21:35:59] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [drawScreen, func_73863_a] Descriptor (IIF)V)
+[21:35:59] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:59] [main/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiContainer.func_146979_b (II)V
+[21:35:59] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:59] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class MinecraftServer
+[21:35:59] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class MinecraftServer
+[21:35:59] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class WorldServer
+[21:35:59] [main/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class WorldServer
+[21:35:59] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.WorldServerRemovalPatch:apply:57]: Patched updateEntities in net/minecraft/world/WorldServer func_72939_s
+[21:35:59] [main/INFO] [Quark ASM]: Transforming net.minecraft.world.WorldServer
+[21:35:59] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
+[21:35:59] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:59] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:59] [main/INFO] [Quark ASM]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
+[21:35:59] [main/INFO] [Quark ASM]: Located Method, patching...
+[21:35:59] [main/INFO] [Quark ASM]: Patch result: true
+[21:35:59] [main/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.client.util.SearchTreeManager.func_110549_a
+[21:35:59] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[21:35:59] [main/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[21:36:00] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Mati
+[21:36:00] [Client thread/INFO] [BetterFps]: Patching net.minecraft.block.Block... (aow)
+[21:36:01] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[21:36:01] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[21:36:01] [Client thread/INFO] [BiomeTweakerCore]: Attempting to patch class net.minecraft.world.biome.Biome...
+[21:36:01] [Client thread/INFO] [BiomeTweakerCore]: Sucessfully patched net.minecraft.world.biome.Biome! 1 patches were applied.
+[21:36:01] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.Enchantment
+[21:36:01] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[21:36:01] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:01] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[21:36:01] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:02] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityItem
+[21:36:02] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
+[21:36:02] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:02] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:02] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.state.BlockStateContainer.createState
+[21:36:02] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.state.BlockStateContainer.foamfix_mapper
+[21:36:02] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.func_185892_j ()F (matching getAmbientOcclusionLightValue)
+[21:36:02] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying getAmbientOcclusionLightValue() override
+[21:36:02] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.func_185916_f ()Z (matching useNeighborBrightness)
+[21:36:02] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying useNeighborBrightness() override
+[21:36:02] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.doesSideBlockRendering (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;)Z
+[21:36:02] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying doesSideBlockRendering() override
+[21:36:02] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraft.block.state.BlockStateContainer$StateImplementation.func_185914_p ()Z (matching isOpaqueCube)
+[21:36:02] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying isOpaqueCube() override
+[21:36:02] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.equals
+[21:36:02] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyEnum.hashCode
+[21:36:02] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode
+[21:36:02] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyEnum.foamfix_hashCode_calced
+[21:36:02] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyInteger.hashCode
+[21:36:02] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode
+[21:36:02] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.block.properties.PropertyInteger.foamfix_hashCode_calced
+[21:36:02] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.equals
+[21:36:02] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.properties.PropertyBool.hashCode
+[21:36:02] [Client thread/INFO] [BetterFps]: Patching math utils with "RIVENS_HALF" algorithm
+[21:36:03] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemStack
+[21:36:03] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located patch target node ARETURN
+[21:36:03] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:03] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockDynamicLiquid
+[21:36:03] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[21:36:03] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:03] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.TileEntity.func_190559_a
+[21:36:03] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.block.BlockBed.func_189540_a
+[21:36:03] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.block.BlockPistonBase
+[21:36:03] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
+[21:36:03] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:03] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
+[21:36:03] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:03] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[21:36:03] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:03] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[21:36:03] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:03] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.tileentity.TileEntityPiston
+[21:36:03] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:03] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:03] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[21:36:03] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:03] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:03] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[21:36:03] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:04] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.GhostBusterBlockStateAccessPatch$FFMethodVisitor:visitMethodInsn:93]: Added ghost buster patch (getBlockState call wrapped) in net/minecraft/block/BlockFarmland func_176530_e (net/minecraft/world/World func_180495_p (Lnet/minecraft/util/math/BlockPos;)Lnet/minecraft/block/state/IBlockState;)
+[21:36:04] [Client thread/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityBeacon... (avh)
+[21:36:05] [Client thread/INFO] [BetterFps]: Patching net.minecraft.block.BlockHopper... (arl)
+[21:36:05] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[21:36:05] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/tileentity/TileEntityHopper to pl/asie/foamfix/common/TileEntityFasterHopper
+[21:36:05] [Client thread/INFO] [BetterFps]: Patching net.minecraft.tileentity.TileEntityHopper... (avw)
+[21:36:05] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.enchantment.EnchantmentDamage
+[21:36:05] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[21:36:05] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:05] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[21:36:05] [Client thread/INFO] [Quark ASM]: Located patch target node IRETURN
+[21:36:05] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:05] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityMinecart
+[21:36:05] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
+[21:36:05] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:05] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
+[21:36:05] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:05] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.item.EntityBoat
+[21:36:05] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
+[21:36:05] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:05] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
+[21:36:05] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:06] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class WorldServer
+[21:36:06] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class WorldServer
+[21:36:06] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.item.ItemBanner
+[21:36:06] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
+[21:36:06] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:06] [Client thread/INFO] [Quark ASM]: Located patch target node BIPUSH 6
+[21:36:06] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:07] [Client thread/INFO] [STDOUT]: [com.flemmli97.tenshilib.asm.ASMTransformer:asmDebug:43]: [TenshiCore]: Patching PathNavigate
+[21:36:07] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.entity.ai.EntityAITarget
+[21:36:07] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
+[21:36:07] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:07] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:07] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:101]: Added INTERFACE: pl/asie/foamfix/api/IFoamFixMobSpawnerLogic
+[21:36:07] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.tileentity.MobSpawnerBaseLogic.func_98279_f
+[21:36:07] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCache
+[21:36:07] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCachePESize
+[21:36:07] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_activatedCacheTime
+[21:36:07] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCache
+[21:36:07] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:165]: Added FIELD: net.minecraft.tileentity.MobSpawnerBaseLogic.foamfix_forcedCacheTime
+[21:36:08] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
+[21:36:08] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
+[21:36:08] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:08] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
+[21:36:08] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:09] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.inventory.ContainerMerchant
+[21:36:09] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
+[21:36:09] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:09] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[21:36:09] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[21:36:09] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[21:36:09] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[21:36:09] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:10] [Client thread/INFO] [net.optifine.reflect.Reflector]: [OptiFine] *** Reflector Forge ***
+[21:36:10] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class EntityRenderer
+[21:36:10] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class EntityRenderer
+[21:36:10] [Client thread/INFO] [BetterFps]: Patching net.minecraft.client.renderer.EntityRenderer... (buq)
+[21:36:10] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.EntityRenderer
+[21:36:10] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderWorldPass, func_175068_a] Descriptor (IFJ)V)
+[21:36:10] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:10] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/EntityRenderer.func_78479_a (FI)V
+[21:36:10] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:10] [BetterFps Update Checker/WARN] [BetterFps]: Could not check for updates: Server returned HTTP response code: 403 for URL: http://widget.mcf.li/mc-mods/minecraft/229876-betterfps.json
+[21:36:10] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ModelLoaderCleanupPatch:apply:99]: Added ModelLoader cleanup patch (1 occurences).
+[21:36:10] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.entity.RenderManager
+[21:36:10] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEntity, func_188391_a] Descriptor (Lnet/minecraft/entity/Entity;DDDFFZ)V)
+[21:36:10] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:10] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/entity/Render.func_76986_a (Lnet/minecraft/entity/Entity;DDDFF)V
+[21:36:10] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:10] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.entity.Render
+[21:36:10] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEntityOnFire, func_76977_a] Descriptor (Lnet/minecraft/entity/Entity;DDDF)V)
+[21:36:10] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:10] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:10] [Client thread/INFO] [Thicc ASM]: Transforming Render
+[21:36:10] [Client thread/INFO] [Thicc ASM]: Applying Transformation to method (Names [renderShadow, func_76975_c] Descriptor (Lnet/minecraft/entity/Entity;DDDFF)V)
+[21:36:10] [Client thread/INFO] [Thicc ASM]: Attempting to insert: Resize shadow
+[21:36:10] [Client thread/INFO] [Thicc ASM]: Patch result: Success
+[21:36:10] [Client thread/INFO] [net.optifine.reflect.Reflector]: [OptiFine] *** Reflector Vanilla ***
+[21:36:10] [Client thread/INFO] [STDOUT]: [com.flemmli97.tenshilib.asm.ASMTransformer:asmDebug:43]: [TenshiCore]: Patching ModelPlayer.doRender (Actually ModelBiped.doRender)
+[21:36:10] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.model.ModelBiped
+[21:36:10] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [setRotationAngles, func_78087_a] Descriptor (FFFFFFLnet/minecraft/entity/Entity;)V)
+[21:36:10] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:10] [Client thread/INFO] [Quark ASM]: Located patch target node RETURN
+[21:36:10] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:10] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.entity.RenderBoat
+[21:36:10] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [doRender, func_188300_b] Descriptor (Lnet/minecraft/entity/item/EntityBoat;DDDFF)V)
+[21:36:10] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:10] [Client thread/INFO] [Quark ASM]: Located patch target node INVOKEINTERFACE net/minecraft/client/model/IMultipassModel.func_187054_b (Lnet/minecraft/entity/Entity;FFFFFF)V
+[21:36:10] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:10] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[21:36:10] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[21:36:11] [Client thread/INFO] [Config]: [OptiFine] 
+[21:36:11] [Client thread/INFO] [Config]: [OptiFine] OptiFine_1.12.2_HD_U_G5
+[21:36:11] [Client thread/INFO] [Config]: [OptiFine] Build: 20210124-142939
+[21:36:11] [Client thread/INFO] [Config]: [OptiFine] OS: Windows 10 (amd64) version 10.0
+[21:36:11] [Client thread/INFO] [Config]: [OptiFine] Java: 1.8.0_301, Oracle Corporation
+[21:36:11] [Client thread/INFO] [Config]: [OptiFine] VM: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+[21:36:11] [Client thread/INFO] [Config]: [OptiFine] LWJGL: 2.9.4
+[21:36:11] [Client thread/INFO] [Config]: [OptiFine] OpenGL: NVIDIA GeForce GTX 1050/PCIe/SSE2, version 4.6.0 NVIDIA 472.12, NVIDIA Corporation
+[21:36:11] [Client thread/INFO] [Config]: [OptiFine] OpenGL Version: 4.6.0
+[21:36:11] [Client thread/INFO] [Config]: [OptiFine] Maximum texture size: 32768x32768
+[21:36:11] [VersionCheck/INFO] [Config]: [OptiFine] Checking for new version
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] OpenGL Version: 4.6.0 NVIDIA 472.12
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Vendor:  NVIDIA Corporation
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Renderer: NVIDIA GeForce GTX 1050/PCIe/SSE2
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Capabilities:  2.0  2.1  3.0  3.2  4.0 
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_DRAW_BUFFERS: 8
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_COLOR_ATTACHMENTS_EXT: 8
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Load shaders configuration.
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Loaded shaderpack: Chocapic13_V8_Ultra.zip
+[21:36:12] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Worlds: -1, 1
+[21:36:12] [VersionCheck/INFO] [Config]: [OptiFine] Version found: G5
+[21:36:12] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of block mappings after resources are loaded
+[21:36:12] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of item mappings after resources are loaded
+[21:36:12] [Client thread/INFO] [Config]: [OptiFine] [Shaders] Delayed loading of entity mappings after resources are loaded
+[21:36:12] [Client thread/WARN] [Config]: [OptiFine] [Shaders] Duplicate option: Purkinje_strength, key: screen.Purkinje_effect
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: texelSizeX
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: texelSizeY
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: texelSize
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: framemod8
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: normSunVec
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: normUpVec
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: sunPosX
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: sunPosY
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: sunPosZ
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: sunVec
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: upPosX
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: upPosY
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: upPosZ
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: upVec
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: sunElevation
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: lightSign
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: maxAngle
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: cosFov
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: viewDirX
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: viewDirY
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: viewDirZ
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: normView
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shViewDirX
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shViewDirY
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shViewDirZ
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: shadowViewDir
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shStartX
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shStartY
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shStartZ
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: shadowCamera
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: wSunX
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: wSunY
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: wSunZ
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shSunX
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shSunY
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom variable: shSunZ
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: shadowLightVec
+[21:36:12] [Client thread/INFO] [net.optifine.shaders.SMCLog]: [Shaders] Custom uniform: shadowMaxProj
+[21:36:12] [Client thread/INFO] [Quark ASM]: Transforming net.minecraftforge.client.model.pipeline.LightUtil
+[21:36:12] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderQuadColor, ] Descriptor (Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/client/renderer/block/model/BakedQuad;I)V)
+[21:36:12] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:12] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:12] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.patches.ReturnIfBooleanTruePatch:apply:89]: Added return if option true in net/minecraft/client/renderer/texture/TextureMap func_94248_c
+[21:36:12] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[21:36:12] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[21:36:13] [Client thread/INFO] [FML]: Forge Mod Loader has detected optifine OptiFine_1.12.2_HD_U_G5, enabling compatibility features
+[21:36:13] [Client thread/INFO] [FML]: -- System Details --
   Minecraft Version: 1.12.2
   Operating System: Windows 10 (amd64) version 10.0
-  Java Version: 1.8.0_271, Oracle Corporation
+  Java Version: 1.8.0_301, Oracle Corporation
   Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-  Memory: 88138032 bytes (84 MB) / 301989888 bytes (288 MB) up to 4294967296 bytes (4096 MB)
+  Memory: 138006984 bytes (131 MB) / 335544320 bytes (320 MB) up to 4294967296 bytes (4096 MB)
   JVM Flags: 9 total; -Xmx4G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:+IgnoreUnrecognizedVMOptions -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
   IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
   FML: 
@@ -577,111 +577,111 @@
                                         mods.betterfoliage.loader.BetterFoliageTransformer
                                       LoadingPlugin (ChunkAnimator-MC1.12-1.2.jar)
                                         lumien.chunkanimator.asm.ClassTransformer
-  GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 466.11' Renderer: 'NVIDIA GeForce GTX 1050/PCIe/SSE2'
+  GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 472.12' Renderer: 'NVIDIA GeForce GTX 1050/PCIe/SSE2'
   Suspected Mods: Unknown
 
-[17:53:03] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2855 Initialized
-[17:53:03] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[17:53:03] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[17:53:03] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[17:53:04] [Client thread/INFO] [FML]: Searching C:\Repositorios\ZombieWastelandDevelopment\Development\mods for mods
-[17:53:04] [Client thread/INFO] [FML]: Searching C:\Repositorios\ZombieWastelandDevelopment\Development\mods\1.12.2 for mods
-[17:53:05] [Client thread/ERROR] [FML]: Unable to parse dependency for mod 'animalium' with dependency string 'after:BiomesOPlenty'. The modId 'BiomesOPlenty' must be all lowercase.
-[17:53:05] [Client thread/WARN] [FML]: Mod betterfoliage is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.3.2
-[17:53:05] [Client thread/WARN] [FML]: Mod bettermineshafts is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-2.2.1
-[17:53:05] [Client thread/WARN] [FML]: Mod chickenchunks is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.2.74
-[17:53:05] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
-[17:53:06] [Client thread/WARN] [FML]: Mod fpsreducer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.12.2-1.18
-[17:53:06] [Client thread/WARN] [FML]: Mod mobends is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.0-beta-20.06.20
-[17:53:07] [Client thread/ERROR] [FML]: Unable to parse dependency for mod 'playerskins' with dependency string 'after:BiomesOPlenty'. The modId 'BiomesOPlenty' must be all lowercase.
-[17:53:07] [Client thread/WARN] [FML]: Mod realdrops is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.14
-[17:53:07] [Client thread/WARN] [FML]: Mod somnia is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.11-beta.2
-[17:53:07] [Client thread/INFO] [FML]: Disabling mod soundphysics it is server side only.
-[17:53:07] [Client thread/WARN] [FML]: Mod vanillafix is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.10-150
-[17:53:07] [Client thread/WARN] [FML]: Mod worldstripper is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.6.0-1.12.2
-[17:53:07] [Client thread/WARN] [FML]: Mod wgblockreplacer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.3.0
-[17:53:07] [Client thread/INFO] [FML]: Forge Mod Loader has identified 127 mods to load
-[17:53:08] [Client thread/INFO] [FML]: FML has found a non-mod file mcjtytools-0.0.21.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
-[17:53:08] [Client thread/WARN] [mixin]: Error loading class: team/chisel/client/TextureStitcher$MagicStitchingSprite (java.lang.ClassNotFoundException: The specified class 'team.chisel.client.TextureStitcher$MagicStitchingSprite' was not found)
-[17:53:08] [Client thread/WARN] [mixin]: Error loading class: openblocks/client/renderer/tileentity/TileEntityTankRenderer (java.lang.ClassNotFoundException: The specified class 'openblocks.client.renderer.tileentity.TileEntityTankRenderer' was not found)
-[17:53:08] [Client thread/WARN] [mixin]: Error loading class: slimeknights/tconstruct/library/client/GuiUtil (java.lang.ClassNotFoundException: The specified class 'slimeknights.tconstruct.library.client.GuiUtil' was not found)
-[17:53:08] [Client thread/WARN] [mixin]: Error loading class: slimeknights/tconstruct/library/client/RenderUtil (java.lang.ClassNotFoundException: The specified class 'slimeknights.tconstruct.library.client.RenderUtil' was not found)
-[17:53:08] [Client thread/WARN] [mixin]: Error loading class: morph/avaritia/client/render/item/HaloRenderItem (java.lang.ClassNotFoundException: The specified class 'morph.avaritia.client.render.item.HaloRenderItem' was not found)
-[17:53:08] [Client thread/WARN] [mixin]: Error loading class: morph/avaritia/client/render/item/WrappedItemRenderer (java.lang.ClassNotFoundException: The specified class 'morph.avaritia.client.render.item.WrappedItemRenderer' was not found)
-[17:53:10] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, somniacore, biometweakercore, foamfixcore, obfuscate, techguns_core, adminshop, aiimprovements, animalium, antiqueatlas, antiqueatlasoverlay, applecore, appleskin, autoreglib, backtools, badmobs, bettercaves, bettercompass, betterfoliage, bettermineshafts, betterwithmods, biomesoplenty, biometweaker, blockgravity, carryon, chickenchunks, chisel, chunkpregenerator, chunkanimator, classiccombat, codechickenlib, cofhworld, collective, comforts, controlling, extendedrenderer, coroutil, configmod, corpsecomplex, ctgui, crafttweaker, crafttweakerjei, creativecore, ctm, custommainmenu, customskinloader, customstartinggear, dmgcontrol, deathcounter, dsurround, dynamictrees, dynamictreesbop, enhancedvisuals, epicsiegemod, firstaid, flashlight, foamfix, foodexpansion, foodfunk, forgeendertech, forgelin, fpsreducer, hidenames, hungeroverhaul, waila, ichunutil, iguanatweaks, incontrol, inventorytweaks, iymts_mob_mod, jei, jeiintegration, jrftl, loottweaker, lostcities, materialchanger, mcwfences, mininghelmet, mobdismemberment, mobends, mpr, mobsunscreen, modtweaker, mousetweaks, moveplus, mtlib, mutantbeasts, nonetherportals, norecipebook, nei, omlib, ompd, openmodularturrets, placebo, playerskins, quark, realdrops, realistictorches, resourceloader, roughmobsrevamped, somnia, soundphysics, spartanshields, spawnercontrol, techguns, tenshilib, thiccentities, toastcontrol, toughasnails, tumbleweed, vanillafix, watercontrolextreme, wi-zoom, wildcrops, worldstripper, wgblockreplacer, weapons_of_the_apocalypse, wumpleutil, zombieawareness, betteranimals, betteranimalsplus, orelib, phosphor-lighting] at CLIENT
-[17:53:10] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, somniacore, biometweakercore, foamfixcore, obfuscate, techguns_core, adminshop, aiimprovements, animalium, antiqueatlas, antiqueatlasoverlay, applecore, appleskin, autoreglib, backtools, badmobs, bettercaves, bettercompass, betterfoliage, bettermineshafts, betterwithmods, biomesoplenty, biometweaker, blockgravity, carryon, chickenchunks, chisel, chunkpregenerator, chunkanimator, classiccombat, codechickenlib, cofhworld, collective, comforts, controlling, extendedrenderer, coroutil, configmod, corpsecomplex, ctgui, crafttweaker, crafttweakerjei, creativecore, ctm, custommainmenu, customskinloader, customstartinggear, dmgcontrol, deathcounter, dsurround, dynamictrees, dynamictreesbop, enhancedvisuals, epicsiegemod, firstaid, flashlight, foamfix, foodexpansion, foodfunk, forgeendertech, forgelin, fpsreducer, hidenames, hungeroverhaul, waila, ichunutil, iguanatweaks, incontrol, inventorytweaks, iymts_mob_mod, jei, jeiintegration, jrftl, loottweaker, lostcities, materialchanger, mcwfences, mininghelmet, mobdismemberment, mobends, mpr, mobsunscreen, modtweaker, mousetweaks, moveplus, mtlib, mutantbeasts, nonetherportals, norecipebook, nei, omlib, ompd, openmodularturrets, placebo, playerskins, quark, realdrops, realistictorches, resourceloader, roughmobsrevamped, somnia, soundphysics, spartanshields, spawnercontrol, techguns, tenshilib, thiccentities, toastcontrol, toughasnails, tumbleweed, vanillafix, watercontrolextreme, wi-zoom, wildcrops, worldstripper, wgblockreplacer, weapons_of_the_apocalypse, wumpleutil, zombieawareness, betteranimals, betteranimalsplus, orelib, phosphor-lighting] at SERVER
-[17:53:10] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.network.PacketBuffer.func_180714_a
-[17:53:10] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderEntityItem:169]: Successfully patched RenderEntityItem with ASM
-[17:53:10] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderEntityItem:169]: Successfully patched RenderEntityItem with ASM
-[17:53:10] [Thread-3/INFO] [FML]: Using alternative sync timing : 200 frames of Display.update took 6466146500 nanos
-[17:53:10] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.client.renderer.block.model.ModelResourceLocation.<init>
-[17:53:10] [Client thread/ERROR] [FML]: The mod wumpleutil is expecting signature @FINGERPRINT@ for source wumpleutil-1.12.2-2.12.9.jar, however there is no signature matching that description
-[17:53:10] [Client thread/WARN] [wumpleutil]: Invalid fingerprint detected! The file wumpleutil-1.12.2-2.12.9.jar may have been tampered with. This version will NOT be supported by the author!
-[17:53:10] [Client thread/WARN] [wumpleutil]: Expected fingerprint "@FINGERPRINT@" found "[]"
-[17:53:10] [Client thread/ERROR] [FML]: The mod foodfunk is expecting signature @FINGERPRINT@ for source foodfunk-1.12.2-4.9.6.jar, however there is no signature matching that description
-[17:53:11] [Client thread/WARN] [foodfunk]: Invalid fingerprint detected! The file foodfunk-1.12.2-4.9.6.jar may have been tampered with. This version will NOT be supported by the author!
-[17:53:11] [Client thread/WARN] [foodfunk]: Expected fingerprint "@FINGERPRINT@" found "[]"
-[17:53:11] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
-[17:53:11] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
-[17:53:11] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
-[17:53:11] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
-[17:53:12] [Client thread/INFO] [Obfuscate]: Applying ASM to RenderItem
-[17:53:12] [Client thread/INFO] [Obfuscate]: Successfully patched RenderItem
-[17:53:12] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.RenderItem
-[17:53:12] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderItem, func_180454_a] Descriptor (Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
-[17:53:12] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:53:12] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:53:12] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEffect, func_191966_a] Descriptor (Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
-[17:53:12] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:53:12] [Client thread/INFO] [Quark ASM]: Located patch target node LDC -8372020
-[17:53:12] [Client thread/INFO] [Quark ASM]: Located patch target node LDC -8372020
-[17:53:12] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:53:12] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderModel:482]: Successfully patched 2 arg RenderItem.RenderModel with ASM
-[17:53:12] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem2:370]: Successfully patched 2 arg RenderItem.RenderItem with ASM
-[17:53:12] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem:301]: Successfully patched 4 arg RenderItem.RenderItem with ASM
-[17:53:12] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItemGUI:425]: Successfully patched RenderItem.renderItemModelIntoGUI with ASM
-[17:53:12] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchItemRenderer_updateEquippedItem:530]: Successfully patched ItemRenderer.updateEquippedItem with ASM
-[17:53:12] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] CLASS net.minecraft.client.resources.SkinManager will be transformed
-[17:53:12] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method <init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V in class cex(net.minecraft.client.resources.SkinManager)
-[17:53:12] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method <init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V in class cex(net.minecraft.client.resources.SkinManager)
-[17:53:12] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation; in class cex(net.minecraft.client.resources.SkinManager)
-[17:53:12] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation; in class cex(net.minecraft.client.resources.SkinManager)
-[17:53:12] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V in class cex(net.minecraft.client.resources.SkinManager)
-[17:53:12] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V in class cex(net.minecraft.client.resources.SkinManager)
-[17:53:12] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map; in class cex(net.minecraft.client.resources.SkinManager)
-[17:53:12] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map; in class cex(net.minecraft.client.resources.SkinManager)
-[17:53:12] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
-[17:53:12] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
-[17:53:12] [Client thread/INFO] [Quark ASM]: Located Method, patching...
-[17:53:12] [Client thread/INFO] [Quark ASM]: Patch result: true
-[17:53:14] [Client thread/ERROR] [FML]: The mod cofhworld is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source CoFHWorld-1.12.2-1.4.0.1-universal.jar, however there is no signature matching that description
-[17:53:14] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class Chunk
-[17:53:14] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class Chunk
-[17:53:14] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
-[17:53:14] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
-[17:53:14] [Client thread/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_76615_h in mixins.phosphor.json:common.MixinChunk cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
-[17:53:14] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
-[17:53:14] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
-[17:53:15] [Client thread/ERROR] [soundphysicsinjector]: Target node not found! org.orecruncher.dsurround.client.sound.ConfigSoundInstance
-[17:53:15] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraftforge.client.model.ModelLoader.func_177570_a ()Lnet/minecraft/util/registry/IRegistry; (matching setupModelRegistry)
-[17:53:15] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying ModelLoader lifecycle callback
-[17:53:18] [Client thread/INFO] [FML]: The game window is being closed by the player, exiting.
-[17:53:18] [Client thread/WARN] [FML]: Java has been asked to exit (code 0)
-[17:53:18] [Client thread/WARN] [FML]: Exit trace:
-[17:53:18] [Client thread/WARN] [FML]: 	net.minecraftforge.fml.common.LoadController.transition(LoadController.java:145)
-[17:53:18] [Client thread/WARN] [FML]: 	net.minecraftforge.fml.common.Loader.loadMods(Loader.java:615)
-[17:53:18] [Client thread/WARN] [FML]: 	net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
-[17:53:18] [Client thread/WARN] [FML]: 	net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
-[17:53:18] [Client thread/WARN] [FML]: 	net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
-[17:53:18] [Client thread/WARN] [FML]: 	net.minecraft.client.main.Main.main(SourceFile:123)
-[17:53:18] [Client thread/WARN] [FML]: 	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:53:18] [Client thread/WARN] [FML]: 	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-[17:53:18] [Client thread/WARN] [FML]: 	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[17:53:18] [Client thread/WARN] [FML]: 	java.lang.reflect.Method.invoke(Unknown Source)
-[17:53:18] [Client thread/WARN] [FML]: 	net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
-[17:53:18] [Client thread/WARN] [FML]: 	net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-[17:53:18] [Client thread/WARN] [FML]: 	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:53:18] [Client thread/WARN] [FML]: 	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-[17:53:18] [Client thread/WARN] [FML]: 	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-[17:53:18] [Client thread/WARN] [FML]: 	java.lang.reflect.Method.invoke(Unknown Source)
-[17:53:18] [Client thread/WARN] [FML]: 	net.minecraft.a.m.main(Unknown Source)
+[21:36:13] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2855 Initialized
+[21:36:13] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[21:36:13] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[21:36:13] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[21:36:14] [Client thread/INFO] [FML]: Searching C:\Repositorios\ZombieWastelandDevelopment\Development\mods for mods
+[21:36:14] [Client thread/INFO] [FML]: Searching C:\Repositorios\ZombieWastelandDevelopment\Development\mods\1.12.2 for mods
+[21:36:15] [Client thread/ERROR] [FML]: Unable to parse dependency for mod 'animalium' with dependency string 'after:BiomesOPlenty'. The modId 'BiomesOPlenty' must be all lowercase.
+[21:36:15] [Client thread/WARN] [FML]: Mod betterfoliage is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.3.2
+[21:36:15] [Client thread/WARN] [FML]: Mod bettermineshafts is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-2.2.1
+[21:36:15] [Client thread/WARN] [FML]: Mod chickenchunks is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.4.2.74
+[21:36:15] [Client thread/WARN] [FML]: Mod codechickenlib is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 3.2.3.358
+[21:36:17] [Client thread/WARN] [FML]: Mod fpsreducer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version mc1.12.2-1.18
+[21:36:17] [Client thread/WARN] [FML]: Mod mobends is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.0-beta-20.06.20
+[21:36:17] [Client thread/ERROR] [FML]: Unable to parse dependency for mod 'playerskins' with dependency string 'after:BiomesOPlenty'. The modId 'BiomesOPlenty' must be all lowercase.
+[21:36:18] [Client thread/WARN] [FML]: Mod realdrops is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.2.14
+[21:36:18] [Client thread/WARN] [FML]: Mod somnia is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.11-beta.2
+[21:36:18] [Client thread/INFO] [FML]: Disabling mod soundphysics it is server side only.
+[21:36:18] [Client thread/WARN] [FML]: Mod vanillafix is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.0.10-150
+[21:36:18] [Client thread/WARN] [FML]: Mod worldstripper is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.6.0-1.12.2
+[21:36:18] [Client thread/WARN] [FML]: Mod wgblockreplacer is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 2.3.0
+[21:36:18] [Client thread/INFO] [FML]: Forge Mod Loader has identified 127 mods to load
+[21:36:18] [Client thread/INFO] [FML]: FML has found a non-mod file mcjtytools-0.0.21.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[21:36:19] [Client thread/WARN] [mixin]: Error loading class: team/chisel/client/TextureStitcher$MagicStitchingSprite (java.lang.ClassNotFoundException: The specified class 'team.chisel.client.TextureStitcher$MagicStitchingSprite' was not found)
+[21:36:19] [Client thread/WARN] [mixin]: Error loading class: openblocks/client/renderer/tileentity/TileEntityTankRenderer (java.lang.ClassNotFoundException: The specified class 'openblocks.client.renderer.tileentity.TileEntityTankRenderer' was not found)
+[21:36:19] [Client thread/WARN] [mixin]: Error loading class: slimeknights/tconstruct/library/client/GuiUtil (java.lang.ClassNotFoundException: The specified class 'slimeknights.tconstruct.library.client.GuiUtil' was not found)
+[21:36:19] [Client thread/WARN] [mixin]: Error loading class: slimeknights/tconstruct/library/client/RenderUtil (java.lang.ClassNotFoundException: The specified class 'slimeknights.tconstruct.library.client.RenderUtil' was not found)
+[21:36:19] [Client thread/WARN] [mixin]: Error loading class: morph/avaritia/client/render/item/HaloRenderItem (java.lang.ClassNotFoundException: The specified class 'morph.avaritia.client.render.item.HaloRenderItem' was not found)
+[21:36:19] [Client thread/WARN] [mixin]: Error loading class: morph/avaritia/client/render/item/WrappedItemRenderer (java.lang.ClassNotFoundException: The specified class 'morph.avaritia.client.render.item.WrappedItemRenderer' was not found)
+[21:36:20] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, somniacore, biometweakercore, foamfixcore, obfuscate, techguns_core, adminshop, aiimprovements, animalium, antiqueatlas, antiqueatlasoverlay, applecore, appleskin, autoreglib, backtools, badmobs, bettercaves, bettercompass, betterfoliage, bettermineshafts, betterwithmods, biomesoplenty, biometweaker, blockgravity, carryon, chickenchunks, chisel, chunkpregenerator, chunkanimator, classiccombat, codechickenlib, cofhworld, collective, comforts, controlling, extendedrenderer, coroutil, configmod, corpsecomplex, ctgui, crafttweaker, crafttweakerjei, creativecore, ctm, custommainmenu, customskinloader, customstartinggear, dmgcontrol, deathcounter, dsurround, dynamictrees, dynamictreesbop, enhancedvisuals, epicsiegemod, firstaid, flashlight, foamfix, foodexpansion, foodfunk, forgeendertech, forgelin, fpsreducer, hidenames, hungeroverhaul, waila, ichunutil, iguanatweaks, incontrol, inventorytweaks, iymts_mob_mod, jei, jeiintegration, jrftl, loottweaker, lostcities, materialchanger, mcwfences, mininghelmet, mobdismemberment, mobends, mpr, mobsunscreen, modtweaker, mousetweaks, moveplus, mtlib, mutantbeasts, nonetherportals, norecipebook, nei, omlib, ompd, openmodularturrets, placebo, playerskins, quark, realdrops, realistictorches, resourceloader, roughmobsrevamped, somnia, soundphysics, spartanshields, spawnercontrol, techguns, tenshilib, thiccentities, toastcontrol, toughasnails, tumbleweed, vanillafix, watercontrolextreme, wi-zoom, wildcrops, worldstripper, wgblockreplacer, weapons_of_the_apocalypse, wumpleutil, zombieawareness, betteranimals, betteranimalsplus, orelib, phosphor-lighting] at CLIENT
+[21:36:20] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, creativecoredummy, somniacore, biometweakercore, foamfixcore, obfuscate, techguns_core, adminshop, aiimprovements, animalium, antiqueatlas, antiqueatlasoverlay, applecore, appleskin, autoreglib, backtools, badmobs, bettercaves, bettercompass, betterfoliage, bettermineshafts, betterwithmods, biomesoplenty, biometweaker, blockgravity, carryon, chickenchunks, chisel, chunkpregenerator, chunkanimator, classiccombat, codechickenlib, cofhworld, collective, comforts, controlling, extendedrenderer, coroutil, configmod, corpsecomplex, ctgui, crafttweaker, crafttweakerjei, creativecore, ctm, custommainmenu, customskinloader, customstartinggear, dmgcontrol, deathcounter, dsurround, dynamictrees, dynamictreesbop, enhancedvisuals, epicsiegemod, firstaid, flashlight, foamfix, foodexpansion, foodfunk, forgeendertech, forgelin, fpsreducer, hidenames, hungeroverhaul, waila, ichunutil, iguanatweaks, incontrol, inventorytweaks, iymts_mob_mod, jei, jeiintegration, jrftl, loottweaker, lostcities, materialchanger, mcwfences, mininghelmet, mobdismemberment, mobends, mpr, mobsunscreen, modtweaker, mousetweaks, moveplus, mtlib, mutantbeasts, nonetherportals, norecipebook, nei, omlib, ompd, openmodularturrets, placebo, playerskins, quark, realdrops, realistictorches, resourceloader, roughmobsrevamped, somnia, soundphysics, spartanshields, spawnercontrol, techguns, tenshilib, thiccentities, toastcontrol, toughasnails, tumbleweed, vanillafix, watercontrolextreme, wi-zoom, wildcrops, worldstripper, wgblockreplacer, weapons_of_the_apocalypse, wumpleutil, zombieawareness, betteranimals, betteranimalsplus, orelib, phosphor-lighting] at SERVER
+[21:36:20] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.network.PacketBuffer.func_180714_a
+[21:36:21] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderEntityItem:169]: Successfully patched RenderEntityItem with ASM
+[21:36:21] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderEntityItem:169]: Successfully patched RenderEntityItem with ASM
+[21:36:21] [Thread-3/INFO] [FML]: Using alternative sync timing : 200 frames of Display.update took 7041748200 nanos
+[21:36:21] [Client thread/INFO] [STDOUT]: [pl.asie.foamfix.coremod.FoamFixTransformer:spliceClasses:114]: Spliced in METHOD: net.minecraft.client.renderer.block.model.ModelResourceLocation.<init>
+[21:36:21] [Client thread/ERROR] [FML]: The mod wumpleutil is expecting signature @FINGERPRINT@ for source wumpleutil-1.12.2-2.12.9.jar, however there is no signature matching that description
+[21:36:21] [Client thread/WARN] [wumpleutil]: Invalid fingerprint detected! The file wumpleutil-1.12.2-2.12.9.jar may have been tampered with. This version will NOT be supported by the author!
+[21:36:21] [Client thread/WARN] [wumpleutil]: Expected fingerprint "@FINGERPRINT@" found "[]"
+[21:36:21] [Client thread/ERROR] [FML]: The mod foodfunk is expecting signature @FINGERPRINT@ for source foodfunk-1.12.2-4.9.6.jar, however there is no signature matching that description
+[21:36:21] [Client thread/WARN] [foodfunk]: Invalid fingerprint detected! The file foodfunk-1.12.2-4.9.6.jar may have been tampered with. This version will NOT be supported by the author!
+[21:36:21] [Client thread/WARN] [foodfunk]: Expected fingerprint "@FINGERPRINT@" found "[]"
+[21:36:22] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[21:36:22] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/client/renderer/texture/TextureAtlasSprite to pl/asie/foamfix/client/FastTextureAtlasSprite
+[21:36:22] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[21:36:22] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[21:36:22] [Client thread/INFO] [Obfuscate]: Applying ASM to RenderItem
+[21:36:22] [Client thread/INFO] [Obfuscate]: Successfully patched RenderItem
+[21:36:22] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.client.renderer.RenderItem
+[21:36:22] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderItem, func_180454_a] Descriptor (Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[21:36:22] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:22] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:22] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [renderEffect, func_191966_a] Descriptor (Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[21:36:22] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:22] [Client thread/INFO] [Quark ASM]: Located patch target node LDC -8372020
+[21:36:22] [Client thread/INFO] [Quark ASM]: Located patch target node LDC -8372020
+[21:36:22] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:22] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderModel:482]: Successfully patched 2 arg RenderItem.RenderModel with ASM
+[21:36:22] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem2:370]: Successfully patched 2 arg RenderItem.RenderItem with ASM
+[21:36:22] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItem:301]: Successfully patched 4 arg RenderItem.RenderItem with ASM
+[21:36:22] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchRenderItem_patchMethodRenderItemGUI:425]: Successfully patched RenderItem.renderItemModelIntoGUI with ASM
+[21:36:22] [Client thread/INFO] [STDOUT]: [techguns.core.TechgunsASMTransformer:patchItemRenderer_updateEquippedItem:530]: Successfully patched ItemRenderer.updateEquippedItem with ASM
+[21:36:22] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] CLASS net.minecraft.client.resources.SkinManager will be transformed
+[21:36:22] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method <init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V in class cex(net.minecraft.client.resources.SkinManager)
+[21:36:22] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method <init>(Lnet/minecraft/client/renderer/texture/TextureManager;Ljava/io/File;Lcom/mojang/authlib/minecraft/MinecraftSessionService;)V in class cex(net.minecraft.client.resources.SkinManager)
+[21:36:22] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation; in class cex(net.minecraft.client.resources.SkinManager)
+[21:36:22] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152789_a(Lcom/mojang/authlib/minecraft/MinecraftProfileTexture;Lcom/mojang/authlib/minecraft/MinecraftProfileTexture$Type;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;)Lnet/minecraft/util/ResourceLocation; in class cex(net.minecraft.client.resources.SkinManager)
+[21:36:22] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V in class cex(net.minecraft.client.resources.SkinManager)
+[21:36:22] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152790_a(Lcom/mojang/authlib/GameProfile;Lnet/minecraft/client/resources/SkinManager$SkinAvailableCallback;Z)V in class cex(net.minecraft.client.resources.SkinManager)
+[21:36:22] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Transforming method func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map; in class cex(net.minecraft.client.resources.SkinManager)
+[21:36:22] [Client thread/INFO] [STDOUT]: [customskinloader.Logger:log:68]: [Client thread INFO] [CSL DEBUG] Successfully transformed method func_152788_a(Lcom/mojang/authlib/GameProfile;)Ljava/util/Map; in class cex(net.minecraft.client.resources.SkinManager)
+[21:36:22] [Client thread/INFO] [Quark ASM]: Transforming net.minecraft.util.DamageSource
+[21:36:22] [Client thread/INFO] [Quark ASM]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
+[21:36:22] [Client thread/INFO] [Quark ASM]: Located Method, patching...
+[21:36:22] [Client thread/INFO] [Quark ASM]: Patch result: true
+[21:36:24] [Client thread/ERROR] [FML]: The mod cofhworld is expecting signature 8a6abf2cb9e141b866580d369ba6548732eff25f for source CoFHWorld-1.12.2-1.4.0.1-universal.jar, however there is no signature matching that description
+[21:36:24] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:33]: [Somnia Core] Patching class Chunk
+[21:36:24] [Client thread/INFO] [STDOUT]: [com.kingrunes.somnia.asm.SClassTransformer:transform:54]: [Somnia Core] Successfully patched class Chunk
+[21:36:24] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitTypeInsn:73]: Replaced NEW for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[21:36:24] [Client thread/INFO] [STDOUT]: [pl.asie.patchy.helpers.ConstructorReplacingTransformer$FFMethodVisitor:visitMethodInsn:85]: Replaced INVOKESPECIAL for net/minecraft/util/ClassInheritanceMultiMap to pl/asie/foamfix/coremod/common/FoamyClassInheritanceMultiMap
+[21:36:24] [Client thread/WARN] [mixin]: Static binding violation: PRIVATE @Overwrite method func_76615_h in mixins.phosphor.json:common.MixinChunk cannot reduce visibiliy of PUBLIC target method, visibility will be upgraded.
+[21:36:24] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[21:36:24] [Client thread/INFO] [STDOUT]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[21:36:25] [Client thread/ERROR] [soundphysicsinjector]: Target node not found! org.orecruncher.dsurround.client.sound.ConfigSoundInstance
+[21:36:25] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: Found method net.minecraftforge.client.model.ModelLoader.func_177570_a ()Lnet/minecraft/util/registry/IRegistry; (matching setupModelRegistry)
+[21:36:25] [Client thread/INFO] [mods.betterfoliage.loader.BetterFoliageTransformer]: [BetterFoliageLoader] Applying ModelLoader lifecycle callback
+[21:36:28] [Client thread/INFO] [FML]: The game window is being closed by the player, exiting.
+[21:36:28] [Client thread/WARN] [FML]: Java has been asked to exit (code 0)
+[21:36:28] [Client thread/WARN] [FML]: Exit trace:
+[21:36:28] [Client thread/WARN] [FML]: 	net.minecraftforge.fml.common.LoadController.transition(LoadController.java:145)
+[21:36:28] [Client thread/WARN] [FML]: 	net.minecraftforge.fml.common.Loader.loadMods(Loader.java:615)
+[21:36:28] [Client thread/WARN] [FML]: 	net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
+[21:36:28] [Client thread/WARN] [FML]: 	net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+[21:36:28] [Client thread/WARN] [FML]: 	net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:3931)
+[21:36:28] [Client thread/WARN] [FML]: 	net.minecraft.client.main.Main.main(SourceFile:123)
+[21:36:28] [Client thread/WARN] [FML]: 	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[21:36:28] [Client thread/WARN] [FML]: 	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[21:36:28] [Client thread/WARN] [FML]: 	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[21:36:28] [Client thread/WARN] [FML]: 	java.lang.reflect.Method.invoke(Unknown Source)
+[21:36:28] [Client thread/WARN] [FML]: 	net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+[21:36:28] [Client thread/WARN] [FML]: 	net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[21:36:28] [Client thread/WARN] [FML]: 	sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[21:36:28] [Client thread/WARN] [FML]: 	sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+[21:36:28] [Client thread/WARN] [FML]: 	sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+[21:36:28] [Client thread/WARN] [FML]: 	java.lang.reflect.Method.invoke(Unknown Source)
+[21:36:28] [Client thread/WARN] [FML]: 	net.minecraft.a.m.main(Unknown Source)

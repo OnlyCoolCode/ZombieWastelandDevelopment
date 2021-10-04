@@ -8,7 +8,7 @@ import crafttweaker.entity.IEntityDefinition;
 <entity:animalium:bear>.clearDrops();
 <entity:animalium:bear_tamed>.clearDrops();
 <entity:animalium:rat>.clearDrops();
-<entity:animalium:wild_dog>.addDrop(<betterwithmods:wolf_chop> % 100, 1, 4);
+<entity:animalium:wild_dog>.addDrop(<minecraft:beef> % 100, 1, 4);
 <entity:animalium:bear>.addDrop(<animalium:bear_meat> % 100, 5, 8);
 <entity:animalium:bear_tamed>.addDrop(<animalium:bear_meat> % 100, 5, 8);
 <entity:animalium:rat>.addDrop(<animalium:rat_meat> % 100, 1, 1);
