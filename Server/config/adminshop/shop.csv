@@ -29,14 +29,13 @@ buy,<minecraft:gold_nugget>,0.2,0
 buy,<minecraft:gold_ingot>,1.8,0
 buy,<minecraft:gold_block>,16.2,0
 #,,,
-buy,"<techguns:handcannon>.withTag({ammo: 0 as short})",100,1
 buy,"<techguns:sawedoff>.withTag({ammo: 0 as short})",150,1
 buy,"<techguns:thompson>.withTag({ammo: 0 as short})",300,1
 buy,"<techguns:ak47>.withTag({ammo: 0 as short})",500,1
 buy,"<techguns:boltaction>.withTag({ammo: 0 as short})",200,1
 buy,"<techguns:m4>.withTag({ammo: 0 as short})",500,1
 buy,"<techguns:m4_infiltrator>.withTag({ammo: 0 as short})",650,1
-buy,"<techguns:combatshotgun>.withTag({ammo: 0 as short})",220,1
+buy,"<techguns:combatshotgun>.withTag({ammo: 0 as short})",320,1
 buy,"<techguns:mac10>.withTag({ammo: 0 as short})",350,1
 buy,"<techguns:aug>.withTag({ammo: 0 as short})",750,1
 buy,"<techguns:minigun>.withTag({ammo: 0 as short})",900,1

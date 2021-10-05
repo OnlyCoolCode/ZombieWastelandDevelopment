@@ -44,44 +44,44 @@ var ammo_minigun_shell = <techguns:itemshared:18>;
 var ammo_minigun = <techguns:itemshared:17>;
 var ammo_AS50_shell = <techguns:itemshared:20>;
 var ammo_AS50 = <techguns:itemshared:19>;
-recipes.addShapeless("ammo_shotgun1", ammo_shotgun*8,
+recipes.addShapeless("ammo_shotgun1", ammo_shotgun*6,
 [ammo_shotgun_weapon1.reuse(),gunpowder]
 );
-recipes.addShapeless("ammo_shotgun2", ammo_shotgun*8,
+recipes.addShapeless("ammo_shotgun2", ammo_shotgun*6,
 [ammo_shotgun_weapon2.reuse(),gunpowder]
 );
-recipes.addShapeless("ammo_shotgun3", ammo_shotgun*8,
+recipes.addShapeless("ammo_shotgun3", ammo_shotgun*6,
 [ammo_shotgun.reuse(),gunpowder]
 );
 recipes.addShapeless("ammo_smg1", ammo_smg,
-[ammo_smg_shell,gunpowder]
+[ammo_smg_shell,gunpowder,gunpowder]
 );
 recipes.addShapeless("ammo_smg2", ammo_smg,
-[ammo_smg.reuse(),gunpowder]
+[ammo_smg.reuse(),gunpowder,gunpowder]
 );
-recipes.addShapeless("ammo_assault1", ammo_assault*30,
+recipes.addShapeless("ammo_assault1", ammo_assault*15,
 [ammo_assault_shell,gunpowder]
 );
-recipes.addShapeless("ammo_assault2", ammo_assault*30,
+recipes.addShapeless("ammo_assault2", ammo_assault*15,
 [ammo_assault.reuse(),gunpowder]
 );
-recipes.addShapeless("ammo_rifle1", ammo_rifle,
+recipes.addShapeless("ammo_rifle1", ammo_rifle*6,
 [ammo_rifle_weapon1.reuse(),gunpowder]
 );
-recipes.addShapeless("ammo_rifle2", ammo_rifle,
+recipes.addShapeless("ammo_rifle2", ammo_rifle*6,
 [ammo_rifle.reuse(),gunpowder]
 );
 recipes.addShapeless("ammo_minigun1", ammo_minigun,
-[ammo_minigun_shell,gunpowder,gunpowder]
+[ammo_minigun_shell,gunpowder,gunpowder,gunpowder]
 );
 recipes.addShapeless("ammo_minigun2", ammo_minigun,
-[ammo_minigun.reuse(),gunpowder,gunpowder]
+[ammo_minigun.reuse(),gunpowder,gunpowder,gunpowder]
 );
 recipes.addShapeless("ammo_AS501", ammo_AS50,
-[ammo_AS50_shell,gunpowder]
+[ammo_AS50_shell,gunpowder,gunpowder]
 );
 recipes.addShapeless("ammo_AS502", ammo_AS50,
-[ammo_AS50.reuse(),gunpowder]
+[ammo_AS50.reuse(),gunpowder,gunpowder]
 );
 // Explosives
 var fueltank_empty = <techguns:itemshared:28>;
@@ -281,50 +281,50 @@ function(out, ins, cInfo){
 null);
 // Riot Armor Set
 recipes.addShapeless("repair_t2_riot_helmet",t2_riot_helmet,
-[t2_riot_helmet.anyDamage().marked("mark"),heavycloth],
+[t2_riot_helmet.anyDamage().marked("mark"),soulforged_ingot],
 function(out, ins, cInfo){
 	return ins.mark.withDamage(max(0,ins.mark.damage - 35));
 }, 
 null);
 recipes.addShapeless("repair_t2_riot_chestplate",t2_riot_chestplate,
-[t2_riot_chestplate.anyDamage().marked("mark"),heavycloth],
+[t2_riot_chestplate.anyDamage().marked("mark"),soulforged_ingot],
 function(out, ins, cInfo){
 	return ins.mark.withDamage(max(0,ins.mark.damage - 35));
 }, 
 null);
 recipes.addShapeless("repair_t2_riot_leggings",t2_riot_leggings,
-[t2_riot_leggings.anyDamage().marked("mark"),heavycloth],
+[t2_riot_leggings.anyDamage().marked("mark"),soulforged_ingot],
 function(out, ins, cInfo){
 	return ins.mark.withDamage(max(0,ins.mark.damage - 35));
 }, 
 null);
 recipes.addShapeless("repair_t2_riot_boots",t2_riot_boots,
-[t2_riot_boots.anyDamage().marked("mark"),heavycloth],
+[t2_riot_boots.anyDamage().marked("mark"),soulforged_ingot],
 function(out, ins, cInfo){
 	return ins.mark.withDamage(max(0,ins.mark.damage - 15));
 }, 
 null);
 // Combat Armor Set
 recipes.addShapeless("repair_t2_combat_helmet",t2_combat_helmet,
-[t2_combat_helmet.anyDamage().marked("mark"),heavycloth],
+[t2_combat_helmet.anyDamage().marked("mark"),heavycloth,heavycloth],
 function(out, ins, cInfo){
 	return ins.mark.withDamage(max(0,ins.mark.damage - 50));
 }, 
 null);
 recipes.addShapeless("repair_t2_combat_chestplate",t2_combat_chestplate,
-[t2_combat_chestplate.anyDamage().marked("mark"),heavycloth],
+[t2_combat_chestplate.anyDamage().marked("mark"),heavycloth,heavycloth],
 function(out, ins, cInfo){
 	return ins.mark.withDamage(max(0,ins.mark.damage - 50));
 }, 
 null);
 recipes.addShapeless("repair_t2_combat_leggings",t2_combat_leggings,
-[t2_combat_leggings.anyDamage().marked("mark"),heavycloth],
+[t2_combat_leggings.anyDamage().marked("mark"),heavycloth,heavycloth],
 function(out, ins, cInfo){
 	return ins.mark.withDamage(max(0,ins.mark.damage - 50));
 }, 
 null);
 recipes.addShapeless("repair_t2_combat_boots",t2_combat_boots,
-[t2_combat_boots.anyDamage().marked("mark"),heavycloth],
+[t2_combat_boots.anyDamage().marked("mark"),heavycloth,heavycloth],
 function(out, ins, cInfo){
 	return ins.mark.withDamage(max(0,ins.mark.damage - 50));
 }, 
