@@ -22,10 +22,10 @@
   "Dictionary Types": [
     "HOT",
     "WASTELAND",
-    "DRY",
-    "MAGICAL",
     "SPOOKY",
-    "NETHER"
+    "MAGICAL",
+    "NETHER",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

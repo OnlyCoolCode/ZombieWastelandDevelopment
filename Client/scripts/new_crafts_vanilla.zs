@@ -175,6 +175,26 @@ var iron_helmet = <minecraft:iron_helmet>;
 var iron_chestplate = <minecraft:iron_chestplate>;
 var iron_leggings = <minecraft:iron_leggings>;
 var iron_boots = <minecraft:iron_boots>;
+recipes.addShaped("iron_helmet2", iron_helmet, [
+    [iron_ingot,iron_ingot,iron_ingot],
+    [iron_ingot,null,iron_ingot]
+]);
+recipes.addShaped("iron_chestplate2", iron_chestplate, [
+    [iron_ingot,null,iron_ingot],
+    [iron_ingot,iron_ingot,iron_ingot],
+    [iron_ingot,iron_ingot,iron_ingot]
+]);
+recipes.addShaped("iron_leggings2", iron_leggings, [
+    [iron_ingot,iron_ingot,iron_ingot],
+    [iron_ingot,null,iron_ingot],
+    [iron_ingot,null,iron_ingot]
+]);
+recipes.addShaped("iron_boots2", iron_boots, [
+    [iron_ingot,null,iron_ingot],
+    [iron_ingot,null,iron_ingot]
+]);
+
+// Repair iron armor
 recipes.addShapeless("repair_iron_helmet",iron_helmet,
 [iron_helmet.anyDamage().marked("mark"),iron_ingot],
 function(out, ins, cInfo){

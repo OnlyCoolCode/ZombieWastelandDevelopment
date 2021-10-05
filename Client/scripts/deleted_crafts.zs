@@ -44,7 +44,9 @@ val minecraft_list = [
     <minecraft:chainmail_chestplate>,
     <minecraft:chainmail_leggings>,
     <minecraft:chainmail_boots>,
-    <minecraft:cauldron>
+    <minecraft:cauldron>,
+    <minecraft:carrot_on_a_stick>,
+    <minecraft:fishing_rod>
 ] as IItemStack[];
 val book_enchants = [
     <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 8 as short}]}),
