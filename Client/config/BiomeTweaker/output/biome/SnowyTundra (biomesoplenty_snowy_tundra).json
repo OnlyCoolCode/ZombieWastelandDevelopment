@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WET",
-    "COLD",
-    "SPARSE",
-    "DEAD",
+    "WASTELAND",
     "SNOWY",
-    "WASTELAND"
+    "DEAD",
+    "COLD",
+    "SPARSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
