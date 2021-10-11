@@ -1,23 +1,23 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Pongo Sapiens
-DreamThorn
-Ivy_
-Jimmie L Hines jr
-NickT
-NerdyWhiteGuy
-Genryu
-Zuniroa
+Psyberition
+Belathus
+BrÃ¸nsted
+Quaternary
 Jonathan McManus
 IDroid
-Peregrinus11
-Quaternary
-Belathus
-Robijnvogel
-AdaraChristine
-Otakup0pe
-Psyberition
+Pongo Sapiens
 Ncc1702
-BrÃ¸nsted
+Zuniroa
+AdaraChristine
+DreamThorn
+Otakup0pe
+Jimmie L Hines jr
+Robijnvogel
+Ivy_
+NickT
+Peregrinus11
+Genryu
+NerdyWhiteGuy
 Barrier
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
@@ -5716,7 +5716,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_thoughasnails.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_WOTApocalypse.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 1063ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 942ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "weapons_of_the_apocalypse:leatherr2"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "minecraft:glass_bottle"
