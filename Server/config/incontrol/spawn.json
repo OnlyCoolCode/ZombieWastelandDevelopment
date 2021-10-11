@@ -1,6 +1,17 @@
 [
   {
     "hostile": true,
+    "insphere": true,
+    "mincount": {
+      "amount": 120,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "hostile": true,
+    "insphere": false,
     "incity": false,
     "seesky": false,
     "mincount": {
@@ -12,6 +23,7 @@
   },
   {
     "hostile": true,
+    "insphere": false,
     "incity": false,
     "seesky": true,
     "mincount": {
@@ -23,6 +35,7 @@
   },
   {
     "hostile": true,
+    "insphere": false,
     "incity": false,
     "seesky": false,
     "mintime":1000,
@@ -36,6 +49,7 @@
   },
   {
     "hostile": true,
+    "insphere": false,
     "incity": false,
     "seesky": true,
     "mintime":1000,
@@ -49,6 +63,7 @@
   },
   {
     "hostile": true,
+    "insphere": false,
     "incity": true,
     "mincount": {
       "amount": 120,
@@ -59,6 +74,7 @@
   },
   {
     "hostile": true,
+    "insphere": false,
     "incity": true,
     "mintime":1000,
     "maxtime":13000,
@@ -71,11 +87,17 @@
   },
   {
     "hostile": true,
+    "insphere": false,
     "incity": false,
     "seesky": true,
     "mintime":1000,
     "maxtime":13000,
     "random": 0.80,
+    "result": "deny"
+  },
+  {
+    "passive": true,
+    "insphere": true,
     "result": "deny"
   },
   {
@@ -130,6 +152,11 @@
   },
   {
     "mob": "animalium:wild_dog",
+    "insphere": true,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:wild_dog",
     "incity": true,
     "result": "deny"
   },
@@ -162,6 +189,11 @@
   {
     "mob": "animalium:bear",
     "incity": true,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:bear",
+    "insphere": true,
     "result": "deny"
   },
   {
@@ -201,23 +233,42 @@
   },
   {
     "mob": "playerskins:playermob",
+    "biome": "Ominous Woods",
+    "result": "deny"
+  },
+  {
+    "mob": "playerskins:playermob",
+    "biome": "Jungle",
+    "result": "allow",
+    "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron","weapons_of_the_apocalypse:cleaver","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:baton"],
+    "armorboots":["techguns:t1_scout_boots", "techguns:t2_riot_boots"],
+    "armorhelmet":["techguns:t1_scout_helmet", "techguns:t2_riot_helmet"],
+    "armorlegs":["techguns:t1_scout_leggings", "techguns:t2_riot_leggings"],
+    "armorchest":["techguns:t1_scout_chestplate", "techguns:t2_riot_chestplate"]
+  },
+  {
+    "mob": "playerskins:playermob",
+    "insphere": false,
     "seesky": false,
     "result": "deny"
   },
   {
     "mob": "playerskins:playermob",
+    "insphere": false,
     "mintime":13000,
     "maxtime":23000,
     "result": "deny"
   },
   {
     "mob": "playerskins:playermob",
+    "insphere": false,
     "mintime":0,
     "maxtime":1000,
     "result": "deny"
   },
   {
     "mob": "playerskins:playermob",
+    "insphere": false,
     "seesky": true,
     "result": "allow",
     "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron","weapons_of_the_apocalypse:cleaver","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:baton"],
@@ -228,6 +279,7 @@
   },
   {
     "mob": "playerskins:playermob",
+    "insphere": false,
     "inbuilding": true,
     "result": "allow",
     "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron","weapons_of_the_apocalypse:cleaver","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:baton"],
@@ -238,23 +290,37 @@
   },
   {
     "mob": ["techguns:armysoldier"],
+    "biome": "Ominous Woods",
+    "result": "deny"
+  },
+  {
+    "mob": ["techguns:armysoldier"],
+    "biome": "Jungle",
+    "result": "allow"
+  },
+  {
+    "mob": ["techguns:armysoldier"],
+    "insphere": false,
     "inbuilding": false,
     "result": "deny"
   },
   {
     "mob": "techguns:armysoldier",
+    "insphere": false,
     "mintime":13000,
     "maxtime":23000,
     "result": "deny"
   },
   {
     "mob": "techguns:armysoldier",
+    "insphere": false,
     "mintime":0,
     "maxtime":1000,
     "result": "deny"
   },
   {
     "mob": ["techguns:armysoldier"],
+    "insphere": false,
     "mincount": {
       "amount": 40,
       "mod": "techguns",
@@ -265,70 +331,123 @@
   },
   {
     "mob": "techguns:armysoldier",
+    "insphere": false,
     "inbuilding": true,
     "result": "allow"
   },
   {
     "mob": "techguns:bandit",
+    "biome": "Ominous Woods",
+    "result": "deny"
+  },
+  {
+    "mob": "techguns:bandit",
+    "biome": "Jungle",
+    "result": "allow"
+  },
+  {
+    "mob": "techguns:bandit",
+    "insphere": false,
     "incity": false,
     "seesky": false,
     "result": "deny"
   },
   {
     "mob": "techguns:bandit",
+    "insphere": false,
     "mintime":13000,
     "maxtime":23000,
     "result": "deny"
   },
   {
     "mob": "techguns:bandit",
+    "insphere": false,
     "mintime":0,
     "maxtime":1000,
     "result": "deny"
   },
   {
     "mob": "techguns:bandit",
+    "insphere": false,
     "inbuilding": true,
     "result": "allow"
   },
   {
     "mob": "techguns:bandit",
+    "insphere": false,
     "incity": false,
     "seesky": true,
     "result": "allow"
   },
   {
     "mob": "mutantbeasts:mutant_zombie",
+    "biome": "Jungle",
+    "result": "deny"
+  },
+  {
+    "mob": "mutantbeasts:mutant_zombie",
+    "biome": "Ominous Woods",
+    "result": "allow"
+  },
+  {
+    "mob": "mutantbeasts:mutant_zombie",
+    "insphere": false,
     "incity": false,
     "result": "deny"
   },
   {
     "mob": "mutantbeasts:mutant_zombie",
+    "insphere": false,
     "seesky": false,
     "result": "deny"
   },
   {
     "mod": "mutantbeasts",
+    "insphere": false,
     "result": "allow"
   },
   {
     "mod": "iymts_mob_mod",
+    "biome": "Jungle",
+    "result": "deny"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "biome": "Ominous Woods",
+    "result": "allow"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "insphere": false,
     "seesky": true,
     "result": "allow"
   },
   {
     "mod": "iymts_mob_mod",
+    "insphere": false,
     "seesky": false,
     "maxlight": 7,
     "result": "allow"
   },
   {
     "mob": "minecraft:zombie",
+    "biome": "Jungle",
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "biome": "Ominous Woods",
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "insphere": false,
     "seesky": true,
     "result": "allow"
   },
   {
     "mob": "minecraft:zombie",
+    "insphere": false,
     "seesky": false,
     "maxlight": 7,
     "result": "allow"

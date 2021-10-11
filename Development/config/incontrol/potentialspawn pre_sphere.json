@@ -1,0 +1,108 @@
+[
+  {
+    "dimension": 0,
+    "mobs": [
+    {
+        "mob": "minecraft:spider",
+		    "weight": 75
+      },
+	  {
+        "mob": "minecraft:cave_spider",
+		    "weight": 80,
+        "groupcountmin": 1,
+	      "groupcountmax": 3
+      },
+	  {
+        "mob": "animalium:piranha",
+		    "weight": 200,
+        "groupcountmin": 2,
+	      "groupcountmax": 4
+      },
+    {
+        "mob": "minecraft:skeleton",
+		    "weight": 0
+      },
+    {
+        "mob": "minecraft:creeper",
+		    "weight": 0
+      },
+    {
+        "mob": "minecraft:enderman",
+		    "weight": 0
+      },
+    {
+        "mob": "minecraft:witch",
+		    "weight": 0
+      },
+    {
+        "mob": "minecraft:slime",
+		    "weight": 0
+      },
+    {
+        "mob": "iymts_mob_mod:iysuperleaper",
+        "weight": 7
+      },
+    {
+        "mob": "iymts_mob_mod:iysuperslasher",
+        "weight": 7
+      },
+    {
+        "mob": "iymts_mob_mod:iysuperexploder",
+        "weight": 7
+      },
+    {
+        "mob": "mutantbeasts:mutant_zombie",
+        "groupcountmin": 1,
+        "groupcountmax": 1,
+        "weight": 3
+      },
+    {
+        "mob": "animalium:wild_dog",
+        "weight": 80,
+        "groupcountmin": 2,
+        "groupcountmax": 5,
+        "minlight": 7
+      },
+    {
+        "mob": "animalium:bear",
+        "weight": 50,
+        "groupcountmin": 1,
+        "groupcountmax": 1,
+        "minlight": 8
+      },
+    {
+        "mob": "animalium:rat",
+        "weight": 75,
+        "groupcountmin": 1,
+        "groupcountmax": 3,
+        "maxlight": 7
+      },
+    {
+        "mob": "techguns:bandit",
+        "weight": 15,
+        "groupcountmin": 4,
+        "groupcountmax": 6
+      },
+    {
+        "mob": "techguns:armysoldier",
+        "weight": 10,
+        "groupcountmin": 4,
+        "groupcountmax": 6
+      },
+    {
+        "mob": "playerskins:playermob",
+        "weight": 15,
+        "groupcountmin": 4,
+        "groupcountmax": 7
+      },
+    {
+        "mob": "minecraft:zombie",
+        "weight": 100
+      }
+    ]
+  }
+]
+
+
+
+

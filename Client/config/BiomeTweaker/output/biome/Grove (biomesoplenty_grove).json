@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "PLAINS",
     "LUSH",
-    "WET",
+    "SPARSE",
     "FOREST",
-    "SPARSE"
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

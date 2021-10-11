@@ -150,6 +150,7 @@ val plantTable = LootTweaker.newTable("loottweaker:plant");
 val handgunTable = LootTweaker.newTable("loottweaker:handgun");
 val longgunsTable = LootTweaker.newTable("loottweaker:longguns");
 val foodTable = LootTweaker.newTable("loottweaker:food");
+val sphereTable = LootTweaker.newTable("loottweaker:sphere");
  
  
 //==== Add pools to your tables ====
@@ -160,6 +161,7 @@ val plantPool = plantTable.addPool("plant", 5, 14, 0, 0);
 val handgunPool = handgunTable.addPool("handgun", 3, 6, 0, 0);
 val longgunsPool = longgunsTable.addPool("longguns", 3, 6, 0, 0);
 val foodPool = foodTable.addPool("food", 4, 13, 0, 0);
+val spherePool = sphereTable.addPool("sphere", 10, 20, 0, 0);
  
 //==== Subway Loot ====
 for item in lc_explosives {
@@ -248,4 +250,23 @@ foodPool.addItemEntry(item, 70, 1, [Functions.setCount(1, 1)], []);
 }
 for item in lc_fruit_juice {
 foodPool.addItemEntry(item, 30, 1, [Functions.setCount(1, 1)], []);
+}
+//==== high Loot ====
+for item in lc_longguns {
+spherePool.addItemEntry(item, 13, 1, [Functions.setCount(1, 1)], []);
+}
+for item in lc_long_ammo_low {
+spherePool.addItemEntry(item, 37, 1, [Functions.setCount(20, 30)], []);
+}
+for item in lc_long_ammo_high {
+spherePool.addItemEntry(item, 40, 1, [Functions.setCount(1, 3)], []);
+}
+for item in lc_grenades {
+spherePool.addItemEntry(item, 10, 1, [Functions.setCount(1, 4)], []);
+}
+for item in lc_explosives {
+spherePool.addItemEntry(item, 20, 1, [Functions.setCount(1, 1)], []);
+}
+for item in lc_explosives_ammo {
+spherePool.addItemEntry(item, 35, 1, [Functions.setCount(1, 5)], []);
 }

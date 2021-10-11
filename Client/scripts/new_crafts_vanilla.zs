@@ -44,12 +44,18 @@ var water_bottle = <minecraft:potion>.withTag({Potion: "minecraft:water"});
 var slime = <minecraft:slime_ball>;
 var dirtbucket = <dynamictrees:dirtbucket>;
 var rotten_food = <foodfunk:rotten_food>;
+var mapleseed = <dynamictreesbop:mapleseed>;
+var sugar = <minecraft:sugar>;
 recipes.addShapeless("Slime1", slime,
 [cacti_dye, cacti_dye, cacti_dye, water_bottle.transformReplace(<minecraft:glass_bottle>)]
 );
 recipes.addShapeless("Slime2", slime,
 [web, rotten_food, water_bottle.transformReplace(<minecraft:glass_bottle>)]
 );
+recipes.addShapeless("Slime3", slime,
+[mapleseed, mapleseed, sugar, water_bottle.transformReplace(<minecraft:glass_bottle>)]
+);
+
 
 // paper
 var plank = <ore:plankWood>;
