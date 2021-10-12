@@ -36,8 +36,13 @@
     "name": "chestloot",
     "values": [
       {
-        "factor": 500,
+        "factor": 150,
         "value": "loottweaker:sphere",
+        "issphere": true
+      },
+      {
+        "factor": 150,
+        "value": "loottweaker:objective",
         "issphere": true
       },
       {
@@ -59,21 +64,19 @@
         "value": "loottweaker:healing"
       },
       {
-        "factor": 10,
+        "factor": 15,
         "value": "loottweaker:plant"
       },
       {
-        "factor": 10,
-        "value": "loottweaker:handgun",
-        "range": "-100,-1"
+        "factor": 12,
+        "value": "loottweaker:handgun"
       },
       {
-        "factor": 10,
-        "value": "loottweaker:longguns",
-        "range": "-100,-1"
+        "factor": 12,
+        "value": "loottweaker:longguns"
       },
       {
-        "factor": 10,
+        "factor": 15,
         "value": "loottweaker:food"
       }
     ]

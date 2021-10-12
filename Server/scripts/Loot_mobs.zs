@@ -48,8 +48,11 @@ iy_super_leaperPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
 
 var mutant_zombieTable = LootTweaker.getTable("mutantbeasts:entities/mutant_zombie");
 mutant_zombieTable.clear();
-var mutant_zombiePool = mutant_zombieTable.addPool("mutant_zombiePool", 13, 26, 0, 0);
-mutant_zombiePool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
+var mutant_zombiePool = mutant_zombieTable.addPool("mutant_zombiePool", 3, 6, 0, 0);
+mutant_zombiePool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 2,0, [
+    Functions.setCount(3, 5)
+], []);
+mutant_zombiePool.addItemEntry(<mutantbeasts:chemical_x>, 1,0, [
     Functions.setCount(1, 1)
 ], []);
 

@@ -53,7 +53,15 @@ var lc_trash = [
     <foodfunk:rotten_food>,
     <foodfunk:rotted_item>,
     <foodfunk:biodegradable_item>,
-    <biomesoplenty:ash>
+    <biomesoplenty:ash>,
+    <minecraft:dye:1>,
+    <minecraft:dye:14>,
+    <minecraft:dye:11>,
+    <minecraft:dye:10>,
+    <minecraft:dye:6>,
+    <minecraft:dye:12>,
+    <minecraft:dye:13>,
+    <minecraft:dye:2>
 ] as IItemStack[];
 var lc_miscellaneous = [
     <weapons_of_the_apocalypse:emptystimpack>,
@@ -139,6 +147,12 @@ var lc_fruit_juice = [
     <toughasnails:fruit_juice:8>,
     <toughasnails:fruit_juice:9>
 ] as IItemStack[];
+var lc_objective1 = [
+    <biomesoplenty:sapling_1:7>
+] as IItemStack[];
+var lc_objective2 = [
+    <techguns:slimyladder:3>
+] as IItemStack[];
 
 //==== Create new tables ====
 //val highRiseTable = LootTweaker.newTable("loottweaker:highrise");
@@ -151,6 +165,7 @@ val handgunTable = LootTweaker.newTable("loottweaker:handgun");
 val longgunsTable = LootTweaker.newTable("loottweaker:longguns");
 val foodTable = LootTweaker.newTable("loottweaker:food");
 val sphereTable = LootTweaker.newTable("loottweaker:sphere");
+val objectiveTable = LootTweaker.newTable("loottweaker:objective");
  
  
 //==== Add pools to your tables ====
@@ -158,10 +173,11 @@ val subwayPool = subwayTable.addPool("subway", 3, 12, 0, 0);
 val genericPool = genericTable.addPool("generic", 2, 9, 0, 0);
 val healingPool = healingTable.addPool("healing", 3, 12, 0, 0);
 val plantPool = plantTable.addPool("plant", 5, 14, 0, 0);
-val handgunPool = handgunTable.addPool("handgun", 3, 6, 0, 0);
-val longgunsPool = longgunsTable.addPool("longguns", 3, 6, 0, 0);
+val handgunPool = handgunTable.addPool("handgun", 3, 7, 0, 0);
+val longgunsPool = longgunsTable.addPool("longguns", 3, 7, 0, 0);
 val foodPool = foodTable.addPool("food", 4, 13, 0, 0);
-val spherePool = sphereTable.addPool("sphere", 10, 20, 0, 0);
+val spherePool = sphereTable.addPool("sphere", 5, 10, 0, 0);
+val objectivePool = objectiveTable.addPool("objective", 1, 1, 0, 0);
  
 //==== Subway Loot ====
 for item in lc_explosives {
@@ -193,7 +209,7 @@ for item in lc_iron_gunpownder {
 genericPool.addItemEntry(item, 10, 1, [Functions.setCount(1, 2)], []);
 }
 for item in lc_weapons_stuff {
-genericPool.addItemEntry(item, 25, 1, [Functions.setCount(1, 2)], []);
+genericPool.addItemEntry(item, 25, 1, [Functions.setCount(1, 4)], []);
 }
 for item in lc_trash {
 genericPool.addItemEntry(item, 15, 1, [Functions.setCount(3, 9)], []);
@@ -269,4 +285,8 @@ spherePool.addItemEntry(item, 20, 1, [Functions.setCount(1, 1)], []);
 }
 for item in lc_explosives_ammo {
 spherePool.addItemEntry(item, 35, 1, [Functions.setCount(1, 5)], []);
+}
+//==== objective Loot ====
+for item in lc_objective2 {
+objectivePool.addItemEntry(item, 3, 1, [Functions.setCount(1, 2)], []);
 }

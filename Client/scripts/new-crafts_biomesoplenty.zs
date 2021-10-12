@@ -71,3 +71,47 @@ recipes.addShapeless("terrarium_to_red_mushroom", red_mushroom,
 recipes.addShapeless("terrarium_to_brown_mushroom", brown_mushroom,
 [terrarium11]
 );
+
+recipes.remove(<biomesoplenty:biome_finder>);
+
+var chemical_x = <mutantbeasts:chemical_x>;
+var ruby = <biomesoplenty:gem:1>;
+var topaz = <biomesoplenty:gem:3>;
+var amber = <biomesoplenty:gem:7>;
+var peridot = <biomesoplenty:gem:2>;
+var malachite = <biomesoplenty:gem:5>;
+var sapphire = <biomesoplenty:gem:6>;
+var tanzanite = <biomesoplenty:gem:4>;
+var emerald = <minecraft:emerald>;
+var red_stained_glass = <minecraft:stained_glass:14>;
+var orange_stained_glass = <minecraft:stained_glass:1>;
+var yellow_stained_glass = <minecraft:stained_glass:4>;
+var lime_stained_glass = <minecraft:stained_glass:5>;
+var cyan_stained_glass = <minecraft:stained_glass:9>;
+var lightblue_stained_glass = <minecraft:stained_glass:3>;
+var magenta_stained_glass = <minecraft:stained_glass:2>;
+var green_stained_glass = <minecraft:stained_glass:13>;
+recipes.addShapeless("ruby", ruby,
+[chemical_x,red_stained_glass]
+);
+recipes.addShapeless("topaz", topaz,
+[chemical_x,orange_stained_glass]
+);
+recipes.addShapeless("amber", amber,
+[chemical_x,yellow_stained_glass]
+);
+recipes.addShapeless("peridot", peridot,
+[chemical_x,lime_stained_glass]
+);
+recipes.addShapeless("malachite", malachite,
+[chemical_x,cyan_stained_glass]
+);
+recipes.addShapeless("sapphire", sapphire,
+[chemical_x,lightblue_stained_glass]
+);
+recipes.addShapeless("tanzanite", tanzanite,
+[chemical_x,magenta_stained_glass]
+);
+recipes.addShapeless("emerald", emerald,
+[chemical_x,green_stained_glass]
+);

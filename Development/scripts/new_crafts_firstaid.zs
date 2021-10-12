@@ -13,20 +13,27 @@ var plaster = <firstaid:plaster>;
 var gunpowder = <ore:gunpowder>.firstItem;
 var paper = <ore:paper>.firstItem;
 var ducttape = <weapons_of_the_apocalypse:ducttape>;
-recipes.addShaped("plaster1", plaster*2, [
+var brown_mushroom = <minecraft:brown_mushroom>;
+var red_mushroom = <minecraft:red_mushroom>;
+recipes.addShaped("plaster1", plaster*4, [
     [cloth,cloth,cloth],
     [null,slime,null]
 ]);
-recipes.addShaped("plaster2", plaster*2, [
+recipes.addShaped("plaster2", plaster*4, [
     [cloth,cloth,cloth],
     [null,glue,null]
 ]);
 recipes.addShaped("plaster3", plaster, [
     [null,paper,null],
-    [paper,gunpowder,paper],
+    [paper,brown_mushroom,paper],
     [null,null,null]
 ]);
-recipes.addShaped("bandage1", bandage, [
+recipes.addShaped("plaster4", plaster, [
+    [null,paper,null],
+    [paper,red_mushroom,paper],
+    [null,null,null]
+]);
+recipes.addShaped("bandage1", bandage*3, [
     [null,ducttape,null],
     [cloth,cloth,cloth]
 ]);
@@ -37,7 +44,6 @@ var fermented_spider_eye = <minecraft:fermented_spider_eye>;
 var water_bottle = <minecraft:potion>.withTag({Potion: "minecraft:water"});
 var sugar = <minecraft:sugar>;
 var cactus = <minecraft:cactus>;
-var red_mushroom = <minecraft:red_mushroom>;
 furnace.addRecipe(fermented_spider_eye, spider_eye);
 recipes.remove(morphine);
 recipes.addShapeless("morphine1", morphine,

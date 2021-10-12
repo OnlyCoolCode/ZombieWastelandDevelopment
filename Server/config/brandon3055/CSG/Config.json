@@ -1,12 +1,13 @@
 {
   "inventory": {
-    "0:3": "realistictorches:matchbox",
-    "0:7": "weapons_of_the_apocalypse:ration,3",
-    "0:8": "toughasnails:canteen,1,2",
-    "0:4": "minecraft:wool,3,15",
-    "0:5": "firstaid:plaster,2",
-    "0:1": "weapons_of_the_apocalypse:steelpipe",
-    "0:6": "firstaid:bandage",
-    "0:2": "realistictorches:torch_unlit,2"
+    "0:4": "firstaid:plaster,4",
+    "0:3": "minecraft:wool,3,15",
+    "0:8": "minecraft:chest",
+    "0:7": "toughasnails:canteen,1,2",
+    "0:0": "weapons_of_the_apocalypse:steelpipe",
+    "0:6": "weapons_of_the_apocalypse:ration,3",
+    "0:1": "realistictorches:torch_unlit,2",
+    "0:2": "realistictorches:matchbox",
+    "0:5": "firstaid:bandage,2"
   }
 }

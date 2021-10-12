@@ -7,8 +7,11 @@ var hay_block = <minecraft:hay_block>;
 var charcoal = <minecraft:coal:1>;
 var plank = <ore:plankWood>;
 
-recipes.addShaped("charcoal_filter", charcoal_filter*9, [
+recipes.addShaped("charcoal_filter", charcoal_filter*16, [
     [plank,charcoal,plank],
     [plank,hay_block,plank],
     [plank,charcoal,plank]
 ]);
+
+var canteen = <toughasnails:canteen>;
+var leather = <minecraft:leather>;

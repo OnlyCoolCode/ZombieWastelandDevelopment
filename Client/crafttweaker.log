@@ -1,24 +1,24 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Jonathan McManus
-IDroid
-Jimmie L Hines jr
-Pongo Sapiens
-Barrier
-Robijnvogel
-AdaraChristine
-BrÃ¸nsted
-Zuniroa
-Quaternary
-Ncc1702
-DreamThorn
 Ivy_
 NerdyWhiteGuy
-Peregrinus11
-Belathus
+BrÃ¸nsted
+Barrier
 Otakup0pe
-NickT
 Genryu
+Jonathan McManus
+DreamThorn
+Jimmie L Hines jr
+Quaternary
+IDroid
+Peregrinus11
+Pongo Sapiens
+Belathus
+Ncc1702
+AdaraChristine
+Zuniroa
+NickT
 Psyberition
+Robijnvogel
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
@@ -40,10 +40,11 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_FencesAndWalls.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_firstaid.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_foodfunk.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_naturecompass.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_thoughasnails.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_vanilla.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_WOTApocalypse.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 3ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 4ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
@@ -145,6 +146,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Mouse Tweaks:
 [INITIALIZATION][CLIENT][INFO] Move Plus:
 [INITIALIZATION][CLIENT][INFO] Mutant Beasts:
+[INITIALIZATION][CLIENT][INFO] Nature's Compass:
 [INITIALIZATION][CLIENT][INFO] No Nether Portals:
 [INITIALIZATION][CLIENT][INFO] No Recipe Book:
 [INITIALIZATION][CLIENT][INFO] Not Enough Items:
@@ -157,6 +159,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Realistic Torches:
 [INITIALIZATION][CLIENT][INFO] Resource Loader:
 [INITIALIZATION][CLIENT][INFO] Rough Mobs Revamped:
+[INITIALIZATION][CLIENT][INFO] Silent Lib:
+[INITIALIZATION][CLIENT][INFO] Scaling Health:
 [INITIALIZATION][CLIENT][INFO] Somnia:
 [INITIALIZATION][CLIENT][INFO] Sound Physics:
 [INITIALIZATION][CLIENT][INFO] Spartan Shields:
@@ -4634,6 +4638,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] 		Creeper Shard
 [INITIALIZATION][CLIENT][INFO] 		Mutant Skeleton Boots
 [INITIALIZATION][CLIENT][INFO] 		Mutant Skeleton Rib
+[INITIALIZATION][CLIENT][INFO] Nature's Compass:
+[INITIALIZATION][CLIENT][INFO] 		Nature's Compass
 [INITIALIZATION][CLIENT][INFO] No Nether Portals:
 [INITIALIZATION][CLIENT][INFO] No Recipe Book:
 [INITIALIZATION][CLIENT][INFO] Not Enough Items:
@@ -4732,6 +4738,16 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] 		Glowstone Paste
 [INITIALIZATION][CLIENT][INFO] Resource Loader:
 [INITIALIZATION][CLIENT][INFO] Rough Mobs Revamped:
+[INITIALIZATION][CLIENT][INFO] Silent Lib:
+[INITIALIZATION][CLIENT][INFO] Scaling Health:
+[INITIALIZATION][CLIENT][INFO] 		Heart Crystal Ore
+[INITIALIZATION][CLIENT][INFO] 		Heart Dust
+[INITIALIZATION][CLIENT][INFO] 		Heart Container
+[INITIALIZATION][CLIENT][INFO] 		Bandages
+[INITIALIZATION][CLIENT][INFO] 		Medkit
+[INITIALIZATION][CLIENT][INFO] 		Enchanted Heart
+[INITIALIZATION][CLIENT][INFO] 		Cursed Heart
+[INITIALIZATION][CLIENT][INFO] 		Heart Crystal Shard
 [INITIALIZATION][CLIENT][INFO] Somnia:
 [INITIALIZATION][CLIENT][INFO] Sound Physics:
 [INITIALIZATION][CLIENT][INFO] Spartan Shields:
@@ -5360,6 +5376,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Mouse Tweaks:
 [INITIALIZATION][CLIENT][INFO] Move Plus:
 [INITIALIZATION][CLIENT][INFO] Mutant Beasts:
+[INITIALIZATION][CLIENT][INFO] Nature's Compass:
 [INITIALIZATION][CLIENT][INFO] No Nether Portals:
 [INITIALIZATION][CLIENT][INFO] No Recipe Book:
 [INITIALIZATION][CLIENT][INFO] Not Enough Items:
@@ -5372,6 +5389,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Realistic Torches:
 [INITIALIZATION][CLIENT][INFO] Resource Loader:
 [INITIALIZATION][CLIENT][INFO] Rough Mobs Revamped:
+[INITIALIZATION][CLIENT][INFO] Silent Lib:
+[INITIALIZATION][CLIENT][INFO] Scaling Health:
 [INITIALIZATION][CLIENT][INFO] Somnia:
 [INITIALIZATION][CLIENT][INFO] Sound Physics:
 [INITIALIZATION][CLIENT][INFO] Spartan Shields:
@@ -5410,6 +5429,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Queued all pools of table mutantbeasts:entities/mutant_zombie for removal
 [INITIALIZATION][CLIENT][INFO] Queued pool mutant_zombiePool for addition to table mutantbeasts:entities/mutant_zombie
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#1' for addition to pool 'mutant_zombiePool' of table 'mutantbeasts:entities/mutant_zombie'
+[INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#2' for addition to pool 'mutant_zombiePool' of table 'mutantbeasts:entities/mutant_zombie'
 [INITIALIZATION][CLIENT][INFO] Queued all pools of table techguns:entities/bandit for removal
 [INITIALIZATION][CLIENT][INFO] Queued pool banditPool for addition to table techguns:entities/bandit
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#1' for addition to pool 'banditPool' of table 'techguns:entities/bandit'
@@ -5463,6 +5483,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Created new table 'loottweaker:longguns'
 [INITIALIZATION][CLIENT][INFO] Created new table 'loottweaker:food'
 [INITIALIZATION][CLIENT][INFO] Created new table 'loottweaker:sphere'
+[INITIALIZATION][CLIENT][INFO] Created new table 'loottweaker:objective'
 [INITIALIZATION][CLIENT][INFO] Queued pool subway for addition to table loottweaker:subway
 [INITIALIZATION][CLIENT][INFO] Queued pool generic for addition to table loottweaker:generic
 [INITIALIZATION][CLIENT][INFO] Queued pool healing for addition to table loottweaker:healing
@@ -5471,6 +5492,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Queued pool longguns for addition to table loottweaker:longguns
 [INITIALIZATION][CLIENT][INFO] Queued pool food for addition to table loottweaker:food
 [INITIALIZATION][CLIENT][INFO] Queued pool sphere for addition to table loottweaker:sphere
+[INITIALIZATION][CLIENT][INFO] Queued pool objective for addition to table loottweaker:objective
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#1' for addition to pool 'subway' of table 'loottweaker:subway'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#2' for addition to pool 'subway' of table 'loottweaker:subway'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#3' for addition to pool 'subway' of table 'loottweaker:subway'
@@ -5540,6 +5562,14 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#47' for addition to pool 'generic' of table 'loottweaker:generic'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#48' for addition to pool 'generic' of table 'loottweaker:generic'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#49' for addition to pool 'generic' of table 'loottweaker:generic'
+[INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#50' for addition to pool 'generic' of table 'loottweaker:generic'
+[INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#51' for addition to pool 'generic' of table 'loottweaker:generic'
+[INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#52' for addition to pool 'generic' of table 'loottweaker:generic'
+[INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#53' for addition to pool 'generic' of table 'loottweaker:generic'
+[INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#54' for addition to pool 'generic' of table 'loottweaker:generic'
+[INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#55' for addition to pool 'generic' of table 'loottweaker:generic'
+[INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#56' for addition to pool 'generic' of table 'loottweaker:generic'
+[INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#57' for addition to pool 'generic' of table 'loottweaker:generic'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#1' for addition to pool 'healing' of table 'loottweaker:healing'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#2' for addition to pool 'healing' of table 'loottweaker:healing'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#3' for addition to pool 'healing' of table 'loottweaker:healing'
@@ -5610,6 +5640,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#18' for addition to pool 'sphere' of table 'loottweaker:sphere'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#19' for addition to pool 'sphere' of table 'loottweaker:sphere'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#20' for addition to pool 'sphere' of table 'loottweaker:sphere'
+[INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#1' for addition to pool 'objective' of table 'loottweaker:objective'
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Loot_tweak_vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] Queued all pools of table minecraft:chests/abandoned_mineshaft for removal
 [INITIALIZATION][CLIENT][INFO] Queued pool MineshaftPool for addition to table minecraft:chests/abandoned_mineshaft
@@ -5713,10 +5744,11 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_FencesAndWalls.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_firstaid.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_foodfunk.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_naturecompass.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_thoughasnails.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_WOTApocalypse.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 994ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 911ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "weapons_of_the_apocalypse:leatherr2"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "minecraft:glass_bottle"
@@ -5768,11 +5800,18 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Potato with name terrarium_to_potato
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Mushroom with name terrarium_to_red_mushroom
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Mushroom with name terrarium_to_brown_mushroom
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Ruby with name ruby
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Topaz with name topaz
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Amber with name amber
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Peridot with name peridot
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Malachite with name malachite
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Sapphire with name sapphire
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Tanzanite with name tanzanite
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Emerald with name emerald
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pistol Rounds with name ammo_revolver1
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pistol Rounds with name ammo_revolver2
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pistol Rounds with name ammo_revolver3
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pistol Magazine with name ammo_pistol1
-[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Pistol Magazine with name ammo_pistol2
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Stone Bullets with name ammo_handcannon
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Shotgun Rounds with name ammo_shotgun1
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Shotgun Rounds with name ammo_shotgun2
@@ -5860,11 +5899,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Plaster with name plaster1
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Plaster with name plaster2
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Plaster with name plaster3
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Plaster with name plaster4
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Bandage with name bandage1
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Morphine with name morphine1
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Morphine with name morphine2
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Esky with name esky
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Freezer with name freezer
+[POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nature's Compass with name naturescompass1
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Charcoal Filter with name charcoal_filter
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Cobweb with name web
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Slimeball with name Slime1
@@ -5914,6 +5955,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nails with name nails
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Duct Tape with name ducttape
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Iron Ingot with name can_to_iron
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for White Wool with name cloth_to_wool
 [POSTINITIALIZATION][CLIENT][INFO] Removing furnace recipes for: <ore:blockGlassColorless>
 [POSTINITIALIZATION][CLIENT][INFO] 2 recipes removed for: <ore:blockGlassColorless>
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <biomesoplenty:white_sand>
@@ -11556,17 +11598,3 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <iymts_mob_mod:rniyengineeringsuitchestplate>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <iymts_mob_mod:rniyengineeringsuithelmet>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <iymts_mob_mod:rniyengineeringsuitboots>
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool mutant_zombiePool to table mutantbeasts:entities/mutant_zombie
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool MineshaftPool to table minecraft:chests/abandoned_mineshaft
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool ZombiePool to table minecraft:entities/zombie
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool spawn_bonus_chest to table minecraft:chests/spawn_bonus_chest
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool playerskinsPool to table playerskins:entities/skinloot
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool SpiderPool to table minecraft:entities/spider
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool handgun to table loottweaker:handgun
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool sphere to table loottweaker:sphere
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool longguns to table loottweaker:longguns
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool healing to table loottweaker:healing
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool plant to table loottweaker:plant
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool generic to table loottweaker:generic
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool food to table loottweaker:food
-[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool subway to table loottweaker:subway

@@ -38,6 +38,7 @@ var cloth = <weapons_of_the_apocalypse:cloth>;
 var glue = <weapons_of_the_apocalypse:glue>;
 var spider_string = <minecraft:string>;
 var wool = <minecraft:wool:*>;
+var wool_white = <minecraft:wool:0>;
 var water_bucket = <minecraft:water_bucket>;
 var emptycan = <weapons_of_the_apocalypse:emptycan>;
 var slime = <minecraft:slime_ball>;
@@ -135,4 +136,6 @@ recipes.addShaped("ducttape", ducttape*2, [
 recipes.addShapeless("can_to_iron", iron,
 [emptycan,emptycan,emptycan]
 );
-
+recipes.addShapeless("cloth_to_wool", wool_white,
+[cloth]
+);

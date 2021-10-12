@@ -5,19 +5,23 @@
       "entries": [
         {
           "entryName": "loottweaker#28",
-          "weight": 5,
+          "weight": 15,
           "quality": 1,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 1.0,
-                "max": 2.0
+                "min": 3.0,
+                "max": 9.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "realistictorches:matchbox"
+          "name": "minecraft:dye"
         },
         {
           "entryName": "loottweaker#29",
@@ -33,71 +37,87 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:arrow"
+          "name": "weapons_of_the_apocalypse:emptystimpack"
         },
         {
           "entryName": "loottweaker#24",
-          "weight": 5,
+          "weight": 15,
           "quality": 1,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 1.0,
-                "max": 2.0
+                "min": 3.0,
+                "max": 9.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "data": 10.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "minecraft:glass_bottle"
+          "name": "minecraft:dye"
         },
         {
           "entryName": "loottweaker#25",
-          "weight": 5,
+          "weight": 15,
           "quality": 1,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 1.0,
-                "max": 2.0
+                "min": 3.0,
+                "max": 9.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "data": 6.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "minecraft:bucket"
+          "name": "minecraft:dye"
         },
         {
           "entryName": "loottweaker#26",
-          "weight": 5,
+          "weight": 15,
           "quality": 1,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 1.0,
-                "max": 2.0
+                "min": 3.0,
+                "max": 9.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "data": 12.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "minecraft:flint_and_steel"
+          "name": "minecraft:dye"
         },
         {
           "entryName": "loottweaker#27",
-          "weight": 5,
+          "weight": 15,
           "quality": 1,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 1.0,
-                "max": 2.0
+                "min": 3.0,
+                "max": 9.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "data": 13.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "toughasnails:charcoal_filter"
+          "name": "minecraft:dye"
         },
         {
           "entryName": "loottweaker#20",
@@ -117,22 +137,66 @@
         },
         {
           "entryName": "loottweaker#21",
-          "weight": 5,
+          "weight": 15,
           "quality": 1,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 1.0,
-                "max": 2.0
+                "min": 3.0,
+                "max": 9.0
               },
               "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
             }
           ],
-          "name": "weapons_of_the_apocalypse:emptystimpack"
+          "name": "minecraft:dye"
         },
         {
           "entryName": "loottweaker#22",
+          "weight": 15,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 14.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "loottweaker#23",
+          "weight": 15,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 3.0,
+                "max": 9.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 11.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "minecraft:dye"
+        },
+        {
+          "entryName": "loottweaker#30",
           "weight": 5,
           "quality": 1,
           "type": "item",
@@ -148,7 +212,20 @@
           "name": "realistictorches:torch_unlit"
         },
         {
-          "entryName": "loottweaker#23",
+          "entryName": "loottweaker#39",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:steelhatchet"
+        },
+        {
+          "entryName": "loottweaker#35",
           "weight": 5,
           "quality": 1,
           "type": "item",
@@ -161,10 +238,42 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:book"
+          "name": "toughasnails:charcoal_filter"
         },
         {
-          "entryName": "loottweaker#30",
+          "entryName": "loottweaker#36",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "realistictorches:matchbox"
+        },
+        {
+          "entryName": "loottweaker#37",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:arrow"
+        },
+        {
+          "entryName": "loottweaker#38",
           "weight": 5,
           "quality": 1,
           "type": "item",
@@ -184,121 +293,68 @@
           "name": "techguns:itemshared"
         },
         {
-          "entryName": "loottweaker#39",
-          "weight": 3,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:baton"
-        },
-        {
-          "entryName": "loottweaker#35",
-          "weight": 3,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:golfclub"
-        },
-        {
-          "entryName": "loottweaker#36",
-          "weight": 3,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:machete"
-        },
-        {
-          "entryName": "loottweaker#37",
-          "weight": 3,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "weapons_of_the_apocalypse:steelpipe"
-        },
-        {
-          "entryName": "loottweaker#38",
-          "weight": 3,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:bow"
-        },
-        {
           "entryName": "loottweaker#31",
-          "weight": 3,
+          "weight": 5,
           "quality": 1,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:steelhatchet"
+          "name": "minecraft:book"
         },
         {
           "entryName": "loottweaker#32",
-          "weight": 3,
+          "weight": 5,
           "quality": 1,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:tireiron"
+          "name": "minecraft:glass_bottle"
         },
         {
           "entryName": "loottweaker#33",
-          "weight": 3,
+          "weight": 5,
           "quality": 1,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:fireaxe"
+          "name": "minecraft:bucket"
         },
         {
           "entryName": "loottweaker#34",
-          "weight": 3,
+          "weight": 5,
           "quality": 1,
           "type": "item",
           "functions": [
             {
-              "count": 1.0,
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:baseballbat"
+          "name": "minecraft:flint_and_steel"
         },
         {
           "entryName": "loottweaker#40",
@@ -311,7 +367,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:juicer"
+          "name": "weapons_of_the_apocalypse:tireiron"
         },
         {
           "entryName": "loottweaker#41",
@@ -324,7 +380,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:cleaver"
+          "name": "weapons_of_the_apocalypse:fireaxe"
         },
         {
           "entryName": "loottweaker#1",
@@ -353,7 +409,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "spartanshields:shield_tower_iron"
+          "name": "minecraft:bow"
         },
         {
           "entryName": "loottweaker#47",
@@ -366,7 +422,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "betterwithmods:composite_bow"
+          "name": "weapons_of_the_apocalypse:baton"
         },
         {
           "entryName": "loottweaker#48",
@@ -375,18 +431,11 @@
           "type": "item",
           "functions": [
             {
-              "count": {
-                "min": 6.0,
-                "max": 18.0
-              },
+              "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
             }
           ],
-          "name": "techguns:itemshared"
+          "name": "weapons_of_the_apocalypse:juicer"
         },
         {
           "entryName": "loottweaker#49",
@@ -397,13 +446,9 @@
             {
               "count": 1.0,
               "function": "minecraft:set_count"
-            },
-            {
-              "data": 12.0,
-              "function": "minecraft:set_data"
             }
           ],
-          "name": "techguns:itemshared"
+          "name": "weapons_of_the_apocalypse:cleaver"
         },
         {
           "entryName": "loottweaker#42",
@@ -416,7 +461,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "weapons_of_the_apocalypse:tacticalshovel"
+          "name": "weapons_of_the_apocalypse:baseballbat"
         },
         {
           "entryName": "loottweaker#43",
@@ -429,7 +474,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "spartanshields:shield_basic_stone"
+          "name": "weapons_of_the_apocalypse:golfclub"
         },
         {
           "entryName": "loottweaker#44",
@@ -442,7 +487,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "spartanshields:shield_basic_iron"
+          "name": "weapons_of_the_apocalypse:machete"
         },
         {
           "entryName": "loottweaker#45",
@@ -455,7 +500,46 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "spartanshields:shield_tower_stone"
+          "name": "weapons_of_the_apocalypse:steelpipe"
+        },
+        {
+          "entryName": "loottweaker#50",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:tacticalshovel"
+        },
+        {
+          "entryName": "loottweaker#51",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanshields:shield_basic_stone"
+        },
+        {
+          "entryName": "loottweaker#52",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanshields:shield_basic_iron"
         },
         {
           "entryName": "loottweaker#17",
@@ -530,12 +614,29 @@
             {
               "count": {
                 "min": 1.0,
-                "max": 2.0
+                "max": 4.0
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "weapons_of_the_apocalypse:nails"
+        },
+        {
+          "entryName": "loottweaker#57",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 12.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
         },
         {
           "entryName": "loottweaker#4",
@@ -562,7 +663,7 @@
             {
               "count": {
                 "min": 1.0,
-                "max": 2.0
+                "max": 4.0
               },
               "function": "minecraft:set_count"
             }
@@ -594,7 +695,7 @@
             {
               "count": {
                 "min": 1.0,
-                "max": 2.0
+                "max": 4.0
               },
               "function": "minecraft:set_count"
             }
@@ -626,7 +727,7 @@
             {
               "count": {
                 "min": 1.0,
-                "max": 2.0
+                "max": 4.0
               },
               "function": "minecraft:set_count"
             }
@@ -648,6 +749,19 @@
             }
           ],
           "name": "weapons_of_the_apocalypse:stimpack"
+        },
+        {
+          "entryName": "loottweaker#53",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanshields:shield_tower_stone"
         },
         {
           "entryName": "loottweaker#8",
@@ -682,6 +796,19 @@
           "name": "weapons_of_the_apocalypse:emptycan"
         },
         {
+          "entryName": "loottweaker#54",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "spartanshields:shield_tower_iron"
+        },
+        {
           "entryName": "loottweaker#7",
           "weight": 8,
           "quality": 1,
@@ -714,6 +841,19 @@
           "name": "minecraft:iron_nugget"
         },
         {
+          "entryName": "loottweaker#55",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "betterwithmods:composite_bow"
+        },
+        {
           "entryName": "loottweaker#6",
           "weight": 8,
           "quality": 1,
@@ -744,11 +884,31 @@
             }
           ],
           "name": "minecraft:gunpowder"
+        },
+        {
+          "entryName": "loottweaker#56",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 6.0,
+                "max": 18.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
         }
       ],
       "rolls": {
-        "min": 1.0,
-        "max": 10.0
+        "min": 2.0,
+        "max": 9.0
       }
     }
   ]

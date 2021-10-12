@@ -96,6 +96,11 @@
     "result": "deny"
   },
   {
+    "hostile": true,
+    "biome": "Cherry Blossom Grove",
+    "result": "deny"
+  },
+  {
     "passive": true,
     "insphere": true,
     "result": "deny"
@@ -241,10 +246,10 @@
     "biome": "Jungle",
     "result": "allow",
     "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron","weapons_of_the_apocalypse:cleaver","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:baton"],
-    "armorboots":["techguns:t1_scout_boots", "techguns:t2_riot_boots"],
-    "armorhelmet":["techguns:t1_scout_helmet", "techguns:t2_riot_helmet"],
-    "armorlegs":["techguns:t1_scout_leggings", "techguns:t2_riot_leggings"],
-    "armorchest":["techguns:t1_scout_chestplate", "techguns:t2_riot_chestplate"]
+    "armorboots":["techguns:t1_scout_boots", "minecraft:leather_boots"],
+    "armorhelmet":["techguns:t1_scout_helmet", "minecraft:leather_helmet"],
+    "armorlegs":["techguns:t1_scout_leggings", "minecraft:leather_leggings"],
+    "armorchest":["techguns:t1_scout_chestplate", "minecraft:leather_chestplate"]
   },
   {
     "mob": "playerskins:playermob",
@@ -272,10 +277,10 @@
     "seesky": true,
     "result": "allow",
     "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron","weapons_of_the_apocalypse:cleaver","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:baton"],
-    "armorboots":["techguns:t1_scout_boots", "techguns:t2_riot_boots"],
-    "armorhelmet":["techguns:t1_scout_helmet", "techguns:t2_riot_helmet"],
-    "armorlegs":["techguns:t1_scout_leggings", "techguns:t2_riot_leggings"],
-    "armorchest":["techguns:t1_scout_chestplate", "techguns:t2_riot_chestplate"]
+    "armorboots":["techguns:t1_scout_boots", "minecraft:leather_boots"],
+    "armorhelmet":["techguns:t1_scout_helmet", "minecraft:leather_helmet"],
+    "armorlegs":["techguns:t1_scout_leggings", "minecraft:leather_leggings"],
+    "armorchest":["techguns:t1_scout_chestplate", "minecraft:leather_chestplate"]
   },
   {
     "mob": "playerskins:playermob",
@@ -283,10 +288,10 @@
     "inbuilding": true,
     "result": "allow",
     "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron","weapons_of_the_apocalypse:cleaver","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:baton"],
-    "armorboots":["techguns:t1_scout_boots", "techguns:t2_riot_boots"],
-    "armorhelmet":["techguns:t1_scout_helmet", "techguns:t2_riot_helmet"],
-    "armorlegs":["techguns:t1_scout_leggings", "techguns:t2_riot_leggings"],
-    "armorchest":["techguns:t1_scout_chestplate", "techguns:t2_riot_chestplate"]
+    "armorboots":["techguns:t1_scout_boots", "minecraft:leather_boots"],
+    "armorhelmet":["techguns:t1_scout_helmet", "minecraft:leather_helmet"],
+    "armorlegs":["techguns:t1_scout_leggings", "minecraft:leather_leggings"],
+    "armorchest":["techguns:t1_scout_chestplate", "minecraft:leather_chestplate"]
   },
   {
     "mob": ["techguns:armysoldier"],
