@@ -15,27 +15,30 @@ var paper = <ore:paper>.firstItem;
 var ducttape = <weapons_of_the_apocalypse:ducttape>;
 var brown_mushroom = <minecraft:brown_mushroom>;
 var red_mushroom = <minecraft:red_mushroom>;
-recipes.addShaped("plaster1", plaster*4, [
-    [cloth,cloth,cloth],
-    [null,slime,null]
-]);
-recipes.addShaped("plaster2", plaster*4, [
-    [cloth,cloth,cloth],
-    [null,glue,null]
-]);
-recipes.addShaped("plaster3", plaster, [
+recipes.addShaped("plaster1", plaster, [
     [null,paper,null],
     [paper,brown_mushroom,paper],
     [null,null,null]
 ]);
-recipes.addShaped("plaster4", plaster, [
+recipes.addShaped("plaster2", plaster, [
     [null,paper,null],
     [paper,red_mushroom,paper],
     [null,null,null]
 ]);
-recipes.addShaped("bandage1", bandage*3, [
+recipes.addShaped("plaster3", plaster*2, [
+    [cloth],
+    [slime]
+]);
+recipes.addShaped("bandage1", bandage*4, [
+    [null,glue,null],
+    [cloth,cloth,cloth]
+]);
+recipes.addShaped("bandage2", bandage*4, [
     [null,ducttape,null],
     [cloth,cloth,cloth]
+]);
+recipes.addShaped("bandage3", bandage*2, [
+    [cloth,cloth]
 ]);
 // morphine
 var morphine = <firstaid:morphine>;

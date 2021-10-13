@@ -18,32 +18,32 @@ var acacia_log = <minecraft:log2>;
 var dark_oak_log = <minecraft:log2:1>;
 
 recipes.remove(oak_wired_fence);
-recipes.addShaped("oak_wired_fence", oak_wired_fence*2, [
+recipes.addShaped("oak_wired_fence", oak_wired_fence*3, [
     [stick,iron_bars,stick],
     [stick,oak_log,stick]
 ]);
 recipes.remove(spruce_wired_fence);
-recipes.addShaped("spruce_wired_fence", spruce_wired_fence*2, [
+recipes.addShaped("spruce_wired_fence", spruce_wired_fence*3, [
     [stick,iron_bars,stick],
     [stick,spruce_log,stick]
 ]);
 recipes.remove(birch_wired_fence);
-recipes.addShaped("birch_wired_fence", birch_wired_fence*2, [
+recipes.addShaped("birch_wired_fence", birch_wired_fence*3, [
     [stick,iron_bars,stick],
     [stick,birch_log,stick]
 ]);
 recipes.remove(jungle_wired_fence);
-recipes.addShaped("jungle_wired_fence", jungle_wired_fence*2, [
+recipes.addShaped("jungle_wired_fence", jungle_wired_fence*3, [
     [stick,iron_bars,stick],
     [stick,jungle_log,stick]
 ]);
 recipes.remove(acacia_wired_fence);
-recipes.addShaped("acacia_wired_fence", acacia_wired_fence*2, [
+recipes.addShaped("acacia_wired_fence", acacia_wired_fence*3, [
     [stick,iron_bars,stick],
     [stick,acacia_log,stick]
 ]);
 recipes.remove(dark_oak_wired_fence);
-recipes.addShaped("dark_oak_wired_fence", dark_oak_wired_fence*2, [
+recipes.addShaped("dark_oak_wired_fence", dark_oak_wired_fence*3, [
     [stick,iron_bars,stick],
     [stick,dark_oak_log,stick]
 ]);

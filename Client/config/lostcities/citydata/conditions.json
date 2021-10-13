@@ -41,7 +41,7 @@
         "issphere": true
       },
       {
-        "factor": 150,
+        "factor": 100,
         "value": "loottweaker:objective",
         "issphere": true
       },
