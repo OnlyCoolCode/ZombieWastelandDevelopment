@@ -1,2 +1,2 @@
-#Wed Sep 22 21:39:53 ART 2021
-ElDuro=1
+#Tue Oct 12 23:33:32 ART 2021
+ElDuro=2

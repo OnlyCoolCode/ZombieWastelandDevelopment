@@ -1,0 +1,39 @@
+{
+  "betteranimalsplus:root": {
+    "criteria": {
+      "tick": "2021-10-13 13:51:23 -0300"
+    },
+    "done": true
+  },
+  "biomesoplenty:biomesoplenty/all_biomes": {
+    "criteria": {
+      "volcanic_island": "2021-10-13 13:52:16 -0300",
+      "wasteland": "2021-10-13 13:51:23 -0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2021-10-13 13:51:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2021-10-13 13:51:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2021-10-13 13:51:23 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/painting": {
+    "criteria": {
+      "has_wool": "2021-10-13 13:51:23 -0300"
+    },
+    "done": true
+  }
+}

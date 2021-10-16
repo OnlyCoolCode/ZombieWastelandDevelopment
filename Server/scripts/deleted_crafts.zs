@@ -626,7 +626,7 @@ for item in ompd {
     mods.jei.JEI.removeAndHide(item);
 }
 
-for mod in loadedMods {
+/*for mod in loadedMods {
 	print(mod.name ~ ":");
     if mod.name == "Chisel"
         for item in mod.items {
@@ -637,8 +637,8 @@ for mod in loadedMods {
         for item in mod.items {
             mods.jei.JEI.removeAndHide(item);
             //print("\t\t" ~ item.displayName);
-        }  */
-}
+        }  
+}*/
 
 for mod in loadedMods {
 	// print(mod.name ~ ":");

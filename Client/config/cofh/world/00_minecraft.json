@@ -23,6 +23,70 @@
 			}
 		},
 
+		"soul_sand_geode": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "geode",
+				"block": [
+					{
+						"name": "chisel:basalt",
+						"weight": 40
+					},
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7,
+						"weight": 60
+					}],
+				"material": [
+					"minecraft:stone",
+					"minecraft:air"
+				],
+				"hollow": true,
+				"filler": [
+					{
+						"name": "minecraft:lava",
+						"weight": 60
+					},
+					{
+						"name": "minecraft:soul_sand",
+						"weight": 40
+					}],
+				"crust": [
+					{
+						"name": "chisel:basalt",
+						"weight": 40
+					},
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7,
+						"weight": 60
+					}]
+			},
+			"cluster-count": 6,
+			"chunk-chance": 1,
+			"min-height": 2,
+			"max-height": 60,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			},
+			"retrogen": false,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
 		"gravel": {
 			"distribution": "uniform",
 			"generator": {
@@ -122,12 +186,100 @@
 			}
 		},
 
+		"limestone": {
+			"distribution": "uniform",
+			"generator": {
+				"block":  [
+					{
+						"name": "chisel:limestone",
+						"weight": 60
+					},
+					{
+						"name": "chisel:limestone2",
+						"metadata": 7,
+						"weight": 40
+					}],
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 7,
+			"min-height": 40,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
+		"basalt": {
+			"distribution": "uniform",
+			"generator": {
+				"block":  [
+					{
+						"name": "chisel:basalt",
+						"weight": 47
+					},
+					{
+						"name": "chisel:basalt2",
+						"metadata": 7,
+						"weight": 47
+					},
+					{
+						"name": "minecraft:lava",
+						"weight": 6
+					}
+				],
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 25,
+			"min-height": 0,
+			"max-height": 80,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+
 		"coal": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "coal_ore",
+				"block": [
+					{"name": "coal_ore", "weight": 95},
+					{"name": "densemetals:dense_coal_ore", "weight": 5}
+						],
 				"material": "minecraft:stone",
-				"cluster-size": 17
+				"cluster-size": 12
 			},
 			"cluster-count": 20,
 			"min-height": 0,
@@ -150,7 +302,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 6
 			},
-			"cluster-count": 15,
+			"cluster-count": 10,
 			"min-height": 32,
 			"max-height": 64,
 			"retrogen": false,
@@ -167,7 +319,10 @@
 		"gold": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "gold_ore",
+				"block": [
+					{"name": "gold_ore", "weight": 95},
+					{"name": "densemetals:dense_gold_ore", "weight": 5}
+						],
 				"material": "minecraft:stone",
 				"cluster-size": 9
 			},
@@ -188,9 +343,12 @@
 		"redstone": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "redstone_ore",
+				"block": [
+					{"name": "redstone_ore", "weight": 95},
+					{"name": "densemetals:dense_redstone_ore", "weight": 5}
+						],
 				"material": "minecraft:stone",
-				"cluster-size": 8
+				"cluster-size": 4
 			},
 			"cluster-count": 8,
 			"min-height": 0,
@@ -209,7 +367,10 @@
 		"diamond": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "diamond_ore",
+				"block": [
+					{"name": "diamond_ore", "weight": 95},
+					{"name": "densemetals:dense_diamond_ore", "weight": 5}
+						],
 				"material": "minecraft:stone",
 				"cluster-size": 8
 			},
@@ -230,7 +391,10 @@
 		"lapis": {
 			"distribution": "gaussian",
 			"generator": {
-				"block": "lapis_ore",
+				"block": [
+					{"name": "lapis_ore", "weight": 95},
+					{"name": "densemetals:dense_lapis_ore", "weight": 5}
+						],
 				"material": "minecraft:stone",
 				"cluster-size": 7
 			},
@@ -274,46 +438,6 @@
 							"mutated_mesa",
 							"mutated_mesa_rock",
 							"mutated_mesa_clear_rock"
-						]
-					}
-				]
-			},
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-
-		"emerald": {
-			"distribution": "uniform",
-			"generator": {
-				"block": {
-					"name": "emerald_ore"
-				},
-				"material": "minecraft:stone",
-				"cluster-size": 1
-			},
-			"cluster-count": {
-				"min": 3,
-				"max": 6
-			},
-			"min-height": 4,
-			"max-height": 28,
-			"retrogen": false,
-			"biome": {
-				"restriction": "whitelist",
-				"value": [
-					{
-						"type": "id",
-						"entry": [
-							"extreme_hills",
-							"smaller_extreme_hills",
-							"extreme_hills_with_trees",
-							"mutated_extreme_hills",
-							"mutated_extreme_hills_with_trees"
 						]
 					}
 				]
@@ -394,7 +518,7 @@
 			"generator": {
 				"block": "minecraft:soul_sand",
 				"material": "minecraft:stone",
-				"cluster-size": 6
+				"cluster-size": 10
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -414,7 +538,7 @@
 			"generator": {
 				"block": "minecraft:netherrack",
 				"material": "minecraft:stone",
-				"cluster-size": 12
+				"cluster-size": 10
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -432,15 +556,25 @@
 		"clay": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "<minecraft:clay>",
+				"block": "minecraft:clay",
 				"material": "minecraft:stone",
-				"cluster-size": 12
+				"cluster-size": 9
 			},
-			"cluster-count": 3,
+			"cluster-count": 1,
 			"min-height": 30,
 			"max-height": 60,
 			"retrogen": false,
-			"biome": "all",
+			"biome": {
+				"restriction": "blacklist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biomesoplenty:volcanic_island"
+						]
+					}
+				]
+			},
 			"dimension": {
 				"restriction": "blacklist",
 				"value": [
@@ -452,33 +586,16 @@
 		"irondown": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "iron_ore",
+				"block": [
+					{"name": "iron_ore", "weight": 95},
+					{"name": "densemetals:dense_iron_ore", "weight": 5}
+						],
 				"material": "minecraft:stone",
-				"cluster-size": 12
+				"cluster-size": 10
 			},
-			"cluster-count": 20,
+			"cluster-count": 15,
 			"min-height": 0,
 			"max-height": 32,
-			"retrogen": false,
-			"biome": "all",
-			"dimension": {
-				"restriction": "blacklist",
-				"value": [
-					-1,
-					1
-				]
-			}
-		},
-		"quartz_overworld": {
-			"distribution": "uniform",
-			"generator": {
-				"block": "quartz_ore",
-				"material": "minecraft:stone",
-				"cluster-size": 8
-			},
-			"cluster-count": 1,
-			"min-height": 0,
-			"max-height": 16,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
@@ -492,9 +609,10 @@
 		"ruby": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "biomesoplenty:gem_ore:1",
+				"block": [{"name": "biomesoplenty:gem_ore",
+					"metadata": 1}],
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 1
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -512,9 +630,10 @@
 		"topaz": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "biomesoplenty:gem_ore:3",
+				"block": [{"name": "biomesoplenty:gem_ore",
+					"metadata": 3}],
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 1
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -532,9 +651,10 @@
 		"amber": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "biomesoplenty:gem_ore:7",
+				"block": [{"name": "biomesoplenty:gem_ore",
+					"metadata": 7}],
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 1
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -552,9 +672,10 @@
 		"peridot": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "biomesoplenty:gem_ore:2",
+				"block": [{"name": "biomesoplenty:gem_ore",
+					"metadata": 2}],
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 1
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -572,9 +693,10 @@
 		"malachite": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "biomesoplenty:gem_ore:5",
+				"block": [{"name": "biomesoplenty:gem_ore",
+					"metadata": 5}],
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 1
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -592,9 +714,10 @@
 		"sapphire": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "biomesoplenty:gem_ore:6",
+				"block": [{"name": "biomesoplenty:gem_ore",
+					"metadata": 6}],
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 1
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -612,9 +735,10 @@
 		"tanzanite": {
 			"distribution": "uniform",
 			"generator": {
-				"block": "biomesoplenty:gem_ore:4",
+				"block": [{"name": "biomesoplenty:gem_ore",
+					"metadata": 4}],
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 1
 			},
 			"cluster-count": 1,
 			"min-height": 0,
@@ -629,16 +753,158 @@
 				]
 			}
 		},
-		"emerald2": {
+		"emerald": {
 			"distribution": "uniform",
 			"generator": {
 				"block": "minecraft:emerald_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 1
 			},
 			"cluster-count": 1,
 			"min-height": 0,
 			"max-height": 16,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"boulder_rock": {
+
+			"distribution": "surface",
+			"generator": {
+				"type": "boulder",
+				"block": [
+					{
+						"name": "minecraft:stone",
+						"weight": 20
+					},
+					{
+						"name": "minecraft:cobblestone",
+						"weight": 50
+					},
+					{
+						"name": "minecraft:iron_ore",
+						"weight": 1
+					},
+					{
+						"name": "minecraft:stone",
+						"metadata": 5,
+						"weight": 29
+					}],
+				"diameter": 4,
+				"size-variance": 3,
+				"count-variance": 3,
+				"count": 1
+			},
+			"chunk-chance": 1,
+			"cluster-count": 1,
+			"min-height": 50,
+			"max-height": 256,
+			"material": [
+				{
+					"name": "biomesoplenty:grass",
+					"metadata": 4
+				},
+				{
+					"name": "minecraft:stone"
+				}],
+			"follow-terrain": true,
+			"retrogen": false,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biomesoplenty:tundra"
+						]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"bush": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "decoration",
+				"block": [
+					{
+						"name": "biomesoplenty:plant_0",
+						"metadata": 5,
+						"weight": 60
+					}],
+				"cluster-size": 5,
+				"material": [],
+				"surface": [
+					{"name": "biomesoplenty:grass", "metadata": 0},
+					{"name": "biomesoplenty:grass", "metadata": 1},
+					{"name": "biomesoplenty:grass", "metadata": 2},
+					{"name": "biomesoplenty:grass", "metadata": 3},
+					{"name": "biomesoplenty:grass", "metadata": 4},
+				 	{"name": "biomesoplenty:grass", "metadata": 5},
+				  	{"name": "biomesoplenty:grass", "metadata": 6},
+				  	{"name": "biomesoplenty:grass", "metadata": 7},
+				  	"minecraft:grass",
+				  	"minecraft:dirt"
+				  ]
+			},
+			"cluster-count": 50,
+			"chunk-chance": 1,
+			"follow-terrain": "true",
+			"min-height": 30,
+			"max-height": 256,
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "id",
+						"entry": [
+							"biomesoplenty:brushland"
+						]
+					}
+				]
+			},
+			"retrogen": false,
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					-1,
+					1
+				]
+			}
+		},
+		"SubwayWeb": {
+			"distribution": "cave",
+			"generator": {
+				"type": "boulder",
+				"block": "minecraft:web",
+				"diameter": 2,
+				"size-variance": 2,
+				"count-variance": 1,
+				"count": 1
+			},
+			"chunk-chance": 50,
+			"cluster-count": 1,
+			"min-height": 20,
+			"max-height": 70,
+			"ground-level": 70,
+			"material": [
+				"minecraft:redstone_torch",
+				"minecraft:golden_rail",
+				"minecraft:stonebrick",
+				"minecraft:rail"
+			],
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
