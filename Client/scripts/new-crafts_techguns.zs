@@ -101,10 +101,10 @@ recipes.addShapeless("ammo_rocket2", ammo_rocket*2,
 recipes.addShapeless("ammo_rocket3", ammo_rocket*2,
 [ammo_rocket.reuse(),gunpowder]
 );
-recipes.addShapeless("ammo_grenade1", ammo_grenade*4,
+recipes.addShapeless("ammo_grenade1", ammo_grenade*3,
 [ammo_grenade_weapon1.reuse(),gunpowder]
 );
-recipes.addShapeless("ammo_grenade2", ammo_grenade*4,
+recipes.addShapeless("ammo_grenade2", ammo_grenade*3,
 [ammo_grenade.reuse(),gunpowder]
 );
 var stielgranate = <techguns:stielgranate>;
@@ -303,27 +303,27 @@ function(out, ins, cInfo){
 null);
 // Combat Armor Set
 recipes.addShapeless("repair_t2_combat_helmet",t2_combat_helmet,
-[t2_combat_helmet.anyDamage().marked("mark"),heavycloth,heavycloth],
+[t2_combat_helmet.anyDamage().marked("mark"),soulforged_ingot],
 function(out, ins, cInfo){
-	return ins.mark.withDamage(max(0,ins.mark.damage - 50));
+	return ins.mark.withDamage(max(0,ins.mark.damage - 70));
 }, 
 null);
 recipes.addShapeless("repair_t2_combat_chestplate",t2_combat_chestplate,
-[t2_combat_chestplate.anyDamage().marked("mark"),heavycloth,heavycloth],
+[t2_combat_chestplate.anyDamage().marked("mark"),soulforged_ingot],
 function(out, ins, cInfo){
-	return ins.mark.withDamage(max(0,ins.mark.damage - 50));
+	return ins.mark.withDamage(max(0,ins.mark.damage - 70));
 }, 
 null);
 recipes.addShapeless("repair_t2_combat_leggings",t2_combat_leggings,
-[t2_combat_leggings.anyDamage().marked("mark"),heavycloth,heavycloth],
+[t2_combat_leggings.anyDamage().marked("mark"),soulforged_ingot],
 function(out, ins, cInfo){
-	return ins.mark.withDamage(max(0,ins.mark.damage - 50));
+	return ins.mark.withDamage(max(0,ins.mark.damage - 70));
 }, 
 null);
 recipes.addShapeless("repair_t2_combat_boots",t2_combat_boots,
-[t2_combat_boots.anyDamage().marked("mark"),heavycloth,heavycloth],
+[t2_combat_boots.anyDamage().marked("mark"),soulforged_ingot],
 function(out, ins, cInfo){
-	return ins.mark.withDamage(max(0,ins.mark.damage - 50));
+	return ins.mark.withDamage(max(0,ins.mark.damage - 70));
 }, 
 null);
 // Riot Shield

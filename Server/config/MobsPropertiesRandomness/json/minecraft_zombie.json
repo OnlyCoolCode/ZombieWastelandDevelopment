@@ -40,8 +40,8 @@
 		{
 			"id": "generic.movementSpeed",
 			"modifier": {
-				"min": -15,
-				"max": 35
+				"min": -35,
+				"max": 15
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false

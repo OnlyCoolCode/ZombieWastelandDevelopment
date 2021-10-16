@@ -36,22 +36,22 @@
     "name": "chestloot",
     "values": [
       {
-        "factor": 150,
+        "factor": 25,
         "value": "loottweaker:sphere",
         "issphere": true
       },
       {
-        "factor": 80,
+        "factor": 50,
         "value": "loottweaker:objective",
         "issphere": true
       },
       {
-        "factor": 400,
+        "factor": 200,
         "value": "loottweaker:subway",
         "inpart": "rail_dungeon1"
       },
       {
-        "factor": 400,
+        "factor": 200,
         "value": "loottweaker:subway",
         "inpart": "rail_dungeon2"
       },

@@ -176,7 +176,7 @@ val plantPool = plantTable.addPool("plant", 5, 14, 0, 0);
 val handgunPool = handgunTable.addPool("handgun", 3, 7, 0, 0);
 val longgunsPool = longgunsTable.addPool("longguns", 3, 7, 0, 0);
 val foodPool = foodTable.addPool("food", 4, 13, 0, 0);
-val spherePool = sphereTable.addPool("sphere", 5, 10, 0, 0);
+val spherePool = sphereTable.addPool("sphere", 4, 7, 0, 0);
 val objectivePool = objectiveTable.addPool("objective", 1, 1, 0, 0);
  
 //==== Subway Loot ====

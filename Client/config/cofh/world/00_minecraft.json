@@ -281,7 +281,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 12
 			},
-			"cluster-count": 20,
+			"cluster-count": 14,
 			"min-height": 0,
 			"max-height": 128,
 			"retrogen": false,
@@ -348,7 +348,7 @@
 					{"name": "densemetals:dense_redstone_ore", "weight": 5}
 						],
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 3
 			},
 			"cluster-count": 8,
 			"min-height": 0,
@@ -593,7 +593,7 @@
 				"material": "minecraft:stone",
 				"cluster-size": 10
 			},
-			"cluster-count": 15,
+			"cluster-count": 10,
 			"min-height": 0,
 			"max-height": 32,
 			"retrogen": false,
