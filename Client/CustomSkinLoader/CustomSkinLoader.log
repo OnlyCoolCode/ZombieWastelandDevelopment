@@ -1,11 +1,33 @@
-[2021-10-16 20:41:12] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
-[2021-10-16 20:41:12] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader
-[2021-10-16 20:41:12] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
-[2021-10-16 20:41:12] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader\CustomSkinLoader.json
-[2021-10-16 20:41:12] [pool-5-thread-1 INFO] Try to load config.
-[2021-10-16 20:41:12] [pool-5-thread-1 INFO] Successfully load config.
-[2021-10-16 20:41:12] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
-[2021-10-16 20:41:12] [ElDuro INFO] Loading ElDuro's profile.
-[2021-10-16 20:41:12] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-10-16 20:41:12] [ElDuro INFO] ElDuro's profile loaded.
-[2021-10-16 20:41:12] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)0dd6af6ce29d3739647cce28587be1fecddad806,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1634427705)
+[2021-10-16 21:40:43] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
+[2021-10-16 21:40:43] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader
+[2021-10-16 21:40:43] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
+[2021-10-16 21:40:43] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader\CustomSkinLoader.json
+[2021-10-16 21:40:43] [pool-5-thread-1 INFO] Try to load config.
+[2021-10-16 21:40:43] [pool-5-thread-1 INFO] Successfully load config.
+[2021-10-16 21:40:43] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
+[2021-10-16 21:40:43] [ElDuro INFO] Loading ElDuro's profile.
+[2021-10-16 21:40:43] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-10-16 21:40:43] [ElDuro INFO] ElDuro's profile loaded.
+[2021-10-16 21:40:43] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)0dd6af6ce29d3739647cce28587be1fecddad806,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1634431278)
+[2021-10-16 21:40:43] [El Cozzani INFO] Loading El Cozzani's profile.
+[2021-10-16 21:40:43] [El Cozzani INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-10-16 21:40:43] [El Cozzani INFO] El Cozzani's profile loaded.
+[2021-10-16 21:40:43] [El Cozzani INFO] (SkinUrl: (LOCAL_LEGACY)edf30ae46094be7b781a629ce9a3df23c66f3c16,LocalSkin/skins/El Cozzani.png , Model: default , CapeUrl: null  , Expiry: 1634431277)
+[2021-10-16 21:48:08] [DatFailGamur's skull INFO] Loading DatFailGamur's profile.
+[2021-10-16 21:48:08] [DatFailGamur's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-10-16 21:48:08] [DatFailGamur's skull INFO] Both skin and cape not found.
+[2021-10-16 21:48:08] [DatFailGamur's skull INFO] 2/6 Try to load profile from 'Mojang'.
+[2021-10-16 21:48:08] [DatFailGamur's skull INFO] Default profile will be used.
+[2021-10-16 21:48:08] [DatFailGamur's skull INFO] DatFailGamur's profile loaded.
+[2021-10-16 21:48:08] [DatFailGamur's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/8b9ca0528eef78c10fe2875d17d556c863c5628b5ea500d9a7dc51f043442283 , Model: default , CapeUrl: null  , Expiry: 1634431720)
+[2021-10-16 21:48:18] [JuanDeLosPalotes INFO] Loading JuanDeLosPalotes's profile.
+[2021-10-16 21:48:18] [JuanDeLosPalotes INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-10-16 21:48:18] [JuanDeLosPalotes INFO] JuanDeLosPalotes's profile loaded.
+[2021-10-16 21:48:18] [JuanDeLosPalotes INFO] (SkinUrl: (LOCAL_LEGACY)8d7823610c8a1ebdb509c91ca94e35ff7cff0293,LocalSkin/skins/JuanDeLosPalotes.png , Model: default , CapeUrl: null  , Expiry: 1634431730)
+[2021-10-16 21:55:23] [KingLemming's skull INFO] Loading KingLemming's profile.
+[2021-10-16 21:55:23] [KingLemming's skull INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-10-16 21:55:23] [KingLemming's skull INFO] Both skin and cape not found.
+[2021-10-16 21:55:23] [KingLemming's skull INFO] 2/6 Try to load profile from 'Mojang'.
+[2021-10-16 21:55:23] [KingLemming's skull INFO] Default profile will be used.
+[2021-10-16 21:55:23] [KingLemming's skull INFO] KingLemming's profile loaded.
+[2021-10-16 21:55:23] [KingLemming's skull INFO] (SkinUrl: http://textures.minecraft.net/texture/6b5e5289cf6158be0e1d5a811fdb90647f31372eb86fcddc228d6d893118e74f , Model: default , CapeUrl: http://textures.minecraft.net/texture/b0cc08840700447322d953a02b965f1d65a13a603bf64b17c803c21446fe1635  , Expiry: 1634432156)

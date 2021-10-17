@@ -352,7 +352,8 @@
   {
     "mod": "iymts_mob_mod",
     "biome": "Ominous Woods",
-    "result": "allow"
+    "result": "allow",
+    "speedmultiply": 1.5
   },
   {
     "mod": "iymts_mob_mod",
@@ -387,7 +388,8 @@
   {
     "mob": "minecraft:zombie",
     "biome": "Ominous Woods",
-    "result": "allow"
+    "result": "allow",
+    "speedmultiply": 1.5
   },
   {
     "mob": "minecraft:zombie",

@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "DRY",
     "DENSE",
-    "HOT",
     "SANDY",
+    "HOT",
     "NETHER"
   ],
   "BiomeManager Entries": {},
