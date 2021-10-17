@@ -1,13 +1,13 @@
 {
   "inventory": {
-    "0:4": "firstaid:plaster,4",
+    "0:2": "realistictorches:matchbox",
     "0:3": "minecraft:wool,3,15",
-    "0:8": "minecraft:chest",
-    "0:7": "toughasnails:canteen,1,2",
-    "0:0": "weapons_of_the_apocalypse:steelpipe",
+    "0:4": "firstaid:plaster,4",
     "0:6": "weapons_of_the_apocalypse:ration,3",
     "0:1": "realistictorches:torch_unlit,2",
-    "0:2": "realistictorches:matchbox",
-    "0:5": "firstaid:bandage,2"
+    "0:5": "firstaid:bandage,2",
+    "0:7": "simpledifficulty:canteen,1,0,{Doses:6,CanteenType:3}",
+    "0:0": "weapons_of_the_apocalypse:steelpipe",
+    "0:8": "minecraft:chest"
   }
 }

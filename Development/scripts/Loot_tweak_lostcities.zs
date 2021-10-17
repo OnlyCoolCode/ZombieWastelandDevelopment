@@ -70,7 +70,7 @@ var lc_miscellaneous = [
     <minecraft:glass_bottle>,
     <minecraft:bucket>,
     <minecraft:flint_and_steel>,
-    <toughasnails:charcoal_filter>,
+    <simpledifficulty:charcoal_filter>,
     <realistictorches:matchbox>,
     <minecraft:arrow>,
     <techguns:itemshared:60> //heavycloth
@@ -139,13 +139,14 @@ var lc_terrarium = [
     <biomesoplenty:terrarium:9>
 ] as IItemStack[];
 var lc_fruit_juice = [
-    <toughasnails:purified_water_bottle>,
-    <toughasnails:fruit_juice>,
-    <toughasnails:fruit_juice:1>,
-    <toughasnails:fruit_juice:2>,
-    <toughasnails:fruit_juice:3>,
-    <toughasnails:fruit_juice:8>,
-    <toughasnails:fruit_juice:9>
+    <simpledifficulty:purified_water_bottle>,
+    <simpledifficulty:juice>,
+    <simpledifficulty:juice:1>,
+    <simpledifficulty:juice:2>,
+    <simpledifficulty:juice:3>,
+    <simpledifficulty:juice:4>,
+    <simpledifficulty:juice:8>,
+    <simpledifficulty:juice:9>
 ] as IItemStack[];
 var lc_objective1 = [
     <biomesoplenty:sapling_1:7>

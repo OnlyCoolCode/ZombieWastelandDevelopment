@@ -20,6 +20,14 @@ var wolf_pelt_snowy = <betteranimalsplus:wolf_pelt_snowy>;
 var bear_skin_black = <betteranimalsplus:bear_skin_black>;
 var bear_skin_brown = <betteranimalsplus:bear_skin_brown>;
 var bear_skin_kermode = <betteranimalsplus:bear_skin_kermode>;
+recipes.remove(wolf_pelt_red);
+recipes.remove(wolf_pelt_brown);
+recipes.remove(wolf_pelt_arctic);
+recipes.remove(wolf_pelt_black);
+recipes.remove(wolf_pelt_timber);
+recipes.remove(wolf_pelt_snowy);
+recipes.remove(bear_skin_brown);
+recipes.remove(bear_skin_kermode);
 // wool
 // pelt
 recipes.addShapeless("wool_pelt_1", wool,

@@ -434,44 +434,6 @@ val quark = [
     <minecraft:tipped_arrow>.withTag({Potion: "quark:long_resilience"}),
     <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_resilience"})
 ] as IItemStack[];
-val toughasnails = [
-    <toughasnails:tan_icon>,
-    <toughasnails:ice_cube>,
-    <toughasnails:magma_shard>,
-    <toughasnails:thermometer>,
-    <toughasnails:temperature_coil:1>,
-    <toughasnails:temperature_coil>,
-    <toughasnails:jelled_slime>,
-    <toughasnails:jelled_slime_boots>,
-    <toughasnails:jelled_slime_leggings>,
-    <toughasnails:jelled_slime_chestplate>,
-    <toughasnails:jelled_slime_helmet>,
-    <toughasnails:wool_boots>,
-    <toughasnails:wool_leggings>,
-    <toughasnails:wool_chestplate>,
-    <toughasnails:wool_helmet>,
-    <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
-    <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:heat_resistance_type"}),
-    <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:cold_resistance_type"}),
-    <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
-    <minecraft:lingering_potion>.withTag({Potion: "toughasnails:heat_resistance_type"}),
-    <minecraft:potion>.withTag({Potion: "toughasnails:cold_resistance_type"}),
-    <minecraft:potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
-    <minecraft:potion>.withTag({Potion: "toughasnails:heat_resistance_type"}),
-    <minecraft:potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
-    <minecraft:splash_potion>.withTag({Potion: "toughasnails:cold_resistance_type"}),
-    <minecraft:splash_potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
-    <minecraft:splash_potion>.withTag({Potion: "toughasnails:heat_resistance_type"}),
-    <minecraft:splash_potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
-    <minecraft:lingering_potion>.withTag({Potion: "toughasnails:cold_resistance_type"}),
-    <minecraft:lingering_potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"}),
-    <minecraft:lingering_potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"}),
-    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 11 as short}]}),
-    <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 12 as short}]}),
-    <toughasnails:fruit_juice:6>,
-    <toughasnails:fruit_juice:5>,
-    <toughasnails:fruit_juice:7>
-] as IItemStack[];
 val animalium = [
     <animalium:dog_boots>,
     <animalium:bear_claw_paxel:4>
@@ -517,9 +479,6 @@ for item in somnia {
     mods.jei.JEI.removeAndHide(item);
 }
 for item in quark {
-    mods.jei.JEI.removeAndHide(item);
-}
-for item in toughasnails {
     mods.jei.JEI.removeAndHide(item);
 }
 for item in animalium {

@@ -1,24 +1,24 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Quaternary
-Peregrinus11
-Belathus
-BrÃ¸nsted
-AdaraChristine
-Zuniroa
-Genryu
-Barrier
-WaterMoon
-Pongo Sapiens
-DreamThorn
-Ivy_
 Robijnvogel
+Pongo Sapiens
 Otakup0pe
-IDroid
-NickT
-Jonathan McManus
-Ncc1702
 NerdyWhiteGuy
+Quaternary
+WaterMoon
+Ivy_
+Jonathan McManus
+Genryu
+IDroid
 Psyberition
+BrÃ¸nsted
+Belathus
+Ncc1702
+Zuniroa
+NickT
+Barrier
+Peregrinus11
+DreamThorn
+AdaraChristine
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
@@ -39,12 +39,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_FencesAndWalls.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_firstaid.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_foodfunk.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_leather.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_naturecompass.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_realistictorches.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_thoughasnails.zs} as we are currently loading with a different loader
+[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_simpledifficulty.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_vanilla.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: new_crafts_WOTApocalypse.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 5ms
+[PREINITIALIZATION][CLIENT][INFO] Completed script loading in: 4ms
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Building registry
 [INITIALIZATION][CLIENT][INFO] CraftTweaker: Successfully built item registry
 [INITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit], [recipeevent | crafttweaker]]
@@ -115,13 +116,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] 		Arrow of Weakness
 [INITIALIZATION][CLIENT][INFO] 		Arrow of Weakness
 [INITIALIZATION][CLIENT][INFO] 		Arrow of Luck
+[INITIALIZATION][CLIENT][INFO] 		Arrow of Stability
+[INITIALIZATION][CLIENT][INFO] 		Arrow of Stability
+[INITIALIZATION][CLIENT][INFO] 		Arrow of Stability
 [INITIALIZATION][CLIENT][INFO] 		Arrow of Cold Resistance
 [INITIALIZATION][CLIENT][INFO] 		Arrow of Cold Resistance
 [INITIALIZATION][CLIENT][INFO] 		Arrow of Heat Resistance
 [INITIALIZATION][CLIENT][INFO] 		Arrow of Heat Resistance
-[INITIALIZATION][CLIENT][INFO] 		Arrow of Stability
-[INITIALIZATION][CLIENT][INFO] 		Arrow of Stability
-[INITIALIZATION][CLIENT][INFO] 		Arrow of Stability
 [INITIALIZATION][CLIENT][INFO] 		Arrow of Radiation
 [INITIALIZATION][CLIENT][INFO] 		Arrow of Severe Radiation
 [INITIALIZATION][CLIENT][INFO] 		Arrow of RAD Regeneration
@@ -216,13 +217,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] 		Splash Potion of Weakness
 [INITIALIZATION][CLIENT][INFO] 		Splash Potion of Weakness
 [INITIALIZATION][CLIENT][INFO] 		Splash Potion of Luck
+[INITIALIZATION][CLIENT][INFO] 		Splash Potion of Stability
+[INITIALIZATION][CLIENT][INFO] 		Splash Potion of Stability
+[INITIALIZATION][CLIENT][INFO] 		Splash Potion of Stability
 [INITIALIZATION][CLIENT][INFO] 		Splash Potion of Cold Resistance
 [INITIALIZATION][CLIENT][INFO] 		Splash Potion of Cold Resistance
 [INITIALIZATION][CLIENT][INFO] 		Splash Potion of Heat Resistance
 [INITIALIZATION][CLIENT][INFO] 		Splash Potion of Heat Resistance
-[INITIALIZATION][CLIENT][INFO] 		Splash Potion of Stability
-[INITIALIZATION][CLIENT][INFO] 		Splash Potion of Stability
-[INITIALIZATION][CLIENT][INFO] 		Splash Potion of Stability
 [INITIALIZATION][CLIENT][INFO] 		Splash Potion of Radiation
 [INITIALIZATION][CLIENT][INFO] 		Splash Potion of Severe Radiation
 [INITIALIZATION][CLIENT][INFO] 		Splash Potion of RAD Regeneration
@@ -851,13 +852,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] 		Potion of Weakness
 [INITIALIZATION][CLIENT][INFO] 		Potion of Weakness
 [INITIALIZATION][CLIENT][INFO] 		Potion of Luck
+[INITIALIZATION][CLIENT][INFO] 		Potion of Stability
+[INITIALIZATION][CLIENT][INFO] 		Potion of Stability
+[INITIALIZATION][CLIENT][INFO] 		Potion of Stability
 [INITIALIZATION][CLIENT][INFO] 		Potion of Cold Resistance
 [INITIALIZATION][CLIENT][INFO] 		Potion of Cold Resistance
 [INITIALIZATION][CLIENT][INFO] 		Potion of Heat Resistance
 [INITIALIZATION][CLIENT][INFO] 		Potion of Heat Resistance
-[INITIALIZATION][CLIENT][INFO] 		Potion of Stability
-[INITIALIZATION][CLIENT][INFO] 		Potion of Stability
-[INITIALIZATION][CLIENT][INFO] 		Potion of Stability
 [INITIALIZATION][CLIENT][INFO] 		Potion of Radiation
 [INITIALIZATION][CLIENT][INFO] 		Potion of Severe Radiation
 [INITIALIZATION][CLIENT][INFO] 		Potion of RAD Regeneration
@@ -1057,13 +1058,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Weakness
 [INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Weakness
 [INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Luck
+[INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Stability
+[INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Stability
+[INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Stability
 [INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Cold Resistance
 [INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Cold Resistance
 [INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Heat Resistance
 [INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Heat Resistance
-[INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Stability
-[INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Stability
-[INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Stability
 [INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Radiation
 [INITIALIZATION][CLIENT][INFO] 		Lingering Potion of Severe Radiation
 [INITIALIZATION][CLIENT][INFO] 		Lingering Potion of RAD Regeneration
@@ -1092,8 +1093,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] 		Blood Bucket
 [INITIALIZATION][CLIENT][INFO] 		Poison Bucket
 [INITIALIZATION][CLIENT][INFO] 		Hot Spring Water Bucket
-[INITIALIZATION][CLIENT][INFO] 		Purified Water Bucket
 [INITIALIZATION][CLIENT][INFO] 		Creeper Acid Bucket
+[INITIALIZATION][CLIENT][INFO] 		Purified Water Bucket
 [INITIALIZATION][CLIENT][INFO] CreativeCoreDummy:
 [INITIALIZATION][CLIENT][INFO] SomniaCore:
 [INITIALIZATION][CLIENT][INFO] BiomeTweakerCore:
@@ -4238,36 +4239,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Classic Combat:
 [INITIALIZATION][CLIENT][INFO] CoFH World:
 [INITIALIZATION][CLIENT][INFO] Collective:
-[INITIALIZATION][CLIENT][INFO] Tough As Nails:
-[INITIALIZATION][CLIENT][INFO] 		Jelled Slime Boots
-[INITIALIZATION][CLIENT][INFO] 		Wool Boots
-[INITIALIZATION][CLIENT][INFO] 		Purified Water Bottle
-[INITIALIZATION][CLIENT][INFO] 		Jelled Slime
-[INITIALIZATION][CLIENT][INFO] 		Rain Collector
-[INITIALIZATION][CLIENT][INFO] 		Magma Shard
-[INITIALIZATION][CLIENT][INFO] 		Cooling Coil
-[INITIALIZATION][CLIENT][INFO] 		Heating Coil
-[INITIALIZATION][CLIENT][INFO] 		Canteen
-[INITIALIZATION][CLIENT][INFO] 		Thermometer
-[INITIALIZATION][CLIENT][INFO] 		Wool Hood
-[INITIALIZATION][CLIENT][INFO] 		Jelled Slime Chestplate
-[INITIALIZATION][CLIENT][INFO] 		Jelled Slime Leggings
-[INITIALIZATION][CLIENT][INFO] 		Wool Pants
-[INITIALIZATION][CLIENT][INFO] 		Ice Cube
-[INITIALIZATION][CLIENT][INFO] 		Wool Jacket
-[INITIALIZATION][CLIENT][INFO] 		Charcoal Filter
-[INITIALIZATION][CLIENT][INFO] 		Campfire
-[INITIALIZATION][CLIENT][INFO] 		Apple Juice
-[INITIALIZATION][CLIENT][INFO] 		Beetroot Juice
-[INITIALIZATION][CLIENT][INFO] 		Cactus Juice
-[INITIALIZATION][CLIENT][INFO] 		Carrot Juice
-[INITIALIZATION][CLIENT][INFO] 		Chorus Fruit Juice
-[INITIALIZATION][CLIENT][INFO] 		Glistering Melon Juice
-[INITIALIZATION][CLIENT][INFO] 		Golden Apple Juice
-[INITIALIZATION][CLIENT][INFO] 		Golden Carrot Juice
-[INITIALIZATION][CLIENT][INFO] 		Melon Juice
-[INITIALIZATION][CLIENT][INFO] 		Pumpkin Juice
-[INITIALIZATION][CLIENT][INFO] 		Jelled Slime Helmet
 [INITIALIZATION][CLIENT][INFO] Comforts:
 [INITIALIZATION][CLIENT][INFO] 		Rope and Nail
 [INITIALIZATION][CLIENT][INFO] 		White Sleeping Bag
@@ -4619,6 +4590,39 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] 		Enchanted Heart
 [INITIALIZATION][CLIENT][INFO] 		Cursed Heart
 [INITIALIZATION][CLIENT][INFO] 		Heart Crystal Shard
+[INITIALIZATION][CLIENT][INFO] SimpleDifficulty:
+[INITIALIZATION][CLIENT][INFO] 		Cloth Hood
+[INITIALIZATION][CLIENT][INFO] 		Ice Leggings
+[INITIALIZATION][CLIENT][INFO] 		Charcoal Filter
+[INITIALIZATION][CLIENT][INFO] 		Empty Canteen
+[INITIALIZATION][CLIENT][INFO] 		Water Canteen
+[INITIALIZATION][CLIENT][INFO] 		Purified Canteen
+[INITIALIZATION][CLIENT][INFO] 		Cloth Jacket
+[INITIALIZATION][CLIENT][INFO] 		Ice Boots
+[INITIALIZATION][CLIENT][INFO] 		Thermometer
+[INITIALIZATION][CLIENT][INFO] 		Magma Chunk
+[INITIALIZATION][CLIENT][INFO] 		Ice Chestplate
+[INITIALIZATION][CLIENT][INFO] 		Purified Water Bottle
+[INITIALIZATION][CLIENT][INFO] 		Campfire Spit
+[INITIALIZATION][CLIENT][INFO] 		Ice Rod
+[INITIALIZATION][CLIENT][INFO] 		Ice Helmet
+[INITIALIZATION][CLIENT][INFO] 		Campfire
+[INITIALIZATION][CLIENT][INFO] 		Cloth Shoes
+[INITIALIZATION][CLIENT][INFO] 		Heater
+[INITIALIZATION][CLIENT][INFO] 		Apple Juice
+[INITIALIZATION][CLIENT][INFO] 		Beetroot Juice
+[INITIALIZATION][CLIENT][INFO] 		Cactus Juice
+[INITIALIZATION][CLIENT][INFO] 		Carrot Juice
+[INITIALIZATION][CLIENT][INFO] 		Chorus Fruit Juice
+[INITIALIZATION][CLIENT][INFO] 		Golden Apple Juice
+[INITIALIZATION][CLIENT][INFO] 		Golden Carrot Juice
+[INITIALIZATION][CLIENT][INFO] 		Glistering Melon Juice
+[INITIALIZATION][CLIENT][INFO] 		Melon Juice
+[INITIALIZATION][CLIENT][INFO] 		Pumpkin Juice
+[INITIALIZATION][CLIENT][INFO] 		Ice Chunk
+[INITIALIZATION][CLIENT][INFO] 		Rain Collector
+[INITIALIZATION][CLIENT][INFO] 		Chiller
+[INITIALIZATION][CLIENT][INFO] 		Cloth Pants
 [INITIALIZATION][CLIENT][INFO] Somnia:
 [INITIALIZATION][CLIENT][INFO] Sound Physics:
 [INITIALIZATION][CLIENT][INFO] Spartan Shields:
@@ -5226,6 +5230,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#9' for addition to pool 'playerskinsPool' of table 'playerskins:entities/skinloot'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#10' for addition to pool 'playerskinsPool' of table 'playerskins:entities/skinloot'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#11' for addition to pool 'playerskinsPool' of table 'playerskins:entities/skinloot'
+[INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#12' for addition to pool 'playerskinsPool' of table 'playerskins:entities/skinloot'
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Loot_mobs_direct.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Loot_tweak_lostcities.zs}
 [INITIALIZATION][CLIENT][INFO] Created new table 'loottweaker:subway'
@@ -5373,6 +5378,7 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#10' for addition to pool 'food' of table 'loottweaker:food'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#11' for addition to pool 'food' of table 'loottweaker:food'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#12' for addition to pool 'food' of table 'loottweaker:food'
+[INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#13' for addition to pool 'food' of table 'loottweaker:food'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#1' for addition to pool 'sphere' of table 'loottweaker:sphere'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#2' for addition to pool 'sphere' of table 'loottweaker:sphere'
 [INITIALIZATION][CLIENT][INFO] Queued item entry 'loottweaker#3' for addition to pool 'sphere' of table 'loottweaker:sphere'
@@ -5497,12 +5503,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_FencesAndWalls.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_firstaid.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_foodfunk.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_leather.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_naturecompass.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_realistictorches.zs}
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_thoughasnails.zs}
+[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_simpledifficulty.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_vanilla.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: new_crafts_WOTApocalypse.zs}
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 840ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 815ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "weapons_of_the_apocalypse:leatherr2"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "minecraft:glass_bottle"
@@ -5658,6 +5665,10 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Morphine with name morphine2
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Esky with name esky
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Freezer with name freezer
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Leather with name make_leather_1
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Leather with name make_leather_2
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Leather with name make_leather_3
+[POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Flint with name make_flint_1
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Nature's Compass with name naturescompass1
 [POSTINITIALIZATION][CLIENT][INFO] Adding shapeless recipe for Lit Torch with name lit_torch
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Charcoal Filter with name charcoal_filter
@@ -6176,42 +6187,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:tipped_arrow>.withTag({Potion: "quark:resilience"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:tipped_arrow>.withTag({Potion: "quark:long_resilience"})
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:tipped_arrow>.withTag({Potion: "quark:strong_resilience"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:tan_icon>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:ice_cube>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:magma_shard>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:thermometer>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:temperature_coil:1>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:temperature_coil>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:jelled_slime>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:jelled_slime_boots>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:jelled_slime_leggings>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:jelled_slime_chestplate>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:jelled_slime_helmet>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:wool_boots>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:wool_leggings>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:wool_chestplate>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:wool_helmet>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:long_heat_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:heat_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:cold_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:tipped_arrow>.withTag({Potion: "toughasnails:long_cold_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:lingering_potion>.withTag({Potion: "toughasnails:heat_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:potion>.withTag({Potion: "toughasnails:cold_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:potion>.withTag({Potion: "toughasnails:heat_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:splash_potion>.withTag({Potion: "toughasnails:cold_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:splash_potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:splash_potion>.withTag({Potion: "toughasnails:heat_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:splash_potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:lingering_potion>.withTag({Potion: "toughasnails:cold_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:lingering_potion>.withTag({Potion: "toughasnails:long_cold_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:lingering_potion>.withTag({Potion: "toughasnails:long_heat_resistance_type"})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 11 as short}]})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <minecraft:enchanted_book>.withTag({StoredEnchantments: [{lvl: 1 as short, id: 12 as short}]})
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:fruit_juice:6>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:fruit_juice:5>
-[AVAILABLE][CLIENT][INFO] Hiding item in JEI: <toughasnails:fruit_juice:7>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <animalium:dog_boots>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <animalium:bear_claw_paxel:4>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <betterwithmods:arcane_scroll>.withTag({enchant: 8})
@@ -6252,3 +6227,18 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <ompd:fence:2>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <ompd:fence:3>
 [AVAILABLE][CLIENT][INFO] Hiding item in JEI: <ompd:fence:4>
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool mutant_zombiePool to table mutantbeasts:entities/mutant_zombie
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool MineshaftPool to table minecraft:chests/abandoned_mineshaft
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool ZombiePool to table minecraft:entities/zombie
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool spawn_bonus_chest to table minecraft:chests/spawn_bonus_chest
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool playerskinsPool to table playerskins:entities/skinloot
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool SpiderPool to table minecraft:entities/spider
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool handgun to table loottweaker:handgun
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool sphere to table loottweaker:sphere
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool objective to table loottweaker:objective
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool longguns to table loottweaker:longguns
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool healing to table loottweaker:healing
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool plant to table loottweaker:plant
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool generic to table loottweaker:generic
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool food to table loottweaker:food
+[SERVER_ABOUT_TO_START][SERVER][INFO] Added new pool subway to table loottweaker:subway

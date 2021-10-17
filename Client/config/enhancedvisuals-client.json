@@ -224,7 +224,7 @@
         "opacity": 1.0
       }
     },
-    "thirst": {
+    "simple-thirst": {
       "enabled": true,
       "opacity": 1.0,
       "defaultIntensity": 0,
@@ -239,7 +239,7 @@
         "opacity": 1.0
       }
     },
-    "temperature": {
+    "simple-temperature": {
       "enabled": true,
       "opacity": 1.0,
       "defaultIntensity": 0,

@@ -44,7 +44,7 @@ var am_common_items = [
     <minecraft:iron_pickaxe>,
     <minecraft:bucket>,
     <minecraft:dye>,
-    <toughasnails:charcoal_filter>
+    <simpledifficulty:charcoal_filter>
 ] as IItemStack[];
 var am_cool_item = [
     <minecraft:clock>,
@@ -130,13 +130,13 @@ var bl_verycommon = [
     <weapons_of_the_apocalypse:nails>,
     <ore:gunpowder>.firstItem,
     <ore:paper>.firstItem,
-    <toughasnails:charcoal_filter>
+    <simpledifficulty:charcoal_filter>
 ] as IItemStack[];
 var bl_common = [
     <weapons_of_the_apocalypse:sardines>,
     <weapons_of_the_apocalypse:cannedfood>,
     <minecraft:coal>,
-    <toughasnails:purified_water_bottle>,
+    <simpledifficulty:purified_water_bottle>,
     <firstaid:bandage>,
     <firstaid:plaster>
 ] as IItemStack[];

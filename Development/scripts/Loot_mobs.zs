@@ -166,7 +166,8 @@ var steelpipe = <weapons_of_the_apocalypse:steelpipe>;
 var cannedfood = <weapons_of_the_apocalypse:cannedfood>;
 var canneddogfood = <weapons_of_the_apocalypse:canneddogfood>;
 var ration = <weapons_of_the_apocalypse:ration>;
-var canteen = <toughasnails:canteen:2>;
+var canteen_empty = <simpledifficulty:canteen>.withTag({Doses: 0, CanteenType: 0});
+var canteen_full = <simpledifficulty:canteen>.withTag({Doses: 6, CanteenType: 3});
 var sleeping_bag = <comforts:sleeping_bag:8>;
 var t1_scout_helmet = <techguns:t1_scout_helmet>;
 var t1_scout_chestplate = <techguns:t1_scout_chestplate>;
@@ -190,7 +191,10 @@ playerskinsPool.addItemEntry(canneddogfood, 10,0, [
 playerskinsPool.addItemEntry(ration, 5,0, [
     Functions.setCount(1, 1)
 ], []);
-playerskinsPool.addItemEntry(canteen, 12,0, [
+playerskinsPool.addItemEntry(canteen_empty, 12,0, [
+    Functions.setCount(1, 1)
+], []);
+playerskinsPool.addItemEntry(canteen_full, 12,0, [
     Functions.setCount(1, 1)
 ], []);
 playerskinsPool.addItemEntry(sleeping_bag, 5,0, [

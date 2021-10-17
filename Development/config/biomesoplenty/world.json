@@ -2,7 +2,7 @@
     "landScheme": "archipelago",
     "tempScheme": "medium_zones",
     "rainScheme": "medium_zones",
-    "biomeSize": "huge",
+    "biomeSize": "large",
     "amplitude": 1,
     "generateBopOre": false,
     "generateBopSoils": true,

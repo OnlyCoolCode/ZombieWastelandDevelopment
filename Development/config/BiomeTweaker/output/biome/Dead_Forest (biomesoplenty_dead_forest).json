@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "DEAD",
     "SPARSE",
+    "DRY",
     "FOREST",
-    "COLD",
-    "DRY"
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -781,11 +781,11 @@
 				"block": [
 					{
 						"name": "minecraft:stone",
-						"weight": 20
+						"weight": 40
 					},
 					{
 						"name": "minecraft:cobblestone",
-						"weight": 50
+						"weight": 80
 					},
 					{
 						"name": "minecraft:iron_ore",
@@ -794,7 +794,7 @@
 					{
 						"name": "minecraft:stone",
 						"metadata": 5,
-						"weight": 29
+						"weight": 40
 					}],
 				"diameter": 4,
 				"size-variance": 3,
@@ -861,7 +861,7 @@
 			},
 			"cluster-count": 50,
 			"chunk-chance": 1,
-			"follow-terrain": "true",
+			"follow-terrain": "false",
 			"min-height": 30,
 			"max-height": 256,
 			"biome": {
@@ -884,27 +884,24 @@
 				]
 			}
 		},
-		"SubwayWeb": {
-			"distribution": "cave",
+		"web_tree": {
+
+			"distribution": "surface",
 			"generator": {
-				"type": "boulder",
-				"block": "minecraft:web",
-				"diameter": 2,
-				"size-variance": 2,
-				"count-variance": 1,
-				"count": 1
+				"type": "decoration",
+				"block": [
+						"minecraft:web"
+				],
+				"cluster-size": 5,
+				"material": [],
+				"surface": ["biomesoplenty:dried_sand"
+				  ]
 			},
-			"chunk-chance": 50,
-			"cluster-count": 1,
-			"min-height": 20,
-			"max-height": 70,
-			"ground-level": 70,
-			"material": [
-				"minecraft:redstone_torch",
-				"minecraft:golden_rail",
-				"minecraft:stonebrick",
-				"minecraft:rail"
-			],
+			"chunk-chance": 1,
+			"cluster-count": 25,
+			"min-height": 50,
+			"max-height": 256,
+			"follow-terrain": false,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {

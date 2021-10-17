@@ -1,0 +1,396 @@
+{
+  "pools": [
+    {
+      "name": "subway",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{ammo:0}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "techguns:rocketlauncher"
+        },
+        {
+          "entryName": "loottweaker#17",
+          "weight": 15,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 10.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "loottweaker#18",
+          "weight": 15,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 14.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "loottweaker#19",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:stielgranate"
+        },
+        {
+          "entryName": "loottweaker#5",
+          "weight": 35,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 5.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "loottweaker#13",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{ammo:0}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "techguns:mac10"
+        },
+        {
+          "entryName": "loottweaker#4",
+          "weight": 35,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 7.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "loottweaker#14",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{ammo:0}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "techguns:vector"
+        },
+        {
+          "entryName": "loottweaker#3",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{ammo:0}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "techguns:flamethrower"
+        },
+        {
+          "entryName": "loottweaker#15",
+          "weight": 15,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 20.0,
+                "max": 30.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "loottweaker#2",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{ammo:0}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "techguns:grenadelauncher"
+        },
+        {
+          "entryName": "loottweaker#16",
+          "weight": 15,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 20.0,
+                "max": 30.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "loottweaker#9",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{ammo:0}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "techguns:ak47"
+        },
+        {
+          "entryName": "loottweaker#20",
+          "weight": 5,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "techguns:fraggrenade"
+        },
+        {
+          "entryName": "loottweaker#8",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{ammo:0}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "techguns:thompson"
+        },
+        {
+          "entryName": "loottweaker#10",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{ammo:0}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "techguns:boltaction"
+        },
+        {
+          "entryName": "loottweaker#7",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{ammo:0}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "techguns:sawedoff"
+        },
+        {
+          "entryName": "loottweaker#11",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{ammo:0}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "techguns:m4"
+        },
+        {
+          "entryName": "loottweaker#6",
+          "weight": 35,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 5.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 28.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "loottweaker#12",
+          "weight": 10,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "tag": "{ammo:0}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "techguns:combatshotgun"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 12.0
+      }
+    }
+  ]
+}
