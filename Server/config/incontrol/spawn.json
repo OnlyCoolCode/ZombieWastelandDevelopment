@@ -13,7 +13,7 @@
     "mintime":1000,
     "maxtime":13000,
     "mincount": {
-      "amount": 100,
+      "amount": 70,
       "hostile": true,
       "perchunk": true
     },
@@ -62,7 +62,7 @@
   {
     "mob": "animalium:piranha",
     "mincount": {
-      "amount": 15,
+      "amount": 12,
       "mob": "animalium:piranha",
       "perchunk": true
     },
@@ -104,7 +104,7 @@
   {
     "mob": "animalium:wild_dog",
     "mincount": {
-      "amount": 20,
+      "amount": 10,
       "mod": "animalium",
       "perchunk": true
     },
