@@ -1,11 +1,25 @@
-[2021-10-17 19:24:19] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
-[2021-10-17 19:24:19] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader
-[2021-10-17 19:24:19] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
-[2021-10-17 19:24:19] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader\CustomSkinLoader.json
-[2021-10-17 19:24:19] [pool-5-thread-1 INFO] Try to load config.
-[2021-10-17 19:24:19] [pool-5-thread-1 INFO] Successfully load config.
-[2021-10-17 19:24:19] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
-[2021-10-17 19:24:19] [ElDuro INFO] Loading ElDuro's profile.
-[2021-10-17 19:24:19] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
-[2021-10-17 19:24:19] [ElDuro INFO] ElDuro's profile loaded.
-[2021-10-17 19:24:19] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)0dd6af6ce29d3739647cce28587be1fecddad806,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1634509491)
+[2021-10-17 21:02:55] [pool-5-thread-1 INFO] CustomSkinLoader 14.9
+[2021-10-17 21:02:55] [pool-5-thread-1 INFO] DataDir: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader
+[2021-10-17 21:02:55] [pool-5-thread-1 INFO] Minecraft: 1.12.2(1.12.2-forge-14.23.5.2855)
+[2021-10-17 21:02:55] [pool-5-thread-1 INFO] Config File: C:\Repositorios\ZombieWastelandDevelopment\Client\CustomSkinLoader\CustomSkinLoader.json
+[2021-10-17 21:02:55] [pool-5-thread-1 INFO] Try to load config.
+[2021-10-17 21:02:55] [pool-5-thread-1 INFO] Successfully load config.
+[2021-10-17 21:02:55] [pool-5-thread-1 INFO] EnableDynamicSkull:true, EnableTranSkin:true, IgnoreHttpsCertificate:false, CacheExpiry:30, EnableUpdateSkull:false, EnableLocalProfileCache:false, EnableCacheAutoClean:false, LoadList:6
+[2021-10-17 21:02:55] [ElDuro INFO] Loading ElDuro's profile.
+[2021-10-17 21:02:56] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-10-17 21:02:56] [ElDuro INFO] ElDuro's profile loaded.
+[2021-10-17 21:02:56] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)0dd6af6ce29d3739647cce28587be1fecddad806,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1634515408)
+[2021-10-17 21:03:17] [ElDuro INFO] Loading ElDuro's profile.
+[2021-10-17 21:03:17] [ElDuro INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-10-17 21:03:17] [ElDuro INFO] ElDuro's profile loaded.
+[2021-10-17 21:03:17] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)0dd6af6ce29d3739647cce28587be1fecddad806,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1634515429)
+[2021-10-17 21:03:17] [El Cozzani INFO] Loading El Cozzani's profile.
+[2021-10-17 21:03:17] [El Cozzani INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-10-17 21:03:17] [El Cozzani INFO] El Cozzani's profile loaded.
+[2021-10-17 21:03:17] [El Cozzani INFO] (SkinUrl: (LOCAL_LEGACY)edf30ae46094be7b781a629ce9a3df23c66f3c16,LocalSkin/skins/El Cozzani.png , Model: default , CapeUrl: null  , Expiry: 1634515428)
+[2021-10-17 21:03:17] [Dronster INFO] Loading Dronster's profile.
+[2021-10-17 21:03:17] [Dronster INFO] 1/6 Try to load profile from 'LocalSkin'.
+[2021-10-17 21:03:17] [Dronster INFO] Dronster's profile loaded.
+[2021-10-17 21:03:17] [Dronster INFO] (SkinUrl: (LOCAL_LEGACY)f21bcf15fb497fefd7460cf8ab80f13325e34a77,LocalSkin/skins/Dronster.png , Model: default , CapeUrl: null  , Expiry: 1634515429)
+[2021-10-17 21:03:34] [ElDuro INFO] Cached profile will be used.
+[2021-10-17 21:03:34] [ElDuro INFO] (SkinUrl: (LOCAL_LEGACY)0dd6af6ce29d3739647cce28587be1fecddad806,LocalSkin/skins/ElDuro.png , Model: default , CapeUrl: null  , Expiry: 1634515429)
