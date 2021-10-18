@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "WASTELAND",
     "SPARSE",
-    "SNOWY",
-    "DEAD",
     "COLD",
+    "DEAD",
+    "SNOWY",
     "WET"
   ],
   "BiomeManager Entries": {},
