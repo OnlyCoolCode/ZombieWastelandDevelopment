@@ -191,7 +191,7 @@ for item in lc_longguns {
 subwayPool.addItemEntry(item, 10, 1, [Functions.setCount(1, 2)], []);
 }
 for item in lc_long_ammo_low {
-subwayPool.addItemEntry(item, 15, 1, [Functions.setCount(20, 30)], []);
+subwayPool.addItemEntry(item, 15, 1, [Functions.setCount(10, 30)], []);
 }
 for item in lc_long_ammo_high {
 subwayPool.addItemEntry(item, 15, 1, [Functions.setCount(1, 3)], []);
@@ -253,7 +253,7 @@ for item in lc_longguns {
 longgunsPool.addItemEntry(item, 13, 1, [Functions.setCount(1, 1)], []);
 }
 for item in lc_long_ammo_low {
-longgunsPool.addItemEntry(item, 37, 1, [Functions.setCount(20, 30)], []);
+longgunsPool.addItemEntry(item, 37, 1, [Functions.setCount(10, 30)], []);
 }
 for item in lc_long_ammo_high {
 longgunsPool.addItemEntry(item, 40, 1, [Functions.setCount(1, 3)], []);

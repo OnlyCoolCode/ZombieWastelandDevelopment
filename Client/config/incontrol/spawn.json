@@ -175,7 +175,7 @@
     "armorlegs":["techguns:t1_scout_leggings", "minecraft:leather_leggings"],
     "armorchest":["techguns:t1_scout_chestplate", "minecraft:leather_chestplate"],
     "damagemultiply": 1.3,
-    "speedmultiply": 1.15
+    "speedmultiply": 1.20
   },
   {
     "mob": "playerskins:playermob",
@@ -233,7 +233,7 @@
     "biome": "Jungle",
     "result": "allow",
     "damagemultiply": 1.3,
-    "speedmultiply": 1.15
+    "speedmultiply": 1.20
   },
   {
     "mob": ["techguns:armysoldier"],
@@ -272,7 +272,7 @@
     "biome": "Jungle",
     "result": "allow",
     "damagemultiply": 1.3,
-    "speedmultiply": 1.15
+    "speedmultiply": 1.20
   },
   {
     "mob": "techguns:bandit",
@@ -328,11 +328,6 @@
   },
   {
     "mob": "mutantbeasts:mutant_zombie",
-    "biome": "Ominous Woods",
-    "result": "allow"
-  },
-  {
-    "mob": "mutantbeasts:mutant_zombie",
     "incity": false,
     "minheight": 60,
     "random": 0.3,
@@ -359,7 +354,7 @@
     "mod": "iymts_mob_mod",
     "biome": "Ominous Woods",
     "result": "allow",
-    "speedmultiply": 1.5
+    "speedmultiply": 2.0
   },
   {
     "mod": "iymts_mob_mod",
@@ -395,7 +390,7 @@
     "mob": "minecraft:zombie",
     "biome": "Ominous Woods",
     "result": "allow",
-    "speedmultiply": 1.5
+    "speedmultiply": 1.7
   },
   {
     "mob": "minecraft:zombie",

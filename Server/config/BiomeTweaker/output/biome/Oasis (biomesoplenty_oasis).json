@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "WET",
-    "JUNGLE",
     "SPARSE",
-    "LUSH",
+    "SANDY",
+    "JUNGLE",
     "HOT",
-    "SANDY"
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
