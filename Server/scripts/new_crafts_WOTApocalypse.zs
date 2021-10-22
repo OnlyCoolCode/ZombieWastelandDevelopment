@@ -95,7 +95,7 @@ recipes.addShaped("metalbat", metalbat, [
 recipes.addShaped("louisvilleslugger", louisvilleslugger, [
     [null,null,plank],
     [glue,plank,null],
-    [iron,glue,null]
+    [iron,null,null]
 ]);
 recipes.addShaped("tacticalshovel", tacticalshovel, [
     [null,null,iron],

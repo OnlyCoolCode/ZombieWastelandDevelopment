@@ -17,23 +17,25 @@ var brown_mushroom = <minecraft:brown_mushroom>;
 var red_mushroom = <minecraft:red_mushroom>;
 recipes.addShaped("plaster1", plaster, [
     [null,paper,null],
-    [paper,brown_mushroom,paper],
-    [null,null,null]
+    [paper,brown_mushroom,paper]
 ]);
 recipes.addShaped("plaster2", plaster, [
     [null,paper,null],
-    [paper,red_mushroom,paper],
-    [null,null,null]
+    [paper,red_mushroom,paper]
 ]);
 recipes.addShaped("plaster3", plaster*2, [
-    [cloth],
+    [paper],
     [slime]
 ]);
-recipes.addShaped("bandage1", bandage*4, [
+recipes.addShaped("plaster4", plaster, [
+    [null,paper,null],
+    [paper,gunpowder,paper]
+]);
+recipes.addShaped("bandage1", bandage*3, [
     [null,glue,null],
     [cloth,cloth,cloth]
 ]);
-recipes.addShaped("bandage2", bandage*4, [
+recipes.addShaped("bandage2", bandage*5, [
     [null,ducttape,null],
     [cloth,cloth,cloth]
 ]);
@@ -47,11 +49,15 @@ var fermented_spider_eye = <minecraft:fermented_spider_eye>;
 var water_bottle = <minecraft:potion>.withTag({Potion: "minecraft:water"});
 var sugar = <minecraft:sugar>;
 var cactus = <minecraft:cactus>;
+var rotten_food = <foodfunk:rotten_food>;
 furnace.addRecipe(fermented_spider_eye, spider_eye);
 recipes.remove(morphine);
 recipes.addShapeless("morphine1", morphine,
 [water_bottle,fermented_spider_eye]
 );
 recipes.addShapeless("morphine2", morphine,
-[water_bottle,sugar,cactus,red_mushroom]
+[water_bottle,sugar,sugar,cactus]
+);
+recipes.addShapeless("morphine3", morphine,
+[water_bottle,sugar,rotten_food,rotten_food]
 );

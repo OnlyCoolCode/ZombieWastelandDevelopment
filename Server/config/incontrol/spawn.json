@@ -13,7 +13,7 @@
     "mintime":1000,
     "maxtime":13000,
     "mincount": {
-      "amount": 70,
+      "amount": 55,
       "hostile": true,
       "perchunk": true
     },
@@ -215,7 +215,7 @@
     "insphere": false,
     "incity": false,
     "seesky": true,
-    "random": 0.03,
+    "random": 0.015,
     "result": "allow",
     "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron","weapons_of_the_apocalypse:cleaver","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:baton"],
     "armorboots":["techguns:t1_scout_boots", "minecraft:leather_boots"],
@@ -307,7 +307,7 @@
     "insphere": false,
     "incity": false,
     "seesky": true,
-    "random": 0.04,
+    "random": 0.02,
     "result": "allow"
   },
   {
