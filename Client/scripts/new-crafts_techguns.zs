@@ -11,13 +11,13 @@ var ammo_revolver_weapon2 = <techguns:goldenrevolver>;
 var ammo_revolver = <techguns:itemshared:1>;
 var ammo_pistol_shell = <techguns:itemshared:12>;
 var ammo_pistol = <techguns:itemshared:11>;
-recipes.addShapeless("ammo_revolver1", ammo_revolver*6,
+recipes.addShapeless("ammo_revolver1", ammo_revolver,
 [ammo_revolver_weapon1.reuse(),gunpowder]
 );
-recipes.addShapeless("ammo_revolver2", ammo_revolver*6,
+recipes.addShapeless("ammo_revolver2", ammo_revolver,
 [ammo_revolver_weapon2.reuse(),gunpowder]
 );
-recipes.addShapeless("ammo_revolver3", ammo_revolver*6,
+recipes.addShapeless("ammo_revolver3", ammo_revolver,
 [ammo_revolver.reuse(),gunpowder]
 );
 recipes.addShapeless("ammo_pistol1", ammo_pistol,
@@ -62,11 +62,11 @@ recipes.addShapeless("ammo_assault1", ammo_assault*30,
 recipes.addShapeless("ammo_assault2", ammo_assault*30,
 [ammo_assault.reuse(),gunpowder,gunpowder,gunpowder]
 );
-recipes.addShapeless("ammo_rifle1", ammo_rifle*6,
-[ammo_rifle_weapon1.reuse(),gunpowder]
+recipes.addShapeless("ammo_rifle1", ammo_rifle,
+[ammo_rifle_weapon1.reuse(),gunpowder,gunpowder]
 );
-recipes.addShapeless("ammo_rifle2", ammo_rifle*6,
-[ammo_rifle.reuse(),gunpowder]
+recipes.addShapeless("ammo_rifle2", ammo_rifle,
+[ammo_rifle.reuse(),gunpowder,gunpowder]
 );
 recipes.addShapeless("ammo_minigun1", ammo_minigun,
 [ammo_minigun_shell,gunpowder,gunpowder,gunpowder,gunpowder,gunpowder]
@@ -390,6 +390,6 @@ recipes.addShaped("stonebarrel", stonebarrel, [
     [stone,stone,stone]
 ]);
 recipes.addShaped("handcannon", handcannon, [
-    [stonebarrel,flint_and_steel,gunstock]
+    [stonebarrel,flint_and_steel.reuse(),gunstock]
 ]);
 

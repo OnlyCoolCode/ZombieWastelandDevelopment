@@ -95,19 +95,17 @@ var lc_longguns = [
     <techguns:mac10>.withTag({ammo: 0}),
     <techguns:vector>.withTag({ammo: 0})
 ] as IItemStack[];
-var lc_hand_ammo_low = [
-    <techguns:itemshared:1>
-] as IItemStack[];
 var lc_hand_ammo_high = [
-    <techguns:itemshared:12>
+    <techguns:itemshared:12>,
+    <techguns:itemshared:1>
 ] as IItemStack[];    
 var lc_long_ammo_low = [
     <techguns:itemshared:2>,
-    <techguns:itemshared:3>
 ] as IItemStack[];
 var lc_long_ammo_high = [
     <techguns:itemshared:10>,
-    <techguns:itemshared:14>
+    <techguns:itemshared:14>,
+    <techguns:itemshared:3>
 ] as IItemStack[];
 var lc_grenades = [
     <techguns:stielgranate>,
@@ -191,10 +189,10 @@ for item in lc_longguns {
 subwayPool.addItemEntry(item, 10, 1, [Functions.setCount(1, 2)], []);
 }
 for item in lc_long_ammo_low {
-subwayPool.addItemEntry(item, 15, 1, [Functions.setCount(10, 30)], []);
+subwayPool.addItemEntry(item, 10, 1, [Functions.setCount(10, 30)], []);
 }
 for item in lc_long_ammo_high {
-subwayPool.addItemEntry(item, 15, 1, [Functions.setCount(1, 3)], []);
+subwayPool.addItemEntry(item, 20, 1, [Functions.setCount(1, 3)], []);
 }
 for item in lc_grenades {
 subwayPool.addItemEntry(item, 5, 1, [Functions.setCount(1, 8)], []);
@@ -221,11 +219,8 @@ genericPool.addItemEntry(item, 5, 1, [Functions.setCount(1, 2)], []);
 for item in lc_hand_weapons {
 genericPool.addItemEntry(item, 3, 1, [Functions.setCount(1, 1)], []);
 }
-for item in lc_hand_ammo_low {
-genericPool.addItemEntry(item, 3, 1, [Functions.setCount(6, 18)], []);
-}
 for item in lc_hand_ammo_high {
-genericPool.addItemEntry(item, 3, 1, [Functions.setCount(1, 1)], []);
+genericPool.addItemEntry(item, 6, 1, [Functions.setCount(1, 1)], []);
 }
 //==== Healing Loot ====
 for item in lc_healing {
@@ -239,11 +234,8 @@ plantPool.addItemEntry(item, 100, 1, [Functions.setCount(1, 1)], []);
 for item in lc_handguns {
 handgunPool.addItemEntry(item, 20, 1, [Functions.setCount(1, 1)], []);
 }
-for item in lc_hand_ammo_low {
-handgunPool.addItemEntry(item, 35, 1, [Functions.setCount(6, 18)], []);
-}
 for item in lc_hand_ammo_high {
-handgunPool.addItemEntry(item, 35, 1, [Functions.setCount(1, 3)], []);
+handgunPool.addItemEntry(item, 70, 1, [Functions.setCount(1, 3)], []);
 }
 for item in lc_grenades {
 handgunPool.addItemEntry(item, 10, 1, [Functions.setCount(1, 3)], []);
@@ -253,10 +245,10 @@ for item in lc_longguns {
 longgunsPool.addItemEntry(item, 13, 1, [Functions.setCount(1, 1)], []);
 }
 for item in lc_long_ammo_low {
-longgunsPool.addItemEntry(item, 37, 1, [Functions.setCount(10, 30)], []);
+longgunsPool.addItemEntry(item, 20, 1, [Functions.setCount(10, 30)], []);
 }
 for item in lc_long_ammo_high {
-longgunsPool.addItemEntry(item, 40, 1, [Functions.setCount(1, 3)], []);
+longgunsPool.addItemEntry(item, 57, 1, [Functions.setCount(1, 3)], []);
 }
 for item in lc_grenades {
 longgunsPool.addItemEntry(item, 10, 1, [Functions.setCount(1, 4)], []);
@@ -273,10 +265,10 @@ for item in lc_longguns {
 spherePool.addItemEntry(item, 13, 1, [Functions.setCount(1, 1)], []);
 }
 for item in lc_long_ammo_low {
-spherePool.addItemEntry(item, 37, 1, [Functions.setCount(20, 30)], []);
+spherePool.addItemEntry(item, 20, 1, [Functions.setCount(20, 30)], []);
 }
 for item in lc_long_ammo_high {
-spherePool.addItemEntry(item, 40, 1, [Functions.setCount(1, 3)], []);
+spherePool.addItemEntry(item, 57, 1, [Functions.setCount(1, 3)], []);
 }
 for item in lc_grenades {
 spherePool.addItemEntry(item, 10, 1, [Functions.setCount(1, 4)], []);

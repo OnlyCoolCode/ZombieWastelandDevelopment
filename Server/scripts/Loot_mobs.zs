@@ -77,7 +77,7 @@ banditPool.addItemEntry(ammo_pistol_incendiary, 4,0, [
     Functions.setCount(1, 1)
 ], []);
 banditPool.addItemEntry(ammo_revolver_incendiary, 4,0, [
-    Functions.setCount(6, 6)
+    Functions.setCount(1, 1)
 ], []);
 banditPool.addItemEntry(ammo_assault, 8,0, [
     Functions.setCount(1, 1)
@@ -86,13 +86,13 @@ banditPool.addItemEntry(ammo_smg, 8,0, [
     Functions.setCount(1, 1)
 ], []);
 banditPool.addItemEntry(ammo_revolver, 8,0, [
-    Functions.setCount(6, 6)
+    Functions.setCount(1, 1)
 ], []);
 banditPool.addItemEntry(ammo_shotgun, 8,0, [
     Functions.setCount(8, 8)
 ], []);
 banditPool.addItemEntry(ammo_rifle, 8,0, [
-    Functions.setCount(6, 6)
+    Functions.setCount(1, 1)
 ], []);
 banditPool.addItemEntry(heavycloth, 31,0, [
     Functions.setCount(1, 2)
@@ -121,7 +121,7 @@ armysoldierPool.addItemEntry(ammo_pistol_incendiary, 4,0, [
     Functions.setCount(1, 1)
 ], []);
 armysoldierPool.addItemEntry(ammo_revolver_incendiary, 4,0, [
-    Functions.setCount(6, 6)
+    Functions.setCount(1, 1)
 ], []);
 armysoldierPool.addItemEntry(ammo_assault, 8,0, [
     Functions.setCount(1, 1)
@@ -130,13 +130,13 @@ armysoldierPool.addItemEntry(ammo_smg, 8,0, [
     Functions.setCount(1, 1)
 ], []);
 armysoldierPool.addItemEntry(ammo_revolver, 8,0, [
-    Functions.setCount(6, 6)
+    Functions.setCount(1, 1)
 ], []);
 armysoldierPool.addItemEntry(ammo_shotgun, 8,0, [
     Functions.setCount(8, 8)
 ], []);
 armysoldierPool.addItemEntry(ammo_rifle, 8,0, [
-    Functions.setCount(6, 6)
+    Functions.setCount(1, 1)
 ], []);
 armysoldierPool.addItemEntry(heavycloth, 31,0, [
     Functions.setCount(1, 2)

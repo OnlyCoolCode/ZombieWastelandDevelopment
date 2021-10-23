@@ -247,5 +247,16 @@ recipes.addShaped("saddle", saddle, [
     [iron_ingot,null,iron_ingot]
 ]);
 
+// rabbit hide
+var rabbit_hide = <minecraft:rabbit_hide>;
+var wool_brown = <minecraft:wool:12>;
+recipes.addShapeless("wool1", wool_brown,
+[rabbit_hide,rabbit_hide,rabbit_hide]
+);
 
-
+// Wool string
+var wool_white = <minecraft:wool>;
+recipes.addShaped("wool2", wool_white, [
+    [string_item,string_item],
+    [string_item,string_item]
+]);
