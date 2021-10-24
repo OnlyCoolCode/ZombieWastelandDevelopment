@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2021-10-23 23:39:59 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2021-10-23 20:48:36 -0300"
@@ -19,7 +25,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
-      "zombie": "2021-10-23 20:47:57 -0300"
+      "zombie": "2021-10-23 20:47:57 -0300",
+      "cave_spider": "2021-10-23 23:39:52 -0300"
     },
     "done": false
   },
@@ -66,6 +73,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2021-10-23 23:39:59 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/magenta_bed": {
     "criteria": {
       "has_magenta_wool": "2021-10-23 20:51:13 -0300"
@@ -96,6 +109,12 @@
     },
     "done": true
   },
+  "betterwithmods:plated_armor": {
+    "criteria": {
+      "has_item": "2021-10-23 23:39:26 -0300"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2021-10-23 19:49:13 -0300"
@@ -117,6 +136,12 @@
   "minecraft:recipes/decorations/magenta_banner": {
     "criteria": {
       "has_magenta_wool": "2021-10-23 20:51:13 -0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2021-10-23 23:40:10 -0300"
     },
     "done": true
   },

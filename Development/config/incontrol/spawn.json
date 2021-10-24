@@ -66,12 +66,12 @@
     "result": "deny"
   },
   {
-    "mob": "minecraft:cave_spider",
+    "mob": "spiderstpo:better_cave_spider",
     "seesky": true,
     "result": "deny"
   },
   {
-    "mob": "minecraft:cave_spider",
+    "mob": "spiderstpo:better_cave_spider",
     "minheight": 55,
     "result": "deny"
   },
