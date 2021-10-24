@@ -31,10 +31,12 @@ var iy_super_slasherTable = LootTweaker.getTable("iymts_mob_mod:entities/iy_supe
 // var iy_super_exploderTable = LootTweaker.getTable("iymts_mob_mod:entities/iy_super_exploder");
 var iy_super_leaperTable = LootTweaker.getTable("iymts_mob_mod:entities/iy_super_leaper");
 var iy_super_bruteTable = LootTweaker.getTable("iymts_mob_mod:entities/iy_super_brute");
+var iy_super_lurkerTable = LootTweaker.getTable("iymts_mob_mod:entities/iy_super_lurker");
 iy_super_slasherTable.clear();
 // iy_super_exploderTable.clear();
 iy_super_leaperTable.clear();
 iy_super_bruteTable.clear();
+iy_super_lurkerTable.clear();
 var iy_super_slasherPool = iy_super_slasherTable.addPool("iy_super_slasherPool", 1, 3, 0, 0);
 iy_super_slasherPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
     Functions.setCount(1, 1)
@@ -49,6 +51,10 @@ iy_super_leaperPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
 ], []);
 var iy_super_brutePool = iy_super_bruteTable.addPool("iy_super_brutePool", 0, 2, 0, 0);
 iy_super_brutePool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
+    Functions.setCount(1, 1)
+], []);
+var iy_super_lurkerPool = iy_super_lurkerTable.addPool("iy_super_lurkerPool", 0, 2, 0, 0);
+iy_super_lurkerPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
     Functions.setCount(1, 1)
 ], []);
 

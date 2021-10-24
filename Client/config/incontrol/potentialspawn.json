@@ -55,6 +55,11 @@
       },
     {
         "mob": "iymts_mob_mod:iysuperbrute",
+        "weight": 15,
+        "groupcountmax": 1
+      },
+    {
+        "mob": "iymts_mob_mod:iysuperlurker",
         "weight": 7,
         "groupcountmax": 1
       },

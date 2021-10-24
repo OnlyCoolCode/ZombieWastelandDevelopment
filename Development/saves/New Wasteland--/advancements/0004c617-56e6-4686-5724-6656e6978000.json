@@ -41,17 +41,17 @@
     },
     "done": true
   },
-  "minecraft:adventure/kill_all_mobs": {
-    "criteria": {
-      "spider": "2021-10-24 00:56:53 -0300"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/painting": {
     "criteria": {
       "has_wool": "2021-10-24 00:54:16 -0300"
     },
     "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "spider": "2021-10-24 00:56:53 -0300"
+    },
+    "done": false
   },
   "mutantbeasts:root": {
     "criteria": {

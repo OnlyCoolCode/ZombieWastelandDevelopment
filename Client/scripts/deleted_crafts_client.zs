@@ -497,11 +497,6 @@ for mod in loadedMods {
             mods.jei.JEI.removeAndHide(item);
             //print("\t\t" ~ item.displayName);
         } */
-     if mod.name == "iYAMATO's Mob Mod"
-        for item in mod.items {
-            mods.jei.JEI.removeAndHide(item);
-            //print("\t\t" ~ item.displayName);
-        } 
 }
 
 for mod in loadedMods {

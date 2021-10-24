@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
     "DEAD",
+    "WATER",
     "WASTELAND",
-    "MOUNTAIN",
     "DRY",
+    "MOUNTAIN",
     "HOT"
   ],
   "BiomeManager Entries": {},
@@ -39,6 +39,12 @@
     {
       "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperExploder",
       "Weight": 0,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperLurker",
+      "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

@@ -377,6 +377,13 @@
     "result": "deny"
   },
   {
+    "mob": "iymts_mob_mod:iysuperbrute",
+    "insphere": false,
+    "seesky": false,
+    "maxheight": 60,
+    "result": "deny"
+  },
+  {
     "mod": "iymts_mob_mod",
     "biome": "Ominous Woods",
     "result": "allow",
