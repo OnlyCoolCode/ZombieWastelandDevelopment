@@ -22,10 +22,10 @@
   "Dictionary Types": [
     "WET",
     "FOREST",
+    "DENSE",
     "RARE",
     "JUNGLE",
     "MAGICAL",
-    "DENSE",
     "LUSH"
   ],
   "BiomeManager Entries": {},
