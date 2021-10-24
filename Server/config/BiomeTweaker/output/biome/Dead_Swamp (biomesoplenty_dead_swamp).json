@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "COLD",
-    "DEAD",
     "SWAMP",
-    "SPARSE",
+    "SPOOKY",
     "WET",
-    "SPOOKY"
+    "SPARSE",
+    "COLD",
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -43,8 +43,134 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYStoneStatue",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYBlueSlime",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSlasher",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYWheezer",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYWillOWisp",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYShade",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYKunekune",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYGhost",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYExploder",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYPuker",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYLurker",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYPregnant",
+      "Weight": 15,
+      "Min Group Count": 1,
+      "Max Group Count": 2
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSpitter",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYInfector",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYLeaper",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYPack",
+      "Weight": 20,
+      "Min Group Count": 4,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSwarmer",
+      "Weight": 20,
+      "Min Group Count": 4,
+      "Max Group Count": 8
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYDivider",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYDividerHead",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYDividerArm",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
       "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperSlasher",
       "Weight": 0,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperWheezer",
+      "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
@@ -55,8 +181,80 @@
       "Max Group Count": 1
     },
     {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperPuker",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperLurker",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperPregnant",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperSpitter",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperInfector",
+      "Weight": 3,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperLeaper",
       "Weight": 0,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYPrecariousCreeper",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYNapalmCreeper",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSonicBoomCreeper",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYStoneCreeper",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYDivideCreeper",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSkeletonSoldier",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYAgniton",
+      "Weight": 8,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

@@ -54,6 +54,11 @@
         "groupcountmax": 1
       },
     {
+        "mob": "iymts_mob_mod:iysuperlurker",
+        "weight": 7,
+        "groupcountmax": 1
+      },
+    {
         "mob": "mutantbeasts:mutant_zombie",
         "groupcountmin": 1,
         "groupcountmax": 1,

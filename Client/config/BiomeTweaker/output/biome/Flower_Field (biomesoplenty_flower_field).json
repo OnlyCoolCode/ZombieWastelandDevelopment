@@ -64,6 +64,60 @@
       "Max Group Count": 4
     },
     {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYBlueSlime",
+      "Weight": 40,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYWillOWisp",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 4
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYKunekune",
+      "Weight": 5,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYPrecariousCreeper",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYNapalmCreeper",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSonicBoomCreeper",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYStoneCreeper",
+      "Weight": 20,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYDivideCreeper",
+      "Weight": 30,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYAgniton",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
       "Entity Class": "com.gendeathrow.playerskins.entity.EntityPlayerMob",
       "Weight": 1,
       "Min Group Count": 1,

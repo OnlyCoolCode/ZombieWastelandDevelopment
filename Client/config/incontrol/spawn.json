@@ -12,8 +12,34 @@
     "hostile": true,
     "mintime":1000,
     "maxtime":13000,
+    "maxspawndist": 3000,
     "mincount": {
       "amount": 55,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "hostile": true,
+    "mintime":1000,
+    "maxtime":13000,
+    "minspawndist": 2500,
+    "maxspawndist": 5000,
+    "mincount": {
+      "amount": 60,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "hostile": true,
+    "mintime":1000,
+    "maxtime":13000,
+    "minspawndist": 5000,
+    "mincount": {
+      "amount": 70,
       "hostile": true,
       "perchunk": true
     },
@@ -175,7 +201,7 @@
     "armorlegs":["techguns:t1_scout_leggings", "minecraft:leather_leggings"],
     "armorchest":["techguns:t1_scout_chestplate", "minecraft:leather_chestplate"],
     "damagemultiply": 1.3,
-    "speedmultiply": 1.20
+    "speedmultiply": 1.30
   },
   {
     "mob": "playerskins:playermob",
@@ -233,7 +259,7 @@
     "biome": "Jungle",
     "result": "allow",
     "damagemultiply": 1.3,
-    "speedmultiply": 1.20
+    "speedmultiply": 1.30
   },
   {
     "mob": ["techguns:armysoldier"],
@@ -272,7 +298,7 @@
     "biome": "Jungle",
     "result": "allow",
     "damagemultiply": 1.3,
-    "speedmultiply": 1.20
+    "speedmultiply": 1.30
   },
   {
     "mob": "techguns:bandit",
@@ -367,7 +393,8 @@
     "mod": "iymts_mob_mod",
     "incity": true,
     "result": "allow",
-    "speedmultiply": 1.5
+    "speedmultiply": 1.5,
+    "damagemultiply": 1.2
   },
   {
     "mod": "iymts_mob_mod",
@@ -390,7 +417,8 @@
     "mob": "minecraft:zombie",
     "biome": "Ominous Woods",
     "result": "allow",
-    "speedmultiply": 1.7
+    "speedmultiply": 1.7,
+    "damagemultiply": 1.5
   },
   {
     "mob": "minecraft:zombie",

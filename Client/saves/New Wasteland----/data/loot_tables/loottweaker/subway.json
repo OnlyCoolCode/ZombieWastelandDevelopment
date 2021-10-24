@@ -22,27 +22,7 @@
         },
         {
           "entryName": "loottweaker#17",
-          "weight": 15,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": {
-                "min": 1.0,
-                "max": 3.0
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 10.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "techguns:itemshared"
-        },
-        {
-          "entryName": "loottweaker#18",
-          "weight": 15,
+          "weight": 20,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -55,6 +35,26 @@
             },
             {
               "data": 14.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
+          "entryName": "loottweaker#18",
+          "weight": 20,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 3.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
               "function": "minecraft:set_data"
             }
           ],
@@ -175,7 +175,7 @@
         },
         {
           "entryName": "loottweaker#15",
-          "weight": 15,
+          "weight": 10,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -212,19 +212,19 @@
         },
         {
           "entryName": "loottweaker#16",
-          "weight": 15,
+          "weight": 20,
           "quality": 1,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 10.0,
-                "max": 30.0
+                "min": 1.0,
+                "max": 3.0
               },
               "function": "minecraft:set_count"
             },
             {
-              "data": 3.0,
+              "data": 10.0,
               "function": "minecraft:set_data"
             }
           ],

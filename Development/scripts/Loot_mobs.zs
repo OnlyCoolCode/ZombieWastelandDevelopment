@@ -30,6 +30,7 @@ SpiderPool.addItemEntry(<minecraft:spider_eye>, 1,0, [
 var iy_super_slasherTable = LootTweaker.getTable("iymts_mob_mod:entities/iy_super_slasher");
 // var iy_super_exploderTable = LootTweaker.getTable("iymts_mob_mod:entities/iy_super_exploder");
 var iy_super_leaperTable = LootTweaker.getTable("iymts_mob_mod:entities/iy_super_leaper");
+var iy_super_lurkerTable = LootTweaker.getTable("iymts_mob_mod:entities/iy_super_lurker");
 iy_super_slasherTable.clear();
 // iy_super_exploderTable.clear();
 iy_super_leaperTable.clear();
@@ -45,6 +46,11 @@ var iy_super_leaperPool = iy_super_leaperTable.addPool("iy_super_leaperPool", 0,
 iy_super_leaperPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
     Functions.setCount(1, 1)
 ], []);
+var iy_super_lurkerPool = iy_super_lurkerTable.addPool("iy_super_lurkerPool", 0, 2, 0, 0);
+iy_super_lurkerPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
+    Functions.setCount(1, 1)
+], []);
+
 
 var mutant_zombieTable = LootTweaker.getTable("mutantbeasts:entities/mutant_zombie");
 mutant_zombieTable.clear();

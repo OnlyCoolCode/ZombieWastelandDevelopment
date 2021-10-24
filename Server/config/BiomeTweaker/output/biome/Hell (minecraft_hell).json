@@ -20,9 +20,9 @@
   "Enable Rain": false,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DRY",
     "HOT",
-    "NETHER"
+    "NETHER",
+    "DRY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -44,6 +44,18 @@
       "Weight": 30,
       "Min Group Count": 1,
       "Max Group Count": 3
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYAgniton",
+      "Weight": 8,
+      "Min Group Count": 1,
+      "Max Group Count": 1
+    },
+    {
+      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYNetherCreeper",
+      "Weight": 10,
+      "Min Group Count": 1,
+      "Max Group Count": 1
     },
     {
       "Entity Class": "net.minecraft.entity.monster.EntityWitherSkeleton",

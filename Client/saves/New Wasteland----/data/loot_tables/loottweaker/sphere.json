@@ -213,7 +213,7 @@
         },
         {
           "entryName": "loottweaker#9",
-          "weight": 37,
+          "weight": 20,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -270,19 +270,19 @@
         },
         {
           "entryName": "loottweaker#10",
-          "weight": 37,
+          "weight": 57,
           "quality": 1,
           "type": "item",
           "functions": [
             {
               "count": {
-                "min": 20.0,
-                "max": 30.0
+                "min": 1.0,
+                "max": 3.0
               },
               "function": "minecraft:set_count"
             },
             {
-              "data": 3.0,
+              "data": 10.0,
               "function": "minecraft:set_data"
             }
           ],
@@ -307,7 +307,7 @@
         },
         {
           "entryName": "loottweaker#11",
-          "weight": 40,
+          "weight": 57,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -319,7 +319,7 @@
               "function": "minecraft:set_count"
             },
             {
-              "data": 10.0,
+              "data": 14.0,
               "function": "minecraft:set_data"
             }
           ],
@@ -344,7 +344,7 @@
         },
         {
           "entryName": "loottweaker#12",
-          "weight": 40,
+          "weight": 57,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -356,7 +356,7 @@
               "function": "minecraft:set_count"
             },
             {
-              "data": 14.0,
+              "data": 3.0,
               "function": "minecraft:set_data"
             }
           ],
