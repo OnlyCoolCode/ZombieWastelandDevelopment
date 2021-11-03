@@ -1,0 +1,6 @@
+
+{
+  "Name": "playermob",
+  "Registry ID": "playerskins:playermob",
+  "Class": "com.gendeathrow.playerskins.entity.EntityPlayerMob"
+}

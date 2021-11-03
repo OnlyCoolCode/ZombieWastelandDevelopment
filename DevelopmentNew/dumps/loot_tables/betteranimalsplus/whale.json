@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "whale-blubber",
+      "entries": [
+        {
+          "entryName": "betteranimalsplus:blubber",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 10.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "betteranimalsplus:blubber"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

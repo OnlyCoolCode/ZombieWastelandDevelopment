@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "name": "pol2",
+      "entries": [
+        {
+          "entryName": "empty",
+          "weight": 51,
+          "quality": 0,
+          "type": "empty"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:eventmaker",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 2.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:eventmaker"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:bullet",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "upgrade_range": 0.0,
+              "valve_chance": 0.06,
+              "function": "minecraft:set_weapon_upgraded"
+            },
+            {
+              "tag": "{Australium:1}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:bullet"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:minigun",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "upgrade_range": {
+                "min": 320.0,
+                "max": 520.0
+              },
+              "valve_chance": 0.035,
+              "function": "minecraft:set_weapon_upgraded"
+            },
+            {
+              "tag": "{Australium:1}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:minigun"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:projectile",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "upgrade_range": {
+                "min": 1080.0,
+                "max": 1680.0
+              },
+              "valve_chance": 0.028,
+              "function": "minecraft:set_weapon_upgraded"
+            },
+            {
+              "tag": "{Australium:1}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:projectile"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

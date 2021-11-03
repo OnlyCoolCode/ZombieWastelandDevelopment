@@ -1,0 +1,84 @@
+[
+  {
+    "type": "condition",
+    "name": "easymobs",
+    "values": [
+      {
+        "factor": 1,
+        "value": "Zombie"
+      },
+      {
+        "factor": 1,
+        "value": "Skeleton"
+      },
+      {
+        "factor": 1,
+        "value": "Spider"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "hardmobs",
+    "values": [
+      {
+        "factor": 1,
+        "value": "Blaze"
+      },
+      {
+        "factor": 1,
+        "value": "Witch"
+      }
+    ]
+  },
+  {
+    "type": "condition",
+    "name": "chestloot",
+    "values": [
+      {
+        "factor": 25,
+        "value": "loottweaker:sphere",
+        "issphere": true
+      },
+      {
+        "factor": 50,
+        "value": "loottweaker:objective",
+        "issphere": true
+      },
+      {
+        "factor": 200,
+        "value": "loottweaker:subway",
+        "inpart": "rail_dungeon1"
+      },
+      {
+        "factor": 200,
+        "value": "loottweaker:subway",
+        "inpart": "rail_dungeon2"
+      },
+      {
+        "factor": 100,
+        "value": "loottweaker:generic"
+      },
+      {
+        "factor": 15,
+        "value": "loottweaker:healing"
+      },
+      {
+        "factor": 15,
+        "value": "loottweaker:plant"
+      },
+      {
+        "factor": 12,
+        "value": "loottweaker:handgun"
+      },
+      {
+        "factor": 12,
+        "value": "loottweaker:longguns"
+      },
+      {
+        "factor": 15,
+        "value": "loottweaker:food"
+      }
+    ]
+  }
+]
