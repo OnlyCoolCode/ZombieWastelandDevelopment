@@ -1,0 +1,26 @@
+{
+  "pools": [
+    {
+      "name": "mutant_zombiePool",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "weapons_of_the_apocalypse:fleshmorph"
+        }
+      ],
+      "rolls": {
+        "min": 3.0,
+        "max": 5.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+#List of Hidden Players
+cozzani:true
+guidardo:true
+mati:true
+elduro:true

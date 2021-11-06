@@ -1,0 +1,17 @@
+{
+  "pools": [
+    {
+      "name": "snowy_pelt",
+      "entries": [
+        {
+          "entryName": "betteranimalsplus_wolf_snowy_inject_entry",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "betteranimalsplus:wolf_snowy"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
