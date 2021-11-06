@@ -1,0 +1,607 @@
+[
+  {
+    "mob": "minecraft:spider",
+    "seesky": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:spider",
+    "minheight": 35,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:spider",
+    "incity": false,
+    "mincount": {
+      "amount": 80,
+      "incity": false,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:spider",
+    "incity": true,
+    "mincount": {
+      "amount": 120,
+      "incity": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:spider",
+    "incity": true,
+    "mintime":1000,
+    "maxtime":13000,
+    "mincount": {
+      "amount": 80,
+      "incity": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:cave_spider",
+    "seesky": true,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:cave_spider",
+    "minheight": 55,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:cave_spider",
+    "incity": false,
+    "mincount": {
+      "amount": 80,
+      "incity": false,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:cave_spider",
+    "incity": true,
+    "mincount": {
+      "amount": 120,
+      "incity": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:cave_spider",
+    "incity": true,
+    "mintime":1000,
+    "maxtime":13000,
+    "mincount": {
+      "amount": 80,
+      "incity": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:piranha",
+    "seesky": true,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:piranha",
+    "minheight": 50,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:piranha",
+    "incity": false,
+    "mincount": {
+      "amount": 80,
+      "incity": false,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:piranha",
+    "incity": true,
+    "mincount": {
+      "amount": 120,
+      "incity": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:piranha",
+    "incity": true,
+    "mintime":1000,
+    "maxtime":13000,
+    "mincount": {
+      "amount": 80,
+      "incity": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:piranha",
+    "mincount": {
+      "amount": 15,
+      "mob": "animalium:piranha",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:piranha",
+    "maxheight": 50,
+	  "block": "minecraft:water",
+    "result": "allow"
+  },
+  {
+    "mob": "animalium:wild_dog",
+    "seesky": false,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:wild_dog",
+    "incity": true,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:wild_dog",
+    "mintime":13000,
+    "maxtime":23000,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:wild_dog",
+    "mintime":0,
+    "maxtime":1000,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:wild_dog",
+    "mincount": {
+      "amount": 12,
+      "mod": "animalium",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:bear",
+    "seesky": false,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:bear",
+    "incity": true,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:bear",
+    "mintime":13000,
+    "maxtime":23000,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:bear",
+    "mintime":0,
+    "maxtime":1000,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:bear",
+    "mincount": {
+      "amount": 12,
+      "mod": "animalium",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": ["animalium:rat"],
+    "incity": false,
+    "result": "deny"
+  },
+  {
+    "mob": "animalium:rat",
+    "mincount": {
+      "amount": 12,
+      "mod": "animalium",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "playerskins:playermob",
+    "seesky": false,
+    "result": "deny"
+  },
+  {
+    "mob": "playerskins:playermob",
+    "incity": false,
+    "mincount": {
+      "amount": 50,
+      "hostile": true,
+      "perchunk": true
+    },
+    "hostile": true,
+    "result": "deny"
+  },
+  {
+    "mob": "playerskins:playermob",
+    "incity": true,
+    "mincount": {
+      "amount": 80,
+      "hostile": true,
+      "incity": true,
+      "perchunk": true
+    },
+    "hostile": true,
+    "result": "deny"
+  },
+  {
+    "mob": "playerskins:playermob",
+    "mintime":13000,
+    "maxtime":23000,
+    "result": "deny"
+  },
+  {
+    "mob": "playerskins:playermob",
+    "mintime":0,
+    "maxtime":1000,
+    "result": "deny"
+  },
+  {
+    "mob": "playerskins:playermob",
+    "seesky": true,
+    "result": "allow",
+    "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron","weapons_of_the_apocalypse:cleaver","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:baton"],
+    "armorboots":["techguns:t1_scout_boots", "techguns:t2_riot_boots"],
+    "armorhelmet":["techguns:t1_scout_helmet", "techguns:t2_riot_helmet"],
+    "armorlegs":["techguns:t1_scout_leggings", "techguns:t2_riot_leggings"],
+    "armorchest":["techguns:t1_scout_chestplate", "techguns:t2_riot_chestplate"]
+  },
+  {
+    "mob": "playerskins:playermob",
+    "inbuilding": true,
+    "result": "allow",
+    "helditem":["weapons_of_the_apocalypse:sythe","weapons_of_the_apocalypse:sledgehammer","weapons_of_the_apocalypse:katana","weapons_of_the_apocalypse:steelpipe","weapons_of_the_apocalypse:fireaxe","weapons_of_the_apocalypse:crowbar","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:spikedbaseballbat","weapons_of_the_apocalypse:tireiron","weapons_of_the_apocalypse:cleaver","weapons_of_the_apocalypse:steelhatchet","weapons_of_the_apocalypse:baton"],
+    "armorboots":["techguns:t1_scout_boots", "techguns:t2_riot_boots"],
+    "armorhelmet":["techguns:t1_scout_helmet", "techguns:t2_riot_helmet"],
+    "armorlegs":["techguns:t1_scout_leggings", "techguns:t2_riot_leggings"],
+    "armorchest":["techguns:t1_scout_chestplate", "techguns:t2_riot_chestplate"]
+  },
+  {
+    "mob": ["techguns:armysoldier"],
+    "inbuilding": false,
+    "result": "deny"
+  },
+  {
+    "mob": "techguns:armysoldier",
+    "mintime":13000,
+    "maxtime":23000,
+    "result": "deny"
+  },
+  {
+    "mob": "techguns:armysoldier",
+    "mintime":0,
+    "maxtime":1000,
+    "result": "deny"
+  },
+  {
+    "mob": "techguns:armysoldier",
+    "incity": true,
+    "mincount": {
+      "amount": 80,
+      "hostile": true,
+      "incity": true,
+      "perchunk": true
+    },
+    "hostile": true,
+    "result": "deny"
+  },
+  {
+    "mob": ["techguns:armysoldier"],
+    "mincount": {
+      "amount": 40,
+      "mod": "techguns",
+      "perchunk": true
+    },
+    "hostile": true,
+    "result": "deny"
+  },
+  {
+    "mob": "techguns:armysoldier",
+    "inbuilding": true,
+    "result": "allow"
+  },
+  {
+    "mob": "techguns:bandit",
+    "incity": false,
+    "seesky": false,
+    "result": "deny"
+  },
+  {
+    "mob": "techguns:bandit",
+    "mintime":13000,
+    "maxtime":23000,
+    "result": "deny"
+  },
+  {
+    "mob": "techguns:bandit",
+    "mintime":0,
+    "maxtime":1000,
+    "result": "deny"
+  },
+  {
+    "mob": "techguns:bandit",
+    "incity": false,
+    "seesky": true,
+    "mincount": {
+      "amount": 50,
+      "hostile": true,
+      "incity": false,
+      "seesky": true,
+      "perchunk": true
+    },
+    "hostile": true,
+    "result": "deny"
+  },
+  {
+    "mob": "techguns:bandit",
+    "incity": true,
+    "mincount": {
+      "amount": 80,
+      "hostile": true,
+      "incity": true,
+      "perchunk": true
+    },
+    "hostile": true,
+    "result": "deny"
+  },
+  {
+    "mob": "techguns:bandit",
+    "inbuilding": true,
+    "result": "allow"
+  },
+  {
+    "mob": "techguns:bandit",
+    "incity": false,
+    "seesky": true,
+    "result": "allow"
+  },
+  {
+    "mob": "mutantbeasts:mutant_zombie",
+    "incity": false,
+    "result": "deny"
+  },
+  {
+    "mob": "mutantbeasts:mutant_zombie",
+    "seesky": false,
+    "result": "deny"
+  },
+  {
+    "mod": "mutantbeasts",
+    "incity": true,
+    "mincount": {
+      "amount": 120,
+      "incity": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "mutantbeasts",
+    "incity": true,
+    "mintime":1000,
+    "maxtime":13000,
+    "mincount": {
+      "amount": 80,
+      "incity": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "mutantbeasts",
+    "result": "allow"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "incity": false,
+    "seesky": false,
+    "mincount": {
+      "amount": 80,
+      "incity": false,
+      "seesky": false,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "incity": false,
+    "seesky": true,
+    "mincount": {
+      "amount": 70,
+      "incity": false,
+      "seesky": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "incity": false,
+    "seesky": false,
+    "mintime":1000,
+    "maxtime":13000,
+    "mincount": {
+      "amount": 70,
+      "incity": false,
+      "seesky": false,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "incity": false,
+    "seesky": true,
+    "mintime":1000,
+    "maxtime":13000,
+    "mincount": {
+      "amount": 50,
+      "incity": false,
+      "seesky": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "incity": true,
+    "mincount": {
+      "amount": 120,
+      "incity": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "incity": true,
+    "mintime":1000,
+    "maxtime":13000,
+    "mincount": {
+      "amount": 80,
+      "incity": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "seesky": true,
+    "result": "allow"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "seesky": false,
+    "maxlight": 7,
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "incity": false,
+    "seesky": false,
+    "mincount": {
+      "amount": 80,
+      "incity": false,
+      "seesky": false,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "incity": false,
+    "seesky": true,
+    "mincount": {
+      "amount": 70,
+      "incity": false,
+      "seesky": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "incity": false,
+    "seesky": false,
+    "mintime":1000,
+    "maxtime":13000,
+    "mincount": {
+      "amount": 80,
+      "incity": false,
+      "seesky": false,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "incity": false,
+    "seesky": true,
+    "mintime":1000,
+    "maxtime":13000,
+    "mincount": {
+      "amount": 50,
+      "incity": false,
+      "seesky": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "incity": true,
+    "mincount": {
+      "amount": 120,
+      "incity": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "incity": true,
+    "mintime":1000,
+    "maxtime":13000,
+    "mincount": {
+      "amount": 80,
+      "incity": true,
+      "hostile": true,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "seesky": true,
+    "result": "allow"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "seesky": false,
+    "maxlight": 7,
+    "result": "allow"
+  }
+]

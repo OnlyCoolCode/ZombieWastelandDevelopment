@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "name": "hirschgeist",
+      "entries": [
+        {
+          "entryName": "betteranimalsplus:hirschgeistskull_1",
+          "weight": 200,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "betteranimalsplus:hirschgeistskull_1"
+        },
+        {
+          "entryName": "minecraft:bone",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 4.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:bone"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "pools": [
+    {
+      "name": "objective",
+      "entries": [
+        {
+          "entryName": "loottweaker#1",
+          "weight": 3,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:slimyladder"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

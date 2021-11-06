@@ -1,0 +1,19 @@
+#Sun Sep 19 20:12:55 ART 2021
+shaderPack=Chocapic13_V8_Ultra.zip
+antialiasingLevel=0
+normalMapEnabled=false
+specularMapEnabled=false
+renderResMul=1.0
+shadowResMul=1.0
+handDepthMul=0.125
+cloudShadow=false
+oldHandLight=default
+oldLighting=default
+tweakBlockDamage=false
+shadowClipFrustrum=true
+TexMinFilB=0
+TexMinFilN=0
+TexMinFilS=0
+TexMagFilB=0
+TexMagFilN=0
+TexMagFilS=0

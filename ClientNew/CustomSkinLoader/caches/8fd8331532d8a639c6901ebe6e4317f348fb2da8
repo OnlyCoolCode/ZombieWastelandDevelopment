@@ -1,0 +1,8 @@
+{
+  "id" : "723b6e336128469b97ca0a6e58e28cd7",
+  "name" : "Mati",
+  "properties" : [ {
+    "name" : "textures",
+    "value" : "ewogICJ0aW1lc3RhbXAiIDogMTYyMzczOTg4NzY3OSwKICAicHJvZmlsZUlkIiA6ICI3MjNiNmUzMzYxMjg0NjliOTdjYTBhNmU1OGUyOGNkNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXRpIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzczN2VkMjk5NDQ4OTgxYzdiYTJiYjlkMzVjZjY5ZDM5MWQ4OTBhOWFjN2E3MjI4MGEwNDRmMWJhMDJkNjM3ODMiCiAgICB9CiAgfQp9"
+  } ]
+}

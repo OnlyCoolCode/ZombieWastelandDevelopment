@@ -1,0 +1,31 @@
+{
+	"mob_id": "techguns:bandit",
+	"potion_effects": [
+		{
+			"id": "minecraft:regeneration",
+			"amplifier": {
+				"min": 0,
+				"max": 0
+			},
+			"chance": {
+				"amount": 100,
+				"affected_by_difficulty": true,
+				"is_local_difficulty": true,
+				"multiplier": 1
+			},
+			"ambient": false,
+			"hide_particles": true
+		}
+	],
+	"attributes": [
+		{
+			"id": "generic.followRange",
+			"modifier": {
+				"min": 30,
+				"max": 70
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		}
+	]
+}

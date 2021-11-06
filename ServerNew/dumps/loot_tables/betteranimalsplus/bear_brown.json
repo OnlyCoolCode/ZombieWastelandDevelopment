@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "name": "bear-brown-fish",
+      "entries": [
+        {
+          "entryName": "minecraft:fish",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 1.0,
+              "function": "minecraft:set_data"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:fish"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "bear-brown-skin",
+      "entries": [
+        {
+          "entryName": "betteranimalsplus:bear_skin_brown",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 0.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "betteranimalsplus:bear_skin_brown"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

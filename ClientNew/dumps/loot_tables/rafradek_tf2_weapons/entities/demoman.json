@@ -1,0 +1,116 @@
+{
+  "pools": [
+    {
+      "name": "metal_demoman_raf",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:itemTF2",
+          "weight": 12,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 3.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:itemtf2"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:crate",
+          "weight": 6,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "weaponClass": "crate",
+              "function": "minecraft:set_weapon_class"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:crate"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:strangifier",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "tag": "{class:\"demoman\"}",
+              "function": "minecraft:set_nbt"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:strangifier"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "team": false,
+          "condition": "minecraft:killed_by_player_team"
+        },
+        {
+          "chance": 0.6,
+          "looting_multiplier": 0.2,
+          "condition": "minecraft:random_chance_with_looting"
+        },
+        {
+          "test": "{Robot:0b}",
+          "negate": false,
+          "condition": "rafradek_tf2_weapons:nbt_test"
+        }
+      ]
+    },
+    {
+      "name": "ammo_demoman_raf",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:ammo/grenade",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "rafradek_tf2_weapons:ammo/grenade"
+        },
+        {
+          "entryName": "rafradek_tf2_weapons:ammo/sticky",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "rafradek_tf2_weapons:ammo/sticky"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "test": "{Robot:0b}",
+          "negate": false,
+          "condition": "rafradek_tf2_weapons:nbt_test"
+        }
+      ]
+    },
+    {
+      "name": "robot_pyro_raf",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:entities/robot",
+          "weight": 1,
+          "quality": 0,
+          "type": "loot_table",
+          "name": "rafradek_tf2_weapons:entities/robot"
+        }
+      ],
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "team": false,
+          "condition": "minecraft:killed_by_player_team"
+        },
+        {
+          "test": "{Robot:0b}",
+          "negate": true,
+          "condition": "rafradek_tf2_weapons:nbt_test"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "pools": [
+    {
+      "name": "ammo",
+      "entries": [
+        {
+          "entryName": "rafradek_tf2_weapons:ammo_box",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "data": 10.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "rafradek_tf2_weapons:ammo_box"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
