@@ -20,22 +20,16 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MAGICAL",
-    "HILLS",
-    "DRY",
-    "MOUNTAIN",
+    "COLD",
     "WASTELAND",
-    "COLD"
+    "MAGICAL",
+    "DRY",
+    "HILLS",
+    "MOUNTAIN"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
   "Spawnable Monsters": [
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
     {
       "Entity Class": "net.minecraft.entity.monster.EntityZombie",
       "Weight": 95,

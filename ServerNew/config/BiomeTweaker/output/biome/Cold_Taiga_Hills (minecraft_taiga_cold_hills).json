@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": true,
   "Dictionary Types": [
-    "HILLS",
-    "SNOWY",
     "CONIFEROUS",
+    "SNOWY",
     "COLD",
-    "FOREST"
+    "FOREST",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -66,12 +66,6 @@
     }
   ],
   "Spawnable Monsters": [
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
     {
       "Entity Class": "net.minecraft.entity.monster.EntityZombie",
       "Weight": 95,

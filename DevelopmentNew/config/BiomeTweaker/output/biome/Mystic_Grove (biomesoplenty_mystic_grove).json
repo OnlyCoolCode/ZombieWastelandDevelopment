@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "MAGICAL",
-    "WET",
-    "LUSH",
-    "RARE",
     "DENSE",
-    "FOREST"
+    "LUSH",
+    "MAGICAL",
+    "FOREST",
+    "RARE",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -37,12 +37,6 @@
     }
   ],
   "Spawnable Monsters": [
-    {
-      "Entity Class": "net.minecraft.entity.monster.EntitySpider",
-      "Weight": 100,
-      "Min Group Count": 4,
-      "Max Group Count": 4
-    },
     {
       "Entity Class": "net.minecraft.entity.monster.EntityZombie",
       "Weight": 95,

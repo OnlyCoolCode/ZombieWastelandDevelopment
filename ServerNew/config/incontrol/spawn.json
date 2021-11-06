@@ -135,6 +135,15 @@
     "result": "deny"
   },
   {
+    "mod": "playerskins",
+    "mincount": {
+      "amount": 15,
+      "mod": "animalium",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
     "mob": "playerskins:playermob",
     "seesky": false,
     "result": "deny"
@@ -173,6 +182,15 @@
     "armorhelmet":["techguns:t1_scout_helmet", "minecraft:leather_helmet"],
     "armorlegs":["techguns:t1_scout_leggings", "minecraft:leather_leggings"],
     "armorchest":["techguns:t1_scout_chestplate", "minecraft:leather_chestplate"]
+  },
+  {
+    "mod": "techguns",
+    "mincount": {
+      "amount": 30,
+      "mod": "animalium",
+      "perchunk": true
+    },
+    "result": "deny"
   },
   {
     "mob": ["techguns:armysoldier"],
@@ -227,6 +245,15 @@
     "result": "allow"
   },
   {
+    "mod": "mutantbeasts",
+    "mincount": {
+      "amount": 5,
+      "mod": "animalium",
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
     "mob": "mutantbeasts:mutant_zombie",
     "incity": false,
     "result": "deny"
@@ -235,6 +262,15 @@
     "mob": "mutantbeasts:mutant_zombie",
     "minheight": 70,
     "result": "allow"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "mincount": {
+      "amount": 25,
+      "mod": "animalium",
+      "perchunk": true
+    },
+    "result": "deny"
   },
   {
     "mod": "iymts_mob_mod",
