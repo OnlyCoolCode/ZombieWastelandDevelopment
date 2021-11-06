@@ -17,14 +17,14 @@
   "Temperature": 2.0,
   "Humidity": 0.05,
   "Water Tint": 16777215,
-  "Enable Rain": false,
+  "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "SAVANNA",
+    "DRY",
     "SANDY",
     "SPARSE",
-    "HOT",
-    "DRY",
-    "SAVANNA"
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -84,7 +84,7 @@
     }
   ],
   "Spawn Biome": true,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
       {

@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "SWAMP",
     "RARE",
-    "WET",
-    "HILLS"
+    "HILLS",
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -107,7 +107,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
       {

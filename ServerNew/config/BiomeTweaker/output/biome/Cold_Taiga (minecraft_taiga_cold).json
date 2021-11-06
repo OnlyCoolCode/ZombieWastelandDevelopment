@@ -18,12 +18,12 @@
   "Humidity": 0.4,
   "Water Tint": 16777215,
   "Enable Rain": true,
-  "Enable Snow": true,
+  "Enable Snow": false,
   "Dictionary Types": [
-    "CONIFEROUS",
     "SNOWY",
     "COLD",
-    "FOREST"
+    "FOREST",
+    "CONIFEROUS"
   ],
   "BiomeManager Entries": {
     "ICY Weights": [
@@ -117,7 +117,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
       {

@@ -21,12 +21,12 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "DEAD",
-    "DENSE",
-    "MAGICAL",
     "FOREST",
     "RARE",
+    "SPOOKY",
+    "MAGICAL",
     "WET",
-    "SPOOKY"
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -79,7 +79,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
       {

@@ -53,15 +53,7 @@ var lc_trash = [
     <foodfunk:rotten_food>,
     <foodfunk:rotted_item>,
     <foodfunk:biodegradable_item>,
-    <biomesoplenty:ash>,
-    <minecraft:dye:1>,
-    <minecraft:dye:14>,
-    <minecraft:dye:11>,
-    <minecraft:dye:10>,
-    <minecraft:dye:6>,
-    <minecraft:dye:12>,
-    <minecraft:dye:13>,
-    <minecraft:dye:2>
+    <biomesoplenty:ash>
 ] as IItemStack[];
 var lc_miscellaneous = [
     <weapons_of_the_apocalypse:emptystimpack>,

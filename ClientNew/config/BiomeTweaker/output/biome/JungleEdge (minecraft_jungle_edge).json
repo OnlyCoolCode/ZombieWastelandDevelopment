@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "JUNGLE",
-    "HOT",
     "FOREST",
     "RARE",
-    "WET"
+    "WET",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
@@ -114,7 +114,7 @@
     }
   ],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "FLOWERS Generators": [
       {

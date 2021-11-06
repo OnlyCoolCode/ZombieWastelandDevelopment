@@ -17,13 +17,13 @@
   "Temperature": 2.0,
   "Humidity": 0.0,
   "Water Tint": 16777215,
-  "Enable Rain": false,
+  "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "DENSE",
+    "MUSHROOM",
     "NETHER",
     "HOT",
-    "MUSHROOM"
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -50,7 +50,7 @@
   "Spawnable Water Creatures": [],
   "Spawnable Cave Creatures": [],
   "Spawn Biome": false,
-  "Tweaked": false,
+  "Tweaked": true,
   "BOP Generators": {
     "PRE Generators": [
       {
