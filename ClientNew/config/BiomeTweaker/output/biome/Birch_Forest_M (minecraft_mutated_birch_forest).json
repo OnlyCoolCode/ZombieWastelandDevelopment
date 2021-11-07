@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "FOREST",
     "RARE",
-    "DENSE",
-    "HILLS"
+    "HILLS",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

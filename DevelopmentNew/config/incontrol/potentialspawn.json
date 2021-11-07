@@ -87,19 +87,19 @@
       },
     {
         "mob": "techguns:bandit",
-        "weight": 20,
-        "groupcountmin": 4,
-        "groupcountmax": 6
-      },
-    {
-        "mob": "techguns:armysoldier",
         "weight": 15,
         "groupcountmin": 4,
         "groupcountmax": 6
       },
     {
+        "mob": "techguns:armysoldier",
+        "weight": 10,
+        "groupcountmin": 4,
+        "groupcountmax": 6
+      },
+    {
         "mob": "playerskins:playermob",
-        "weight": 20,
+        "weight": 15,
         "groupcountmin": 4,
         "groupcountmax": 7
       },
