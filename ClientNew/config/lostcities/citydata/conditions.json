@@ -5,15 +5,7 @@
     "values": [
       {
         "factor": 1,
-        "value": "Zombie"
-      },
-      {
-        "factor": 1,
-        "value": "Skeleton"
-      },
-      {
-        "factor": 1,
-        "value": "Spider"
+        "value": "Villager"
       }
     ]
   },
@@ -23,11 +15,7 @@
     "values": [
       {
         "factor": 1,
-        "value": "Blaze"
-      },
-      {
-        "factor": 1,
-        "value": "Witch"
+        "value": "Zombie"
       }
     ]
   },

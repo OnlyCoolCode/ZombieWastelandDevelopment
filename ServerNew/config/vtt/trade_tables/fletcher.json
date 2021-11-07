@@ -1,0 +1,22 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"fletcher",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+			
+			{action:"add", buy:{id:"minecraft:feather",Count:{min:6,max:8}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:flint",Count:{min:6,max:12}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:gunpowder",Count:{min:6,max:12}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:4,max:8}},sell:{id:"techguns:itemshared:1",Count:1,tag:{ench:"random"}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:5,max:9}},sell:{id:"techguns:itemshared:2",Count:6,tag:{ench:"random"}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:5,max:9}},sell:{id:"techguns:itemshared:3",Count:1,tag:{ench:"random"}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:1,max:3}},sell:{id:"minecraft:bow",Count:1,tag:{ench:"random"}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:1,max:2}},sell:{id:"minecraft:arrow",Count:5,tag:{ench:"random"}}, CareerLevel:1}
+
+		]
+	}
+
+}
