@@ -137,8 +137,7 @@
   {
     "mod": "playerskins",
     "mincount": {
-      "amount": 15,
-      "mod": "animalium",
+      "amount": 5,
       "perchunk": true
     },
     "result": "deny"
@@ -186,8 +185,7 @@
   {
     "mod": "techguns",
     "mincount": {
-      "amount": 30,
-      "mod": "animalium",
+      "amount": 10,
       "perchunk": true
     },
     "result": "deny"
