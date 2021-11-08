@@ -1,10 +1,15 @@
 [
   {
+    "mob": ["minecraft:villager","mca:entityvillagermca"],
+    "onjoin": true,
+    "result": "allow"
+  },
+  {
     "hostile": true,
     "mincount": {
-      "amount": 180,
+      "amount": 80,
       "hostile": true,
-      "perchunk": true
+      "perplayer": true
     },
     "result": "deny"
   },
@@ -38,7 +43,7 @@
     "mincount": {
       "amount": 12,
       "mob": "animalium:piranha",
-      "perchunk": true
+      "perplayer": true
     },
     "result": "deny"
   },
@@ -78,9 +83,9 @@
   {
     "mob": "animalium:wild_dog",
     "mincount": {
-      "amount": 20,
+      "amount": 8,
       "mod": "animalium",
-      "perchunk": true
+      "perplayer": true
     },
     "result": "deny"
   },
@@ -114,9 +119,9 @@
   {
     "mob": "animalium:bear",
     "mincount": {
-      "amount": 14,
+      "amount": 4,
       "mod": "animalium",
-      "perchunk": true
+      "perplayer": true
     },
     "result": "deny"
   },
@@ -128,9 +133,9 @@
   {
     "mob": "animalium:rat",
     "mincount": {
-      "amount": 25,
+      "amount": 10,
       "mod": "animalium",
-      "perchunk": true
+      "perplayer": true
     },
     "result": "deny"
   },
@@ -138,7 +143,7 @@
     "mod": "playerskins",
     "mincount": {
       "amount": 4,
-      "perchunk": true
+      "perplayer": true
     },
     "result": "deny"
   },
@@ -185,8 +190,8 @@
   {
     "mod": "techguns",
     "mincount": {
-      "amount": 8,
-      "perchunk": true
+      "amount": 7,
+      "perplayer": true
     },
     "result": "deny"
   },
@@ -245,9 +250,9 @@
   {
     "mod": "mutantbeasts",
     "mincount": {
-      "amount": 5,
+      "amount": 2,
       "mod": "animalium",
-      "perchunk": true
+      "perplayer": true
     },
     "result": "deny"
   },
