@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SAVANNA",
-    "LUSH",
-    "DRY",
     "HOT",
+    "SAVANNA",
+    "DRY",
+    "LUSH",
     "SPARSE",
     "SANDY"
   ],

@@ -1,6 +1,11 @@
 [
   {
     "mob": ["minecraft:villager","mca:entityvillagermca"],
+    "isnotcolliding": false,
+    "result": "deny"
+  },
+  {
+    "mob": ["minecraft:villager","mca:entityvillagermca"],
     "onjoin": true,
     "isnotcolliding": true,
     "result": "allow"
@@ -17,6 +22,11 @@
   {
     "passive": true,
     "incity": true,
+    "result": "deny"
+  },
+  {
+    "mod": "betteranimalsplus",
+    "inbuilding": true,
     "result": "deny"
   },
   {
@@ -142,8 +152,18 @@
   },
   {
     "mod": "playerskins",
+    "incity": true,
     "mincount": {
       "amount": 4,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "playerskins",
+    "incity": false,
+    "mincount": {
+      "amount": 2,
       "perplayer": true
     },
     "result": "deny"
@@ -190,8 +210,18 @@
   },
   {
     "mod": "techguns",
+    "incity": true,
     "mincount": {
       "amount": 7,
+      "perplayer": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "techguns",
+    "incity": false,
+    "mincount": {
+      "amount": 2,
       "perplayer": true
     },
     "result": "deny"
@@ -245,7 +275,7 @@
     "mob": "techguns:bandit",
     "incity": false,
     "seesky": true,
-    "random": 0.02,
+    "random": 0.01,
     "result": "allow"
   },
   {
@@ -287,20 +317,25 @@
     "seesky": true,
     "result": "deny"
   },
+
   {
     "mob": "iymts_mob_mod:iysuperbrute",
     "incity": true,
+    "minheight": 60,
     "result": "deny"
   },
   {
     "mod": "iymts_mob_mod",
     "incity": true,
-    "random": 0.05,
-    "result": "allow"
+    "random": 0.95,
+    "minheight": 60,
+    "result": "deny"
   },
   {
     "mod": "iymts_mob_mod",
+    "incity": false,
     "minheight": 60,
+    "random": 0.99,
     "result": "deny"
   },
   {
