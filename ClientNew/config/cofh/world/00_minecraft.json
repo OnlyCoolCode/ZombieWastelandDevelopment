@@ -796,9 +796,9 @@
 						"metadata": 5,
 						"weight": 40
 					}],
-				"diameter": 4,
-				"size-variance": 3,
-				"count-variance": 3,
+				"diameter": 3,
+				"size-variance": 2,
+				"count-variance": 2,
 				"count": 1
 			},
 			"chunk-chance": 1,

@@ -21,10 +21,10 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "SPARSE",
-    "FOREST",
-    "LUSH",
     "PLAINS",
+    "LUSH",
     "COLD",
+    "FOREST",
     "WET"
   ],
   "BiomeManager Entries": {},
@@ -82,12 +82,6 @@
     {
       "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperExploder",
       "Weight": 0,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperLurker",
-      "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
     },
@@ -208,8 +202,8 @@
   },
   "BOP Owner": "BIOMESOPLENTY",
   "BOP Weight Map": {
-    "COOL_TEMPERATE": 3,
-    "BOREAL": 7
+    "BOREAL": 7,
+    "COOL_TEMPERATE": 3
   },
   "BOP Climate Weights": {
     "BOREAL": [

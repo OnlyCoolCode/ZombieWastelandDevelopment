@@ -75,11 +75,19 @@ var bowl = <minecraft:bowl>;
 var coal = <minecraft:coal>;
 var gunpowder = <ore:gunpowder>.firstItem;
 var glowstone_dust = <minecraft:glowstone_dust>;
+var purified_water_bottle = <simpledifficulty:purified_water_bottle>;
+
 recipes.addShapeless("Gunpowder", gunpowder,
 [bowl.reuse(), water_bottle.transformReplace(<minecraft:glass_bottle>), bone_meal, coal]
 );
 recipes.addShapeless("Gunpowder2", gunpowder*3,
 [bowl.reuse(), water_bottle.transformReplace(<minecraft:glass_bottle>), bone_meal, coal, glowstone_dust]
+);
+recipes.addShapeless("Gunpowder3", gunpowder,
+[bowl.reuse(), water_bottle.transformReplace(purified_water_bottle), bone_meal, coal]
+);
+recipes.addShapeless("Gunpowder4", gunpowder*3,
+[bowl.reuse(), water_bottle.transformReplace(purified_water_bottle), bone_meal, coal, glowstone_dust]
 );
 
 // glass_bottle

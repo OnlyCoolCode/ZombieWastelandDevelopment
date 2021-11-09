@@ -1,0 +1,19 @@
+{ 
+	Profession:"minecraft:butcher", 
+	Career:"leather",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+
+			{action:"add", buy:{id:"minecraft:rabbit_hide",Count:{min:2,max:4}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"betteranimalsplus:wolf_pelt_snowy",Count:{min:2,max:3}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"betteranimalsplus:wolf_pelt_timber",Count:{min:2,max:3}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"betteranimalsplus:wolf_pelt_black",Count:{min:2,max:3}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"betteranimalsplus:wolf_pelt_arctic",Count:{min:2,max:3}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"betteranimalsplus:wolf_pelt_brown",Count:{min:2,max:3}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"betteranimalsplus:wolf_pelt_red",Count:{min:2,max:3}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1}
+		]
+	}
+
+}

@@ -1,0 +1,14 @@
+{ 
+	Profession:"minecraft:priest", 
+	Career:"necromancer",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+
+			{action:"add", buy:{id:"mutantbeasts:chemical_x",Count:1},sell:{id:"minecraft:glowstone_dust",Count:32}, CareerLevel:1}
+			
+		]
+	}
+
+}

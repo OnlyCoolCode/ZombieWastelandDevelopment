@@ -21,8 +21,8 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "MUSHROOM",
-    "HOT",
     "DENSE",
+    "HOT",
     "NETHER"
   ],
   "BiomeManager Entries": {},

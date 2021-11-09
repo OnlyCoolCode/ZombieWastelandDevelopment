@@ -1,0 +1,6 @@
+
+{
+  "Name": "babyshulker",
+  "Registry ID": "babymobs:babyshulker",
+  "Class": "furgl.babyMobs.common.entity.monster.EntityBabyShulker"
+}

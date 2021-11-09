@@ -14,7 +14,7 @@
     "maxtime":13000,
     "maxspawndist": 3000,
     "mincount": {
-      "amount": 55,
+      "amount": 65,
       "hostile": true,
       "perchunk": true
     },
@@ -27,7 +27,7 @@
     "minspawndist": 2500,
     "maxspawndist": 5000,
     "mincount": {
-      "amount": 60,
+      "amount": 75,
       "hostile": true,
       "perchunk": true
     },
@@ -39,7 +39,7 @@
     "maxtime":13000,
     "minspawndist": 5000,
     "mincount": {
-      "amount": 70,
+      "amount": 85,
       "hostile": true,
       "perchunk": true
     },
@@ -354,13 +354,6 @@
   },
   {
     "mob": "mutantbeasts:mutant_zombie",
-    "incity": false,
-    "minheight": 60,
-    "random": 0.3,
-    "result": "allow"
-  },
-  {
-    "mob": "mutantbeasts:mutant_zombie",
     "result": "allow"
   },
   {
@@ -378,9 +371,21 @@
   },
   {
     "mob": "iymts_mob_mod:iysuperbrute",
+    "minheight": 60,
+    "result": "deny"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "incity": false,
+    "minheight": 60,
+    "random": 0.5,
+    "result": "deny"
+  },
+  {
+    "mod": "iymts_mob_mod",
     "insphere": false,
-    "seesky": false,
     "maxheight": 60,
+    "random": 0.5,
     "result": "deny"
   },
   {
@@ -388,13 +393,6 @@
     "biome": "Ominous Woods",
     "result": "allow",
     "speedmultiply": 2.0
-  },
-  {
-    "mod": "iymts_mob_mod",
-    "incity": false,
-    "minheight": 60,
-    "random": 0.3,
-    "result": "allow"
   },
   {
     "mod": "iymts_mob_mod",
@@ -422,17 +420,24 @@
   },
   {
     "mob": "minecraft:zombie",
+    "incity": false,
+    "minheight": 60,
+    "random": 1,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
+    "insphere": false,
+    "maxheight": 60,
+    "random": 0.5,
+    "result": "deny"
+  },
+  {
+    "mob": "minecraft:zombie",
     "biome": "Ominous Woods",
     "result": "allow",
     "speedmultiply": 1.7,
     "damagemultiply": 1.5
-  },
-  {
-    "mob": "minecraft:zombie",
-    "incity": false,
-    "minheight": 60,
-    "random": 0.3,
-    "result": "allow"
   },
   {
     "mob": "minecraft:zombie",

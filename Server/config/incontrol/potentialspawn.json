@@ -4,11 +4,11 @@
     "mobs": [
     {
         "mob": "minecraft:spider",
-		    "weight": 7500
+		    "weight": 90
       },
 	  {
         "mob": "spiderstpo:better_cave_spider",
-		    "weight": 8000,
+		    "weight": 100,
         "groupcountmin": 1,
 	      "groupcountmax": 3
       },
@@ -55,7 +55,7 @@
       },
     {
         "mob": "iymts_mob_mod:iysuperbrute",
-        "weight": 15,
+        "weight": 25,
         "groupcountmax": 1
       },
     {

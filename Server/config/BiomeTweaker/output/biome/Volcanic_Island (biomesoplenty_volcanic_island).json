@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "HOT",
-    "DEAD",
     "MOUNTAIN",
-    "WASTELAND",
     "WATER",
-    "DRY"
+    "WASTELAND",
+    "DEAD",
+    "DRY",
+    "HOT"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],
@@ -39,12 +39,6 @@
     {
       "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperExploder",
       "Weight": 0,
-      "Min Group Count": 1,
-      "Max Group Count": 1
-    },
-    {
-      "Entity Class": "net.lubriciouskin.iymts_mob_mod.entity.mob.EntityIYSuperLurker",
-      "Weight": 3,
       "Min Group Count": 1,
       "Max Group Count": 1
     },

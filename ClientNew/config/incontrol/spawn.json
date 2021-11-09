@@ -2,6 +2,7 @@
   {
     "mob": ["minecraft:villager","mca:entityvillagermca"],
     "onjoin": true,
+    "isnotcolliding": true,
     "result": "allow"
   },
   {
