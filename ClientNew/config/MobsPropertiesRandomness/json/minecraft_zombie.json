@@ -4,8 +4,8 @@
 		{
 			"id": "generic.maxHealth",
 			"modifier": {
-				"min": -30,
-				"max": 30
+				"min": -75,
+				"max": -25
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false
@@ -40,8 +40,8 @@
 		{
 			"id": "generic.movementSpeed",
 			"modifier": {
-				"min": -15,
-				"max": 20
+				"min": -30,
+				"max": 10
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false
