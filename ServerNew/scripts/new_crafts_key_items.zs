@@ -72,9 +72,9 @@ recipes.addShaped("power_generator", power_generator, [
 
 var fleshchunk = <biomesoplenty:fleshchunk>;
 var juicer = <weapons_of_the_apocalypse:juicer>;
-
+var bucket = <minecraft:bucket>;
 recipes.addShapeless("blood_bucket", blood_bucket,
-[juicer.reuse(), fleshchunk, bucket]
+[juicer, fleshchunk, bucket]
 );
 //recipes.addShapeless("hellfire_brick", hellfire_brick,
 //[netherbrick, blaze_powder]

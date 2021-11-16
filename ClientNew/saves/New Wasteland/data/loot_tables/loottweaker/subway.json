@@ -22,7 +22,7 @@
         },
         {
           "entryName": "loottweaker#17",
-          "weight": 20,
+          "weight": 15,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -42,7 +42,7 @@
         },
         {
           "entryName": "loottweaker#18",
-          "weight": 20,
+          "weight": 15,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -78,7 +78,7 @@
         },
         {
           "entryName": "loottweaker#5",
-          "weight": 35,
+          "weight": 25,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -118,7 +118,7 @@
         },
         {
           "entryName": "loottweaker#4",
-          "weight": 35,
+          "weight": 25,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -212,7 +212,7 @@
         },
         {
           "entryName": "loottweaker#16",
-          "weight": 20,
+          "weight": 15,
           "quality": 1,
           "type": "item",
           "functions": [
@@ -307,6 +307,23 @@
           "name": "techguns:boltaction"
         },
         {
+          "entryName": "loottweaker#21",
+          "weight": 15,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 73.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
           "entryName": "loottweaker#7",
           "weight": 10,
           "quality": 1,
@@ -347,8 +364,25 @@
           "name": "techguns:m4"
         },
         {
+          "entryName": "loottweaker#22",
+          "weight": 15,
+          "quality": 1,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "data": 74.0,
+              "function": "minecraft:set_data"
+            }
+          ],
+          "name": "techguns:itemshared"
+        },
+        {
           "entryName": "loottweaker#6",
-          "weight": 35,
+          "weight": 25,
           "quality": 1,
           "type": "item",
           "functions": [
