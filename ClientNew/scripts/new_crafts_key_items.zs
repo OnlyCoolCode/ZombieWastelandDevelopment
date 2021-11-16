@@ -13,7 +13,7 @@ recipes.addShaped("magma_block", magma_block, [
 
 var blood_block = <betterwithmods:aesthetic:1>;
 var stonebrick = <minecraft:stonebrick>;
-var blood_bucket = <liquid:blood>;
+var blood_bucket = <forge:bucketfilled>.withTag({FluidName: "blood", Amount: 1000});
 recipes.addShapeless("blood_block", blood_block,
 [stonebrick, blood_bucket]
 );

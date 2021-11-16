@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "DENSE",
     "FOREST",
-    "DEAD",
     "SWAMP",
     "COLD",
+    "DEAD",
     "WET"
   ],
   "BiomeManager Entries": {},
