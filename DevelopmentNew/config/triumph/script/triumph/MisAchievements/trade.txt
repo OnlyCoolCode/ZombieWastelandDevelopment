@@ -1,0 +1,18 @@
+
+//Set icon item
+setIcon(<minecraft:name_tag>)
+
+//Set title String
+setTitle("I need Those")
+
+//Set description String
+setDescription("Trade with a Wastelander")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/iron")
+
+//Set the position
+setPos(-27,51)
+
+//Adds criteria named "traded" with the trigger type "minecraft:villager_trade". This function returns the criteria as an object
+criteria = addCriteria("traded", "minecraft:villager_trade")

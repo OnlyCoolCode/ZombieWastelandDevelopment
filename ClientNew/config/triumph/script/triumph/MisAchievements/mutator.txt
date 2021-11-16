@@ -1,0 +1,27 @@
+
+//Set icon item
+setIcon(<chisel:futura:3>)
+
+//Set title String
+setTitle("We Made It!")
+
+//Set description String
+setDescription("Craft and place the Mutator")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/power_generator")
+addParent("triumph:MisAchievements/radiation_emitter")
+addParent("triumph:MisAchievements/bio_tank")
+
+//Adds criteria named "placedDirt" with the trigger type "minecraft:placed_block". This function returns the criteria as an object
+criteria = addCriteria("placedVessel", "minecraft:placed_block")
+
+//Sets the required block for the criteria. This is the block that needs to be placed by the player.
+criteria.setBlock(<chisel:futura:3>)
+
+//Set the position
+setPos(88,51)
+
+//Set Better Advancements icon/title/line colors. Supports single color int, 3 rgb ints, and hex.
+setUncompletedIconColor(186, 234, 238)
+setCompletedIconColor(128, 0, 255)

@@ -1,0 +1,21 @@
+
+//Set icon item
+setIcon(<mutantbeasts:chemical_x>)
+
+//Set title String
+setTitle("Science Bitch!")
+
+//Set description String
+setDescription("Get the Chemical X")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/kill_mutant_zombie")
+
+//Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("haschemical_x", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<mutantbeasts:chemical_x>)
+
+//Set the position
+setPos(-3,-4)

@@ -74,22 +74,34 @@ var am_trash_item = [
 ] as IItemStack[];
 var am_rare_items = [
     <minecraft:tnt>,
-    <minecraft:diamond>
+    <minecraft:diamond>,
+    <biomesoplenty:gem:1>,
+    <biomesoplenty:gem:3>,
+    <biomesoplenty:gem:7>,
+    <biomesoplenty:gem:2>,
+    <biomesoplenty:gem:5>,
+    <biomesoplenty:gem:6>,
+    <biomesoplenty:gem:4>,
+    <minecraft:emerald>
 ] as IItemStack[];
 var am_other = [
     <minecraft:gunpowder>
+] as IItemStack[];
+var am_objective = [
+    <techguns:itemshared:131>,
+    <weapons_of_the_apocalypse:locustreactor>
 ] as IItemStack[];
 
 var MineshaftTable = LootTweaker.getTable("minecraft:chests/abandoned_mineshaft");
 MineshaftTable.clear();
 var MineshaftPool = MineshaftTable.addPool("MineshaftPool", 3, 15, 0, 0);
 for item in am_loot_iron {
-    MineshaftPool.addItemEntry(item, 20,0, [
+    MineshaftPool.addItemEntry(item, 15,0, [
         Functions.setCount(3, 9)  
     ], []);
 }
 for item in am_metals_minerals {
-    MineshaftPool.addItemEntry(item, 30,0, [
+    MineshaftPool.addItemEntry(item, 20,0, [
         Functions.setCount(3, 8)  
     ], []);
 }
@@ -116,6 +128,11 @@ for item in am_rare_items {
 for item in am_other {
     MineshaftPool.addItemEntry(item, 5,0, [
         Functions.setCount(3, 8)  
+    ], []);
+}
+for item in am_objective {
+    MineshaftPool.addItemEntry(item, 15,0, [
+        Functions.setCount(1, 1)  
     ], []);
 }
 
@@ -154,7 +171,7 @@ var bl_veryrare = [
     <minecraft:bow>,
     <weapons_of_the_apocalypse:machete>,
     <weapons_of_the_apocalypse:crowbar>,
-    <weapons_of_the_apocalypse:baton>,
+    <weapons_of_the_apocalypse:baton>
 ] as IItemStack[];
 
 var spawn_bonus_chestTable = LootTweaker.getTable("minecraft:chests/spawn_bonus_chest");

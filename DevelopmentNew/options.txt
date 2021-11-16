@@ -90,7 +90,6 @@ key_key.betterfoliage.gui:66
 key_keybinds.show_wounds:35
 key_Difficulty Meter - Show:49
 key_Difficulty Meter - Show Always:49:SHIFT
-key_key.toastcontrol.clear:36
 key_Strip World:211
 key_Dress World:210
 key_Inspect Block:199
@@ -136,7 +135,7 @@ key_techguns.key.toggleStepassist:24
 key_techguns.key.forceReload:19
 key_techguns.key.toggleJetpack:36
 key_wi-zoom.zoom:46
-soundCategory_master:1.0
+soundCategory_master:0.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

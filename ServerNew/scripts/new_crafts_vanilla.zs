@@ -268,3 +268,108 @@ recipes.addShaped("wool2", wool_white, [
     [string_item,string_item],
     [string_item,string_item]
 ]);
+
+// Bed
+var beds = [
+    <minecraft:bed>,
+    <minecraft:bed:1>,
+    <minecraft:bed:2>,
+    <minecraft:bed:3>,
+    <minecraft:bed:4>,
+    <minecraft:bed:5>,
+    <minecraft:bed:6>,
+    <minecraft:bed:7>,
+    <minecraft:bed:8>,
+    <minecraft:bed:9>,
+    <minecraft:bed:10>,
+    <minecraft:bed:11>,
+    <minecraft:bed:12>,
+    <minecraft:bed:13>,
+    <minecraft:bed:14>,
+    <minecraft:bed:15>
+] as IItemStack[];
+
+for item in beds {
+    recipes.remove(item);
+}
+//<minecraft:wool>
+var wool_orange = <minecraft:wool:1>;
+var wool_magenta = <minecraft:wool:2>;
+var wool_lightblue = <minecraft:wool:3>;
+var wool_yellow = <minecraft:wool:4>;
+var wool_lime = <minecraft:wool:5>;
+var wool_pink = <minecraft:wool:6>;
+var wool_gray = <minecraft:wool:7>;
+var wool_lightgray = <minecraft:wool:8>;
+var wool_cyan = <minecraft:wool:9>;
+var wool_purple = <minecraft:wool:10>;
+var wool_blue = <minecraft:wool:11>;
+//<minecraft:wool:12>
+var wool_green = <minecraft:wool:13>;
+var wool_red = <minecraft:wool:14>;
+var wool_black = <minecraft:wool:15>;
+
+recipes.addShaped("bed_white", <minecraft:bed>, [
+    [wool_white,wool_white],
+    [plank,plank]
+]);
+recipes.addShaped("bed_orange", <minecraft:bed:1>, [
+    [wool_orange,wool_orange],
+    [plank,plank]
+]);
+recipes.addShaped("bed_magenta", <minecraft:bed:2>, [
+    [wool_magenta,wool_magenta],
+    [plank,plank]
+]);
+recipes.addShaped("bed_lightblue", <minecraft:bed:3>, [
+    [wool_lightblue,wool_lightblue],
+    [plank,plank]
+]);
+recipes.addShaped("bed_yellow", <minecraft:bed:4>, [
+    [wool_yellow,wool_yellow],
+    [plank,plank]
+]);
+recipes.addShaped("bed_lime", <minecraft:bed:5>, [
+    [wool_lime,wool_lime],
+    [plank,plank]
+]);
+recipes.addShaped("bed_pink", <minecraft:bed:6>, [
+    [wool_lime,wool_lime],
+    [plank,plank]
+]);
+recipes.addShaped("bed_gray", <minecraft:bed:7>, [
+    [wool_gray,wool_gray],
+    [plank,plank]
+]);
+recipes.addShaped("bed_lightgray", <minecraft:bed:8>, [
+    [wool_lightgray,wool_lightgray],
+    [plank,plank]
+]);
+recipes.addShaped("bed_cyan", <minecraft:bed:9>, [
+    [wool_cyan,wool_cyan],
+    [plank,plank]
+]);
+recipes.addShaped("bed_purple", <minecraft:bed:10>, [
+    [wool_purple,wool_purple],
+    [plank,plank]
+]);
+recipes.addShaped("bed_blue", <minecraft:bed:11>, [
+    [wool_blue,wool_blue],
+    [plank,plank]
+]);
+recipes.addShaped("bed_brown", <minecraft:bed:12>, [
+    [wool_brown,wool_brown],
+    [plank,plank]
+]);
+recipes.addShaped("bed_green", <minecraft:bed:13>, [
+    [wool_green,wool_green],
+    [plank,plank]
+]);
+recipes.addShaped("bed_red", <minecraft:bed:14>, [
+    [wool_red,wool_red],
+    [plank,plank]
+]);
+recipes.addShaped("bed_black", <minecraft:bed:15>, [
+    [wool_black,wool_black],
+    [plank,plank]
+]);

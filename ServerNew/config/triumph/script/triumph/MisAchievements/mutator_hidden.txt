@@ -1,0 +1,32 @@
+
+//Set icon item
+setIcon(<biomesoplenty:blue_fire>)
+
+//Set title String
+setTitle("SURVIVE!")
+
+//Set description String
+setDescription("Survive The Last 30 Mutation Days")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/mutator")
+
+//Adds criteria named "placedDirt" with the trigger type "minecraft:placed_block". This function returns the criteria as an object
+criteria = addCriteria("placedVessel", "minecraft:placed_block")
+
+//Sets the required block for the criteria. This is the block that needs to be placed by the player.
+criteria.setBlock(<chisel:futura:3>)
+
+//Adds a function to fire upon completion. Any number of these can be added.
+addRewardFunction("triumph:mutator_hidden_reward")
+
+//Set the position
+setPos(120,51)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Set Better Advancements icon/title/line colors. Supports single color int, 3 rgb ints, and hex.
+setCompletedIconColor(255, 0, 0)
+
+setHidden(true)

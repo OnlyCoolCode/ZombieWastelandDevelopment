@@ -49,7 +49,7 @@ var iy_super_leaperPool = iy_super_leaperTable.addPool("iy_super_leaperPool", 0,
 iy_super_leaperPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
     Functions.setCount(1, 1)
 ], []);
-var iy_super_brutePool = iy_super_bruteTable.addPool("iy_super_brutePool", 0, 2, 0, 0);
+var iy_super_brutePool = iy_super_bruteTable.addPool("iy_super_brutePool", 0, 4, 0, 0);
 iy_super_brutePool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
     Functions.setCount(1, 1)
 ], []);
@@ -62,7 +62,7 @@ iy_super_lurkerPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
 var mutant_zombieTable = LootTweaker.getTable("mutantbeasts:entities/mutant_zombie");
 mutant_zombieTable.clear();
 var mutant_zombiePool = mutant_zombieTable.addPool("mutant_zombiePool", 3, 6, 0, 0);
-mutant_zombiePool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 2,0, [
+mutant_zombiePool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 4,0, [
     Functions.setCount(3, 5)
 ], []);
 mutant_zombiePool.addItemEntry(<mutantbeasts:chemical_x>, 1,0, [
@@ -86,6 +86,7 @@ var pistol = <techguns:pistol>.withTag({ammo: 18 as short, ammovariant: "default
 var plaster = <firstaid:plaster>;
 var bandage = <firstaid:bandage>;
 var morphine = <firstaid:morphine>;
+
 banditPool.addItemEntry(ammo_pistol_incendiary, 4,0, [
     Functions.setCount(1, 1)
 ], []);
@@ -169,6 +170,87 @@ armysoldierPool.addItemEntry(bandage, 3,0, [
 armysoldierPool.addItemEntry(morphine, 3,0, [
     Functions.setCount(1, 1)
 ], []);
+
+var commandoTable = LootTweaker.getTable("techguns:entities/commando");
+commandoTable.clear();
+var commandoPool = commandoTable.addPool("commandoPool", 5, 8, 0, 0);
+
+commandoPool.addItemEntry(ammo_pistol_incendiary, 4,0, [
+    Functions.setCount(1, 1)
+], []);
+commandoPool.addItemEntry(ammo_revolver_incendiary, 4,0, [
+    Functions.setCount(1, 1)
+], []);
+commandoPool.addItemEntry(ammo_assault, 8,0, [
+    Functions.setCount(1, 1)
+], []);
+commandoPool.addItemEntry(ammo_smg, 8,0, [
+    Functions.setCount(1, 1)
+], []);
+commandoPool.addItemEntry(ammo_revolver, 8,0, [
+    Functions.setCount(1, 1)
+], []);
+commandoPool.addItemEntry(ammo_shotgun, 8,0, [
+    Functions.setCount(8, 8)
+], []);
+commandoPool.addItemEntry(ammo_rifle, 8,0, [
+    Functions.setCount(1, 1)
+], []);
+commandoPool.addItemEntry(heavycloth, 31,0, [
+    Functions.setCount(1, 2)
+], []);
+commandoPool.addItemEntry(revolver, 5,0, [
+    Functions.setCount(1, 1)
+], []);
+commandoPool.addItemEntry(pistol, 5,0, [
+    Functions.setCount(1, 1)
+], []);
+commandoPool.addItemEntry(plaster, 5,0, [
+    Functions.setCount(1, 1)
+], []);
+commandoPool.addItemEntry(bandage, 3,0, [
+    Functions.setCount(1, 1)
+], []);
+commandoPool.addItemEntry(morphine, 3,0, [
+    Functions.setCount(1, 1)
+], []);
+
+var attackhelicopterTable = LootTweaker.getTable("techguns:entities/attackhelicopter");
+attackhelicopterTable.clear();
+var attackhelicopterPool = attackhelicopterTable.addPool("attackhelicopterPool", 7, 10, 0, 0);
+
+var rocketlauncher = <techguns:rocketlauncher>.withTag({ammo: 0});
+var grenadelauncher = <techguns:grenadelauncher>.withTag({ammo: 0});
+var guidedmissilelauncher = <techguns:guidedmissilelauncher>;
+var iron_block = <minecraft:iron_block>;
+var missile = <techguns:itemshared:7>;
+var grenade_ammo = <techguns:itemshared:5>;
+
+attackhelicopterPool.addItemEntry(ammo_assault, 15,0, [
+    Functions.setCount(1, 3)
+], []);
+attackhelicopterPool.addItemEntry(ammo_rifle, 10,0, [
+    Functions.setCount(1, 2)
+], []);
+attackhelicopterPool.addItemEntry(rocketlauncher, 8,0, [
+    Functions.setCount(1, 1)
+], []);
+attackhelicopterPool.addItemEntry(guidedmissilelauncher, 5,0, [
+    Functions.setCount(3, 8)
+], []);
+attackhelicopterPool.addItemEntry(grenadelauncher, 7,0, [
+    Functions.setCount(1, 1)
+], []);
+attackhelicopterPool.addItemEntry(iron_block, 20,0, [
+    Functions.setCount(1, 2)
+], []);
+attackhelicopterPool.addItemEntry(missile, 15,0, [
+    Functions.setCount(1, 3)
+], []);
+attackhelicopterPool.addItemEntry(grenade_ammo, 15,0, [
+    Functions.setCount(3, 8)
+], []);
+
 
 var playerskinsTable = LootTweaker.getTable("playerskins:entities/skinloot");
 playerskinsTable.clear();

@@ -23,9 +23,9 @@
     "MOUNTAIN",
     "HILLS",
     "LUSH",
-    "DENSE",
     "WET",
-    "JUNGLE"
+    "JUNGLE",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

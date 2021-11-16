@@ -138,11 +138,9 @@ var lc_fruit_juice = [
     <simpledifficulty:juice:8>,
     <simpledifficulty:juice:9>
 ] as IItemStack[];
-var lc_objective1 = [
-    <biomesoplenty:sapling_1:7>
-] as IItemStack[];
-var lc_objective2 = [
-    <techguns:slimyladder:3>
+var lc_objective = [
+    <techguns:itemshared:73>,
+    <techguns:itemshared:74>
 ] as IItemStack[];
 
 //==== Create new tables ====
@@ -156,7 +154,6 @@ val handgunTable = LootTweaker.newTable("loottweaker:handgun");
 val longgunsTable = LootTweaker.newTable("loottweaker:longguns");
 val foodTable = LootTweaker.newTable("loottweaker:food");
 val sphereTable = LootTweaker.newTable("loottweaker:sphere");
-val objectiveTable = LootTweaker.newTable("loottweaker:objective");
  
  
 //==== Add pools to your tables ====
@@ -168,14 +165,13 @@ val handgunPool = handgunTable.addPool("handgun", 3, 7, 0, 0);
 val longgunsPool = longgunsTable.addPool("longguns", 3, 7, 0, 0);
 val foodPool = foodTable.addPool("food", 4, 13, 0, 0);
 val spherePool = sphereTable.addPool("sphere", 4, 7, 0, 0);
-val objectivePool = objectiveTable.addPool("objective", 1, 1, 0, 0);
  
 //==== Subway Loot ====
 for item in lc_explosives {
 subwayPool.addItemEntry(item, 20, 1, [Functions.setCount(1, 1)], []);
 }
 for item in lc_explosives_ammo {
-subwayPool.addItemEntry(item, 35, 1, [Functions.setCount(1, 5)], []);
+subwayPool.addItemEntry(item, 25, 1, [Functions.setCount(1, 5)], []);
 }
 for item in lc_longguns {
 subwayPool.addItemEntry(item, 10, 1, [Functions.setCount(1, 2)], []);
@@ -184,10 +180,13 @@ for item in lc_long_ammo_low {
 subwayPool.addItemEntry(item, 10, 1, [Functions.setCount(10, 30)], []);
 }
 for item in lc_long_ammo_high {
-subwayPool.addItemEntry(item, 20, 1, [Functions.setCount(1, 3)], []);
+subwayPool.addItemEntry(item, 15, 1, [Functions.setCount(1, 3)], []);
 }
 for item in lc_grenades {
 subwayPool.addItemEntry(item, 5, 1, [Functions.setCount(1, 8)], []);
+}
+for item in lc_objective {
+subwayPool.addItemEntry(item, 15, 1, [Functions.setCount(1, 1)], []);
 }
 //==== Generic Loot ====
 for item in lc_food {
@@ -270,8 +269,4 @@ spherePool.addItemEntry(item, 20, 1, [Functions.setCount(1, 1)], []);
 }
 for item in lc_explosives_ammo {
 spherePool.addItemEntry(item, 35, 1, [Functions.setCount(1, 5)], []);
-}
-//==== objective Loot ====
-for item in lc_objective2 {
-objectivePool.addItemEntry(item, 3, 1, [Functions.setCount(1, 2)], []);
 }

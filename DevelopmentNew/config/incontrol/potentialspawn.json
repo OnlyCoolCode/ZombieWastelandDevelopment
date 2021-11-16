@@ -92,10 +92,22 @@
         "groupcountmax": 6
       },
     {
+        "mob": "techguns:commando",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
+      },
+    {
         "mob": "techguns:armysoldier",
         "weight": 7,
         "groupcountmin": 4,
         "groupcountmax": 6
+      },
+    {
+        "mob": "techguns:attackhelicopter",
+        "weight": 5,
+        "groupcountmin": 1,
+        "groupcountmax": 1
       },
     {
         "mob": "playerskins:playermob",

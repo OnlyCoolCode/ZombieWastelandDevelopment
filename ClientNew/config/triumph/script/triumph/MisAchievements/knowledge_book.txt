@@ -1,0 +1,21 @@
+
+//Set icon item
+setIcon(<minecraft:knowledge_book>)
+
+//Set title String
+setTitle("Anti-Zombie Knowledge")
+
+//Set description String
+setDescription("Trade to get knowledge book to stop zombies")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/trade")
+
+//Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasknowledge_book", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<minecraft:knowledge_book>)
+
+//Set the position
+setPos(7,51)

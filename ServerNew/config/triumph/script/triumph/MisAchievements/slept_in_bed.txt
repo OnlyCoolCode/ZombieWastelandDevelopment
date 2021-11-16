@@ -1,0 +1,18 @@
+
+//Set icon item
+setIcon(<minecraft:bed:15>)
+
+//Set title String
+setTitle("We need a Better Bunker")
+
+//Set description String
+setDescription("Sleep for the first time")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/day1")
+
+//Adds criteria named "slept_in_bed" with the trigger type "minecraft:slept_in_bed". This function returns the criteria as an object
+criteria = addCriteria("slept_in_bed", "minecraft:slept_in_bed")
+
+//Set the position
+setPos(-94,108)

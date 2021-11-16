@@ -1,0 +1,32 @@
+
+//Set icon item
+setIcon(<techguns:t2_commando_helmet>)
+
+//Set title String
+setTitle("Public Enemy")
+
+//Set description String
+setDescription("The Army Knows You're Dangerous")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/redstone")
+
+//Adds criteria named "clickedBlock" with the trigger type "triumph:right_click_block". This function returns the criteria as an object
+criteria = addCriteria("clickedBlock", "triumph:right_click_block")
+
+//Sets the required block for the criteria. This is the block that needs to be right clicked by the player.
+criteria.setBlock(<adminshop:shop>)
+
+//Adds a function to fire upon completion. Any number of these can be added.
+addRewardFunction("triumph:army_reward")
+
+//Set the position
+setPos(-3,113)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Set Better Advancements icon/title/line colors. Supports single color int, 3 rgb ints, and hex.
+setCompletedIconColor(150, 0, 0)
+
+setHidden(true)

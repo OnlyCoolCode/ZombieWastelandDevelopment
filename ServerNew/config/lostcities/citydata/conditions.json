@@ -24,16 +24,6 @@
     "name": "chestloot",
     "values": [
       {
-        "factor": 25,
-        "value": "loottweaker:sphere",
-        "issphere": true
-      },
-      {
-        "factor": 50,
-        "value": "loottweaker:objective",
-        "issphere": true
-      },
-      {
         "factor": 200,
         "value": "loottweaker:subway",
         "inpart": "rail_dungeon1"

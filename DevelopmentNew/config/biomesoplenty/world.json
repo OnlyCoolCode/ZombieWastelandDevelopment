@@ -18,7 +18,7 @@
     "generateBerryBushes": true,
     "generateThorns": true,
     "generateQuicksand": false,
-    "generateLiquidPoison": true,
+    "generateLiquidPoison": false,
     "generateHotSprings": true,
     "generateNetherHives": true,
     "generateEndFeatures": true,

@@ -1,0 +1,24 @@
+
+//Set icon item
+setIcon(<flashlight:flashlight>)
+
+//Set title String
+setTitle("Some Light Here")
+
+//Set description String
+setDescription("Get a Flashlight")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/day1")
+
+//Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("hasredstone", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<flashlight:flashlight>)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Set the position
+setPos(152,64)

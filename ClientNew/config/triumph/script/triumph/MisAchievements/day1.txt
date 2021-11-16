@@ -1,0 +1,24 @@
+
+//Set icon item
+setIcon(<biomesoplenty:dried_sand>)
+
+//Set title String
+setTitle("Day 1")
+
+//Set description String
+setDescription("Welcome To Zombie Wasteland")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/root")
+
+//Adds a single location criteria. Since this has nothing specific set, it will be completed the instant the player is added to the world, thus unlocking the page instantly.
+criteria = addCriteria("location", "minecraft:location")
+
+//Adds a function to fire upon completion. Any number of these can be added.
+addRewardFunction("triumph:day1_reward")
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Set the position
+setPos(-130,53)
