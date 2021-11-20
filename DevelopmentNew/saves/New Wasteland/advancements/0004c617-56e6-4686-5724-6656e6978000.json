@@ -1,38 +1,20 @@
 {
-  "triumph:misachievements/mutator": {
+  "triumph:misachievements/slept_in_bed": {
     "criteria": {
-      "placedVessel": "2021-11-19 20:04:27 -0300"
+      "slept_in_bed": "2021-11-20 20:23:50 -0300"
     },
     "done": true
   },
   "triumph:misachievements/day1": {
     "criteria": {
-      "location": "2021-11-19 19:55:19 -0300"
+      "location": "2021-11-20 20:23:15 -0300"
     },
     "done": true
   },
   "triumph:misachievements/root": {
     "criteria": {
-      "location": "2021-11-19 19:55:19 -0300"
+      "location": "2021-11-20 20:23:15 -0300"
     },
     "done": false
-  },
-  "triumph:misachievements/mutator_hidden": {
-    "criteria": {
-      "placedVessel": "2021-11-19 20:04:27 -0300"
-    },
-    "done": true
-  },
-  "triumph:misachievements/zombie_building": {
-    "criteria": {
-      "hasredstone": "2021-11-19 20:03:14 -0300"
-    },
-    "done": true
-  },
-  "triumph:misachievements/antizombie_book": {
-    "criteria": {
-      "hasknowledge_book": "2021-11-19 20:03:14 -0300"
-    },
-    "done": true
   }
 }

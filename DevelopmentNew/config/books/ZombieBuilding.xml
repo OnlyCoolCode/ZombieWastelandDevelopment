@@ -50,12 +50,11 @@
 
   <page>
   <p align="left">Luego de esto, lo único que hace falta es darle energía a las torres. La energía de las torres de nivel 1 puede obtenerse girando una manivela (basic turret base crank), mientras que la energía de las torres de nivel 2 debe obtenerse agregando un panel solar a la misma (addon solar panel).</p>
-   <p align="left"> </p>
-  <p align="left">Elementos para construcción de torres pueden encontrarse en cofres en las ciudades, además, los Redstoners las venden a muy buenos precios.</p>
+  <p align="left"> </p>
   </page>
 
   <page>
-  <p align="left"> </p>
+  <p align="left">Elementos para construcción de torres pueden encontrarse en cofres en las ciudades, además, los Redstoners las venden a muy buenos precios.</p>
   </page>
 
   <page>
@@ -76,8 +75,12 @@
 
   <page>
 	<p align="left">Los Magma Block son bloques que harán mucho daño a cualquiera que se pose sobre ellos. Pueden ser excelentes para proteger zonas.</p>
-   <p align="left"> </p>
+  <p align="left"> </p>
   <p align="left">Al igual que los Bloodied blocks, estos bloques que solo podrán conseguirse por medio del comercio con Necromancers.</p>
+  </page>
+
+  <page>
+	<p align="left">Nota del vendedor: Ahh! ¿así que construirás un Bunker Anti-Zombie? Ten! un regalo de mi parte, ¡invitame a tu Bunker cuando hayas terminado!</p>
   </page>
 
 </chapter> 

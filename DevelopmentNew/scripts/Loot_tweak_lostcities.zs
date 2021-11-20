@@ -284,7 +284,7 @@ spherePool.addItemEntry(item, 20, 1, [Functions.setCount(1, 1)], []);
 for item in lc_explosives_ammo {
 spherePool.addItemEntry(item, 35, 1, [Functions.setCount(1, 5)], []);
 }
-//==== Food Loot ====
+//==== openmodularturrets Loot ====
 for item in lc_openmodularturrets {
-foodPool.addItemEntry(item, 100, 1, [Functions.setCount(1, 1)], []);
+omtPool.addItemEntry(item, 100, 1, [Functions.setCount(1, 1)], []);
 }

@@ -1,6 +1,6 @@
 { 
 	Profession:"minecraft:farmer",
-	Career:"farmer",
+	Career:"fisherman",
 
 	Offers:{
 		Recipes:[

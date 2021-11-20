@@ -17,53 +17,6 @@
           "name": "weapons_of_the_apocalypse:cannedfood"
         },
         {
-          "entryName": "loottweaker#17",
-          "weight": 100,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 6.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "openmodularturrets:addon_meta"
-        },
-        {
-          "entryName": "loottweaker#18",
-          "weight": 100,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 6.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "openmodularturrets:addon_meta"
-        },
-        {
-          "entryName": "loottweaker#19",
-          "weight": 100,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "openmodularturrets:intermediate_regular"
-        },
-        {
           "entryName": "loottweaker#5",
           "weight": 70,
           "quality": 1,
@@ -107,23 +60,6 @@
           "name": "weapons_of_the_apocalypse:canneddogfood"
         },
         {
-          "entryName": "loottweaker#14",
-          "weight": 100,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 5.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "openmodularturrets:intermediate_tiered"
-        },
-        {
           "entryName": "loottweaker#3",
           "weight": 70,
           "quality": 1,
@@ -137,23 +73,6 @@
           "name": "weapons_of_the_apocalypse:ration"
         },
         {
-          "entryName": "loottweaker#15",
-          "weight": 100,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 6.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "openmodularturrets:intermediate_tiered"
-        },
-        {
           "entryName": "loottweaker#2",
           "weight": 70,
           "quality": 1,
@@ -165,23 +84,6 @@
             }
           ],
           "name": "weapons_of_the_apocalypse:sardines"
-        },
-        {
-          "entryName": "loottweaker#16",
-          "weight": 100,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 6.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "openmodularturrets:addon_meta"
         },
         {
           "entryName": "loottweaker#9",
@@ -199,23 +101,6 @@
             }
           ],
           "name": "simpledifficulty:juice"
-        },
-        {
-          "entryName": "loottweaker#20",
-          "weight": 100,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 11.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "openmodularturrets:intermediate_tiered"
         },
         {
           "entryName": "loottweaker#8",
@@ -252,23 +137,6 @@
           "name": "simpledifficulty:juice"
         },
         {
-          "entryName": "loottweaker#21",
-          "weight": 100,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 10.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "openmodularturrets:intermediate_tiered"
-        },
-        {
           "entryName": "loottweaker#7",
           "weight": 30,
           "quality": 1,
@@ -299,23 +167,6 @@
           "name": "simpledifficulty:juice"
         },
         {
-          "entryName": "loottweaker#22",
-          "weight": 100,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "data": 1.0,
-              "function": "minecraft:set_data"
-            }
-          ],
-          "name": "openmodularturrets:intermediate_tiered"
-        },
-        {
           "entryName": "loottweaker#6",
           "weight": 30,
           "quality": 1,
@@ -344,19 +195,6 @@
             }
           ],
           "name": "simpledifficulty:juice"
-        },
-        {
-          "entryName": "loottweaker#23",
-          "weight": 100,
-          "quality": 1,
-          "type": "item",
-          "functions": [
-            {
-              "count": 1.0,
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "openmodularturrets:intermediate_tiered"
         }
       ],
       "rolls": {

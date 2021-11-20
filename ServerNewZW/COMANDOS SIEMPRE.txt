@@ -1,0 +1,5 @@
+/gamerule reducedDebugInfo true
+
+/tofe invite ElCozzani
+/tofe invite Dronster
+/tofe accept ElDuro
