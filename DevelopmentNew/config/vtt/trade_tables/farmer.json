@@ -1,6 +1,6 @@
 { 
 	Profession:"minecraft:farmer",
-	Career:"farmer",
+	Career:"fisherman",
 
 	Offers:{
 		Recipes:[
@@ -11,8 +11,8 @@
 
 			{action:"add", buy:{id:"minecraft:wheat_seeds",Count:{min:6,max:12}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
 			{action:"add", buy:{id:"minecraft:pumpkin_seeds",Count:{min:4,max:10}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
-			{action:"add", buy:{id:"minecraft:melon_seeds",Count:{{min:4,max:10}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
-			{action:"add", buy:{id:"minecraft:beetroot_seeds",Count:{{min:4,max:10}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1}
+			{action:"add", buy:{id:"minecraft:melon_seeds",Count:{min:4,max:10}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:beetroot_seeds",Count:{min:4,max:10}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1}
 			
 		]
 	}

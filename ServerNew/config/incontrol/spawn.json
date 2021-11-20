@@ -332,11 +332,6 @@
     "result": "allow"
   },
   {
-    "mob": ["techguns:commando", "techguns:attackhelicopter"],
-    "gamestage":"army_normal",
-    "result": "deny"
-  },
-  {
     "mob": "techguns:commando",
     "mintime":13000,
     "maxtime":23000,
@@ -406,8 +401,9 @@
   {
     "mob": "techguns:attackhelicopter",
     "gamestage":"army_heavy",
+    "random": 0.15,
     "incity": false,
-    "result": "deny"
+    "result": "allow"
   },
   {
     "mob": "techguns:attackhelicopter",
@@ -421,6 +417,10 @@
     "mob": "techguns:attackhelicopter",
     "gamestage":"army_post_heavy",
     "incity": false,
+    "result": "deny"
+  },
+  {
+    "mob": ["techguns:commando", "techguns:attackhelicopter"],
     "result": "deny"
   },
   {
@@ -450,25 +450,53 @@
     "result": "allow"
   },
   {
+     "mob": "mutantbeasts:mutant_zombie",
+    "gamestage":"mutator_stage_4",
+    "random": 0.25,
+    "result": "allow"
+  },
+  {
+     "mob": "mutantbeasts:mutant_zombie",
+    "gamestage":"mutator_stage_5",
+    "result": "allow"
+  },
+  {
     "mod": "iymts_mob_mod",
-    "mintime":0,
-    "maxtime":12542,
     "seesky": true,
     "result": "deny"
   },
   {
     "mod": "iymts_mob_mod",
-    "mintime":23460,
-    "maxtime":23999,
-    "seesky": true,
-    "result": "deny"
+    "gamestage":"mutator_stage_2",
+    "result": "allow"
   },
-
   {
-    "mob": "iymts_mob_mod:iysuperbrute",
-    "incity": true,
-    "minheight": 60,
-    "result": "deny"
+    "mod": "iymts_mob_mod",
+    "gamestage":"mutator_stage_3",
+    "result": "allow",
+    "speedmultiply": 1.1,
+    "damagemultiply": 1.2
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "gamestage":"mutator_stage_4",
+    "result": "allow",
+    "speedmultiply": 1.2,
+    "damagemultiply": 1.4
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "gamestage":"mutator_stage_5",
+    "result": "allow",
+    "speedmultiply": 1.3,
+    "damagemultiply": 1.6
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "gamestage":"mutator_stage_6",
+    "result": "allow",
+    "speedmultiply": 1.4,
+    "damagemultiply": 1.8
   },
   {
     "mod": "iymts_mob_mod",

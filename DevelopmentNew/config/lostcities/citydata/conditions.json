@@ -56,6 +56,10 @@
       {
         "factor": 15,
         "value": "loottweaker:food"
+      },
+      {
+        "factor": 10,
+        "value": "loottweaker:omt"
       }
     ]
   }

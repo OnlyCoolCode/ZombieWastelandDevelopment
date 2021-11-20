@@ -1,6 +1,6 @@
 { 
 	Profession:"minecraft:librarian", 
-	Career:"cartographer",
+	Career:"librarian",
 
 	Offers:{
 		Recipes:[

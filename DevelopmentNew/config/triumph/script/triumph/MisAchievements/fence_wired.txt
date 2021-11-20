@@ -26,4 +26,4 @@ criteria.addItem(<mcwfences:dark_oak_wired_fence>)
 hideLines()
 
 //Set the position
-setPos(152,92)
+setPos(183,119)

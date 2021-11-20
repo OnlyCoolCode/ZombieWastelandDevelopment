@@ -1,2 +1,11 @@
 time set 0
 /kill @e[type=!player]
+
+
+/tf invite <player_name> - Invites a player to your team, if you don't have a team it will be created
+/tf accept <player_name> - Accepts the invite to join that player's team
+/tf decline <player_name> - Declines the invite to join that player's team
+/tf kick <player_name> - It kicks a player from your team, only the player that created the team is allowed to run the command
+/tf leave - Leaves your current team
+/tf info - Shows information about your team
+/tf forcesync - Forces the sync of team information

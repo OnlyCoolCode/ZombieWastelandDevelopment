@@ -1,6 +1,6 @@
 { 
 	Profession:"minecraft:priest", 
-	Career:"cleric",
+	Career:"necromancer",
 
 	Offers:{
 		Recipes:[

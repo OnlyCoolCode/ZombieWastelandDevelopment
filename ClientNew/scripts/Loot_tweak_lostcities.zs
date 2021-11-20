@@ -142,6 +142,18 @@ var lc_objective = [
     <techguns:itemshared:73>,
     <techguns:itemshared:74>
 ] as IItemStack[];
+var lc_openmodularturrets = [
+    <openmodularturrets:intermediate_tiered:5>,
+    <openmodularturrets:intermediate_tiered:6>,
+    <openmodularturrets:addon_meta:6>,
+    <openmodularturrets:addon_meta:6>,
+    <openmodularturrets:addon_meta:6>,
+    <openmodularturrets:intermediate_regular>,
+    <openmodularturrets:intermediate_tiered:11>,
+    <openmodularturrets:intermediate_tiered:10>,
+    <openmodularturrets:intermediate_tiered:1>,
+    <openmodularturrets:intermediate_tiered>
+] as IItemStack[];
 
 //==== Create new tables ====
 //val highRiseTable = LootTweaker.newTable("loottweaker:highrise");
@@ -154,6 +166,7 @@ val handgunTable = LootTweaker.newTable("loottweaker:handgun");
 val longgunsTable = LootTweaker.newTable("loottweaker:longguns");
 val foodTable = LootTweaker.newTable("loottweaker:food");
 val sphereTable = LootTweaker.newTable("loottweaker:sphere");
+val omtTable = LootTweaker.newTable("loottweaker:omt");
  
  
 //==== Add pools to your tables ====
@@ -165,6 +178,7 @@ val handgunPool = handgunTable.addPool("handgun", 3, 7, 0, 0);
 val longgunsPool = longgunsTable.addPool("longguns", 3, 7, 0, 0);
 val foodPool = foodTable.addPool("food", 4, 13, 0, 0);
 val spherePool = sphereTable.addPool("sphere", 4, 7, 0, 0);
+val omtPool = omtTable.addPool("omt", 3, 6, 0, 0);
  
 //==== Subway Loot ====
 for item in lc_explosives {
@@ -269,4 +283,8 @@ spherePool.addItemEntry(item, 20, 1, [Functions.setCount(1, 1)], []);
 }
 for item in lc_explosives_ammo {
 spherePool.addItemEntry(item, 35, 1, [Functions.setCount(1, 5)], []);
+}
+//==== Food Loot ====
+for item in lc_openmodularturrets {
+foodPool.addItemEntry(item, 100, 1, [Functions.setCount(1, 1)], []);
 }

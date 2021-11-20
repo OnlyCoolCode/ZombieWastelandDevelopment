@@ -21,4 +21,4 @@ criteria.addItem(<flashlight:flashlight>)
 hideLines()
 
 //Set the position
-setPos(152,64)
+setPos(153,65)

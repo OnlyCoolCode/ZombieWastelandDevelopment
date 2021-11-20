@@ -535,15 +535,15 @@ for item in minecraft_list {
 }
 for item in book_enchants {
     //recipes.remove(item);
-    mods.jei.JEI.removeAndHide(item);
+    recipes.remove(item);
 }
 for item in potions {
     brewing.removeRecipe(item);
-    mods.jei.JEI.removeAndHide(item);
+    recipes.remove(item);
 }
 for item in arrows {
     //recipes.remove(item);
-    mods.jei.JEI.removeAndHide(item);
+    recipes.remove(item);
 }
 for item in deleted_general {
     recipes.remove(item);
@@ -558,31 +558,31 @@ for item in firstaid {
     recipes.remove(item);
 }
 for item in comforts {
-    mods.jei.JEI.removeAndHide(item);
+    recipes.remove(item);
 }
 for item in shields {
-    mods.jei.JEI.removeAndHide(item);
+    recipes.remove(item);
 }
 for item in dynamictrees {
-    mods.jei.JEI.removeAndHide(item);
+    recipes.remove(item);
 }
 for item in somnia {
-    mods.jei.JEI.removeAndHide(item);
+    recipes.remove(item);
 }
 for item in quark {
-    mods.jei.JEI.removeAndHide(item);
+    recipes.remove(item);
 }
 for item in animalium {
-    mods.jei.JEI.removeAndHide(item);
+    recipes.remove(item);
 }
 for item in betterwithmods {
-    mods.jei.JEI.removeAndHide(item);
+    recipes.remove(item);
 }
 for item in terrarium {
     recipes.remove(item);
 }
 for item in ompd {
-    mods.jei.JEI.removeAndHide(item);
+    recipes.remove(item);
 }
 
 /*for mod in loadedMods {
@@ -594,7 +594,7 @@ for item in ompd {
         }
 /*      if mod.name == "Better With Mods"
         for item in mod.items {
-            mods.jei.JEI.removeAndHide(item);
+            recipes.remove(item);
             //print("\t\t" ~ item.displayName);
         }  
 }*/

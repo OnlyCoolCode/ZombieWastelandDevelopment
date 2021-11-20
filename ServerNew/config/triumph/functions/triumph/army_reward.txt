@@ -1,2 +1,3 @@
 gamestage silentadd @p army_heavy
 gamestage silentremove @p army_normal
+give @p gbook:guidebook 1 0 {Book: "gbook:wanted.xml"}

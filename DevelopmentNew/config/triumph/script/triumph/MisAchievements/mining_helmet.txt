@@ -21,4 +21,4 @@ criteria.addItem(<mininghelmet:mininghelmet>)
 hideLines()
 
 //Set the position
-setPos(183,64)
+setPos(183,65)

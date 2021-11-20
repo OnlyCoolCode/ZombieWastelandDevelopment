@@ -21,4 +21,4 @@ criteria.addItem(<openmodularturrets:turret_base>)
 hideLines()
 
 //Set the position
-setPos(214,92)
+setPos(213,92)

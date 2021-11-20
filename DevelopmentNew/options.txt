@@ -90,6 +90,7 @@ key_key.betterfoliage.gui:66
 key_keybinds.show_wounds:35
 key_Difficulty Meter - Show:49
 key_Difficulty Meter - Show Always:49:SHIFT
+key_key.toastcontrol.clear:36
 key_Strip World:211
 key_Dress World:210
 key_Inspect Block:199

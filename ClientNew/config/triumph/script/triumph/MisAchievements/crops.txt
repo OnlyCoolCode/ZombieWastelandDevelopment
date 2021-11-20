@@ -12,7 +12,7 @@ setDescription("Harvest Wheat")
 addParent("triumph:MisAchievements/day1")
 
 //Set the position
-setPos(214,64)
+setPos(213,65)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()
