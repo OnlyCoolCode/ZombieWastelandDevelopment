@@ -4,8 +4,8 @@
 		{
 			"id": "generic.maxHealth",
 			"modifier": {
-				"min": -50,
-				"max": 0
+				"min": -90,
+				"max": 60
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false
@@ -22,8 +22,8 @@
 		{
 			"id": "generic.followRange",
 			"modifier": {
-				"min": 10,
-				"max": 30
+				"min": 0,
+				"max": 50
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false
@@ -31,8 +31,8 @@
 		{
 			"id": "generic.knockbackResistance",
 			"modifier": {
-				"min": 0.3,
-				"max": 0.7
+				"min": 0,
+				"max": 1.0
 			},
 			"is_flat": true,
 			"affected_by_difficulty": false
@@ -40,8 +40,8 @@
 		{
 			"id": "generic.movementSpeed",
 			"modifier": {
-				"min": -30,
-				"max": 10
+				"min": 0,
+				"max": 40
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false

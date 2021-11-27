@@ -22,7 +22,7 @@ ZombiePool.addItemEntry(<ore:bone>.firstItem, 8,0, [
 ], []);
 var SpiderTable = LootTweaker.getTable("minecraft:entities/spider");
 SpiderTable.clear();
-var SpiderPool = SpiderTable.addPool("SpiderPool", 2, 4, 0, 0);
+var SpiderPool = SpiderTable.addPool("SpiderPool", 4, 8, 0, 0);
 SpiderPool.addItemEntry(<minecraft:spider_eye>, 1,0, [
     Functions.setCount(1, 2)
 ], []);
@@ -37,7 +37,7 @@ iy_super_slasherTable.clear();
 iy_super_leaperTable.clear();
 iy_super_bruteTable.clear();
 iy_super_lurkerTable.clear();
-var iy_super_slasherPool = iy_super_slasherTable.addPool("iy_super_slasherPool", 1, 3, 0, 0);
+var iy_super_slasherPool = iy_super_slasherTable.addPool("iy_super_slasherPool", 2, 5, 0, 0);
 iy_super_slasherPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
     Functions.setCount(1, 1)
 ], []);
@@ -45,11 +45,11 @@ iy_super_slasherPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
 iy_super_exploderPool.addItemEntry(<minecraft:gunpowder>, 1,0, [
     Functions.setCount(1, 1)
 ], []); */
-var iy_super_leaperPool = iy_super_leaperTable.addPool("iy_super_leaperPool", 0, 2, 0, 0);
+var iy_super_leaperPool = iy_super_leaperTable.addPool("iy_super_leaperPool", 1, 4, 0, 0);
 iy_super_leaperPool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
     Functions.setCount(1, 1)
 ], []);
-var iy_super_brutePool = iy_super_bruteTable.addPool("iy_super_brutePool", 0, 4, 0, 0);
+var iy_super_brutePool = iy_super_bruteTable.addPool("iy_super_brutePool", 4, 6, 0, 0);
 iy_super_brutePool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 1,0, [
     Functions.setCount(1, 1)
 ], []);
@@ -63,7 +63,7 @@ var mutant_zombieTable = LootTweaker.getTable("mutantbeasts:entities/mutant_zomb
 mutant_zombieTable.clear();
 var mutant_zombiePool = mutant_zombieTable.addPool("mutant_zombiePool", 3, 6, 0, 0);
 mutant_zombiePool.addItemEntry(<weapons_of_the_apocalypse:fleshmorph>, 4,0, [
-    Functions.setCount(3, 5)
+    Functions.setCount(6, 12)
 ], []);
 mutant_zombiePool.addItemEntry(<mutantbeasts:chemical_x>, 1,0, [
     Functions.setCount(1, 1)
@@ -71,7 +71,7 @@ mutant_zombiePool.addItemEntry(<mutantbeasts:chemical_x>, 1,0, [
 
 var banditTable = LootTweaker.getTable("techguns:entities/bandit");
 banditTable.clear();
-var banditPool = banditTable.addPool("banditPool", 4, 7, 0, 0);
+var banditPool = banditTable.addPool("banditPool", 5, 10, 0, 0);
 
 var ammo_pistol_incendiary = <techguns:itemshared:113>;
 var ammo_revolver_incendiary = <techguns:itemshared:109>;
@@ -129,7 +129,7 @@ banditPool.addItemEntry(morphine, 3,0, [
 
 var armysoldierTable = LootTweaker.getTable("techguns:entities/armysoldier");
 armysoldierTable.clear();
-var armysoldierPool = armysoldierTable.addPool("armysoldierPool", 4, 7, 0, 0);
+var armysoldierPool = armysoldierTable.addPool("armysoldierPool", 5, 10, 0, 0);
 
 armysoldierPool.addItemEntry(ammo_pistol_incendiary, 4,0, [
     Functions.setCount(1, 1)
@@ -173,7 +173,7 @@ armysoldierPool.addItemEntry(morphine, 3,0, [
 
 var commandoTable = LootTweaker.getTable("techguns:entities/commando");
 commandoTable.clear();
-var commandoPool = commandoTable.addPool("commandoPool", 5, 8, 0, 0);
+var commandoPool = commandoTable.addPool("commandoPool", 5, 10, 0, 0);
 
 commandoPool.addItemEntry(ammo_pistol_incendiary, 4,0, [
     Functions.setCount(1, 1)
@@ -217,7 +217,7 @@ commandoPool.addItemEntry(morphine, 3,0, [
 
 var attackhelicopterTable = LootTweaker.getTable("techguns:entities/attackhelicopter");
 attackhelicopterTable.clear();
-var attackhelicopterPool = attackhelicopterTable.addPool("attackhelicopterPool", 7, 10, 0, 0);
+var attackhelicopterPool = attackhelicopterTable.addPool("attackhelicopterPool", 7, 15, 0, 0);
 
 var rocketlauncher = <techguns:rocketlauncher>.withTag({ammo: 0});
 var grenadelauncher = <techguns:grenadelauncher>.withTag({ammo: 0});
@@ -254,7 +254,7 @@ attackhelicopterPool.addItemEntry(grenade_ammo, 15,0, [
 
 var playerskinsTable = LootTweaker.getTable("playerskins:entities/skinloot");
 playerskinsTable.clear();
-var playerskinsPool = playerskinsTable.addPool("playerskinsPool", 4, 7, 0, 0);
+var playerskinsPool = playerskinsTable.addPool("playerskinsPool", 4, 8, 0, 0);
 
 var baseballbat = <weapons_of_the_apocalypse:baseballbat>;
 var steelpipe = <weapons_of_the_apocalypse:steelpipe>;

@@ -1,0 +1,20 @@
+{ 
+	Profession: "vtt:redstoner", 
+	Career:"redstoner",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+			
+			{action:"add", buy:{id:"minecraft:redstone",Count:{min:10,max:12}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+
+			{action:"add", buy:{id:"minecraft:redstone",Count:16},sell:{id:"openmodularturrets:intermediate_tiered",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:redstone",Count:{min:10,max:17}},sell:{id:"openmodularturrets:turret_base",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:redstone",Count:{min:15,max:21}},sell:{id:"openmodularturrets:disposable_item_turret",Count:1},CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:15,max:20}},sell:{id:"openmodularturrets:machine_gun_turret",Count:1},CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:20,max:25}},sell:{id:"openmodularturrets:incendiary_turret",Count:1},CareerLevel:1}
+
+		]
+	}
+
+}

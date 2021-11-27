@@ -1,0 +1,24 @@
+
+//Set icon item
+setIcon(<minecraft:wheat>)
+
+//Set title String
+setTitle("Some Crops Can Grow")
+
+//Set description String
+setDescription("Harvest Wheat")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/day1")
+
+//Set the position
+setPos(213,65)
+
+//Hide the connection lines, so I can have a pretty shape
+hideLines()
+
+//Adds criteria named "harvestedBlock" with the trigger type "triumph:player_harvest_block". This function returns the criteria as an object
+criteria = addCriteria("harvestedBlock", "triumph:player_harvest_block")
+
+//Sets the required block for the criteria. This is the block that needs to be harvested by the player.
+criteria.setBlock(<minecraft:wheat>)

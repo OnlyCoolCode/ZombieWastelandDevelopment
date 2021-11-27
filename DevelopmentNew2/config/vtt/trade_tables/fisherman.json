@@ -1,0 +1,14 @@
+{ 
+	Profession:"minecraft:farmer",
+	Career:"fisherman",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+			
+			{action:"add", buy:{id:"minecraft:string",Count:{min:2,max:4}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:1,max:2}},sell:{id:"minecraft:cooked_fish",Count:1}, CareerLevel:1}
+		]
+	}
+
+}

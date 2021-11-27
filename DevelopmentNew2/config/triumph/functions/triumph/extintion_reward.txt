@@ -1,0 +1,1 @@
+give @p gbook:guidebook 1 0 {Book: "gbook:extintion.xml"}

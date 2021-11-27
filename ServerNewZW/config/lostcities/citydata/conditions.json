@@ -34,15 +34,15 @@
         "inpart": "rail_dungeon2"
       },
       {
-        "factor": 100,
+        "factor": 80,
         "value": "loottweaker:generic"
       },
       {
-        "factor": 15,
+        "factor": 18,
         "value": "loottweaker:healing"
       },
       {
-        "factor": 15,
+        "factor": 10,
         "value": "loottweaker:plant"
       },
       {

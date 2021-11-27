@@ -1,0 +1,21 @@
+
+//Set icon item
+setIcon(<weapons_of_the_apocalypse:fireaxe>)
+
+//Set title String
+setTitle("Fucking Zombie!")
+
+//Set description String
+setDescription("Crush a zombie")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/day1")
+
+//Adds criteria named "killed_spider" with the trigger type "minecraft:player_killed_entity". This function returns the criteria as an object
+criteria = addCriteria("killed_zombie", "minecraft:player_killed_entity")
+
+//Sets the required entity type for the criteria. This is the entity that the player must kill.
+criteria.setEntityType("minecraft:zombie")
+
+//Set the position
+setPos(-94,-4)

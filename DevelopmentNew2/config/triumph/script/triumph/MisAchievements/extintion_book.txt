@@ -1,0 +1,24 @@
+
+//Set icon item
+setIcon(<gbook:guidebook>)
+
+//Set title String
+setTitle("The Extintion")
+
+//Set description String
+setDescription("Ask a Librarian for *The Knowledge Book*, he will know what to give you")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/trade")
+
+//Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("Extintion", "minecraft:villager_trade")
+
+//Sets the required item for the criteria. This is the item that must be traded for.
+criteria.setItem(<minecraft:knowledge_book>)
+
+//Adds a function to fire upon completion. Any number of these can be added.
+addRewardFunction("triumph:extintion_reward")
+
+//Set the position
+setPos(7,51)

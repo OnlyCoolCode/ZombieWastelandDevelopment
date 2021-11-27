@@ -1,31 +1,30 @@
 [PREINITIALIZATION][CLIENT][INFO] Thank you to the Patreon supporters below and others who make CraftTweaker possible!
-Barrier
-Psyberition
-Jonathan McManus
-Belathus
+NickT
 IDroid
-Yamraiha
+Genryu
+Barrier
+DreamThorn
+AdaraChristine
+Pongo Sapiens
 Ncc1702
-TriosGaminG Pro
-SquidDev
+Psyberition
+Peregrinus11
+Belathus
 BrÃ¸nsted
 NerdyWhiteGuy
-DreamThorn
-Quaternary
-Peregrinus11
-JDaddy
-Ivy_
-Tyrone McLean
-Pongo Sapiens
+Jonathan McManus
 Jimmie L Hines Jr
-Genryu
+Ivy_
+Quaternary
+SquidDev
+Robijnvogel
+JDaddy
 If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 
 [PREINITIALIZATION][CLIENT][INFO] Current loaders after merging: [[preinit]]
 [PREINITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [preinit]
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: BetterWithModsRemove.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: deleted_crafts.zs} as we are currently loading with a different loader
-[PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: deleted_crafts_client.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: gamestages.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: glass.zs} as we are currently loading with a different loader
 [PREINITIALIZATION][CLIENT][INFO] [preinit | SIDE_CLIENT]: Skipping file {[0:crafttweaker]: Loot_mobs.zs} as we are currently loading with a different loader
@@ -4327,6 +4326,8 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] 		Magic Cypsela
 [INITIALIZATION][CLIENT][INFO] Enhanced Visuals:
 [INITIALIZATION][CLIENT][INFO] Epic Siege Mod:
+[INITIALIZATION][CLIENT][INFO] Silent Lib:
+[INITIALIZATION][CLIENT][INFO] Extended Days:
 [INITIALIZATION][CLIENT][INFO] First Aid:
 [INITIALIZATION][CLIENT][INFO] 		Plaster
 [INITIALIZATION][CLIENT][INFO] 		Bandage
@@ -4579,16 +4580,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] Resource Loader:
 [INITIALIZATION][CLIENT][INFO] Respawn Location Picker:
 [INITIALIZATION][CLIENT][INFO] Rough Mobs Revamped:
-[INITIALIZATION][CLIENT][INFO] Silent Lib:
-[INITIALIZATION][CLIENT][INFO] Scaling Health:
-[INITIALIZATION][CLIENT][INFO] 		Heart Crystal Ore
-[INITIALIZATION][CLIENT][INFO] 		Heart Dust
-[INITIALIZATION][CLIENT][INFO] 		Heart Container
-[INITIALIZATION][CLIENT][INFO] 		Bandages
-[INITIALIZATION][CLIENT][INFO] 		Medkit
-[INITIALIZATION][CLIENT][INFO] 		Enchanted Heart
-[INITIALIZATION][CLIENT][INFO] 		Cursed Heart
-[INITIALIZATION][CLIENT][INFO] 		Heart Crystal Shard
 [INITIALIZATION][CLIENT][INFO] SimpleDifficulty:
 [INITIALIZATION][CLIENT][INFO] 		Cloth Hood
 [INITIALIZATION][CLIENT][INFO] 		Ice Leggings
@@ -5170,30 +5161,18 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] 		Dense Lapis Ore
 [INITIALIZATION][CLIENT][INFO] Phosphor Lighting Engine:
 [INITIALIZATION][CLIENT][INFO] Hunger Overhaul:
-[INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: deleted_crafts_client.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: gamestages.zs}
-[INITIALIZATION][CLIENT][INFO] 1200 seconds has been added to unlock stage day2_stage
-[INITIALIZATION][CLIENT][INFO] 1200 seconds has been added to unlock stage day3_stage
-[INITIALIZATION][CLIENT][INFO] 1200 seconds has been added to unlock stage day4_stage
-[INITIALIZATION][CLIENT][INFO] 1200 seconds has been added to unlock stage day5_stage
-[INITIALIZATION][CLIENT][INFO] day1_stagewill be locked in 1201 seconds
-[INITIALIZATION][CLIENT][INFO] day2_stagewill be locked in 1201 seconds
-[INITIALIZATION][CLIENT][INFO] day3_stagewill be locked in 1201 seconds
-[INITIALIZATION][CLIENT][INFO] day4_stagewill be locked in 1201 seconds
-[INITIALIZATION][CLIENT][INFO] 120 minutes has been added to unlock stage army_post_heavy
-[INITIALIZATION][CLIENT][INFO] army_heavywill be locked in 121 minutes
-[INITIALIZATION][CLIENT][INFO] 120 minutes has been added to unlock stage mutator_stage_2
-[INITIALIZATION][CLIENT][INFO] 120 minutes has been added to unlock stage mutator_stage_3
-[INITIALIZATION][CLIENT][INFO] 120 minutes has been added to unlock stage mutator_stage_4
-[INITIALIZATION][CLIENT][INFO] 120 minutes has been added to unlock stage mutator_stage_5
-[INITIALIZATION][CLIENT][INFO] 120 minutes has been added to unlock stage mutator_stage_6
-[INITIALIZATION][CLIENT][INFO] 120 minutes has been added to unlock stage final_stage
-[INITIALIZATION][CLIENT][INFO] mutator_stage_1will be locked in 121 minutes
-[INITIALIZATION][CLIENT][INFO] mutator_stage_2will be locked in 121 minutes
-[INITIALIZATION][CLIENT][INFO] mutator_stage_3will be locked in 121 minutes
-[INITIALIZATION][CLIENT][INFO] mutator_stage_4will be locked in 121 minutes
-[INITIALIZATION][CLIENT][INFO] mutator_stage_5will be locked in 121 minutes
-[INITIALIZATION][CLIENT][INFO] mutator_stage_6will be locked in 121 minutes
+[INITIALIZATION][CLIENT][INFO] 30 minutes has been added to unlock stage day2_stage
+[INITIALIZATION][CLIENT][INFO] 30 minutes has been added to unlock stage day3_stage
+[INITIALIZATION][CLIENT][INFO] 30 minutes has been added to unlock stage day4_stage
+[INITIALIZATION][CLIENT][INFO] 30 minutes has been added to unlock stage day5_stage
+[INITIALIZATION][CLIENT][INFO] 90 minutes has been added to unlock stage army_post_heavy
+[INITIALIZATION][CLIENT][INFO] 30 minutes has been added to unlock stage mutator_stage_2
+[INITIALIZATION][CLIENT][INFO] 30 minutes has been added to unlock stage mutator_stage_3
+[INITIALIZATION][CLIENT][INFO] 60 minutes has been added to unlock stage mutator_stage_4
+[INITIALIZATION][CLIENT][INFO] 60 minutes has been added to unlock stage mutator_stage_5
+[INITIALIZATION][CLIENT][INFO] 60 minutes has been added to unlock stage mutator_stage_6
+[INITIALIZATION][CLIENT][INFO] 60 minutes has been added to unlock stage final_stage
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: glass.zs}
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Loot_mobs.zs}
 [INITIALIZATION][CLIENT][INFO] Queued all pools of table minecraft:entities/zombie for removal
@@ -5586,15 +5565,13 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [INITIALIZATION][CLIENT][INFO] [crafttweaker | SIDE_CLIENT]: Loading Script: {[0:crafttweaker]: Renaming.zs}
 [INITIALIZATION][CLIENT][INFO] Translating tile.chisel.futura.name to Mutator
 [INITIALIZATION][CLIENT][INFO] Translating tile.chisel.factory.name to Power Generator
-[INITIALIZATION][CLIENT][INFO] Completed script loading in: 1308ms
+[INITIALIZATION][CLIENT][INFO] Completed script loading in: 1141ms
 [INITIALIZATION][CLIENT][INFO] Translating tile.chisel.futura.name to Mutator
 [INITIALIZATION][CLIENT][INFO] Translating tile.chisel.factory.name to Power Generator
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "weapons_of_the_apocalypse:leatherr2"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "minecraft:glass_bottle"
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "weapons_of_the_apocalypse:scyther"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "weapons_of_the_apocalypse:leatherr2"
-[POSTINITIALIZATION][CLIENT][INFO] Removing recipe with name "minecraft:glass_bottle"
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Weather Sensor with name rain_detector
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Daylight Sensor with name daylight_detector
 [POSTINITIALIZATION][CLIENT][INFO] Adding shaped recipe for Orange Stained Glass with name stained_glass1
@@ -5849,113 +5826,6 @@ If you want to support the mod, checkout https://patreon.com/jaredlll08?s=crtmod
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <minecraft:anvil:2>
 [POSTINITIALIZATION][CLIENT][INFO] Adding furnace recipe for <minecraft:cauldron>
 [AVAILABLE][CLIENT][INFO] Fixing Vanilla Brewing Recipes
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:regeneration"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_regeneration"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_regeneration"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strength"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_strength"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_strength"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:weakness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_weakness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:luck"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:mundane"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:thick"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:awkward"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:night_vision"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_night_vision"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:invisibility"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_invisibility"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:leaping"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_leaping"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_leaping"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:fire_resistance"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_fire_resistance"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:swiftness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_swiftness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_swiftness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:slowness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_slowness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:water_breathing"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_water_breathing"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:healing"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_healing"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:harming"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_harming"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:poison"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_poison"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_poison"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:regeneration"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_regeneration"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_regeneration"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strength"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_strength"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_strength"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:weakness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_weakness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:luck"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:water"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:mundane"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:thick"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:awkward"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:night_vision"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_night_vision"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:invisibility"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_invisibility"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:leaping"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_leaping"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_leaping"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:fire_resistance"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_fire_resistance"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:swiftness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_swiftness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_swiftness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:slowness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_slowness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:water_breathing"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_water_breathing"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:healing"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_healing"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:harming"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_harming"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:poison"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:long_poison"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:splash_potion>.withTag({Potion: "minecraft:strong_poison"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:regeneration"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_regeneration"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_regeneration"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strength"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_strength"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_strength"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:weakness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_weakness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:luck"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:water"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:mundane"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:thick"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:awkward"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:night_vision"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_night_vision"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:invisibility"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_invisibility"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:leaping"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_leaping"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_leaping"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:fire_resistance"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_fire_resistance"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:swiftness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_swiftness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_swiftness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:slowness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_slowness"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:water_breathing"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_water_breathing"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:healing"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_healing"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:harming"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_harming"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:poison"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:long_poison"})
-[AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:lingering_potion>.withTag({Potion: "minecraft:strong_poison"})
 [AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:regeneration"})
 [AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:long_regeneration"})
 [AVAILABLE][CLIENT][INFO] Removing brewing recipes for ingredient: <minecraft:potion>.withTag({Potion: "minecraft:strong_regeneration"})

@@ -94,7 +94,7 @@ var am_objective = [
 
 var MineshaftTable = LootTweaker.getTable("minecraft:chests/abandoned_mineshaft");
 MineshaftTable.clear();
-var MineshaftPool = MineshaftTable.addPool("MineshaftPool", 3, 15, 0, 0);
+var MineshaftPool = MineshaftTable.addPool("MineshaftPool", 9, 18, 0, 0);
 for item in am_loot_iron {
     MineshaftPool.addItemEntry(item, 15,0, [
         Functions.setCount(3, 9)  

@@ -1,0 +1,23 @@
+
+//Set the icon item
+setIcon(<betterwithmods:aesthetic:1>)
+
+//Set the title String
+setTitle("No more Zombies!")
+
+//Set the description String
+setDescription("Get a Bloodied Block")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/slept_in_bed")
+
+//Adds criteria named "crafted" with the trigger type "triumph:player_crafted_item". This function returns the criteria as an object
+criteria = addCriteria("crafted", "triumph:player_crafted_item")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.setItem(<betterwithmods:aesthetic:1>)
+
+//By not setting anything about requirements here, all criteria are automatically required
+
+//Set the position
+setPos(-36,96)

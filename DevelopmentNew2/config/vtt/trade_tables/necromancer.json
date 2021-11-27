@@ -1,0 +1,16 @@
+{ 
+	Profession:"minecraft:priest", 
+	Career:"cleric",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+
+			{action:"add", buy:{id:"mutantbeasts:chemical_x",Count:1},sell:{id:"minecraft:glowstone_dust",Count:{min:20,max:32}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:glowstone_dust",Count:{min:2,max:8}},sell:{id:"biomesoplenty:fleshchunk",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:glowstone_dust",Count:{min:1,max:3}},sell:{id:"simpledifficulty:magma_chunk",Count:1}, CareerLevel:1}
+			
+		]
+	}
+
+}

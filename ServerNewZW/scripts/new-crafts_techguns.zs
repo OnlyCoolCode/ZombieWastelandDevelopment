@@ -122,7 +122,7 @@ var leather = <minecraft:leather>;
 var wool = <minecraft:wool:*>;
 var iron_ingot = <minecraft:iron_ingot>;
 var soulforged_ingot = <betterwithmods:material:14>;
-recipes.addShaped("heavycloth", heavycloth*2, [
+recipes.addShaped("heavycloth", heavycloth*3, [
     [leather,wool,leather],
     [wool,leather,wool],
     [leather,wool,leather]

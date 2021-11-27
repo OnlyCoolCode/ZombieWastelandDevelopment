@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "name": "moose-venison",
+      "entries": [
+        {
+          "entryName": "betteranimalsplus:venisonraw",
+          "weight": 2,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 5.0,
+                "max": 8.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "betteranimalsplus:venisonraw"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "moose-antler",
+      "entries": [
+        {
+          "entryName": "betteranimalsplus:antler",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 2.0,
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "betteranimalsplus:antler"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

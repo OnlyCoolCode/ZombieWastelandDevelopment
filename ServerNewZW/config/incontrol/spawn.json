@@ -24,9 +24,9 @@
   {
     "hostile": true,
     "mincount": {
-      "amount": 50,
+      "amount": 80,
       "hostile": true,
-      "perplayer": true
+      "perchunk": true
     },
     "result": "deny"
   },
@@ -65,7 +65,7 @@
     "mincount": {
       "amount": 12,
       "mob": "animalium:piranha",
-      "perplayer": true
+      "perchunk": true
     },
     "result": "deny"
   },
@@ -105,9 +105,9 @@
   {
     "mob": "animalium:wild_dog",
     "mincount": {
-      "amount": 8,
+      "amount": 6,
       "mod": "animalium",
-      "perplayer": true
+      "perchunk": true
     },
     "result": "deny"
   },
@@ -141,9 +141,9 @@
   {
     "mob": "animalium:bear",
     "mincount": {
-      "amount": 4,
+      "amount": 3,
       "mod": "animalium",
-      "perplayer": true
+      "perchunk": true
     },
     "result": "deny"
   },
@@ -155,9 +155,9 @@
   {
     "mob": "animalium:rat",
     "mincount": {
-      "amount": 10,
+      "amount": 8,
       "mod": "animalium",
-      "perplayer": true
+      "perchunk": true
     },
     "result": "deny"
   },
@@ -166,7 +166,7 @@
     "incity": true,
     "mincount": {
       "amount": 4,
-      "perplayer": true
+      "perchunk": true
     },
     "result": "deny"
   },
@@ -175,7 +175,7 @@
     "incity": false,
     "mincount": {
       "amount": 4,
-      "perplayer": true
+      "perchunk": true
     },
     "result": "deny"
   },
@@ -222,10 +222,50 @@
   {
     "mod": "techguns",
     "incity": true,
+    "gamestage":"army_post_heavy",
+    "mincount": {
+      "amount": 5,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "techguns",
+    "incity": false,
+    "gamestage":"army_post_heavy",
+    "mincount": {
+      "amount": 2,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "techguns",
+    "incity": true,
+    "gamestage":"army_heavy",
+    "mincount": {
+      "amount": 25,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "techguns",
+    "incity": false,
+    "gamestage":"army_heavy",
+    "mincount": {
+      "amount": 25,
+      "perchunk": true
+    },
+    "result": "deny"
+  },
+  {
+    "mod": "techguns",
+    "incity": true,
     "gamestage":"army_normal",
     "mincount": {
-      "amount": 7,
-      "perplayer": true
+      "amount": 5,
+      "perchunk": true
     },
     "result": "deny"
   },
@@ -235,47 +275,7 @@
     "gamestage":"army_normal",
     "mincount": {
       "amount": 2,
-      "perplayer": true
-    },
-    "result": "deny"
-  },
-  {
-    "mod": "techguns",
-    "incity": true,
-    "gamestage":"army_heavy",
-    "mincount": {
-      "amount": 40,
-      "perplayer": true
-    },
-    "result": "deny"
-  },
-  {
-    "mod": "techguns",
-    "incity": false,
-    "gamestage":"army_heavy",
-    "mincount": {
-      "amount": 40,
-      "perplayer": true
-    },
-    "result": "deny"
-  },
-  {
-    "mod": "techguns",
-    "incity": true,
-    "gamestage":"army_post_heavy",
-    "mincount": {
-      "amount": 10,
-      "perplayer": true
-    },
-    "result": "deny"
-  },
-  {
-    "mod": "techguns",
-    "incity": false,
-    "gamestage":"army_post_heavy",
-    "mincount": {
-      "amount": 4,
-      "perplayer": true
+      "perchunk": true
     },
     "result": "deny"
   },
@@ -345,28 +345,9 @@
   },
   {
     "mob": "techguns:commando",
-    "gamestage":"army_heavy",
-    "inbuilding": true,
-    "result": "allow"
-  },
-  {
-    "mob": "techguns:commando",
-    "gamestage":"army_heavy",
-    "incity": true,
-    "result": "allow"
-  },
-  {
-    "mob": "techguns:commando",
-    "gamestage":"army_heavy",
-    "incity": false,
-    "seesky": true,
-    "result": "allow"
-  },
-  {
-    "mob": "techguns:commando",
     "gamestage":"army_post_heavy",
-    "inbuilding": true,
-    "result": "allow"
+    "incity": false,
+    "result": "deny"
   },
   {
     "mob": "techguns:commando",
@@ -377,18 +358,29 @@
   },
   {
     "mob": "techguns:commando",
-    "gamestage":"army_post_heavy",
+    "gamestage":"army_heavy",
+    "inbuilding": true,
+    "result": "allow"
+  },
+  {
+    "mob": "techguns:commando",
+    "gamestage":"army_heavy",
     "incity": false,
     "seesky": true,
-    "random": 0.004,
     "result": "allow"
   },
   {
     "mob": "techguns:attackhelicopter",
     "mincount": {
-      "amount": 1,
-      "perplayer": true
+      "amount": 2,
+      "perchunk": true
     },
+    "result": "deny"
+  },
+  {
+    "mob": "techguns:attackhelicopter",
+    "gamestage":"army_post_heavy",
+    "incity": false,
     "result": "deny"
   },
   {
@@ -396,8 +388,9 @@
     "gamestage":"army_heavy",
     "incity": true,
     "seesky": true,
+    "random": 0.004,
     "result": "allow"
-  },
+  },  
   {
     "mob": "techguns:attackhelicopter",
     "gamestage":"army_heavy",
@@ -407,30 +400,26 @@
   },
   {
     "mob": "techguns:attackhelicopter",
-    "gamestage":"army_post_heavy",
-    "incity": true,
-    "seesky": true,
-    "random": 0.004,
-    "result": "allow"
-  },
-  {
-    "mob": "techguns:attackhelicopter",
-    "gamestage":"army_post_heavy",
-    "incity": false,
-    "result": "deny"
-  },
-  {
-    "mob": ["techguns:commando", "techguns:attackhelicopter"],
     "result": "deny"
   },
   {
     "mod": "mutantbeasts",
     "mincount": {
       "amount": 2,
-      "mod": "animalium",
-      "perplayer": true
+      "perchunk": true
     },
     "result": "deny"
+  },
+  {
+    "mob": "mutantbeasts:mutant_zombie",
+   "gamestage":"mutator_stage_5",
+   "result": "allow"
+  },
+  {
+     "mob": "mutantbeasts:mutant_zombie",
+    "gamestage":"mutator_stage_4",
+    "random": 0.25,
+    "result": "allow"
   },
   {
     "mob": "mutantbeasts:mutant_zombie",
@@ -450,39 +439,11 @@
     "result": "allow"
   },
   {
-     "mob": "mutantbeasts:mutant_zombie",
-    "gamestage":"mutator_stage_4",
-    "random": 0.25,
-    "result": "allow"
-  },
-  {
-     "mob": "mutantbeasts:mutant_zombie",
-    "gamestage":"mutator_stage_5",
-    "result": "allow"
-  },
-  {
     "mod": "iymts_mob_mod",
-    "seesky": true,
-    "result": "deny"
-  },
-  {
-    "mod": "iymts_mob_mod",
-    "gamestage":"mutator_stage_2",
-    "result": "allow"
-  },
-  {
-    "mod": "iymts_mob_mod",
-    "gamestage":"mutator_stage_3",
+    "gamestage":"mutator_stage_6",
     "result": "allow",
-    "speedmultiply": 1.1,
-    "damagemultiply": 1.2
-  },
-  {
-    "mod": "iymts_mob_mod",
-    "gamestage":"mutator_stage_4",
-    "result": "allow",
-    "speedmultiply": 1.2,
-    "damagemultiply": 1.4
+    "speedmultiply": 1.4,
+    "damagemultiply": 1.8
   },
   {
     "mod": "iymts_mob_mod",
@@ -493,10 +454,27 @@
   },
   {
     "mod": "iymts_mob_mod",
-    "gamestage":"mutator_stage_6",
+    "gamestage":"mutator_stage_4",
     "result": "allow",
-    "speedmultiply": 1.4,
-    "damagemultiply": 1.8
+    "speedmultiply": 1.2,
+    "damagemultiply": 1.4
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "gamestage":"mutator_stage_3",
+    "result": "allow",
+    "speedmultiply": 1.1,
+    "damagemultiply": 1.2
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "gamestage":"mutator_stage_2",
+    "result": "allow"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "seesky": true,
+    "result": "deny"
   },
   {
     "mod": "iymts_mob_mod",
@@ -519,6 +497,48 @@
   },
   {
     "mob": "minecraft:zombie",
+    "gamestage":"mutator_stage_6",
+    "result": "allow",
+    "speedmultiply": 1.6,
+    "damagemultiply": 2.2
+  },
+  {
+    "mob": "minecraft:zombie",
+    "gamestage":"mutator_stage_5",
+    "result": "allow",
+    "speedmultiply": 1.5,
+    "damagemultiply": 2.0
+  },
+  {
+    "mob": "minecraft:zombie",
+    "gamestage":"mutator_stage_4",
+    "result": "allow",
+    "speedmultiply": 1.4,
+    "damagemultiply": 1.8
+  },
+  {
+    "mob": "minecraft:zombie",
+    "gamestage":"mutator_stage_3",
+    "result": "allow",
+    "speedmultiply": 1.3,
+    "damagemultiply": 1.6
+  },
+  {
+    "mob": "minecraft:zombie",
+    "gamestage":"mutator_stage_2",
+    "result": "allow",
+    "speedmultiply": 1.2,
+    "damagemultiply": 1.4
+  },
+  {
+    "mob": "minecraft:zombie",
+    "gamestage":"mutator_stage_1",
+    "result": "allow",
+    "speedmultiply": 1.1,
+    "damagemultiply": 1.2
+  },
+  {
+    "mob": "minecraft:zombie",
     "mintime":0,
     "maxtime":12542,
     "seesky": true,
@@ -533,77 +553,31 @@
   },
   {
     "mob": "minecraft:zombie",
-    "gamestage":"day1_stage",
-    "result": "allow",
-    "speedmultiply": 0.2,
-    "healthmultiply": 0.2
-  },
-  {
-    "mob": "minecraft:zombie",
-    "gamestage":"day2_stage",
-    "result": "allow",
-    "speedmultiply": 0.4,
-    "healthmultiply": 0.4
-  },
-  {
-    "mob": "minecraft:zombie",
-    "gamestage":"day3_stage",
-    "result": "allow",
-    "speedmultiply": 0.6,
-    "healthmultiply": 0.6
-  },
-  {
-    "mob": "minecraft:zombie",
-    "gamestage":"day4_stage",
-    "result": "allow",
-    "speedmultiply": 0.8,
-    "healthmultiply": 0.8
-  },
-  {
-    "mob": "minecraft:zombie",
     "gamestage":"day5_stage",
     "result": "allow"
   },
   {
     "mob": "minecraft:zombie",
-    "gamestage":"mutator_stage_1",
+    "gamestage":"day4_stage",
     "result": "allow",
-    "speedmultiply": 1.1,
-    "damagemultiply": 1.2
+    "speedmultiply": 0.9
   },
   {
     "mob": "minecraft:zombie",
-    "gamestage":"mutator_stage_2",
+    "gamestage":"day3_stage",
     "result": "allow",
-    "speedmultiply": 1.2,
-    "damagemultiply": 1.4
+    "speedmultiply": 0.8
   },
   {
     "mob": "minecraft:zombie",
-    "gamestage":"mutator_stage_3",
+    "gamestage":"day2_stage",
     "result": "allow",
-    "speedmultiply": 1.3,
-    "damagemultiply": 1.6
+    "speedmultiply": 0.7
   },
   {
     "mob": "minecraft:zombie",
-    "gamestage":"mutator_stage_4",
+    "gamestage":"day1_stage",
     "result": "allow",
-    "speedmultiply": 1.4,
-    "damagemultiply": 1.8
-  },
-  {
-    "mob": "minecraft:zombie",
-    "gamestage":"mutator_stage_5",
-    "result": "allow",
-    "speedmultiply": 1.5,
-    "damagemultiply": 2.0
-  },
-  {
-    "mob": "minecraft:zombie",
-    "gamestage":"mutator_stage_6",
-    "result": "allow",
-    "speedmultiply": 1.6,
-    "damagemultiply": 2.2
+    "speedmultiply": 0.6
   }
 ]

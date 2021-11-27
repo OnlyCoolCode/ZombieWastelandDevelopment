@@ -8,7 +8,7 @@
       },
 	  {
         "mob": "spiderstpo:better_cave_spider",
-		    "weight": 80,
+		    "weight": 60,
         "groupcountmin": 3,
 	      "groupcountmax": 4
       },
@@ -40,86 +40,84 @@
       },
     {
         "mob": "iymts_mob_mod:iysuperleaper",
-        "weight": 20,
+        "weight": 10,
         "groupcountmax": 1
       },
     {
         "mob": "iymts_mob_mod:iysuperslasher",
-        "weight": 20,
+        "weight": 10,
         "groupcountmax": 1
       },
     {
         "mob": "iymts_mob_mod:iysuperexploder",
-        "weight": 20,
+        "weight": 10,
         "groupcountmax": 1
       },
     {
         "mob": "iymts_mob_mod:iysuperbrute",
-        "weight": 20,
+        "weight": 10,
         "groupcountmax": 1
       },
     {
         "mob": "mutantbeasts:mutant_zombie",
         "groupcountmin": 1,
         "groupcountmax": 1,
-        "weight": 3
+        "weight": 5
       },
     {
         "mob": "animalium:wild_dog",
-        "weight": 13,
+        "weight": 9,
         "groupcountmin": 2,
         "groupcountmax": 5,
         "minlight": 7
       },
     {
         "mob": "animalium:bear",
-        "weight": 10,
+        "weight": 6,
         "groupcountmin": 1,
         "groupcountmax": 1,
         "minlight": 8
       },
     {
         "mob": "animalium:rat",
-        "weight": 20,
+        "weight": 10,
         "groupcountmin": 1,
         "groupcountmax": 3,
         "maxlight": 7
       },
     {
         "mob": "techguns:bandit",
-        "weight": 10,
-        "groupcountmin": 4,
-        "groupcountmax": 6
+        "weight": 6,
+        "groupcountmin": 2,
+        "groupcountmax": 4
       },
     {
         "mob": "techguns:commando",
-        "weight": 5,
+        "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
     {
         "mob": "techguns:armysoldier",
-        "weight": 7,
+        "weight": 4,
         "groupcountmin": 4,
         "groupcountmax": 6
       },
     {
         "mob": "techguns:attackhelicopter",
-        "weight": 5,
+        "weight": 3,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
     {
         "mob": "playerskins:playermob",
-        "weight": 10,
+        "weight": 6,
         "groupcountmin": 4,
         "groupcountmax": 7
       },
     {
         "mob": "minecraft:zombie",
-        "weight": 100,
-        "groupcountmin": 1,
-        "groupcountmax": 10
+        "weight": 100
       }
     ]
   }

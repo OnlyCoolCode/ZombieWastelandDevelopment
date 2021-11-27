@@ -1,0 +1,92 @@
+{
+  "pools": [
+    {
+      "name": "turkey-feather",
+      "entries": [
+        {
+          "entryName": "minecraft:feather",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "min": 0.0,
+                "max": 1.0
+              },
+              "function": "minecraft:looting_enchant"
+            }
+          ],
+          "name": "minecraft:feather"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "name": "turkey-meat",
+      "entries": [
+        {
+          "entryName": "betteranimalsplus:turkey_leg_raw",
+          "weight": 7,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": {
+                "min": 1.0,
+                "max": 2.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            }
+          ],
+          "name": "betteranimalsplus:turkey_leg_raw"
+        },
+        {
+          "entryName": "betteranimalsplus:turkey_raw",
+          "weight": 1,
+          "quality": 0,
+          "type": "item",
+          "functions": [
+            {
+              "count": 1.0,
+              "function": "minecraft:set_count"
+            },
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "properties": {
+                    "minecraft:on_fire": true
+                  },
+                  "entity": "this",
+                  "condition": "minecraft:entity_properties"
+                }
+              ]
+            }
+          ],
+          "name": "betteranimalsplus:turkey_raw"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}

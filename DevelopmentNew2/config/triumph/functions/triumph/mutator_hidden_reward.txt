@@ -1,0 +1,2 @@
+gamestage silentadd @p mutator_stage_1
+gamestage silentremove @p day5_stage

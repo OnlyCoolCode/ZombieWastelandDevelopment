@@ -1,7 +1,10 @@
-#Sun Oct 10 00:52:46 ART 2021
+#Sat Nov 27 01:18:15 ART 2021
 ATMOSPHERIC_DENSITY=2.0
 BASE_FOG_AMOUNT=2.0
 Exposure_Speed=1.5
 fog_coefficientMieR=3.5
-MIN_LIGHT_AMOUNT=0.5
+MIN_LIGHT_AMOUNT=3.0
+moon_illuminance=90.0
+moonColorB=0.5
+moonColorG=0.5
 TORCH_AMOUNT=1.4

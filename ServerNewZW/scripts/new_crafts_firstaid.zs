@@ -15,27 +15,27 @@ var paper = <ore:paper>.firstItem;
 var ducttape = <weapons_of_the_apocalypse:ducttape>;
 var sugar = <minecraft:sugar>;
 
-recipes.addShaped("plaster1", plaster, [
+recipes.addShaped("plaster1", plaster*3, [
     [paper],
     [sugar]
 ]);
-recipes.addShaped("plaster2", plaster*2, [
+recipes.addShaped("plaster2", plaster*6, [
     [paper],
     [slime]
 ]);
-recipes.addShaped("plaster3", plaster, [
+recipes.addShaped("plaster3", plaster*3, [
     [null,paper,null],
     [paper,gunpowder,paper]
 ]);
-recipes.addShaped("bandage1", bandage*3, [
+recipes.addShaped("bandage1", bandage*9, [
     [null,glue,null],
     [cloth,cloth,cloth]
 ]);
-recipes.addShaped("bandage2", bandage*5, [
+recipes.addShaped("bandage2", bandage*15, [
     [null,ducttape,null],
     [cloth,cloth,cloth]
 ]);
-recipes.addShaped("bandage3", bandage*2, [
+recipes.addShaped("bandage3", bandage*6, [
     [cloth,cloth]
 ]);
 // morphine

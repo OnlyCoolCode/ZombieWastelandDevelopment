@@ -170,15 +170,15 @@ val omtTable = LootTweaker.newTable("loottweaker:omt");
  
  
 //==== Add pools to your tables ====
-val subwayPool = subwayTable.addPool("subway", 3, 12, 0, 0);
-val genericPool = genericTable.addPool("generic", 2, 9, 0, 0);
-val healingPool = healingTable.addPool("healing", 3, 12, 0, 0);
-val plantPool = plantTable.addPool("plant", 5, 14, 0, 0);
-val handgunPool = handgunTable.addPool("handgun", 3, 7, 0, 0);
-val longgunsPool = longgunsTable.addPool("longguns", 3, 7, 0, 0);
-val foodPool = foodTable.addPool("food", 4, 13, 0, 0);
+val subwayPool = subwayTable.addPool("subway", 7, 14, 0, 0);
+val genericPool = genericTable.addPool("generic", 5, 12, 0, 0);
+val healingPool = healingTable.addPool("healing", 6, 12, 0, 0);
+val plantPool = plantTable.addPool("plant", 12, 22, 0, 0);
+val handgunPool = handgunTable.addPool("handgun", 5, 11, 0, 0);
+val longgunsPool = longgunsTable.addPool("longguns", 5, 10, 0, 0);
+val foodPool = foodTable.addPool("food", 7, 15, 0, 0);
 val spherePool = sphereTable.addPool("sphere", 4, 7, 0, 0);
-val omtPool = omtTable.addPool("omt", 3, 6, 0, 0);
+val omtPool = omtTable.addPool("omt", 6, 12, 0, 0);
  
 //==== Subway Loot ====
 for item in lc_explosives {

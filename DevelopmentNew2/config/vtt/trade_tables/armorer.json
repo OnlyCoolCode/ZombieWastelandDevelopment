@@ -1,0 +1,16 @@
+{ 
+	Profession: "minecraft:smith", 
+	Career:"armor",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+		
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:10,max:12}},sell:{id:"techguns:t1_combat_helmet",Count:1,tag:{ench:"random"}}, CareerLevel:1, chance:1.0},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:16,max:19}},sell:{id:"techguns:t1_combat_chestplate",Count:1,tag:{ench:"random"}}, CareerLevel:1, chance:1.0},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:14,max:17}},sell:{id:"techguns:t1_combat_leggings",Count:1,tag:{ench:"random"}}, CareerLevel:1, chance:1.0},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:8,max:10}},sell:{id:"techguns:t1_combat_boots",Count:1,tag:{ench:"random"}}, CareerLevel:1, chance:1.0}
+			
+		]
+	}
+}

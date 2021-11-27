@@ -6,7 +6,7 @@ setIcon(<biomesoplenty:blue_fire>)
 setTitle("SURVIVE!")
 
 //Set description String
-setDescription("Survive The Last 30 Mutation Days")
+setDescription("Survive The Last 10 Mutation Days")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
 addParent("triumph:MisAchievements/mutator")

@@ -1,9 +1,15 @@
-#Thu Nov 25 13:59:45 ART 2021
-ATMOSPHERIC_DENSITY=2.0
+#Sat Nov 27 13:19:15 ART 2021
+BASE_FOG_AMOUNT=200.0
 BLOOM_STRENGTH=0.0
 Exposure_Speed=1.5
-MIN_LIGHT_AMOUNT=0.5
+fog_coefficientMieR=5.0
+FOG_RAIN_MULTIPLIER=0.6
+FOG_TOD_MULTIPLIER=0.4
+moon_illuminance=100.0
+moonColorB=0.5
+moonColorG=0.5
 shadowDistance=100
+Sky_Brightness=2.0
 TAA=false
-TORCH_AMOUNT=1.4
+TORCH_AMOUNT=1.6
 Variable_Penumbra_Shadows=false

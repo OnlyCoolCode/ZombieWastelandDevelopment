@@ -1,0 +1,21 @@
+
+//Set icon item
+setIcon(<techguns:itemshared:25>)
+
+//Set title String
+setTitle("Juicy and Spicy")
+
+//Set description String
+setDescription("Get a Bio Tank")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/knowledge_book")
+
+//Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
+criteria = addCriteria("haslocustreactor", "minecraft:inventory_changed")
+
+//Adds the required item for the criteria. This is the item that needs to be in the player inventory.
+criteria.addItem(<techguns:itemshared:25>)
+
+//Set the position
+setPos(46,51)

@@ -1,0 +1,15 @@
+{ 
+	Profession: "mca:baker", 
+	Career:"baker",
+
+	Offers:{
+		Recipes:[
+			{action:"clear"},
+		
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:1,max:2}},sell:{id:"foodexpansion:itemchocolatebar",Count:1}, CareerLevel:1, chance:1.0},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:1,max:2}},sell:{id:"foodexpansion:itembaconandegg",Count:1}, CareerLevel:1, chance:1.0},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:1,max:2}},sell:{id:"minecraft:cake",Count:1}, CareerLevel:1, chance:1.0}
+			
+		]
+	}
+}
