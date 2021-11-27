@@ -12,8 +12,8 @@ anaglyph3d:false
 maxFps:260
 fboEnable:true
 difficulty:2
-fancyGraphics:true
-ao:2
+fancyGraphics:false
+ao:1
 renderClouds:false
 resourcePacks:["ZombieWasteland.zip","AudioCraftV1.6.zip","Riot Mutant","Better+Wheat+32x+V3.1.zip","Unity-1.12.X-Dark-0.6.2.zip","Tissou\u0027s+Zombie+Pack+1.12.2.zip"]
 incompatibleResourcePacks:["ZombieWasteland.zip"]
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -88,6 +88,8 @@ key_key.hotbar.9:10
 key_of.key.zoom:13
 key_key.betterfoliage.gui:66
 key_keybinds.show_wounds:35
+key_Difficulty Meter - Show:49
+key_Difficulty Meter - Show Always:49:SHIFT
 key_key.toastcontrol.clear:36
 key_Strip World:211
 key_Dress World:210

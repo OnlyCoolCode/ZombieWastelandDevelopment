@@ -12,7 +12,7 @@ anaglyph3d:false
 maxFps:260
 fboEnable:true
 difficulty:2
-fancyGraphics:true
+fancyGraphics:false
 ao:2
 renderClouds:false
 resourcePacks:["ZombieWasteland.zip","AudioCraftV1.6.zip","Riot Mutant","Better+Wheat+32x+V3.1.zip","Unity-1.12.X-Dark-0.6.2.zip","Tissou\u0027s+Zombie+Pack+1.12.2.zip"]
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false

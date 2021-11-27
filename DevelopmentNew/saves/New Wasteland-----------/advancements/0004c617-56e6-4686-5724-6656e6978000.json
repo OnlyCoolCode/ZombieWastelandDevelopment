@@ -1,0 +1,26 @@
+{
+  "triumph:misachievements/day1": {
+    "criteria": {
+      "location": "2021-11-24 23:13:10 -0300"
+    },
+    "done": true
+  },
+  "triumph:misachievements/trade": {
+    "criteria": {
+      "traded": "2021-11-25 14:07:29 -0300"
+    },
+    "done": true
+  },
+  "triumph:misachievements/extintion_book": {
+    "criteria": {
+      "Extintion": "2021-11-25 14:07:29 -0300"
+    },
+    "done": true
+  },
+  "triumph:misachievements/kill_zombie": {
+    "criteria": {
+      "killed_zombie": "2021-11-25 00:35:43 -0300"
+    },
+    "done": true
+  }
+}

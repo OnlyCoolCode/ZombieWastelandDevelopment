@@ -534,7 +534,6 @@ for item in minecraft_list {
     recipes.remove(item);
 }
 for item in book_enchants {
-    //recipes.remove(item);
     recipes.remove(item);
 }
 for item in potions {
@@ -542,7 +541,6 @@ for item in potions {
     recipes.remove(item);
 }
 for item in arrows {
-    //recipes.remove(item);
     recipes.remove(item);
 }
 for item in deleted_general {
@@ -569,9 +567,9 @@ for item in dynamictrees {
 for item in somnia {
     recipes.remove(item);
 }
-for item in quark {
-    recipes.remove(item);
-}
+// for item in quark {
+//     recipes.remove(item);
+// }
 for item in animalium {
     recipes.remove(item);
 }
@@ -585,27 +583,13 @@ for item in ompd {
     recipes.remove(item);
 }
 
-/*for mod in loadedMods {
-	print(mod.name ~ ":");
-    if mod.name == "Chisel"
-        for item in mod.items {
-            mods.jei.JEI.hide(item);
-            //print("\t\t" ~ item.displayName);
-        }
-/*      if mod.name == "Better With Mods"
-        for item in mod.items {
-            recipes.remove(item);
-            //print("\t\t" ~ item.displayName);
-        }  
-}*/
-
 for mod in loadedMods {
 	// print(mod.name ~ ":");
-    if mod.name == "TF2 Stuff Mod"
-        for item in mod.items {
-            recipes.remove(item);
-            furnace.remove(item);
-        }
+    // if mod.name == "TF2 Stuff Mod"
+    //     for item in mod.items {
+    //         recipes.remove(item);
+    //         furnace.remove(item);
+    //     }
     if mod.name == "arm"
         for item in mod.items {
             recipes.remove(item);
@@ -619,6 +603,24 @@ for mod in loadedMods {
             recipes.remove(item);
         }
     if mod.name == "Admin Shop"
+        for item in mod.items {
+            recipes.remove(item);
+        }
+    if mod.name == "Chisel"
+        for item in mod.items {
+            mods.jei.JEI.hide(item);
+            //print("\t\t" ~ item.displayName);
+        }
+    if mod.name == "Better With Mods"
+        for item in mod.items {
+            recipes.remove(item);
+            //print("\t\t" ~ item.displayName);
+        }  
+    if mod.name == "Scaling Health"
+        for item in mod.items {
+            recipes.remove(item);
+        }
+    if mod.name == "Quark"
         for item in mod.items {
             recipes.remove(item);
         }
