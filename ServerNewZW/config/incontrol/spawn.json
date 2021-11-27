@@ -24,7 +24,7 @@
   {
     "hostile": true,
     "mincount": {
-      "amount": 80,
+      "amount": 50,
       "hostile": true,
       "perplayer": true
     },
