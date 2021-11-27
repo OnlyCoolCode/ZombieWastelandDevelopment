@@ -4,7 +4,7 @@ mouseSensitivity:0.2535211
 fov:0.5
 gamma:1.0
 saturation:0.0
-renderDistance:10
+renderDistance:12
 guiScale:0
 particles:0
 bobView:true
@@ -12,7 +12,7 @@ anaglyph3d:false
 maxFps:260
 fboEnable:true
 difficulty:2
-fancyGraphics:false
+fancyGraphics:true
 ao:2
 renderClouds:false
 resourcePacks:["ZombieWasteland.zip","AudioCraftV1.6.zip","Riot Mutant","Better+Wheat+32x+V3.1.zip","Unity-1.12.X-Dark-0.6.2.zip","Tissou\u0027s+Zombie+Pack+1.12.2.zip"]
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:false
+enableVsync:true
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -134,18 +134,18 @@ key_techguns.key.toggleStepassist:24
 key_techguns.key.forceReload:19
 key_techguns.key.toggleJetpack:36
 key_wi-zoom.zoom:46
-soundCategory_master:0.7549669
+soundCategory_master:0.75827813
 soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.75352114
 soundCategory_block:1.0
 soundCategory_hostile:1.0
-soundCategory_neutral:0.6
+soundCategory_neutral:1.0
 soundCategory_player:1.0
 soundCategory_ambient:1.0
 soundCategory_voice:1.0
-soundCategory_ds_footsteps:0.35915494
-soundCategory_ds_biome:0.5070422
+soundCategory_ds_footsteps:0.3028169
+soundCategory_ds_biome:0.2535211
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

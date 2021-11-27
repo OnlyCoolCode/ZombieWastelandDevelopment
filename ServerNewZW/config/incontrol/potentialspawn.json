@@ -117,7 +117,7 @@
       },
     {
         "mob": "minecraft:zombie",
-        "weight": 100
+        "weight": 150
       }
     ]
   }
