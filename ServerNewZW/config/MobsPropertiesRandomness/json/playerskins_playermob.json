@@ -4,8 +4,8 @@
 		{
 			"id": "generic.followRange",
 			"modifier": {
-				"min": 20,
-				"max": 70
+				"min": 80,
+				"max": 100
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false

@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SAVANNA",
-    "HOT",
-    "SANDY",
     "SPARSE",
-    "LUSH",
-    "DRY"
+    "HOT",
+    "SAVANNA",
+    "DRY",
+    "SANDY",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
