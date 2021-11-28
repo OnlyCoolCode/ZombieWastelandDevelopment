@@ -1,0 +1,41 @@
+{
+	"mob_id": "techguns:commando",
+	"attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 150,
+				"max": 250
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.knockbackResistance",
+			"modifier": {
+				"min": 0,
+				"max": 50
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.armor",
+			"modifier": {
+				"min": 6,
+				"max": 8
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.followRange",
+			"modifier": {
+				"min": 80,
+				"max": 120
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		}
+	]
+}

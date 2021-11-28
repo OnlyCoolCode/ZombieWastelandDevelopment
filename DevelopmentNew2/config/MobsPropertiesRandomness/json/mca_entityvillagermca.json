@@ -1,0 +1,14 @@
+{
+	"mob_id": "mca:entityvillagermca",
+	"attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": -95,
+				"max": -95
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		}
+	]
+}

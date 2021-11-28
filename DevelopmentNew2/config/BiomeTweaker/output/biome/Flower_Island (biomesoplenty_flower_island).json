@@ -23,8 +23,8 @@
     "PLAINS",
     "LUSH",
     "WATER",
-    "DENSE",
-    "MAGICAL"
+    "MAGICAL",
+    "DENSE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

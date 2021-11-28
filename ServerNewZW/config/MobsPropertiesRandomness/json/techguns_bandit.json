@@ -2,10 +2,37 @@
 	"mob_id": "techguns:bandit",
 	"attributes": [
 		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 80,
+				"max": 150
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.knockbackResistance",
+			"modifier": {
+				"min": 0,
+				"max": 50
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.armor",
+			"modifier": {
+				"min": 1,
+				"max": 4
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
 			"id": "generic.followRange",
 			"modifier": {
 				"min": 80,
-				"max": 100
+				"max": 120
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false

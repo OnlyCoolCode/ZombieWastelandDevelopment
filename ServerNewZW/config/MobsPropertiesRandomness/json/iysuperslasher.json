@@ -1,0 +1,50 @@
+{
+	"mob_id": "iymts_mob_mod:iysuperslasher",
+	"attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": -30,
+				"max": 30
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.knockbackResistance",
+			"modifier": {
+				"min": 0.4,
+				"max": 0.8
+			},
+			"is_flat": true,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.followRange",
+			"modifier": {
+				"min": 50,
+				"max": 100
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.attackDamage",
+			"modifier": {
+				"min": -30,
+				"max": -10
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.movementSpeed",
+			"modifier": {
+				"min": -30,
+				"max": -10
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		}
+	]
+}

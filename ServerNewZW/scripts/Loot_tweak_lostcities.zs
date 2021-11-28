@@ -47,7 +47,8 @@ var lc_hand_weapons = [
     <spartanshields:shield_basic_iron>,
     <spartanshields:shield_tower_stone>,
     <spartanshields:shield_tower_iron>,
-    <betterwithmods:composite_bow>
+    <betterwithmods:composite_bow>,
+    <techguns:chainsaw>.withTag({ammo: 300 as short, ammovariant: "default", miningHead: 0, camo: 0 as byte})
 ] as IItemStack[];
 var lc_trash = [
     <foodfunk:rotten_food>,

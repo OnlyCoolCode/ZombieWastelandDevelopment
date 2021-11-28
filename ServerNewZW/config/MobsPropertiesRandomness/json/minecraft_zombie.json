@@ -4,8 +4,8 @@
 		{
 			"id": "generic.maxHealth",
 			"modifier": {
-				"min": -90,
-				"max": 100
+				"min": -70,
+				"max": 150
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false
@@ -13,8 +13,8 @@
 		{
 			"id": "generic.attackDamage",
 			"modifier": {
-				"min": -40,
-				"max": 10
+				"min": -10,
+				"max": 40
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false
@@ -22,8 +22,8 @@
 		{
 			"id": "generic.followRange",
 			"modifier": {
-				"min": 20,
-				"max": 50
+				"min": 50,
+				"max": 100
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false
@@ -41,7 +41,7 @@
 			"id": "generic.movementSpeed",
 			"modifier": {
 				"min": -10,
-				"max": 40
+				"max": 50
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false

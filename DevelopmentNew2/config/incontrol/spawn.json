@@ -24,7 +24,7 @@
   {
     "hostile": true,
     "mincount": {
-      "amount": 140,
+      "amount": 100,
       "hostile": true,
       "perchunk": true
     },
@@ -368,6 +368,10 @@
     "incity": false,
     "seesky": true,
     "result": "allow"
+  },
+  {
+    "mob": "techguns:commando",
+    "result": "deny"
   },
   {
     "mob": "techguns:attackhelicopter",
