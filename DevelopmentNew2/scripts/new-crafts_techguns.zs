@@ -56,10 +56,10 @@ recipes.addShapeless("ammo_smg1", ammo_smg,
 recipes.addShapeless("ammo_smg2", ammo_smg,
 [ammo_smg.reuse(),gunpowder,gunpowder]
 );
-recipes.addShapeless("ammo_assault1", ammo_assault*30,
+recipes.addShapeless("ammo_assault1", ammo_assault,
 [ammo_assault_shell,gunpowder,gunpowder,gunpowder]
 );
-recipes.addShapeless("ammo_assault2", ammo_assault*30,
+recipes.addShapeless("ammo_assault2", ammo_assault,
 [ammo_assault.reuse(),gunpowder,gunpowder,gunpowder]
 );
 recipes.addShapeless("ammo_rifle1", ammo_rifle,

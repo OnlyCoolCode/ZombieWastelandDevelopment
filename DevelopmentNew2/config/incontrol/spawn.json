@@ -24,7 +24,7 @@
   {
     "hostile": true,
     "mincount": {
-      "amount": 120,
+      "amount": 140,
       "hostile": true,
       "perchunk": true
     },
@@ -589,14 +589,14 @@
     "mob": "minecraft:zombie",
     "gamestage":"day5_stage",
     "incity": false,
-    "random": 0.5,
+    "random": 0.7,
     "result": "allow"
   },
   {
     "mob": "minecraft:zombie",
     "gamestage":"day4_stage",
     "incity": false,
-    "random": 0.5,
+    "random": 0.7,
     "result": "allow",
     "speedmultiply": 0.9
   },
@@ -604,7 +604,7 @@
     "mob": "minecraft:zombie",
     "gamestage":"day3_stage",
     "incity": false,
-    "random": 0.5,
+    "random": 0.7,
     "result": "allow",
     "speedmultiply": 0.8
   },
@@ -612,7 +612,7 @@
     "mob": "minecraft:zombie",
     "gamestage":"day2_stage",
     "incity": false,
-    "random": 0.5,
+    "random": 0.7,
     "result": "allow",
     "speedmultiply": 0.7
   },
@@ -620,7 +620,7 @@
     "mob": "minecraft:zombie",
     "gamestage":"day1_stage",
     "incity": false,
-    "random": 0.5,
+    "random": 0.7,
     "result": "allow",
     "speedmultiply": 0.6
   }

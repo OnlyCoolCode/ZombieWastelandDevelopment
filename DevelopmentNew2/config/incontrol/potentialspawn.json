@@ -8,7 +8,7 @@
       },
 	  {
         "mob": "spiderstpo:better_cave_spider",
-		    "weight": 60,
+		    "weight": 50,
         "groupcountmin": 3,
 	      "groupcountmax": 4
       },
@@ -40,22 +40,22 @@
       },
     {
         "mob": "iymts_mob_mod:iysuperleaper",
-        "weight": 10,
+        "weight": 13,
         "groupcountmax": 1
       },
     {
         "mob": "iymts_mob_mod:iysuperslasher",
-        "weight": 10,
+        "weight": 13,
         "groupcountmax": 1
       },
     {
         "mob": "iymts_mob_mod:iysuperexploder",
-        "weight": 10,
+        "weight": 13,
         "groupcountmax": 1
       },
     {
         "mob": "iymts_mob_mod:iysuperbrute",
-        "weight": 10,
+        "weight": 13,
         "groupcountmax": 1
       },
     {
@@ -87,8 +87,8 @@
       },
     {
         "mob": "techguns:bandit",
-        "weight": 6,
-        "groupcountmin": 2,
+        "weight": 7,
+        "groupcountmin": 1,
         "groupcountmax": 4
       },
     {
@@ -100,8 +100,8 @@
     {
         "mob": "techguns:armysoldier",
         "weight": 4,
-        "groupcountmin": 4,
-        "groupcountmax": 6
+        "groupcountmin": 1,
+        "groupcountmax": 3
       },
     {
         "mob": "techguns:attackhelicopter",
@@ -111,13 +111,13 @@
       },
     {
         "mob": "playerskins:playermob",
-        "weight": 6,
-        "groupcountmin": 4,
-        "groupcountmax": 7
+        "weight": 7,
+        "groupcountmin": 2,
+        "groupcountmax": 4
       },
     {
         "mob": "minecraft:zombie",
-        "weight": 150
+        "weight": 140
       }
     ]
   }

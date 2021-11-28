@@ -88,15 +88,15 @@ var lc_longguns = [
     <techguns:vector>.withTag({ammo: 0})
 ] as IItemStack[];
 var lc_hand_ammo_high = [
-    <techguns:itemshared:12>,
+    <techguns:itemshared:11>,
     <techguns:itemshared:1>
 ] as IItemStack[];    
 var lc_long_ammo_low = [
     <techguns:itemshared:2>,
 ] as IItemStack[];
 var lc_long_ammo_high = [
-    <techguns:itemshared:10>,
-    <techguns:itemshared:14>,
+    <techguns:itemshared:9>,
+    <techguns:itemshared:13>,
     <techguns:itemshared:3>
 ] as IItemStack[];
 var lc_grenades = [
