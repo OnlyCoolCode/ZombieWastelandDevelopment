@@ -292,6 +292,10 @@ var beds = [
 for item in beds {
     recipes.remove(item);
 }
+
+// quartz_block
+recipes.remove(<minecraft:quartz_block>);
+
 //<minecraft:wool>
 var wool_orange = <minecraft:wool:1>;
 var wool_magenta = <minecraft:wool:2>;
