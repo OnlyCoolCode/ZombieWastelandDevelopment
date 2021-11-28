@@ -9,7 +9,7 @@
 	  {
         "mob": "spiderstpo:better_cave_spider",
 		    "weight": 50,
-        "groupcountmin": 3,
+        "groupcountmin": 2,
 	      "groupcountmax": 4
       },
 	  {
@@ -62,7 +62,7 @@
         "mob": "mutantbeasts:mutant_zombie",
         "groupcountmin": 1,
         "groupcountmax": 1,
-        "weight": 5
+        "weight": 8
       },
     {
         "mob": "animalium:wild_dog",
@@ -87,37 +87,39 @@
       },
     {
         "mob": "techguns:bandit",
-        "weight": 7,
+        "weight": 8,
         "groupcountmin": 1,
         "groupcountmax": 4
       },
     {
         "mob": "techguns:commando",
-        "weight": 3,
+        "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
     {
         "mob": "techguns:armysoldier",
-        "weight": 4,
+        "weight": 5,
         "groupcountmin": 1,
         "groupcountmax": 3
       },
     {
         "mob": "techguns:attackhelicopter",
-        "weight": 3,
+        "weight": 4,
         "groupcountmin": 1,
         "groupcountmax": 1
       },
     {
         "mob": "playerskins:playermob",
-        "weight": 7,
+        "weight": 8,
         "groupcountmin": 2,
         "groupcountmax": 4
       },
     {
         "mob": "minecraft:zombie",
-        "weight": 140
+        "weight": 140,
+        "groupcountmin": 1,
+        "groupcountmax": 4
       }
     ]
   }
