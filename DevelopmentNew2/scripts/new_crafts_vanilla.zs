@@ -269,6 +269,7 @@ recipes.addShaped("wool2", wool_white, [
     [string_item,string_item]
 ]);
 
+/*
 // Bed
 var beds = [
     <minecraft:bed>,
@@ -292,9 +293,6 @@ var beds = [
 for item in beds {
     recipes.remove(item);
 }
-
-// quartz_block
-recipes.remove(<minecraft:quartz_block>);
 
 //<minecraft:wool>
 var wool_orange = <minecraft:wool:1>;
@@ -376,4 +374,4 @@ recipes.addShaped("bed_red", <minecraft:bed:14>, [
 recipes.addShaped("bed_black", <minecraft:bed:15>, [
     [wool_black,wool_black],
     [plank,plank]
-]);
+]);*/

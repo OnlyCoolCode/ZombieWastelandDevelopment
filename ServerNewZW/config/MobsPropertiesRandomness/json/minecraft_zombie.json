@@ -40,7 +40,7 @@
 		{
 			"id": "generic.movementSpeed",
 			"modifier": {
-				"min": -10,
+				"min": -15,
 				"max": 50
 			},
 			"is_flat": false,

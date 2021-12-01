@@ -353,24 +353,6 @@ val firstaid = [
     <firstaid:bandage>,
     <firstaid:plaster>
 ] as IItemStack[];
-val comforts = [
-    <comforts:hammock>,
-    <comforts:hammock:1>,
-    <comforts:hammock:2>,
-    <comforts:hammock:3>,
-    <comforts:hammock:4>,
-    <comforts:hammock:5>,
-    <comforts:hammock:6>,
-    <comforts:hammock:7>,
-    <comforts:hammock:8>,
-    <comforts:hammock:9>,
-    <comforts:hammock:10>,
-    <comforts:hammock:11>,
-    <comforts:hammock:12>,
-    <comforts:hammock:13>,
-    <comforts:hammock:14>,
-    <comforts:hammock:15>
-] as IItemStack[];
 val shields = [
     <spartanshields:shield_tower_constantan>,
     <spartanshields:shield_abyssalcraft_darkstone>,
@@ -553,9 +535,6 @@ for item in foodfunk {
     recipes.remove(item);
 }
 for item in firstaid {
-    recipes.remove(item);
-}
-for item in comforts {
     recipes.remove(item);
 }
 for item in shields {
