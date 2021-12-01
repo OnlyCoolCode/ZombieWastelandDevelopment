@@ -22,10 +22,10 @@
   "Dictionary Types": [
     "FOREST",
     "COLD",
-    "PLAINS",
     "LUSH",
     "WET",
-    "SPARSE"
+    "SPARSE",
+    "PLAINS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

@@ -4,8 +4,8 @@
 		{
 			"id": "generic.maxHealth",
 			"modifier": {
-				"min": -9,
-				"max": -9
+				"min": 2,
+				"max": 2
 			},
 			"is_flat": true,
 			"affected_by_difficulty": false

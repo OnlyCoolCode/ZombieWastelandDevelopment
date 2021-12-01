@@ -23,8 +23,8 @@
     "FOREST",
     "COLD",
     "WET",
-    "SNOWY",
-    "SPARSE"
+    "SPARSE",
+    "SNOWY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

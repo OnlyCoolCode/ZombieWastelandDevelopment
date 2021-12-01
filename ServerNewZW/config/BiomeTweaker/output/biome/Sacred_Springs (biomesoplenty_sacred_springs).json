@@ -20,12 +20,12 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
+    "MAGICAL",
+    "RARE",
+    "LUSH",
+    "WET",
     "FOREST",
     "JUNGLE",
-    "RARE",
-    "WET",
-    "MAGICAL",
-    "LUSH",
     "DENSE"
   ],
   "BiomeManager Entries": {},
