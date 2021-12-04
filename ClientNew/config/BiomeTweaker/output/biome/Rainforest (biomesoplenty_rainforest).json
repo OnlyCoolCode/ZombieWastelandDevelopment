@@ -22,10 +22,10 @@
   "Dictionary Types": [
     "FOREST",
     "HILLS",
+    "DENSE",
     "LUSH",
     "WET",
-    "JUNGLE",
-    "DENSE"
+    "JUNGLE"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

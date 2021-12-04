@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "PLAINS",
     "MAGICAL",
+    "DENSE",
     "WATER",
-    "LUSH",
-    "DENSE"
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

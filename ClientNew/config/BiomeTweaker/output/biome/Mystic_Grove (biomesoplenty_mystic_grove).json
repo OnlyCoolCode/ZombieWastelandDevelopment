@@ -23,9 +23,9 @@
     "FOREST",
     "RARE",
     "MAGICAL",
+    "DENSE",
     "LUSH",
-    "WET",
-    "DENSE"
+    "WET"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

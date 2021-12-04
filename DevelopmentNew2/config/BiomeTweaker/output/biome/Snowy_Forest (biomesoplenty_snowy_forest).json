@@ -22,8 +22,8 @@
   "Dictionary Types": [
     "COLD",
     "WET",
-    "SPARSE",
     "FOREST",
+    "SPARSE",
     "SNOWY"
   ],
   "BiomeManager Entries": {},
