@@ -317,7 +317,39 @@ playerskinsPool.addItemEntry(morphine, 3,0, [
     Functions.setCount(1, 1)
 ], []);
 
+var psychosteveTable = LootTweaker.getTable("techguns:entities/psychosteve");
+psychosteveTable.clear();
+var psychostevePool = psychosteveTable.addPool("psychostevePool", 4, 7, 0, 0);
 
+var machete = <weapons_of_the_apocalypse:machete>;
+var cleaver = <weapons_of_the_apocalypse:cleaver>;
+var fraggrenade = <techguns:fraggrenade>;
+var stielgranate = <techguns:stielgranate>;
+var chainsaw = <techguns:chainsaw>.withTag({ammo: 300 as short, ammovariant: "default", miningHead: 0, camo: 0 as byte});
+var fuel_tank_empty = <techguns:itemshared:28>;
+var fuel_tank = <techguns:itemshared:27>;
+
+psychostevePool.addItemEntry(machete, 5,0, [
+    Functions.setCount(1, 1)
+], []);
+psychostevePool.addItemEntry(cleaver, 10,0, [
+    Functions.setCount(1, 1)
+], []);
+psychostevePool.addItemEntry(fraggrenade, 5,0, [
+    Functions.setCount(1, 1)
+], []);
+psychostevePool.addItemEntry(stielgranate, 5,0, [
+    Functions.setCount(1, 1)
+], []);
+psychostevePool.addItemEntry(chainsaw, 10,0, [
+    Functions.setCount(1, 1)
+], []);
+psychostevePool.addItemEntry(fuel_tank_empty, 30,0, [
+    Functions.setCount(1, 1)
+], []);
+psychostevePool.addItemEntry(fuel_tank, 35,0, [
+    Functions.setCount(1, 1)
+], []);
 
 
 

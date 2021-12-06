@@ -119,7 +119,7 @@
         "mob": "minecraft:zombie",
         "weight": 140,
         "groupcountmin": 1,
-        "groupcountmax": 4
+        "groupcountmax": 5
       }
     ]
   }

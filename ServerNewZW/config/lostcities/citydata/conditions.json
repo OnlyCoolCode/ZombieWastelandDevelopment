@@ -4,8 +4,12 @@
     "name": "easymobs",
     "values": [
       {
-        "factor": 1,
+        "factor": 9,
         "value": "Villager"
+      },
+      {
+        "factor": 1,
+        "value": "techguns:psychosteve"
       }
     ]
   },

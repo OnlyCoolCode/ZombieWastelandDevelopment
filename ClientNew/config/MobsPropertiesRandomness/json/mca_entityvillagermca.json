@@ -5,7 +5,7 @@
 			"id": "generic.maxHealth",
 			"modifier": {
 				"min": 2,
-				"max": 2
+				"max": 10
 			},
 			"is_flat": true,
 			"affected_by_difficulty": false

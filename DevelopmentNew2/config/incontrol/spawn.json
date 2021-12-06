@@ -16,10 +16,16 @@
     "result": "deny"
   },
   {
-    "mob": ["minecraft:villager","mca:entityvillagermca"],
-    "onjoin": true,
+    "mob": ["techguns:psychosteve"],
     "isnotcolliding": true,
-    "result": "allow"
+    "spawner": true,
+    "result": "default"
+  },
+  {
+    "mob": ["minecraft:villager", "mca:entityvillagermca"],
+    "isnotcolliding": true,
+    "spawner": true,
+    "result": "default"
   },
   {
     "hostile": true,
