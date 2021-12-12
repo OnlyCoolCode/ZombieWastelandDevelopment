@@ -4,7 +4,7 @@
 		{
 			"id": "generic.maxHealth",
 			"modifier": {
-				"min": -70,
+				"min": -75,
 				"max": 150
 			},
 			"is_flat": false,
@@ -13,7 +13,7 @@
 		{
 			"id": "generic.attackDamage",
 			"modifier": {
-				"min": -10,
+				"min": 0,
 				"max": 40
 			},
 			"is_flat": false,

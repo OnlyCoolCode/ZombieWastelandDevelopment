@@ -1,8 +1,9 @@
-#Sat Nov 27 19:46:42 ART 2021
+#Sat Dec 11 19:15:22 ART 2021
 Exposure_Speed=1.5
 fog_coefficientMieR=5.0
 FOG_RAIN_MULTIPLIER=0.6
 FOG_TOD_MULTIPLIER=1.5
+MIN_LIGHT_AMOUNT=0.0
 moon_illuminance=100.0
 moonColorB=0.5
 moonColorG=0.5

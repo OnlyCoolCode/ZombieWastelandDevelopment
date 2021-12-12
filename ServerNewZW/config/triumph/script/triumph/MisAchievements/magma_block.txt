@@ -9,7 +9,7 @@ setTitle("The Floor is LAVA!")
 setDescription("Get a magma block")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-addParent("triumph:MisAchievements/slept_in_bed")
+addParent("triumph:MisAchievements/crafted_crafting_table")
 
 //Adds criteria named "crafted" with the trigger type "triumph:player_crafted_item". This function returns the criteria as an object
 criteria = addCriteria("crafted", "triumph:player_crafted_item")

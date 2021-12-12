@@ -1,0 +1,21 @@
+
+//Set icon item
+setIcon(<minecraft:crafting_table>)
+
+//Set title String
+setTitle("We need a Better Bunker")
+
+//Set description String
+setDescription("Craft a Crafting Table")
+
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:MisAchievements/day1")
+
+//Adds criteria named "crafted" with the trigger type "triumph:player_crafted_item". This function returns the criteria as an object
+criteria = addCriteria("crafted_crafting_table", "triumph:player_crafted_item")
+
+//Sets the item for the criteria. This is the item that needs to be crafted.
+criteria.setItem(<minecraft:crafting_table>)
+
+//Set the position
+setPos(-94,108)

@@ -22,8 +22,17 @@
 		{
 			"id": "generic.followRange",
 			"modifier": {
-				"min": 70,
-				"max": 100
+				"min": 100,
+				"max": 120
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		},
+		{
+			"id": "generic.movementSpeed",
+			"modifier": {
+				"min": 10,
+				"max": 20
 			},
 			"is_flat": false,
 			"affected_by_difficulty": false

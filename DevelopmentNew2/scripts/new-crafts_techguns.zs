@@ -133,6 +133,7 @@ var t1_scout_chestplate = <techguns:t1_scout_chestplate>;
 var t1_scout_leggings = <techguns:t1_scout_leggings>;
 var t1_scout_boots = <techguns:t1_scout_boots>;
 var slime_ball = <minecraft:slime_ball>;
+var resin = <hempfarmer:resin>;
 recipes.addShaped("t1_scout_helmet", t1_scout_helmet, [
     [heavycloth,heavycloth,heavycloth],
     [heavycloth,null,heavycloth]
@@ -151,6 +152,11 @@ recipes.addShaped("t1_scout_boots", t1_scout_boots, [
     [heavycloth,null,heavycloth],
     [heavycloth,null,heavycloth],
     [slime_ball,null,slime_ball],
+]);
+recipes.addShaped("t1_scout_boots_2", t1_scout_boots, [
+    [heavycloth,null,heavycloth],
+    [heavycloth,null,heavycloth],
+    [resin,null,resin],
 ]);
 // Soldier Armor set
 var t1_combat_helmet = <techguns:t1_combat_helmet>;
@@ -230,25 +236,25 @@ recipes.addShaped("t2_combat_boots", t2_combat_boots, [
 recipes.addShapeless("repair_t1_scout_helmet",t1_scout_helmet,
 [t1_scout_helmet.anyDamage().marked("mark"),heavycloth],
 function(out, ins, cInfo){
-	return ins.mark.withDamage(max(0,ins.mark.damage - 35));
+	return ins.mark.withDamage(max(0,ins.mark.damage - 20));
 }, 
 null);
 recipes.addShapeless("repair_t1_scout_chestplate",t1_scout_chestplate,
 [t1_scout_chestplate.anyDamage().marked("mark"),heavycloth],
 function(out, ins, cInfo){
-	return ins.mark.withDamage(max(0,ins.mark.damage - 35));
+	return ins.mark.withDamage(max(0,ins.mark.damage - 20));
 }, 
 null);
 recipes.addShapeless("repair_t1_scout_leggings",t1_scout_leggings,
 [t1_scout_leggings.anyDamage().marked("mark"),heavycloth],
 function(out, ins, cInfo){
-	return ins.mark.withDamage(max(0,ins.mark.damage - 35));
+	return ins.mark.withDamage(max(0,ins.mark.damage - 20));
 }, 
 null);
 recipes.addShapeless("repair_t1_scout_boots",t1_scout_boots,
 [t1_scout_boots.anyDamage().marked("mark"),heavycloth],
 function(out, ins, cInfo){
-	return ins.mark.withDamage(max(0,ins.mark.damage - 15));
+	return ins.mark.withDamage(max(0,ins.mark.damage - 5));
 }, 
 null);
 // Soldier Armor Set
@@ -391,5 +397,25 @@ recipes.addShaped("stonebarrel", stonebarrel, [
 ]);
 recipes.addShaped("handcannon", handcannon, [
     [stonebarrel,flint_and_steel.reuse(),gunstock]
+]);
+
+// doors
+var item_door3x3 = <techguns:item_door3x3>;
+var item_door3x3_2 = <techguns:item_door3x3:2>;
+var item_bunkerdoor = <techguns:item_bunkerdoor>;
+recipes.addShaped("item_door3x3", item_door3x3, [
+    [iron_ingot,soulforged_ingot,iron_ingot],
+    [soulforged_ingot,iron_ingot,soulforged_ingot],
+    [iron_ingot,soulforged_ingot,iron_ingot]
+]);
+recipes.addShaped("item_door3x3_2", item_door3x3_2, [
+    [soulforged_ingot,iron_ingot,soulforged_ingot],
+    [iron_ingot,iron_ingot,iron_ingot],
+    [soulforged_ingot,iron_ingot,soulforged_ingot]
+]);
+recipes.addShaped("item_bunkerdoor", item_bunkerdoor, [
+    [iron_ingot,soulforged_ingot],
+    [soulforged_ingot,iron_ingot],
+    [iron_ingot,soulforged_ingot]
 ]);
 

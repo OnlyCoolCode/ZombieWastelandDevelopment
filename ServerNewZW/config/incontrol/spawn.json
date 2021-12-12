@@ -30,7 +30,7 @@
   {
     "hostile": true,
     "mincount": {
-      "amount": 100,
+      "amount": 70,
       "hostile": true,
       "perchunk": true
     },
@@ -489,7 +489,7 @@
   {
     "mod": "iymts_mob_mod",
     "incity": true,
-    "random": 0.95,
+    "random": 0.90,
     "minheight": 60,
     "result": "deny"
   },
@@ -497,7 +497,7 @@
     "mod": "iymts_mob_mod",
     "incity": false,
     "minheight": 60,
-    "random": 0.995,
+    "random": 0.99,
     "result": "deny"
   },
   {

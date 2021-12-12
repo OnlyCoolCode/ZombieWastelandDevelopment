@@ -14,6 +14,8 @@ var gunpowder = <ore:gunpowder>.firstItem;
 var paper = <ore:paper>.firstItem;
 var ducttape = <weapons_of_the_apocalypse:ducttape>;
 var sugar = <minecraft:sugar>;
+var burlap = <hempfarmer:burlap>;
+var resin = <hempfarmer:resin>;
 
 recipes.addShaped("plaster1", plaster*3, [
     [paper],
@@ -23,9 +25,13 @@ recipes.addShaped("plaster2", plaster*6, [
     [paper],
     [slime]
 ]);
-recipes.addShaped("plaster3", plaster*3, [
+recipes.addShaped("plaster3", plaster*5, [
     [null,paper,null],
     [paper,gunpowder,paper]
+]);
+recipes.addShaped("plaster4", plaster*6, [
+    [paper],
+    [resin]
 ]);
 recipes.addShaped("bandage1", bandage*9, [
     [null,glue,null],
@@ -35,8 +41,19 @@ recipes.addShaped("bandage2", bandage*15, [
     [null,ducttape,null],
     [cloth,cloth,cloth]
 ]);
-recipes.addShaped("bandage3", bandage*6, [
+recipes.addShaped("bandage3", bandage*3, [
     [cloth,cloth]
+]);
+recipes.addShaped("bandage4", bandage*9, [
+    [null,glue,null],
+    [burlap,burlap,burlap]
+]);
+recipes.addShaped("bandage5", bandage*15, [
+    [null,ducttape,null],
+    [burlap,burlap,burlap]
+]);
+recipes.addShaped("bandage6", bandage*3, [
+    [burlap,burlap]
 ]);
 // morphine
 var morphine = <firstaid:morphine>;
