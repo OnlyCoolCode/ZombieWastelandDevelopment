@@ -23,9 +23,9 @@
     "WET",
     "SWAMP",
     "FOREST",
+    "DENSE",
     "COLD",
-    "DEAD",
-    "DENSE"
+    "DEAD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
