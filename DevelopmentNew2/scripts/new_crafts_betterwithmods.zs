@@ -92,3 +92,25 @@ recipes.addShaped("composite_bow", composite_bow, [
     [iron_ingot,bow,string_item],
     [null,iron_ingot,string_item]
 ]);
+
+// nethercoal
+var netherrack = <minecraft:netherrack>;
+var nether_coal = <betterwithmods:material:1>;
+var coal = <minecraft:coal>;
+recipes.addShaped("nether_coal", nether_coal*8, [
+    [coal,coal,coal],
+    [coal,netherrack,coal],
+    [coal,coal,coal]
+]);
+// nether ground
+var nether_ground = <betterwithmods:material:15>;
+furnace.addRecipe(nether_ground, nether_coal);
+// nether ground
+var nether_mycelial = <biomesoplenty:grass:8>;
+var dirt = <minecraft:dirt>;
+var flat_mushroom = <biomesoplenty:mushroom:*>;
+recipes.addShaped("nether_mycelial", nether_mycelial, [
+    [flat_mushroom,nether_ground,flat_mushroom],
+    [nether_ground,dirt,nether_ground],
+    [flat_mushroom,nether_ground,flat_mushroom]
+]);

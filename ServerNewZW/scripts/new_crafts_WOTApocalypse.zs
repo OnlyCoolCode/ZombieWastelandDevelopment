@@ -42,6 +42,8 @@ var wool_white = <minecraft:wool:0>;
 var water_bucket = <minecraft:water_bucket>;
 var emptycan = <weapons_of_the_apocalypse:emptycan>;
 var slime = <minecraft:slime_ball>;
+var baton = <weapons_of_the_apocalypse:baton>;
+var golfclub = <weapons_of_the_apocalypse:golfclub>;
 recipes.addShaped("baseballbat", baseballbat, [
     [null,null,plank],
     [leather,plank,null],
@@ -60,7 +62,7 @@ recipes.addShaped("fireaxe", fireaxe, [
 recipes.addShaped("katana", katana, [
     [null,null,iron_nugget],
     [null,iron_nugget,null],
-    [ducttape,leather,null]
+    [ducttape,null,null]
 ]);
 recipes.addShaped("supersledgehammer", supersledgehammer, [
     [null,nails,blockIron],
@@ -84,23 +86,28 @@ recipes.addShaped("crowbar", crowbar, [
 ]);
 recipes.addShaped("sythe", sythe, [
     [iron,iron,iron],
-    [null,tireiron,ducttape],
-    [tireiron,ducttape,null]
+    [null,baton,null],
+    [iron_nugget,null,null]
 ]);
 recipes.addShaped("metalbat", metalbat, [
     [null,null,iron],
     [null,iron,null],
-    [tireiron,ducttape,null]
+    [ducttape,null,null]
 ]);
 recipes.addShaped("louisvilleslugger", louisvilleslugger, [
     [null,null,plank],
-    [glue,plank,null],
+    [null,plank,null],
     [iron,null,null]
 ]);
 recipes.addShaped("tacticalshovel", tacticalshovel, [
     [null,null,iron],
     [null,iron_nugget,null],
     [iron_nugget,null,null]
+]);
+recipes.addShaped("golfclub", golfclub, [
+    [null,null,iron_nugget],
+    [null,iron_nugget,null],
+    [leather,null,null]
 ]);
 recipes.addShapeless("zombieblood", zombieblood,
 [juicer, fleshmorph]

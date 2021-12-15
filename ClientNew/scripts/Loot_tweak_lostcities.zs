@@ -48,13 +48,15 @@ var lc_hand_weapons = [
     <spartanshields:shield_tower_stone>,
     <spartanshields:shield_tower_iron>,
     <betterwithmods:composite_bow>,
-    <techguns:chainsaw>.withTag({ammo: 300 as short, ammovariant: "default", miningHead: 0, camo: 0 as byte})
+    <techguns:chainsaw>.withTag({ammo: 300 as short, ammovariant: "default", miningHead: 0, camo: 0 as byte}),
+    <techguns:handcannon>.withTag({ammo: 0 as short, ammovariant: "default", camo: 0 as byte})
 ] as IItemStack[];
 var lc_trash = [
     <foodfunk:rotten_food>,
     <foodfunk:rotted_item>,
     <foodfunk:biodegradable_item>,
-    <biomesoplenty:ash>
+    <biomesoplenty:ash>,
+    <techguns:itemshared> //bullet hand cannon
 ] as IItemStack[];
 var lc_miscellaneous = [
     <weapons_of_the_apocalypse:emptystimpack>,
@@ -66,6 +68,7 @@ var lc_miscellaneous = [
     <simpledifficulty:charcoal_filter>,
     <realistictorches:matchbox>,
     <minecraft:arrow>,
+    <techguns:itemshared>, //bullet hand cannon
     <techguns:itemshared:60> //heavycloth
 ] as IItemStack[];
 var lc_iron_gunpownder = [
@@ -76,7 +79,8 @@ var lc_iron_gunpownder = [
 var lc_handguns = [
     <techguns:revolver>.withTag({ammo: 0}),
     <techguns:goldenrevolver>.withTag({ammo: 0}),
-    <techguns:pistol>.withTag({ammo: 0})
+    <techguns:pistol>.withTag({ammo: 0}),
+    <techguns:handcannon>.withTag({ammo: 0 as short, ammovariant: "default", camo: 0 as byte})
 ] as IItemStack[];
 var lc_longguns = [
     <techguns:sawedoff>.withTag({ammo: 0}),
@@ -86,23 +90,28 @@ var lc_longguns = [
     <techguns:m4>.withTag({ammo: 0}),
     <techguns:combatshotgun>.withTag({ammo: 0}),
     <techguns:mac10>.withTag({ammo: 0}),
-    <techguns:vector>.withTag({ammo: 0})
+    <techguns:vector>.withTag({ammo: 0}),
+    <techguns:handcannon>.withTag({ammo: 0 as short, ammovariant: "default", camo: 0 as byte})
 ] as IItemStack[];
 var lc_hand_ammo_high = [
     <techguns:itemshared:11>,
-    <techguns:itemshared:1>
+    <techguns:itemshared:1>,
+    <techguns:itemshared> //bullet hand cannon
 ] as IItemStack[];    
 var lc_long_ammo_low = [
     <techguns:itemshared:2>,
+    <techguns:itemshared> //bullet hand cannon
 ] as IItemStack[];
 var lc_long_ammo_high = [
     <techguns:itemshared:9>,
     <techguns:itemshared:13>,
-    <techguns:itemshared:3>
+    <techguns:itemshared:3>,
+    <techguns:itemshared> //bullet hand cannon
 ] as IItemStack[];
 var lc_grenades = [
     <techguns:stielgranate>,
-    <techguns:fraggrenade>
+    <techguns:fraggrenade>,
+    <techguns:itemshared> //bullet hand cannon
 ] as IItemStack[];
 var lc_explosives = [
     <techguns:rocketlauncher>.withTag({ammo: 0}),

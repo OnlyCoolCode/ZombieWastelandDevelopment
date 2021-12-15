@@ -30,7 +30,7 @@
   {
     "hostile": true,
     "mincount": {
-      "amount": 70,
+      "amount": 90,
       "hostile": true,
       "perchunk": true
     },

@@ -20,11 +20,11 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "WATER",
-    "PLAINS",
-    "LUSH",
     "MAGICAL",
-    "DENSE"
+    "DENSE",
+    "PLAINS",
+    "WATER",
+    "LUSH"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

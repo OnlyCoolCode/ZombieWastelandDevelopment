@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "FOREST",
     "CONIFEROUS",
+    "SNOWY",
     "DENSE",
-    "COLD",
-    "SNOWY"
+    "COLD"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [

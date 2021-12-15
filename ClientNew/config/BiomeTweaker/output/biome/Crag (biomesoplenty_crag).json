@@ -21,11 +21,11 @@
   "Enable Snow": false,
   "Dictionary Types": [
     "MOUNTAIN",
-    "DRY",
-    "MAGICAL",
-    "HILLS",
     "WASTELAND",
-    "COLD"
+    "MAGICAL",
+    "DRY",
+    "COLD",
+    "HILLS"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

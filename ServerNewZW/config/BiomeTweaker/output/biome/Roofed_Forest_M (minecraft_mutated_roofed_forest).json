@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "MOUNTAIN",
     "FOREST",
-    "SPOOKY",
+    "RARE",
     "DENSE",
-    "RARE"
+    "SPOOKY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [
