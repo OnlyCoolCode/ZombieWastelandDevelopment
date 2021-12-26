@@ -379,4 +379,5 @@ recipes.addShaped("bed_black", <minecraft:bed:15>, [
 // iron bars
 var iron_nugget = <minecraft:iron_nugget>;
 var iron_bars = <minecraft:iron_bars>;
-furnace.addRecipe(iron_nugget, iron_bars);
+furnace.remove(iron_nugget, iron_bars);
+furnace.addRecipe(iron_nugget*2, iron_bars);

@@ -108,6 +108,7 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
+key_key.astikorcarts.desc:19
 key_key.carry.desc:47
 key_Options Gui:23
 key_FpsReducer.key.guiOpen:207
@@ -134,7 +135,7 @@ key_techguns.key.toggleStepassist:24
 key_techguns.key.forceReload:19
 key_techguns.key.toggleJetpack:36
 key_wi-zoom.zoom:46
-soundCategory_master:0.0
+soundCategory_master:0.33774835
 soundCategory_music:0.12676056
 soundCategory_record:1.0
 soundCategory_weather:1.0

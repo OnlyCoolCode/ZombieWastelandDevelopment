@@ -585,11 +585,11 @@ for mod in loadedMods {
         for item in mod.items {
             recipes.remove(item);
         }
-    if mod.name == "Chisel"
-        for item in mod.items {
-            mods.jei.JEI.hide(item);
-            //print("\t\t" ~ item.displayName);
-        }
+    //if mod.name == "Chisel"
+    //    for item in mod.items {
+    //        mods.jei.JEI.hide(item);
+    //        print("\t\t" ~ item.displayName);
+    //    }
     if mod.name == "Better With Mods"
         for item in mod.items {
             recipes.remove(item);

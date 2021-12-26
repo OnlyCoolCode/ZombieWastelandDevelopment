@@ -114,3 +114,15 @@ recipes.addShaped("nether_mycelial", nether_mycelial, [
     [nether_ground,dirt,nether_ground],
     [flat_mushroom,nether_ground,flat_mushroom]
 ]);
+
+// Dynamite
+var tnt = <minecraft:tnt>;
+var dynamite = <betterwithmods:dynamite>;
+var dynamite_bundle = <betterwithmods:dynamite_bundle>;
+recipes.addShapeless("dynamite", dynamite*4,
+[tnt]
+);
+recipes.addShaped("dynamite_bundle", dynamite_bundle, [
+    [dynamite,dynamite],
+    [dynamite,dynamite]
+]);

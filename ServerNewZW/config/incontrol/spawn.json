@@ -16,7 +16,7 @@
     "result": "deny"
   },
   {
-    "mob": ["techguns:psychosteve"],
+    "mob": ["techguns:psychosteve, iymts_mob_mod:iysuperslasher"],
     "isnotcolliding": true,
     "spawner": true,
     "result": "default"
@@ -30,7 +30,7 @@
   {
     "hostile": true,
     "mincount": {
-      "amount": 90,
+      "amount": 100,
       "hostile": true,
       "perchunk": true
     },
@@ -488,21 +488,24 @@
   },
   {
     "mod": "iymts_mob_mod",
+    "gamestage":"day5_stage",
     "incity": true,
-    "random": 0.90,
+    "random": 0.10,
     "minheight": 60,
-    "result": "deny"
-  },
-  {
-    "mod": "iymts_mob_mod",
-    "incity": false,
-    "minheight": 60,
-    "random": 0.99,
-    "result": "deny"
+    "result": "allow"
   },
   {
     "mod": "iymts_mob_mod",
     "gamestage":"day5_stage",
+    "incity": false,
+    "minheight": 60,
+    "random": 0.01,
+    "result": "allow"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "gamestage":"day5_stage",
+    "maxheight": 60,
     "result": "allow"
   },
   {

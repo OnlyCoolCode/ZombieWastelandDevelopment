@@ -1,0 +1,14 @@
+{
+	"mob_id": "betteranimalsplus:feralwolf",
+	"attributes": [
+		{
+			"id": "generic.maxHealth",
+			"modifier": {
+				"min": 50,
+				"max": 100
+			},
+			"is_flat": false,
+			"affected_by_difficulty": false
+		}
+	]
+}

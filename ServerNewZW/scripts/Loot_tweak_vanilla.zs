@@ -55,7 +55,8 @@ var am_cool_item = [
     <minecraft:compass>,
     <bettercompass:homing_compass>,
     <minecraft:flint_and_steel>,
-    <mininghelmet:mininghelmet>
+    <mininghelmet:mininghelmet>,
+    <extendeddays:pocket_watch>
 ] as IItemStack[];
 var am_trash_item = [
     <foodfunk:biodegradable_item>,
