@@ -22,9 +22,9 @@
   "Dictionary Types": [
     "NETHER",
     "HOT",
+    "DRY",
     "DENSE",
-    "SANDY",
-    "DRY"
+    "SANDY"
   ],
   "BiomeManager Entries": {},
   "Spawnable Creatures": [],

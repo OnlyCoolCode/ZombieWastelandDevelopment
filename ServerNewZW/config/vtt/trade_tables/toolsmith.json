@@ -6,8 +6,8 @@
 		Recipes:[
 			{action:"clear"},
 
-			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:15,max:20}},sell:{id:"betterwithmods:steel_shovel",Count:1,tag:{ench:"random"}}, CareerLevel:1},
-			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:33,max:45}},sell:{id:"betterwithmods:steel_pickaxe",Count:1,tag:{ench:"random"}}, CareerLevel:1}
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:10,max:15}},sell:{id:"betterwithmods:steel_shovel",Count:1,tag:{ench:"random"}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:30,max:40}},sell:{id:"betterwithmods:steel_pickaxe",Count:1,tag:{ench:"random"}}, CareerLevel:1}
 			
 		]
 	}

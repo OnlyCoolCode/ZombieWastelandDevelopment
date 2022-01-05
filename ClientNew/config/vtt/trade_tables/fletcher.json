@@ -6,9 +6,9 @@
 		Recipes:[
 			{action:"clear"},
 			
-			{action:"add", buy:{id:"minecraft:feather",Count:{min:6,max:8}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:feather",Count:{min:2,max:6}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
 			{action:"add", buy:{id:"minecraft:flint",Count:{min:6,max:12}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
-			{action:"add", buy:{id:"minecraft:gunpowder",Count:{min:6,max:12}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:gunpowder",Count:{min:5,max:7}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
 			
 			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:4,max:8}},sell:{id:"techguns:itemshared:1",Count:1}, CareerLevel:1},
 			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:5,max:9}},sell:{id:"techguns:itemshared:2",Count:6}, CareerLevel:1},

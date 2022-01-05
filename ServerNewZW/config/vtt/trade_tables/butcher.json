@@ -8,9 +8,9 @@
 
 			{action:"add", buy:{id:"minecraft:coal",Count:{min:8,max:11}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
 
-			{action:"add", buy:{id:"minecraft:iron_ingot",Count:5},sell:{id:"minecraft:cooked_beef",Count:{min:5,max:7}}, CareerLevel:1},
-			{action:"add", buy:{id:"minecraft:iron_ingot",Count:5},sell:{id:"minecraft:cooked_mutton",Count:{min:5,max:7}}, CareerLevel:1},
-			{action:"add", buy:{id:"minecraft:iron_ingot",Count:5},sell:{id:"minecraft:cooked_rabbit",Count:{min:6,max:8}}, CareerLevel:1}
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:2,max:3}},sell:{id:"minecraft:cooked_beef",Count:{min:5,max:7}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:2,max:3}},sell:{id:"minecraft:cooked_mutton",Count:{min:5,max:7}}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:2,max:3}},sell:{id:"minecraft:cooked_rabbit",Count:{min:6,max:8}}, CareerLevel:1}
 		]
 	}
 

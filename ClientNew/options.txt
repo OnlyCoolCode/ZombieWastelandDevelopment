@@ -108,7 +108,6 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_key.astikorcarts.desc:19
 key_key.carry.desc:47
 key_Options Gui:23
 key_FpsReducer.key.guiOpen:207

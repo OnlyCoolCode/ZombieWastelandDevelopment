@@ -7,7 +7,7 @@
 			{action:"clear"},
 			
 			{action:"add", buy:{id:"minecraft:gold_ingot",Count:10},sell:{id:"gbook:guidebook",Count:1,Damage:0,tag:{Book: "gbook:zombiebuilding.xml"}}, CareerLevel:1},
-			{action:"add", buy:{id:"minecraft:quartz",Count:2},sell:{id:"minecraft:knowledge_book",Count:1}, CareerLevel:1}
+			{action:"add", buy:{id:"minecraft:writable_book",Count:2},sell:{id:"minecraft:knowledge_book",Count:1}, CareerLevel:1}
 		]
 	}
 

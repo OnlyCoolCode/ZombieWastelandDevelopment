@@ -30,7 +30,7 @@
   {
     "hostile": true,
     "mincount": {
-      "amount": 100,
+      "amount": 90,
       "hostile": true,
       "perchunk": true
     },
@@ -449,6 +449,10 @@
     "result": "allow"
   },
   {
+    "mob": "mutantbeasts:mutant_zombie",
+    "result": "deny"
+  },
+  {
     "mod": "iymts_mob_mod",
     "gamestage":"mutator_stage_6",
     "result": "allow",
@@ -507,6 +511,10 @@
     "gamestage":"day5_stage",
     "maxheight": 60,
     "result": "allow"
+  },
+  {
+    "mod": "iymts_mob_mod",
+    "result": "deny"
   },
   {
     "mob": "minecraft:zombie",
@@ -636,5 +644,9 @@
     "random": 0.7,
     "result": "allow",
     "speedmultiply": 0.6
+  },
+  {
+    "mob": "minecraft:zombie",
+    "result": "deny"
   }
 ]

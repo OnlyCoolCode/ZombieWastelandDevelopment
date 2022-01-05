@@ -9,7 +9,7 @@ setTitle("Radiation!")
 setDescription("Get a Radiation Emitter")
 
 //Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-addParent("triumph:MisAchievements/knowledge_book")
+addParent("triumph:MisAchievements/extintion_book")
 
 //Adds criteria named "hasStickOfTruth" with the trigger type "minecraft:inventory_changed". This function returns the criteria as an object
 criteria = addCriteria("hasrademitter", "minecraft:inventory_changed")

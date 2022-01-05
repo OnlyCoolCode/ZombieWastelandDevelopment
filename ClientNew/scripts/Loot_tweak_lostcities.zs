@@ -58,18 +58,29 @@ var lc_trash = [
     <biomesoplenty:ash>,
     <techguns:itemshared> //bullet hand cannon
 ] as IItemStack[];
-var lc_miscellaneous = [
+var lc_miscellaneous_few = [
     <weapons_of_the_apocalypse:emptystimpack>,
+    <minecraft:bucket>,
+    <minecraft:flint_and_steel>,
+    <realistictorches:matchbox>,
+    <techguns:itemshared:60>, //heavycloth
+    <extendeddays:pocket_watch>,
+    <techguns:handcannon>.withTag({ammo: 0 as short, ammovariant: "default", camo: 0 as byte}),
+    <antiqueatlas:empty_antique_atlas>,
+    <minecraft:compass>,
+    <bettercompass:homing_compass>,
+    <techguns:t1_combat_helmet>,
+    <techguns:t1_combat_chestplate>,
+    <techguns:t1_combat_leggings>,
+    <techguns:t1_combat_boots>
+] as IItemStack[];
+var lc_miscellaneous_many = [
     <realistictorches:torch_unlit>,
     <minecraft:book>,
     <minecraft:glass_bottle>,
-    <minecraft:bucket>,
-    <minecraft:flint_and_steel>,
     <simpledifficulty:charcoal_filter>,
-    <realistictorches:matchbox>,
     <minecraft:arrow>,
-    <techguns:itemshared>, //bullet hand cannon
-    <techguns:itemshared:60> //heavycloth
+    <techguns:itemshared> //bullet hand cannon
 ] as IItemStack[];
 var lc_iron_gunpownder = [
     <weapons_of_the_apocalypse:emptycan>,
@@ -162,7 +173,10 @@ var lc_openmodularturrets = [
     <openmodularturrets:intermediate_tiered:11>,
     <openmodularturrets:intermediate_tiered:10>,
     <openmodularturrets:intermediate_tiered:1>,
-    <openmodularturrets:intermediate_tiered>
+    <openmodularturrets:intermediate_tiered>,
+    <openmodularturrets:potato_cannon_turret>,
+    <openmodularturrets:disposable_item_turret>,
+    <ompd:hardened:2>
 ] as IItemStack[];
 
 //==== Create new tables ====
@@ -183,7 +197,7 @@ val omtTable = LootTweaker.newTable("loottweaker:omt");
 val subwayPool = subwayTable.addPool("subway", 7, 14, 0, 0);
 val genericPool = genericTable.addPool("generic", 5, 12, 0, 0);
 val healingPool = healingTable.addPool("healing", 6, 12, 0, 0);
-val plantPool = plantTable.addPool("plant", 12, 22, 0, 0);
+val plantPool = plantTable.addPool("plant", 7, 14, 0, 0);
 val handgunPool = handgunTable.addPool("handgun", 5, 11, 0, 0);
 val longgunsPool = longgunsTable.addPool("longguns", 5, 10, 0, 0);
 val foodPool = foodTable.addPool("food", 7, 15, 0, 0);
@@ -214,7 +228,7 @@ subwayPool.addItemEntry(item, 15, 1, [Functions.setCount(1, 1)], []);
 }
 //==== Generic Loot ====
 for item in lc_food {
-genericPool.addItemEntry(item, 28, 1, [Functions.setCount(1, 3)], []);
+genericPool.addItemEntry(item, 25, 1, [Functions.setCount(1, 3)], []);
 }
 for item in lc_healing {
 genericPool.addItemEntry(item, 8, 1, [Functions.setCount(1, 2)], []);
@@ -223,13 +237,16 @@ for item in lc_iron_gunpownder {
 genericPool.addItemEntry(item, 10, 1, [Functions.setCount(1, 2)], []);
 }
 for item in lc_weapons_stuff {
-genericPool.addItemEntry(item, 25, 1, [Functions.setCount(1, 4)], []);
+genericPool.addItemEntry(item, 23, 1, [Functions.setCount(1, 4)], []);
 }
 for item in lc_trash {
 genericPool.addItemEntry(item, 15, 1, [Functions.setCount(3, 9)], []);
 }
-for item in lc_miscellaneous {
-genericPool.addItemEntry(item, 5, 1, [Functions.setCount(1, 2)], []);
+for item in lc_miscellaneous_few {
+genericPool.addItemEntry(item, 6, 1, [Functions.setCount(1, 1)], []);
+}
+for item in lc_miscellaneous_many {
+genericPool.addItemEntry(item, 4, 1, [Functions.setCount(10, 25)], []);
 }
 for item in lc_hand_weapons {
 genericPool.addItemEntry(item, 3, 1, [Functions.setCount(1, 1)], []);

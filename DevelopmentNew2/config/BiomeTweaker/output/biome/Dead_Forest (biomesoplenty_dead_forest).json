@@ -20,10 +20,10 @@
   "Enable Rain": true,
   "Enable Snow": false,
   "Dictionary Types": [
-    "SPARSE",
     "DEAD",
-    "FOREST",
+    "SPARSE",
     "COLD",
+    "FOREST",
     "DRY"
   ],
   "BiomeManager Entries": {},

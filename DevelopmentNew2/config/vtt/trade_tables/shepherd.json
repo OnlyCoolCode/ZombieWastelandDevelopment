@@ -7,7 +7,7 @@
 			{action:"clear"},
 			
 			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:1,max:2}},sell:{id:"minecraft:shears",Count:1,tag:{ench:"random"}}, CareerLevel:1},
-			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:3,max:5}},sell:{id:"minecraft:wool",Count:1,tag:{ench:"random"}}, CareerLevel:1}
+			{action:"add", buy:{id:"minecraft:iron_ingot",Count:{min:2,max:4}},sell:{id:"minecraft:wool",Count:{min:1,max:2},tag:{ench:"random"}}, CareerLevel:1}
 
 		]
 	}

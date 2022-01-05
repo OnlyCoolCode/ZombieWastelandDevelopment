@@ -6,7 +6,7 @@
 		Recipes:[
 			{action:"clear"},
 			
-			{action:"add", buy:{id:"minecraft:redstone",Count:{min:10,max:12}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
+			{action:"add", buy:{id:"minecraft:redstone",Count:{min:8,max:10}},sell:{id:"minecraft:iron_ingot",Count:1}, CareerLevel:1},
 
 			{action:"add", buy:{id:"minecraft:redstone",Count:16},sell:{id:"openmodularturrets:intermediate_tiered",Count:1}, CareerLevel:1},
 			{action:"add", buy:{id:"minecraft:redstone",Count:{min:10,max:17}},sell:{id:"openmodularturrets:turret_base",Count:1}, CareerLevel:1},
